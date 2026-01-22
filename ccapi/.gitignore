@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+ayush/
+outputs/*.json
+!outputs/.gitkeep
+data/*
+!data/.gitkeep

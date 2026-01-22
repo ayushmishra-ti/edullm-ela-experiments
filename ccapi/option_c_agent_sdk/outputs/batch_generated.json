@@ -1,0 +1,460 @@
+{
+  "benchmark": "C:\\Users\\user\\Documents\\ccapi\\option_c_agent_sdk\\data\\grade-3-ela-benchmark.jsonl",
+  "limit": 10,
+  "total_requested": 10,
+  "total_generated": 10,
+  "generation_mode": "agent_sdk",
+  "errors": [],
+  "generated_content": [
+    {
+      "id": "l_3_1_a_mcq_easy_001",
+      "content": {
+        "answer": "C",
+        "question": "Read the sentence below:\n\nThe brown dog runs quickly.\n\nWhat is the function of the word 'quickly' in this sentence?",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "It describes the dog."
+          },
+          {
+            "key": "B",
+            "text": "It names the action."
+          },
+          {
+            "key": "C",
+            "text": "It tells how the dog runs."
+          },
+          {
+            "key": "D",
+            "text": "It tells which dog."
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "The word 'quickly' is an adverb that tells HOW the dog runs. Adverbs modify verbs by explaining how, when, or where an action happens. In this sentence, 'quickly' modifies the verb 'runs' by describing the manner in which the dog is running."
+      },
+      "request": {
+        "type": "mcq",
+        "grade": "3",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.L.3.1.A",
+          "substandard_description": "Explain the function of nouns, pronouns, verbs, adjectives, and adverbs in general and their functions in particular sentences."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "easy"
+      },
+      "evaluation": {
+        "overall_score": 0.95,
+        "overall_score_100": 95.0,
+        "rating": ""
+      }
+    },
+    {
+      "id": "l_3_1_a_mcq_medium_001",
+      "content": {
+        "answer": "C",
+        "question": "Read this sentence:\n\n\"The happy puppy ran quickly to its owner.\"\n\nWhat is the function of the word 'quickly' in this sentence?",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "It describes what the puppy looks like."
+          },
+          {
+            "key": "B",
+            "text": "It names the action the puppy is doing."
+          },
+          {
+            "key": "C",
+            "text": "It tells how the puppy ran."
+          },
+          {
+            "key": "D",
+            "text": "It describes the owner."
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "The word 'quickly' is an adverb that tells HOW the puppy ran. Adverbs can describe verbs by telling how, when, or where an action happens. In this sentence, 'quickly' modifies the verb 'ran' by explaining the manner in which the running occurred. Option A is incorrect because 'happy' (an adjective) describes what the puppy looks like. Option B is incorrect because 'ran' is the verb that names the action. Option D is incorrect because 'quickly' modifies the verb 'ran,' not the noun 'owner.'"
+      },
+      "request": {
+        "type": "mcq",
+        "grade": "3",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.L.3.1.A",
+          "substandard_description": "Explain the function of nouns, pronouns, verbs, adjectives, and adverbs in general and their functions in particular sentences."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "medium"
+      },
+      "evaluation": {
+        "overall_score": 0.96,
+        "overall_score_100": 96.0,
+        "rating": ""
+      }
+    },
+    {
+      "id": "l_3_1_a_mcq_hard_001",
+      "content": {
+        "answer": "C",
+        "question": "Read this sentence:\n\n\"The daily walk helps me think clearly about my problems.\"\n\nWhat is the function of the word 'walk' in this sentence?",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "It is a verb that shows the action of moving."
+          },
+          {
+            "key": "B",
+            "text": "It is an adverb that describes how someone moves."
+          },
+          {
+            "key": "C",
+            "text": "It is a noun that names a thing or activity."
+          },
+          {
+            "key": "D",
+            "text": "It is an adjective that describes the word 'daily'."
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "The correct answer is C. In this sentence, 'walk' is a noun that names an activity. The word 'The' before it and the adjective 'daily' describing it show that 'walk' is functioning as a noun (a thing you do). While 'walk' can be a verb in other sentences like 'I walk to school,' in this particular sentence it names a thing. The verb in this sentence is 'helps.' This question is challenging because students must recognize that the same word can function differently depending on how it's used in a sentence."
+      },
+      "request": {
+        "type": "mcq",
+        "grade": "3",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.L.3.1.A",
+          "substandard_description": "Explain the function of nouns, pronouns, verbs, adjectives, and adverbs in general and their functions in particular sentences."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "hard"
+      },
+      "evaluation": {
+        "overall_score": 0.82,
+        "overall_score_100": 82.0,
+        "rating": ""
+      }
+    },
+    {
+      "id": "l_3_1_a_mcq_easy_001",
+      "content": {
+        "answer": "C",
+        "question": "What is the function of a noun in a sentence?",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "It describes what something looks like"
+          },
+          {
+            "key": "B",
+            "text": "It tells what someone or something is doing"
+          },
+          {
+            "key": "C",
+            "text": "It names a person, place, thing, or idea"
+          },
+          {
+            "key": "D",
+            "text": "It shows how something is done"
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "The correct answer is C. Nouns are words that name people (like 'teacher'), places (like 'school'), things (like 'book'), or ideas (like 'happiness'). Option A describes adjectives, which tell what something looks like. Option B describes verbs, which tell what someone or something is doing. Option D describes adverbs, which tell how something is done."
+      },
+      "request": {
+        "type": "mcq",
+        "grade": "3",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.L.3.1.A+1",
+          "substandard_description": "Explain the function of nouns in general."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "easy"
+      },
+      "evaluation": {
+        "overall_score": 0.95,
+        "overall_score_100": 95.0,
+        "rating": ""
+      }
+    },
+    {
+      "id": "l_3_1_a_mcq_medium_001",
+      "content": {
+        "answer": "C",
+        "question": "What is the function of a noun in a sentence?",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "A noun describes what something looks like."
+          },
+          {
+            "key": "B",
+            "text": "A noun tells what action is happening."
+          },
+          {
+            "key": "C",
+            "text": "A noun names a person, place, thing, or idea."
+          },
+          {
+            "key": "D",
+            "text": "A noun only names things you can touch and see."
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "The correct answer is C. Nouns function as naming words in sentences. They name people (like 'teacher'), places (like 'park'), things (like 'book'), and ideas (like 'happiness'). Option A is incorrect because describing what something looks like is the function of adjectives, not nouns. Option B is incorrect because telling what action is happening is the function of verbs. Option D is incorrect because nouns can name both things you can touch (like 'ball') and things you cannot touch, such as ideas and feelings (like 'friendship' or 'joy')."
+      },
+      "request": {
+        "type": "mcq",
+        "grade": "3",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.L.3.1.A+1",
+          "substandard_description": "Explain the function of nouns in general."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "medium"
+      },
+      "evaluation": {
+        "overall_score": 0.82,
+        "overall_score_100": 82.0,
+        "rating": ""
+      }
+    },
+    {
+      "id": "l_3_1_a_mcq_hard_001",
+      "content": {
+        "answer": "C",
+        "question": "Maria is learning about nouns. Her teacher says, \"Nouns are words that name things.\" Which statement BEST explains what nouns do in our language?",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "Nouns are words that describe how things look or feel."
+          },
+          {
+            "key": "B",
+            "text": "Nouns are words that name only things we can see and touch."
+          },
+          {
+            "key": "C",
+            "text": "Nouns are words that name people, places, things, or ideas."
+          },
+          {
+            "key": "D",
+            "text": "Nouns are words that tell what people or things are doing."
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "The correct answer is C. Nouns function as naming words in our language. They name people (like Maria or teacher), places (like school or park), things (like book or chair), and ideas (like happiness or friendship). Option A is incorrect because words that describe how things look or feel are adjectives, not nouns. Option B is incorrect because nouns can name things we cannot see or touch, such as ideas and feelings. Option D is incorrect because words that tell what people or things are doing are verbs, not nouns."
+      },
+      "request": {
+        "type": "mcq",
+        "grade": "3",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.L.3.1.A+1",
+          "substandard_description": "Explain the function of nouns in general."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "hard"
+      },
+      "evaluation": {
+        "overall_score": 0.78,
+        "overall_score_100": 78.0,
+        "rating": ""
+      }
+    },
+    {
+      "id": "l_3_1_a_mcq_easy_001",
+      "content": {
+        "answer": "C",
+        "question": "Read the sentence below:\n\nThe rabbit hopped quickly across the garden.\n\nWhat does the adverb \"quickly\" tell us?",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "It tells us what the rabbit did."
+          },
+          {
+            "key": "B",
+            "text": "It tells us where the rabbit hopped."
+          },
+          {
+            "key": "C",
+            "text": "It tells us how the rabbit hopped."
+          },
+          {
+            "key": "D",
+            "text": "It tells us what kind of rabbit it was."
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "The correct answer is C. The adverb \"quickly\" modifies the verb \"hopped\" and tells us HOW the rabbit hopped. Adverbs can tell us how, when, or where an action happens. In this sentence, \"quickly\" describes the manner or way the hopping happened. Option A is incorrect because \"hopped\" tells what the rabbit did, not \"quickly.\" Option B is incorrect because \"across the garden\" tells where, not \"quickly.\" Option D is incorrect because \"quickly\" is an adverb that describes the verb, not an adjective that describes the rabbit."
+      },
+      "request": {
+        "type": "mcq",
+        "grade": "3",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.L.3.1.A+10",
+          "substandard_description": "Explain the functions of adverbs in particular sentences."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "easy"
+      },
+      "evaluation": {
+        "overall_score": 0.96,
+        "overall_score_100": 96.0,
+        "rating": ""
+      }
+    },
+    {
+      "id": "l_3_1_a_mcq_medium_001",
+      "content": {
+        "answer": "C",
+        "question": "Read the sentence below.\n\nThe children played outside after school.\n\nWhat does the adverb \"outside\" tell you about the verb \"played\"?",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "It tells how the children played."
+          },
+          {
+            "key": "B",
+            "text": "It tells when the children played."
+          },
+          {
+            "key": "C",
+            "text": "It tells where the children played."
+          },
+          {
+            "key": "D",
+            "text": "It describes what kind of children they are."
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "The correct answer is C. The adverb \"outside\" tells where the children played. Adverbs can modify verbs by telling how, when, or where an action happens. In this sentence, \"outside\" answers the question \"Where did the children play?\" Option A is incorrect because \"outside\" does not tell how they played. Option B is incorrect because \"after school\" tells when they played, not \"outside.\" Option D is incorrect because adverbs modify verbs, not nouns\u2014\"outside\" does not describe the children."
+      },
+      "request": {
+        "type": "mcq",
+        "grade": "3",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.L.3.1.A+10",
+          "substandard_description": "Explain the functions of adverbs in particular sentences."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "medium"
+      },
+      "evaluation": {
+        "overall_score": 0.95,
+        "overall_score_100": 95.0,
+        "rating": ""
+      }
+    },
+    {
+      "id": "l_3_1_a_mcq_hard_001",
+      "content": {
+        "answer": "C",
+        "question": "Read the sentence below:\n\n\"The rabbit quickly hopped away from the fox.\"\n\nWhat is the function of the adverb \"quickly\" in this sentence?",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "It tells where the rabbit hopped."
+          },
+          {
+            "key": "B",
+            "text": "It describes what kind of rabbit it was."
+          },
+          {
+            "key": "C",
+            "text": "It tells how the rabbit hopped."
+          },
+          {
+            "key": "D",
+            "text": "It tells when the rabbit hopped."
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "The correct answer is C. The adverb \"quickly\" modifies the verb \"hopped\" by telling how the rabbit hopped. Adverbs can modify verbs in three ways: by telling how, when, or where an action happens. In this sentence, \"quickly\" tells us the manner or speed of the hopping action. Option A is incorrect because \"away\" (not \"quickly\") tells where the rabbit hopped. Option B is incorrect because adverbs modify verbs, not nouns\u2014\"quickly\" does not describe the rabbit itself. Option D is incorrect because \"quickly\" does not tell us when the action occurred."
+      },
+      "request": {
+        "type": "mcq",
+        "grade": "3",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.L.3.1.A+10",
+          "substandard_description": "Explain the functions of adverbs in particular sentences."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "hard"
+      },
+      "evaluation": {
+        "overall_score": 0.95,
+        "overall_score_100": 95.0,
+        "rating": ""
+      }
+    },
+    {
+      "id": "l_3_1_a_mcq_easy_001",
+      "content": {
+        "answer": "C",
+        "question": "What is the main job of a pronoun in a sentence?",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "To make sentences longer and more interesting"
+          },
+          {
+            "key": "B",
+            "text": "To replace only people's names"
+          },
+          {
+            "key": "C",
+            "text": "To replace nouns so we don't repeat the same words"
+          },
+          {
+            "key": "D",
+            "text": "To describe what nouns look like"
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "The correct answer is C. Pronouns are words that replace nouns or noun phrases so we don't have to repeat the same words over and over. For example, instead of saying 'Sarah went to Sarah's room because Sarah was tired,' we can say 'Sarah went to her room because she was tired.' The pronouns 'her' and 'she' replace 'Sarah' to avoid repetition. Pronouns can replace any noun, including people, animals, objects, or places."
+      },
+      "request": {
+        "type": "mcq",
+        "grade": "3",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.L.3.1.A+2",
+          "substandard_description": "Explain the function of pronouns in general."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "easy"
+      },
+      "evaluation": {
+        "overall_score": 0.84,
+        "overall_score_100": 84.0,
+        "rating": ""
+      }
+    }
+  ]
+}

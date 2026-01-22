@@ -1,0 +1,12 @@
+# Grade 3 ELA MCQ Generation – Claude Code Skills + InceptBench
+# Python 3.11+ (inceptbench requires 3.11–3.13; evaluation uses REST via httpx)
+
+anthropic>=0.39.0
+httpx>=0.27.0
+python-dotenv>=1.0.0
+
+# Optional: for run_generate_evaluate_csv.py (CLI eval, no REST API). Requires Python 3.11-3.13.
+# inceptbench>=2.3.0
+
+# Option C: Claude Agent SDK (for option_c_agent_sdk/)
+claude-agent-sdk>=0.1.0

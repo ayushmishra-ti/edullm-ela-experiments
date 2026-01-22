@@ -1,0 +1,40 @@
+{
+  "benchmark": "C:\\Users\\user\\Documents\\ccapi\\option_c_agent_sdk\\data\\grade-3-ela-benchmark.jsonl",
+  "limit": 2,
+  "total_requested": 2,
+  "total_generated": 0,
+  "generation_mode": "agentic",
+  "errors": [
+    {
+      "request": {
+        "type": "mcq",
+        "grade": "3",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.L.3.1.A",
+          "substandard_description": "Explain the function of nouns, pronouns, verbs, adjectives, and adverbs in general and their functions in particular sentences."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "easy"
+      },
+      "error": "'ClaudeSDKClient' object has no attribute 'send_message'"
+    },
+    {
+      "request": {
+        "type": "mcq",
+        "grade": "3",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.L.3.1.A",
+          "substandard_description": "Explain the function of nouns, pronouns, verbs, adjectives, and adverbs in general and their functions in particular sentences."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "medium"
+      },
+      "error": "'ClaudeSDKClient' object has no attribute 'send_message'"
+    }
+  ],
+  "generated_content": []
+}
