@@ -1,0 +1,65 @@
+https://colab.research.google.com/drive/1G61cWvytzRMSi3oWzEaZ8aROUKYMAunZ#scrollTo=S-0BwukB7Alw
+
+
+
+
+id,substandard_id,difficulty,question,gen_error,overall_score,overall_score_100,rating,eval_error
+l_3_1_a_mcq_easy_001,CCSS.ELA-LITERACY.L.3.1.A,easy,"In the sentence 'The happy dog runs quickly', which word is a verb?",,0.95,95.0,,
+l_3_1_a_mcq_medium_001,CCSS.ELA-LITERACY.L.3.1.A,medium,Read this sentence: 'The happy dog ran quickly to the park.' What is the function of the word 'quickly' in this sentence…,,0.95,95.0,,
+l_3_1_a_mcq_hard_001,CCSS.ELA-LITERACY.L.3.1.A,hard,Read this sentence: 'The tall teacher quickly explained the difficult problem to her confused students.' Which word in t…,,0.96,96.0,,
+l_3_1_a_1_mcq_easy_001,CCSS.ELA-LITERACY.L.3.1.A+1,easy,What is the main job of a noun in a sentence?,,0.95,95.0,,
+l_3_1_a_1_mcq_medium_001,CCSS.ELA-LITERACY.L.3.1.A+1,medium,Read this sentence: 'The dog ran to the park.' What is the main function of the noun 'dog' in this sentence?,,0.95,95.0,,
+
+
+
+{
+  "benchmark": "C:\\Users\\user\\Documents\\edullm-ela-experiment\\grade-3-ela-benchmark.jsonl",
+  "limit": 1,
+  "total_requested": 1,
+  "total_generated": 1,
+  "generation_mode": "skills_api",
+  "errors": [],
+  "generated_content": [
+    {
+      "id": "l_3_1_a_mcq_easy_001",
+      "content": {
+        "answer": "C",
+        "question": "In the sentence 'The happy dog runs quickly in the yard,' which word is an adjective?",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "dog"
+          },
+          {
+            "key": "B",
+            "text": "runs"
+          },
+          {
+            "key": "C",
+            "text": "happy"
+          },
+          {
+            "key": "D",
+            "text": "quickly"
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "The word 'happy' is an adjective because it describes the noun 'dog'. 'Dog' is a noun, 'runs' is a verb, and 'quickly' is an adverb that describes how the dog runs."
+      },
+      "request": {
+        "type": "mcq",
+        "grade": "3",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.L.3.1.A",
+          "substandard_description": "Explain the function of nouns, pronouns, verbs, adjectives, and adverbs in general and their functions in particular sentences."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "easy"
+      },
+      "evaluation": null
+    }
+  ]
+}
