@@ -1,0 +1,7 @@
+steps:
+  # Build the container image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-f', 'Dockerfile', '-t', '$_IMAGE_NAME', '.']
+
+images:
+  - '$_IMAGE_NAME'
