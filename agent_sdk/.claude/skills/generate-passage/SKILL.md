@@ -3,7 +3,7 @@ name: generate-passage
 description: Generate grade-appropriate reading passages for RL.* and RI.* standards. Use for reading comprehension questions.
 ---
 
-# Generate Passage Skill
+# Generate Passage
 
 Generate grade-appropriate reading passages for Reading Literature (RL.*) and Reading Informational (RI.*) standards.
 
@@ -11,34 +11,57 @@ Generate grade-appropriate reading passages for Reading Literature (RL.*) and Re
 
 - Standard contains `RL.` (Reading Literature) → Generate narrative passage
 - Standard contains `RI.` (Reading Informational) → Generate informational passage
-- **Do NOT use** for Language (L.*) or Writing (W.*) standards
+- **Do NOT use** for Language (L.*) or Writing (W.*) standards - these don't need passages
 
-## Usage
+## Instructions
 
-Run the script:
+### Step 1: Determine Passage Style
+
+- `RL.*` standards → **narrative** (stories, fables, folktales, myths)
+- `RI.*` standards → **informational** (articles, explanatory texts)
+
+### Step 2: Run the Generate Script
 
 ```bash
 python scripts/generate_passage.py "CCSS.ELA-LITERACY.RL.3.1" "3" "narrative"
 ```
 
 Arguments:
-1. `standard_id`: The standard ID
+1. `standard_id`: The standard ID (e.g., "CCSS.ELA-LITERACY.RL.3.1")
 2. `grade`: Grade level (K, 1-12)
 3. `style`: "narrative" or "informational"
 
-## Passage Styles
+### Step 3: Generate the Passage
 
-### Narrative (for RL.* standards)
+The script will check cache first. If not cached, generate a passage that:
+- Matches the grade-level word count and readability
+- Uses appropriate sentence structure
+- Includes elements that allow comprehension questions
+- Is engaging and age-appropriate
+
+### Step 4: Return Passage Text
+
+Generate **ONLY the passage text**. No explanations, no JSON, no metadata - just the passage.
+
+The passage will be automatically cached for future use.
+
+## Best Practices
+
+### Passage Styles
+
+**Narrative (RL.*):**
 - Stories, fables, folktales, myths
 - Characters, plot, setting
 - Beginning, middle, end structure
+- Engaging story elements
 
-### Informational (for RI.* standards)
+**Informational (RI.*):**
 - Articles, explanatory texts
 - Facts and information
 - Clear organization with main ideas
+- Topic-appropriate content
 
-## Grade-Level Guidelines
+### Grade-Level Guidelines
 
 | Grade | Age | Word Count | Sentence Style |
 |-------|-----|------------|----------------|
@@ -48,11 +71,13 @@ Arguments:
 | 6-8 | 11-14 | 300-500 | Complex allowed |
 | 9-12 | 14-18 | 450-700 | Sophisticated structures |
 
-## Output
+### Domain-Specific Conventions
 
-Generate ONLY the passage text. No explanations, no JSON, just the passage.
-
-The passage will be cached for future use.
+- Match vocabulary to grade level exactly
+- Keep within word count range for the grade
+- Include elements that allow comprehension questions aligned to the standard
+- Make the passage engaging and age-appropriate
+- Use proper paragraph structure
 
 ## Example Output (Grade 3 Narrative)
 
@@ -69,10 +94,3 @@ One morning, a beautiful flower opened its petals. The little seed had become a 
 
 "So this is what I was meant to be," the flower said, smiling at the sun.
 ```
-
-## Critical Rules
-
-- Match vocabulary to grade level
-- Keep within word count range
-- Include elements that allow comprehension questions
-- Make the passage engaging and age-appropriate

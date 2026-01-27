@@ -3,9 +3,9 @@ name: ela-question-generation
 description: Generate K-12 ELA assessment questions (MCQ, MSQ, Fill-in) with curriculum context. Use when user asks to generate ELA questions, assessments, or Common Core aligned items. This skill orchestrates curriculum lookup, passage generation, and question generation.
 ---
 
-# ELA Question Generation Pipeline
+# ELA Question Generation
 
-This skill generates K-12 ELA assessment questions (MCQ, MSQ, Fill-in) aligned to Common Core standards. **You are the orchestrator** - decide when to use each tool based on the request.
+Generate K-12 ELA assessment questions (MCQ, MSQ, Fill-in) aligned to Common Core standards with curriculum context. **You orchestrate the workflow** - decide which tools to use and when.
 
 ## When to Use
 
@@ -14,50 +14,58 @@ This skill generates K-12 ELA assessment questions (MCQ, MSQ, Fill-in) aligned t
 - User wants to create assessment items for ELA
 - User mentions Common Core standards
 
-## Available Tools
+## Instructions
 
-You have these scripts at your disposal. **Decide which to use based on the request:**
+### Step 1: Parse the Request
+Extract from the request: `grade`, `type` (mcq/msq/fill-in), `difficulty`, `substandard_id`, `substandard_description`
 
-### 1. Curriculum Lookup (`scripts/lookup_curriculum.py`)
+### Step 2: Determine What's Needed
+
+**Check if passage is required:**
+- `RL.*` (Reading Literature) → needs narrative passage
+- `RI.*` (Reading Informational) → needs informational passage  
+- `L.*` or `W.*` (Language/Writing) → no passage needed
+
+**Always get curriculum context** - every question needs it.
+
+### Step 3: Use Available Tools
+
+You have these scripts. **Decide which to run:**
+
+**Curriculum Lookup** (`scripts/lookup_curriculum.py`):
 ```bash
 python scripts/lookup_curriculum.py "<standard_id>"
 ```
-Returns: Assessment boundaries and common misconceptions for the standard.
+- Returns: Assessment boundaries and common misconceptions
+- **Always run this first** for every question
 
-### 2. Populate Curriculum (`scripts/populate_curriculum.py`)
+**Populate Curriculum** (`scripts/populate_curriculum.py`):
 ```bash
 python scripts/populate_curriculum.py "<standard_id>" "<standard_description>"
 ```
-Use when: Curriculum lookup returns empty/missing data. This generates and saves curriculum info.
+- Use when: Curriculum lookup returns missing/empty data
+- Generates and saves curriculum info to `curriculum.md`
 
-### 3. Generate Passage (`scripts/generate_passage.py`)
+**Generate Passage** (`scripts/generate_passage.py`):
 ```bash
 python scripts/generate_passage.py "<standard_id>" "<grade>" "<style>"
 ```
-Use when: Standard is RL.* (Reading Literature) or RI.* (Reading Informational).
+- Use when: Standard is `RL.*` or `RI.*`
 - `style`: "narrative" for RL.*, "informational" for RI.*
 
-## Workflow
+### Step 4: Generate the Question
 
-**You decide the order based on what's needed:**
+Use all gathered context:
+- Curriculum boundaries (stay in scope)
+- Common misconceptions (design distractors)
+- Passage (if RL.*/RI.* standards)
+- Grade level (vocabulary, complexity)
 
-1. **Parse the request** - Extract: `grade`, `type`, `difficulty`, `substandard_id`, `substandard_description`
+**If anything is unclear**, ask the user for clarification before proceeding.
 
-2. **Check if passage is needed**
-   - If `substandard_id` contains `RL.` → needs narrative passage
-   - If `substandard_id` contains `RI.` → needs informational passage
-   - If `substandard_id` contains `L.` or `W.` → no passage needed
+## Input/Output Format
 
-3. **Get curriculum context**
-   - Run: `python scripts/lookup_curriculum.py "<substandard_id>"`
-   - If result shows missing data → Run: `python scripts/populate_curriculum.py`
-
-4. **Generate passage (if needed)**
-   - Run: `python scripts/generate_passage.py "<substandard_id>" "<grade>" "<style>"`
-
-5. **Generate the question** using all context gathered
-
-## Input Format
+### Input
 
 You receive a request like:
 ```json
@@ -72,7 +80,7 @@ You receive a request like:
 }
 ```
 
-## Output Format
+### Output
 
 The output format depends on the question type in the request:
 
@@ -132,6 +140,25 @@ The output format depends on the question type in the request:
   }
 }
 ```
+
+---
+
+## Best Practices
+
+### Question Design Principles
+
+1. **Unambiguous answers**: Only ONE correct answer for MCQ/Fill-in. For MSQ, ALL selected answers must be correct.
+2. **Context sentences**: Include example sentences when testing parts of speech, word function, or grammar.
+3. **Clear constraints**: If a question could have multiple correct answers, add constraints (e.g., "Yesterday" = past tense).
+4. **Distractor design**: Use common misconceptions from curriculum lookup, not random wrong answers.
+5. **Grade-appropriate**: Match vocabulary and sentence complexity to the grade level.
+
+### Domain-Specific Conventions
+
+- **Parts of speech questions**: Always provide a context sentence
+- **Verb tense questions**: Include time markers (yesterday, today, tomorrow)
+- **Fill-in questions**: The blank should have only one grammatically correct option
+- **MSQ questions**: Must say "Select all that apply" or "Select all correct answers"
 
 ---
 
@@ -345,31 +372,18 @@ Examples:
 - `l_3_1_a_msq_medium_001`
 - `l_3_1_d_fillin_easy_001`
 
-## Quality Rules
+## Quality Checklist
 
-### For All Question Types:
-1. **Four options**: A, B, C, D
-2. **Use curriculum context**: Distractors should reflect common misconceptions from curriculum lookup
-3. **Stay in scope**: Only test what's in assessment boundaries
-4. **Grade-appropriate**: Match vocabulary to grade level
-5. **Clear distractors**: Each wrong answer should be clearly wrong for a specific reason
+Before returning a question, verify:
 
-### Type-Specific Rules:
-
-**MCQ (Multiple Choice):**
-- **One correct answer only** - think carefully: could any other option be correct? If yes, revise.
-- Three plausible distractors based on common misconceptions
-
-**MSQ (Multiple Select):**
-- **Two or more correct answers** - all selected answers must be correct
-- Question must explicitly say "Select all that apply" or "Select all correct answers"
-- Distractors should be clearly wrong (not partially correct)
-- Ensure ALL correct answers are included in the answer array
-
-**Fill-in (Fill in the Blank):**
-- **One correct answer** - the blank should have only one grammatically correct option
-- Provide context sentence with clear constraint (e.g., "Yesterday" = past tense)
-- Distractors should be common errors (wrong tense, wrong form, etc.)
+- [ ] Only ONE correct answer (MCQ/Fill-in) OR all selected answers are correct (MSQ)
+- [ ] All distractors are clearly wrong for specific reasons
+- [ ] Question includes context sentence when needed
+- [ ] Distractors reflect common misconceptions from curriculum lookup
+- [ ] Question stays within assessment boundaries
+- [ ] Vocabulary matches grade level
+- [ ] `image_url` is `[]`
+- [ ] Answer format matches type: string for MCQ/Fill-in, array for MSQ
 
 ---
 

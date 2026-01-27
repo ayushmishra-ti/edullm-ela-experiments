@@ -3,27 +3,29 @@ name: lookup-curriculum
 description: Look up assessment boundaries and common misconceptions for ELA standards. Use when you need curriculum context before generating questions.
 ---
 
-# Lookup Curriculum Skill
+# Lookup Curriculum
 
 Search the curriculum database for assessment boundaries and common misconceptions for a given ELA standard.
 
 ## When to Use
 
-- Before generating any ELA question
+- Before generating any ELA question (required step)
 - When you need to understand what's in/out of scope for a standard
-- When you need common misconceptions for creating distractors
+- When you need common misconceptions for creating effective distractors
 
-## Usage
+## Instructions
 
-Run the script with the standard ID:
+### Step 1: Run the Lookup Script
+
+Execute the curriculum lookup script with the standard ID:
 
 ```bash
 python scripts/lookup_curriculum.py "CCSS.ELA-LITERACY.L.3.1.A"
 ```
 
-## Output
+### Step 2: Check the Results
 
-Returns JSON:
+**If found:**
 ```json
 {
   "found": true,
@@ -37,9 +39,7 @@ Returns JSON:
 }
 ```
 
-## If Not Found
-
-If the standard is not found or has missing data:
+**If not found or missing data:**
 ```json
 {
   "found": false,
@@ -48,9 +48,20 @@ If the standard is not found or has missing data:
 }
 ```
 
-When data is missing, use the `populate-curriculum` skill to generate it.
+### Step 3: Handle Missing Data
 
-## How to Use Results
+If `found: false` or fields are empty/`*None specified*`:
+- Use the `populate-curriculum` skill to generate the missing data
+- Then re-run lookup to get the populated data
 
-1. **Assessment Boundaries**: Ensure your question stays within these limits
-2. **Common Misconceptions**: Use these to create plausible distractors
+### Step 4: Use the Results
+
+- **Assessment Boundaries**: Ensure your question stays within these limits
+- **Common Misconceptions**: Use these to create plausible distractors that reflect real student errors
+
+## Best Practices
+
+- Always run curriculum lookup before generating questions
+- If data is missing, populate it first rather than proceeding without context
+- Use assessment boundaries to ensure questions stay in scope
+- Use misconceptions to design distractors that test real student understanding
