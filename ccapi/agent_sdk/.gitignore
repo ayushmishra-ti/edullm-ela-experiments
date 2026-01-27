@@ -1,0 +1,33 @@
+# Environment
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Outputs (keep structure, ignore generated files)
+outputs/*.json
+outputs/*.csv
+!outputs/.gitkeep
+!outputs/README.md
+
+# Logs
+*.log

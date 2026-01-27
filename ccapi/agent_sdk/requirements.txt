@@ -1,0 +1,13 @@
+# InceptAgentic Skill MCQ Generator
+# Python 3.11+
+
+# Core dependencies
+anthropic>=0.39.0
+python-dotenv>=1.0.0
+
+# Web framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Claude Agent SDK (for agentic pipeline with MCP tools)
+claude-agent-sdk>=0.1.0
