@@ -1,18 +1,16 @@
 """
-Truly Agentic MCQ Generation Pipeline using Claude Agent SDK.
+Truly Agentic MCQ Generation Pipeline using Anthropic API with Native Tool Use.
 
 This pipeline lets Claude autonomously decide:
 1. When to look up curriculum data
 2. When to populate missing curriculum data
 3. How to use the context to generate high-quality MCQs
 
-Unlike the skill-based approach, this uses Claude Agent SDK with MCP tools
-where Claude has full autonomy over tool usage.
+Claude has full autonomy over tool usage via the native Anthropic tool_use feature.
 """
 
 from __future__ import annotations
 
-import asyncio
 import json
 import logging
 import os
@@ -21,7 +19,6 @@ import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
 
 logger = logging.getLogger(__name__)
 
@@ -100,136 +97,37 @@ def _parsed_to_item(parsed: dict, request: dict, normalize: bool = True) -> dict
     }
 
 
-def _update_curriculum_file(
-    curriculum_path: Path,
-    standard_id: str,
-    assessment_boundaries: str,
-    common_misconceptions: list,
-) -> bool:
-    """Update curriculum.md with new data."""
-    if not curriculum_path.exists():
-        return False
-    
-    try:
-        content = curriculum_path.read_text(encoding="utf-8")
-    except Exception as e:
-        logger.error(f"Error reading curriculum file: {e}")
-        return False
-    
-    # Split by "---" to get entries
-    parts = content.split("---")
-    updated = False
-    
-    for i, entry in enumerate(parts):
-        if f"Standard ID: {standard_id}" in entry:
-            original_entry = entry
-            
-            # Update Assessment Boundaries
-            if assessment_boundaries:
-                ab_pattern = r"(Assessment Boundaries:\s*)(?:\*None specified\*|.*?)(?=\n\nCommon Misconceptions:)"
-                boundaries_text = assessment_boundaries.strip()
-                replacement = f"\\1{boundaries_text}\n"
-                entry = re.sub(ab_pattern, replacement, entry, flags=re.DOTALL)
-            
-            # Update Common Misconceptions
-            if common_misconceptions:
-                misconceptions_text = "\n".join([f"* {m.strip()}" for m in common_misconceptions if m.strip()])
-                cm_pattern = r"(Common Misconceptions:\s*)(?:\*None specified\*|.*?)(?=\n\nDifficulty Definitions:)"
-                replacement = f"\\1{misconceptions_text}\n"
-                entry = re.sub(cm_pattern, replacement, entry, flags=re.DOTALL)
-            
-            if entry != original_entry:
-                parts[i] = entry
-                updated = True
-                break
-    
-    if updated:
-        new_content = "---".join(parts)
-        try:
-            curriculum_path.write_text(new_content, encoding="utf-8")
-            return True
-        except Exception as e:
-            logger.error(f"Error writing curriculum file: {e}")
-            return False
-    
-    return False
-
-
 # ============================================================================
-# MCP Server Setup
+# Tool Definitions (Anthropic Native Format)
 # ============================================================================
 
-def create_mcp_server_with_tools(curriculum_path: Path | None = None, scripts_dir: Path | None = None):
-    """
-    Create an in-process MCP server with curriculum tools.
-    
-    This allows Claude to call our custom tools (lookup_curriculum, populate_curriculum)
-    during the agent loop.
-    
-    Args:
-        curriculum_path: Path to curriculum.md (optional, uses default)
-        scripts_dir: Path to scripts directory (optional, uses default)
-    
-    Returns:
-        MCP server instance
-    """
-    try:
-        from claude_agent_sdk import create_sdk_mcp_server, tool
-    except ImportError:
-        raise ImportError(
-            "claude-agent-sdk not installed. Install with: pip install claude-agent-sdk"
-        )
-    
-    # Default paths
-    if curriculum_path is None:
-        curriculum_path = Path(__file__).parent.parent / "data" / "curriculum.md"
-    
-    if scripts_dir is None:
-        scripts_dir = Path(__file__).parent.parent / ".claude" / "skills" / "ela-mcq-pipeline" / "scripts"
-    
-    # Tool 1: Lookup Curriculum
-    @tool(
-        "lookup_curriculum",
-        """Look up curriculum information for a standard ID.
-        
+TOOLS = [
+    {
+        "name": "lookup_curriculum",
+        "description": """Look up curriculum information for a standard ID.
+
 Returns assessment boundaries and common misconceptions from curriculum.md.
 Use this FIRST before generating any MCQ to understand:
-- What should and shouldn't be assessed (assessment boundaries)  
+- What should and shouldn't be assessed (assessment boundaries)
 - Common student errors to use as distractors (misconceptions)
 
 If the returned data shows has_boundaries=False or has_misconceptions=False,
 you should call populate_curriculum to generate the missing data.""",
-        {
-            "substandard_id": str,  # The standard ID (e.g., 'CCSS.ELA-LITERACY.L.3.1.A')
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "substandard_id": {
+                    "type": "string",
+                    "description": "The standard ID (e.g., 'CCSS.ELA-LITERACY.L.3.1.A')"
+                }
+            },
+            "required": ["substandard_id"]
         }
-    )
-    async def lookup_curriculum_tool(args: dict) -> dict:
-        script_path = scripts_dir / "lookup_curriculum.py"
-        if not script_path.exists():
-            return {"content": [{"type": "text", "text": json.dumps({"success": False, "error": "Script not found"})}]}
-        
-        try:
-            result = subprocess.run(
-                [sys.executable, str(script_path), args["substandard_id"]],
-                capture_output=True,
-                text=True,
-                timeout=30,
-                cwd=str(scripts_dir.parent.parent.parent.parent),
-            )
-            if result.returncode == 0:
-                data = json.loads(result.stdout)
-            else:
-                data = {"success": False, "error": result.stderr}
-        except Exception as e:
-            data = {"success": False, "error": str(e)}
-        
-        return {"content": [{"type": "text", "text": json.dumps(data, indent=2)}]}
-    
-    # Tool 2: Populate Curriculum
-    @tool(
-        "populate_curriculum",
-        """Generate and save curriculum data for a standard.
-        
+    },
+    {
+        "name": "populate_curriculum",
+        "description": """Generate and save curriculum data for a standard.
+
 Use this when lookup_curriculum returns missing data (has_boundaries=False or has_misconceptions=False).
 This tool will:
 1. Generate appropriate Assessment Boundaries for the standard
@@ -237,110 +135,82 @@ This tool will:
 3. Save the data to curriculum.md for future reuse
 
 After calling this, use lookup_curriculum again to get the populated data.""",
-        {
-            "substandard_id": str,
-            "standard_description": str,
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "substandard_id": {
+                    "type": "string",
+                    "description": "The standard ID to populate"
+                },
+                "standard_description": {
+                    "type": "string",
+                    "description": "Description of what the standard covers"
+                }
+            },
+            "required": ["substandard_id", "standard_description"]
         }
-    )
-    async def populate_curriculum_tool_inner(args: dict) -> dict:
-        """Generate and save curriculum data using Claude API."""
-        import anthropic
-        
-        api_key = os.environ.get("ANTHROPIC_API_KEY")
-        if not api_key:
-            return {"content": [{"type": "text", "text": json.dumps({"success": False, "error": "ANTHROPIC_API_KEY not set"})}]}
-        
-        substandard_id = args["substandard_id"]
-        standard_description = args["standard_description"]
-        
-        # Generate prompt
-        prompt = f"""Generate Assessment Boundaries and Common Misconceptions for this ELA standard:
+    }
+]
 
-Standard ID: {substandard_id}
-Standard Description: {standard_description}
 
-Generate:
+# ============================================================================
+# Tool Execution Functions
+# ============================================================================
 
-1. **Assessment Boundaries**: 1-3 concise bullet points specifying what IS and is NOT assessed.
-   - Each bullet starts with "* " (asterisk + space)
-   - Keep each bullet to 1-2 sentences max
-   - Focus on grade-appropriate scope
-
-2. **Common Misconceptions**: 3-5 bullet points of typical student errors.
-   - Each bullet starts with "* " (asterisk + space)
-   - One specific misconception per bullet
-   - Useful for creating MCQ distractors
-
-Return ONLY a JSON object:
-{{
-  "assessment_boundaries": "* Assessment is limited to...\\n* Students should...",
-  "common_misconceptions": [
-    "Students may confuse...",
-    "Students often think...",
-    "Students might incorrectly believe..."
-  ]
-}}"""
-        
-        try:
-            client = anthropic.AsyncAnthropic(api_key=api_key)
-            response = await client.messages.create(
-                model="claude-sonnet-4-20250514",
-                max_tokens=1024,
-                messages=[{"role": "user", "content": prompt}],
-            )
-            
-            # Extract JSON from response
-            text = ""
-            if hasattr(response, "content"):
-                for block in response.content:
-                    if hasattr(block, "text"):
-                        text += block.text
-                    elif isinstance(block, dict) and block.get("type") == "text":
-                        text += block.get("text", "")
-            
-            # Parse JSON
-            json_match = re.search(r'\{[\s\S]*"assessment_boundaries"[\s\S]*"common_misconceptions"[\s\S]*\}', text)
-            if json_match:
-                generated_data = json.loads(json_match.group(0))
-            else:
-                # Try parsing entire text
-                generated_data = json.loads(text)
-            
-            # Save to curriculum.md
-            updated = _update_curriculum_file(
-                curriculum_path,
-                substandard_id,
-                generated_data.get("assessment_boundaries", ""),
-                generated_data.get("common_misconceptions", []),
-            )
-            
-            return {"content": [{"type": "text", "text": json.dumps({
-                "success": True,
-                "substandard_id": substandard_id,
-                "assessment_boundaries": generated_data.get("assessment_boundaries"),
-                "common_misconceptions": generated_data.get("common_misconceptions"),
-                "file_updated": updated,
-            }, indent=2)}]}
-                
-        except Exception as e:
-            logger.exception(f"populate_curriculum_tool error: {e}")
-            return {"content": [{"type": "text", "text": json.dumps({
-                "success": False,
-                "error": str(e)
-            })}]}
+def execute_lookup_curriculum(args: dict, scripts_dir: Path) -> dict:
+    """Execute lookup_curriculum tool."""
+    script_path = scripts_dir / "lookup_curriculum.py"
+    if not script_path.exists():
+        return {"success": False, "error": f"Script not found: {script_path}"}
     
-    # Wrap populate_curriculum to capture curriculum_path
-    async def populate_curriculum_tool(args: dict) -> dict:
-        return await populate_curriculum_tool_inner(args)
+    try:
+        result = subprocess.run(
+            [sys.executable, str(script_path), args["substandard_id"]],
+            capture_output=True,
+            text=True,
+            timeout=30,
+            cwd=str(scripts_dir.parent.parent.parent.parent),
+        )
+        if result.returncode == 0:
+            return json.loads(result.stdout)
+        else:
+            return {"success": False, "error": result.stderr}
+    except Exception as e:
+        return {"success": False, "error": str(e)}
+
+
+def execute_populate_curriculum(args: dict, scripts_dir: Path) -> dict:
+    """Execute populate_curriculum tool."""
+    script_path = scripts_dir / "populate_curriculum.py"
+    if not script_path.exists():
+        return {"success": False, "error": f"Script not found: {script_path}"}
     
-    # Create the MCP server
-    server = create_sdk_mcp_server(
-        name="curriculum-tools",
-        version="1.0.0",
-        tools=[lookup_curriculum_tool, populate_curriculum_tool]
-    )
+    try:
+        result = subprocess.run(
+            [sys.executable, str(script_path), args["substandard_id"], args["standard_description"]],
+            capture_output=True,
+            text=True,
+            timeout=60,  # Longer timeout for API call
+            cwd=str(scripts_dir.parent.parent.parent.parent),
+        )
+        if result.returncode == 0:
+            return json.loads(result.stdout)
+        else:
+            return {"success": False, "error": result.stderr}
+    except Exception as e:
+        return {"success": False, "error": str(e)}
+
+
+def execute_tool(tool_name: str, tool_input: dict, scripts_dir: Path) -> str:
+    """Execute a tool and return the result as JSON string."""
+    if tool_name == "lookup_curriculum":
+        result = execute_lookup_curriculum(tool_input, scripts_dir)
+    elif tool_name == "populate_curriculum":
+        result = execute_populate_curriculum(tool_input, scripts_dir)
+    else:
+        result = {"error": f"Unknown tool: {tool_name}"}
     
-    return server
+    return json.dumps(result, indent=2)
 
 
 # ============================================================================
@@ -363,6 +233,8 @@ async def generate_one_agentic(
     2. Populate missing curriculum data
     3. Generate the MCQ
     
+    Uses Anthropic's native tool_use feature for Claude to call tools.
+    
     Args:
         request: MCQ generation request
         curriculum_path: Path to curriculum.md
@@ -374,10 +246,10 @@ async def generate_one_agentic(
         Generation result with MCQ content
     """
     try:
-        from claude_agent_sdk import query, ClaudeAgentOptions
+        import anthropic
     except ImportError:
         return {
-            "error": "claude-agent-sdk not installed. Install with: pip install claude-agent-sdk",
+            "error": "anthropic package not installed. Install with: pip install anthropic",
             "success": False,
             "timestamp": _utc_ts(),
             "generatedContent": {"generated_content": []},
@@ -399,7 +271,10 @@ async def generate_one_agentic(
         curriculum_path = Path(__file__).parent.parent / "data" / "curriculum.md"
     
     if scripts_dir is None:
-        scripts_dir = Path(__file__).parent.parent / ".claude" / "skills" / "ela-mcq-pipeline" / "scripts"
+        scripts_dir = Path(__file__).parent.parent / ".claude" / "skills" / "ela-question-generation" / "scripts"
+    
+    # Model
+    model = model or os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-4-5-20250929")
     
     # Get substandard info from request
     skills = request.get("skills") or {}
@@ -409,8 +284,8 @@ async def generate_one_agentic(
     grade = request.get("grade", "3")
     qtype = request.get("type", "mcq")
     
-    # Build the prompt - Force tool usage to prevent deadlocks
-    prompt = f"""Generate a Grade {grade} ELA {qtype.upper()} question for this request:
+    # Build the initial prompt
+    user_prompt = f"""Generate a Grade {grade} ELA {qtype.upper()} question for this request:
 
 {json.dumps(request, indent=2)}
 
@@ -456,101 +331,119 @@ Return ONLY a valid JSON object matching this schema:
 No markdown code fences in your final answer, just the JSON object."""
 
     try:
-        # Create MCP server with our custom tools
-        if verbose:
-            logger.info("Creating MCP server with curriculum tools...")
-        try:
-            mcp_server = create_mcp_server_with_tools(curriculum_path, scripts_dir)
-            if verbose:
-                logger.info("MCP server created successfully")
-        except Exception as e:
-            logger.exception(f"Failed to create MCP server: {e}")
-            raise
-        
-        # Use query() with MCP server - Claude will decide when to call tools
-        result_text = ""
-        result_item = None
-        parse_error = None
+        client = anthropic.AsyncAnthropic(api_key=api_key)
+        messages = [{"role": "user", "content": user_prompt}]
         tools_used = []
+        max_iterations = 10  # Prevent infinite loops
         
-        # Create query generator with custom MCP tools
-        try:
-            query_gen = query(
-                prompt=prompt,
-                options=ClaudeAgentOptions(
-                    mcp_servers=[mcp_server],  # List of MCP servers
-                    setting_sources=["project"],  # Load skills from SKILL.md files
-                ),
+        for iteration in range(max_iterations):
+            if verbose:
+                logger.info(f"Iteration {iteration + 1}: Calling Claude...")
+            
+            # Call Claude with tools
+            response = await client.messages.create(
+                model=model,
+                max_tokens=4096,
+                tools=TOOLS,
+                messages=messages,
             )
-        except TypeError:
-            # If list doesn't work, try dict format
-            query_gen = query(
-                prompt=prompt,
-                options=ClaudeAgentOptions(
-                    mcp_servers={"curriculum-tools": mcp_server},  # Dict format
-                    setting_sources=["project"],
-                ),
-            )
-        except Exception as e:
-            logger.exception(f"Failed to create query generator: {e}")
-            raise
-        
-        # Consume entire generator - Claude will call tools as needed
-        timeout_seconds = 180  # 3 minutes max per generation
-        
-        try:
-            async with asyncio.timeout(timeout_seconds):
-                async for message in query_gen:
-                    # Track tool usage
-                    if hasattr(message, "tool_use"):
-                        tool_use = message.tool_use
-                        tool_name = getattr(tool_use, "name", None) or getattr(tool_use, "tool_name", "unknown")
-                        tools_used.append({"name": tool_name})
-                        if verbose:
-                            logger.info(f"Claude called tool: {tool_name}")
+            
+            if verbose:
+                logger.info(f"Stop reason: {response.stop_reason}")
+            
+            # Check if Claude wants to use a tool
+            if response.stop_reason == "tool_use":
+                # Find tool use blocks
+                tool_use_blocks = [block for block in response.content if block.type == "tool_use"]
+                
+                # Add assistant response to messages
+                messages.append({"role": "assistant", "content": response.content})
+                
+                # Execute each tool and add results
+                tool_results = []
+                for tool_block in tool_use_blocks:
+                    tool_name = tool_block.name
+                    tool_input = tool_block.input
                     
-                    # Capture the final text result
-                    if hasattr(message, "result"):
-                        result_text = str(message.result)
-                    elif hasattr(message, "text"):
-                        result_text += message.text
-                    elif hasattr(message, "content"):
-                        content = message.content
-                        if isinstance(content, str):
-                            result_text += content
-                        elif isinstance(content, list):
-                            for block in content:
-                                if isinstance(block, dict) and block.get("type") == "text":
-                                    result_text += block.get("text", "")
-        except TimeoutError:
-            error_msg = f"Claude agent stalled: no messages emitted within {timeout_seconds}s"
-            logger.error(error_msg)
-            raise RuntimeError(error_msg)
-        
-        # Extract JSON from the final response
-        if result_text:
-            js = _extract_json(result_text)
-            try:
-                parsed = json.loads(js)
-                result_item = _parsed_to_item(parsed, request)
+                    if verbose:
+                        logger.info(f"Claude called tool: {tool_name} with input: {tool_input}")
+                    
+                    tools_used.append({"name": tool_name, "input": tool_input})
+                    
+                    # Execute the tool
+                    result = execute_tool(tool_name, tool_input, scripts_dir)
+                    
+                    if verbose:
+                        logger.info(f"Tool result: {result[:200]}...")
+                    
+                    tool_results.append({
+                        "type": "tool_result",
+                        "tool_use_id": tool_block.id,
+                        "content": result,
+                    })
+                
+                # Add tool results to messages
+                messages.append({"role": "user", "content": tool_results})
+                
+            elif response.stop_reason == "end_turn":
+                # Claude finished - extract the final response
+                result_text = ""
+                for block in response.content:
+                    if hasattr(block, "text"):
+                        result_text += block.text
+                
                 if verbose:
-                    logger.info("Question generated successfully")
-            except json.JSONDecodeError as e:
-                logger.warning(f"Failed to parse JSON: {e}")
-                parse_error = str(e)
+                    logger.info(f"Final response: {result_text[:200]}...")
+                
+                # Parse JSON from the response
+                if result_text:
+                    js = _extract_json(result_text)
+                    try:
+                        parsed = json.loads(js)
+                        result_item = _parsed_to_item(parsed, request)
+                        
+                        return {
+                            "error": None,
+                            "success": True,
+                            "timestamp": _utc_ts(),
+                            "generatedContent": {"generated_content": [result_item]},
+                            "generation_mode": "agentic",
+                            "tools_used": tools_used,
+                        }
+                    except json.JSONDecodeError as e:
+                        return {
+                            "error": f"Failed to parse JSON: {e}",
+                            "success": False,
+                            "timestamp": _utc_ts(),
+                            "generatedContent": {"generated_content": []},
+                            "generation_mode": "agentic",
+                            "tools_used": tools_used,
+                            "raw_response": result_text[:500],
+                        }
+                
+                return {
+                    "error": "No text in final response",
+                    "success": False,
+                    "timestamp": _utc_ts(),
+                    "generatedContent": {"generated_content": []},
+                    "generation_mode": "agentic",
+                    "tools_used": tools_used,
+                }
+            
+            else:
+                # Unexpected stop reason
+                return {
+                    "error": f"Unexpected stop reason: {response.stop_reason}",
+                    "success": False,
+                    "timestamp": _utc_ts(),
+                    "generatedContent": {"generated_content": []},
+                    "generation_mode": "agentic",
+                    "tools_used": tools_used,
+                }
         
-        if result_item:
-            return {
-                "error": None,
-                "success": True,
-                "timestamp": _utc_ts(),
-                "generatedContent": {"generated_content": [result_item]},
-                "generation_mode": "agentic",
-                "tools_used": tools_used,  # Track what Claude decided to use
-            }
-        
+        # Max iterations reached
         return {
-            "error": parse_error or "No valid JSON found in response",
+            "error": f"Max iterations ({max_iterations}) reached without completion",
             "success": False,
             "timestamp": _utc_ts(),
             "generatedContent": {"generated_content": []},
@@ -560,9 +453,8 @@ No markdown code fences in your final answer, just the JSON object."""
         
     except Exception as e:
         logger.exception("Agentic generation failed")
-        error_msg = str(e)
         return {
-            "error": error_msg,
+            "error": str(e),
             "success": False,
             "timestamp": _utc_ts(),
             "generatedContent": {"generated_content": []},

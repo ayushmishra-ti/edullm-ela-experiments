@@ -115,6 +115,9 @@ def lookup_curriculum(substandard_id: str) -> dict:
                 "standard_description": parsed["standard_description"],
                 "assessment_boundaries": parsed["assessment_boundaries"],
                 "common_misconceptions": parsed["common_misconceptions"],
+                # Boolean flags for Claude to check if data needs to be populated
+                "has_boundaries": bool(parsed["assessment_boundaries"]),
+                "has_misconceptions": bool(parsed["common_misconceptions"]),
             }
     
     return {

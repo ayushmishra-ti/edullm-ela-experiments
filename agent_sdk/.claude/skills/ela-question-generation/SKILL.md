@@ -122,24 +122,25 @@ The output format depends on the question type in the request:
 }
 ```
 
-### Fill-in (Fill in the Blank)
+### Fill-in (Fill in the Blank) - NO answer_options
 ```json
 {
   "id": "l_3_1_d_fillin_easy_001",
   "content": {
     "answer": "ran",
-    "question": "Read this sentence: 'Yesterday, I ___ to the store.' Which verb correctly completes the sentence?",
+    "question": "Read this sentence: 'Yesterday, I ______ to the store.' Write the correct form of the verb 'run' to complete the sentence.",
     "image_url": [],
-    "answer_options": [
-      {"key": "A", "text": "run"},
-      {"key": "B", "text": "runs"},
-      {"key": "C", "text": "ran"},
-      {"key": "D", "text": "running"}
-    ],
+    "additional_details": "CCSS.ELA-LITERACY.L.3.1.D",
     "answer_explanation": "The sentence says 'Yesterday,' which means the action happened in the past. 'Ran' is the past tense form of 'run.'"
   }
 }
 ```
+
+**IMPORTANT for Fill-in:**
+- NO `answer_options` field — user types the answer directly
+- `answer` is the expected text (case-insensitive matching)
+- Question should have a clear blank (______)
+- Include `additional_details` with the standard ID
 
 ---
 
@@ -157,7 +158,7 @@ The output format depends on the question type in the request:
 
 - **Parts of speech questions**: Always provide a context sentence
 - **Verb tense questions**: Include time markers (yesterday, today, tomorrow)
-- **Fill-in questions**: The blank should have only one grammatically correct option
+- **Fill-in questions**: NO answer_options — user types the answer; use clear blank (______); answer should be a single word or short phrase
 - **MSQ questions**: Must say "Select all that apply" or "Select all correct answers"
 
 ---
@@ -211,7 +212,7 @@ The output format depends on the question type in the request:
 
 ---
 
-### Example 2: Fill-in Question (Medium)
+### Example 2: Fill-in Question (Medium) - NO answer_options
 
 **Input:**
 ```json
@@ -232,25 +233,21 @@ The output format depends on the question type in the request:
   "id": "l_3_1_d_fillin_medium_001",
   "content": {
     "answer": "ran",
-    "question": "Read this sentence: 'Yesterday, I ___ to the store to buy milk.' Which verb correctly completes the sentence?",
+    "question": "Read this sentence: 'Yesterday, I ______ to the store to buy milk.' Write the correct past tense form of the verb 'run' to complete the sentence.",
     "image_url": [],
-    "answer_options": [
-      {"key": "A", "text": "run"},
-      {"key": "B", "text": "runs"},
-      {"key": "C", "text": "ran"},
-      {"key": "D", "text": "running"}
-    ],
+    "additional_details": "CCSS.ELA-LITERACY.L.3.1.D",
     "answer_explanation": "The sentence says 'Yesterday,' which means the action happened in the past. 'Ran' is the past tense form of 'run.' 'Run' is present tense, 'runs' is present tense for he/she/it, and 'running' needs a helping verb like 'was' or 'is.'"
   }
 }
 ```
 
 **Why this is good:**
-- ✅ Context sentence provided
+- ✅ Context sentence provided with clear blank (______)
 - ✅ Constraint clearly stated ("Yesterday" = past tense)
-- ✅ Only ONE correct answer (C) - others are wrong for specific reasons
-- ✅ Distractors test common errors (wrong tense forms)
-- ✅ Explanation addresses why each option is wrong
+- ✅ NO answer_options — user types the answer directly
+- ✅ Clear instruction: "Write the correct past tense form"
+- ✅ Answer is simple text that can be matched exactly
+- ✅ Explanation addresses common errors
 
 ---
 
@@ -377,13 +374,15 @@ Examples:
 Before returning a question, verify:
 
 - [ ] Only ONE correct answer (MCQ/Fill-in) OR all selected answers are correct (MSQ)
-- [ ] All distractors are clearly wrong for specific reasons
+- [ ] MCQ/MSQ: All distractors are clearly wrong for specific reasons
+- [ ] Fill-in: NO `answer_options` field — user types the answer directly
 - [ ] Question includes context sentence when needed
-- [ ] Distractors reflect common misconceptions from curriculum lookup
+- [ ] Distractors reflect common misconceptions from curriculum lookup (MCQ/MSQ only)
 - [ ] Question stays within assessment boundaries
 - [ ] Vocabulary matches grade level
 - [ ] `image_url` is `[]`
-- [ ] Answer format matches type: string for MCQ/Fill-in, array for MSQ
+- [ ] Answer format: string for MCQ/Fill-in, array for MSQ
+- [ ] Fill-in: Include `additional_details` with the standard ID
 
 ---
 
@@ -394,3 +393,4 @@ Before returning a question, verify:
 - If passage needed, include it in your question context
 - Return ONLY the JSON object, no markdown, no explanations
 - Think critically: Could a student argue any other option is correct? If yes, revise.
+- **Fill-in questions MUST NOT have `answer_options`** — this is the key difference from MCQ

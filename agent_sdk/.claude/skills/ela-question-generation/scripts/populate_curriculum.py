@@ -8,7 +8,7 @@ Usage:
 Example:
     python scripts/populate_curriculum.py "CCSS.ELA-LITERACY.L.3.1.A" "Explain the function of nouns..."
 
-Generates assessment boundaries and common misconceptions, saves to curriculum.md.
+Generates assessment boundaries and common misconceptions using Claude API, saves to curriculum.md.
 """
 
 import json
@@ -16,6 +16,14 @@ import os
 import re
 import sys
 from pathlib import Path
+
+# Load environment variables
+try:
+    from dotenv import load_dotenv
+    ROOT = Path(__file__).resolve().parents[4]  # Go up to agent_sdk root
+    load_dotenv(ROOT / ".env", override=False)
+except ImportError:
+    pass
 
 
 def get_curriculum_path() -> Path:
@@ -34,9 +42,18 @@ def get_curriculum_path() -> Path:
     return possible_paths[1]  # Default to data/curriculum.md
 
 
-def generate_curriculum_prompt(standard_id: str, standard_description: str) -> str:
-    """Generate prompt for Claude to create curriculum content."""
-    return f"""Generate Assessment Boundaries and Common Misconceptions for this ELA standard:
+def generate_curriculum_content(standard_id: str, standard_description: str) -> dict:
+    """Call Claude API to generate curriculum content."""
+    try:
+        import anthropic
+    except ImportError:
+        return {"success": False, "error": "anthropic package not installed"}
+    
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        return {"success": False, "error": "ANTHROPIC_API_KEY not set"}
+    
+    prompt = f"""Generate Assessment Boundaries and Common Misconceptions for this ELA standard:
 
 Standard ID: {standard_id}
 Standard Description: {standard_description}
@@ -51,9 +68,9 @@ Generate:
 2. **Common Misconceptions**: 3-5 bullet points of typical student errors.
    - Each bullet starts with "* " (asterisk + space)
    - One specific misconception per bullet
-   - Useful for creating MCQ distractors
+   - These will be used to create effective MCQ distractors
 
-Return ONLY a JSON object:
+Return ONLY a JSON object (no markdown fences):
 {{
   "assessment_boundaries": "* Assessment is limited to...\\n* Students should...",
   "common_misconceptions": [
@@ -62,6 +79,42 @@ Return ONLY a JSON object:
     "Students might incorrectly believe..."
   ]
 }}"""
+
+    try:
+        client = anthropic.Anthropic(api_key=api_key)
+        model = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-4-5-20250929")
+        
+        response = client.messages.create(
+            model=model,
+            max_tokens=1024,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        
+        # Extract text from response
+        text = ""
+        for block in response.content:
+            if hasattr(block, "text"):
+                text += block.text
+        
+        # Parse JSON from response
+        # Try to find JSON object
+        json_match = re.search(r'\{[\s\S]*"assessment_boundaries"[\s\S]*"common_misconceptions"[\s\S]*\}', text)
+        if json_match:
+            generated_data = json.loads(json_match.group(0))
+        else:
+            # Try parsing entire text
+            generated_data = json.loads(text.strip())
+        
+        return {
+            "success": True,
+            "assessment_boundaries": generated_data.get("assessment_boundaries", ""),
+            "common_misconceptions": generated_data.get("common_misconceptions", []),
+        }
+        
+    except json.JSONDecodeError as e:
+        return {"success": False, "error": f"Failed to parse JSON response: {e}"}
+    except Exception as e:
+        return {"success": False, "error": str(e)}
 
 
 def update_curriculum_file(
@@ -122,6 +175,7 @@ def update_curriculum_file(
 def main():
     if len(sys.argv) < 3:
         print(json.dumps({
+            "success": False,
             "error": "Usage: python populate_curriculum.py <standard_id> <standard_description>",
             "example": 'python populate_curriculum.py "CCSS.ELA-LITERACY.L.3.1.A" "Explain the function of nouns..."'
         }, indent=2))
@@ -130,39 +184,32 @@ def main():
     standard_id = sys.argv[1]
     standard_description = sys.argv[2]
     
-    # Generate the prompt for Claude
-    prompt = generate_curriculum_prompt(standard_id, standard_description)
+    # Generate content using Claude API
+    result = generate_curriculum_content(standard_id, standard_description)
     
-    # Output the prompt for Claude to process
-    # When Claude runs this script, it should:
-    # 1. See this prompt
-    # 2. Generate the JSON response
-    # 3. Parse and save to curriculum.md
+    if not result.get("success"):
+        print(json.dumps(result, indent=2))
+        sys.exit(1)
     
-    result = {
-        "action": "populate_curriculum",
+    # Update curriculum.md
+    curriculum_path = get_curriculum_path()
+    file_updated = update_curriculum_file(
+        curriculum_path,
+        standard_id,
+        result.get("assessment_boundaries", ""),
+        result.get("common_misconceptions", []),
+    )
+    
+    output = {
+        "success": True,
         "standard_id": standard_id,
-        "standard_description": standard_description,
-        "prompt": prompt,
-        "instructions": """
-To complete this action:
-1. Generate assessment boundaries and common misconceptions based on the prompt above
-2. Return JSON with 'assessment_boundaries' (string with bullet points) and 'common_misconceptions' (array of strings)
-3. The curriculum.md file will be updated with this content
-
-Example response format:
-{
-  "assessment_boundaries": "* Assessment is limited to identifying basic parts of speech.\\n* Complex sentences are out of scope.",
-  "common_misconceptions": [
-    "Students may confuse adjectives with adverbs",
-    "Students often think verbs only show physical action"
-  ]
-}
-""",
-        "curriculum_path": str(get_curriculum_path()),
+        "assessment_boundaries": result.get("assessment_boundaries"),
+        "common_misconceptions": result.get("common_misconceptions"),
+        "file_updated": file_updated,
+        "curriculum_path": str(curriculum_path),
     }
     
-    print(json.dumps(result, indent=2))
+    print(json.dumps(output, indent=2))
 
 
 if __name__ == "__main__":

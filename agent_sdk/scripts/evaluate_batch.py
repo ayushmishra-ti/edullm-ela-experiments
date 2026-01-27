@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
 """
-Evaluate generated questions using InceptBench.
+Evaluate generated questions using InceptBench (parallel execution).
 
 Usage:
-  python scripts/evaluate_batch.py [--input PATH] [--output-dir PATH] [--verbose]
+  python scripts/evaluate_batch.py [--input PATH] [--output-dir PATH] [--concurrency N] [--verbose]
 
 Example:
-  python scripts/evaluate_batch.py --verbose
+  python scripts/evaluate_batch.py --concurrency 20 --verbose
 """
 
 from __future__ import annotations
 
 import argparse
+import asyncio
 import csv
 import json
 import subprocess
@@ -41,8 +42,8 @@ def to_inceptbench_format(item: dict) -> dict:
     }
 
 
-def evaluate_item(item: dict, verbose: bool = False) -> dict | None:
-    """Evaluate one item with InceptBench CLI."""
+async def evaluate_item_async(item: dict, verbose: bool = False) -> dict | None:
+    """Evaluate one item with InceptBench CLI (async)."""
     incept_item = to_inceptbench_format(item)
     payload = {"generated_content": [incept_item]}
     
@@ -56,10 +57,29 @@ def evaluate_item(item: dict, verbose: bool = False) -> dict | None:
             cmd.append("--verbose")
         
         try:
-            result = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
-            if result.returncode != 0:
+            proc = await asyncio.create_subprocess_exec(
+                *cmd,
+                stdout=asyncio.subprocess.PIPE,
+                stderr=asyncio.subprocess.PIPE,
+            )
+            try:
+                stdout, stderr = await asyncio.wait_for(proc.communicate(), timeout=120)
+                # Print verbose output if available
+                if verbose and stdout:
+                    print(stdout.decode("utf-8", errors="ignore"))
+                if verbose and stderr:
+                    print(stderr.decode("utf-8", errors="ignore"))
+            except asyncio.TimeoutError:
+                proc.kill()
                 return None
-        except Exception:
+            
+            if proc.returncode != 0:
+                if verbose and stderr:
+                    print(f"    Error: {stderr.decode('utf-8', errors='ignore')}")
+                return None
+        except Exception as e:
+            if verbose:
+                print(f"    Exception: {e}")
             return None
         
         if not out_path.exists():
@@ -85,8 +105,66 @@ def evaluate_item(item: dict, verbose: bool = False) -> dict | None:
         return None
 
 
+async def evaluate_with_semaphore(
+    item: dict,
+    index: int,
+    total: int,
+    semaphore: asyncio.Semaphore,
+    verbose: bool = False,
+) -> tuple[int, dict, dict | None]:
+    """Evaluate one item with semaphore-controlled concurrency."""
+    async with semaphore:
+        item_id = item.get("id", "")
+        print(f"  [{index+1}/{total}] Evaluating {item_id}...")
+        
+        ev = await evaluate_item_async(item, verbose)
+        
+        if ev is None:
+            print(f"    ✗ Failed: {item_id}")
+        else:
+            overall = ev.get("overall") or {}
+            score_100 = overall.get("score_100")
+            if score_100 is None:
+                score = overall.get("score")
+                score_100 = round(score * 100, 2) if score is not None else None
+            
+            if score_100 is not None:
+                status = "✓" if score_100 >= 85 else "⚠ LOW"
+                print(f"    {status} {item_id}: {score_100}%")
+            else:
+                print(f"    ⚠ {item_id}: No score")
+        
+        return (index, item, ev)
+
+
+async def run_evaluation(
+    items: list[dict],
+    concurrency: int,
+    verbose: bool,
+) -> list[tuple[int, dict, dict | None]]:
+    """Run all evaluations in parallel with concurrency limit."""
+    semaphore = asyncio.Semaphore(concurrency)
+    
+    tasks = [
+        evaluate_with_semaphore(item, i, len(items), semaphore, verbose)
+        for i, item in enumerate(items)
+    ]
+    
+    results = await asyncio.gather(*tasks, return_exceptions=True)
+    
+    # Filter out exceptions
+    valid_results = []
+    for r in results:
+        if isinstance(r, Exception):
+            print(f"  ✗ Task failed with exception: {r}")
+        else:
+            valid_results.append(r)
+    
+    return valid_results
+
+
 def main():
-    parser = argparse.ArgumentParser(description="Evaluate generated questions")
+    parser = argparse.ArgumentParser(description="Evaluate generated questions (parallel)")
     parser.add_argument(
         "--input", "-i",
         type=Path,
@@ -98,6 +176,12 @@ def main():
         type=Path,
         default=ROOT / "outputs",
         help="Output directory for results",
+    )
+    parser.add_argument(
+        "--concurrency", "-c",
+        type=int,
+        default=10,
+        help="Number of parallel evaluations (default: 10)",
     )
     parser.add_argument(
         "--verbose", "-v",
@@ -119,45 +203,59 @@ def main():
         sys.exit(1)
     
     print(f"Found {len(items)} items to evaluate")
+    print(f"Concurrency: {args.concurrency} parallel evaluations")
     if args.verbose:
         print("Verbose mode: ON (passing --verbose to inceptbench)")
     print()
     
-    # Evaluate
+    # Run parallel evaluation
+    results = asyncio.run(run_evaluation(items, args.concurrency, args.verbose))
+    
+    # Process results and build CSV rows
     csv_rows = []
     scores = []
     
-    for i, item in enumerate(items):
+    for index, item, ev in sorted(results, key=lambda x: x[0]):
         item_id = item.get("id", "")
-        print(f"  [{i+1}/{len(items)}] {item_id}...", end=" ")
         
-        ev = evaluate_item(item, args.verbose)
+        # Extract metadata from request
+        request = item.get("request", {})
+        substandard_id = (request.get("skills") or {}).get("substandard_id", "")
+        difficulty = request.get("difficulty", "")
+        question = (item.get("content") or {}).get("question", "") or ""
+        question_short = (question[:120] + "…") if len(question) > 120 else question
         
         if ev is None:
-            print("✗ Failed")
             csv_rows.append({
                 "id": item_id,
-                "score": "",
-                "score_100": "",
-                "error": "inceptbench_failed",
+                "substandard_id": substandard_id,
+                "difficulty": difficulty,
+                "question": question_short,
+                "gen_error": "",
+                "overall_score": "",
+                "overall_score_100": "",
+                "rating": "",
+                "eval_error": "inceptbench_failed",
             })
         else:
             overall = ev.get("overall", {})
             score = overall.get("score")
-            score_100 = round(score * 100, 2) if score is not None else None
+            score_100 = overall.get("score_100") or (round(score * 100, 2) if score is not None else None)
+            rating = overall.get("rating") or ""
             
             if score_100 is not None:
-                scores.append(score_100)
-                status = "✓" if score_100 >= 85 else "⚠ LOW"
-                print(f"{status} {score_100}%")
-            else:
-                print("⚠ No score")
+                scores.append(float(score_100))
             
             csv_rows.append({
                 "id": item_id,
-                "score": score or "",
-                "score_100": score_100 or "",
-                "error": "",
+                "substandard_id": substandard_id,
+                "difficulty": difficulty,
+                "question": question_short,
+                "gen_error": "",
+                "overall_score": score if score is not None else "",
+                "overall_score_100": score_100 if score_100 is not None else "",
+                "rating": rating,
+                "eval_error": "",
             })
     
     # Save results
@@ -165,7 +263,12 @@ def main():
     
     csv_path = args.output_dir / "eval_results.csv"
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=["id", "score", "score_100", "error"])
+        writer = csv.DictWriter(
+            f, 
+            fieldnames=["id", "substandard_id", "difficulty", "question", "gen_error", 
+                       "overall_score", "overall_score_100", "rating", "eval_error"],
+            extrasaction="ignore"
+        )
         writer.writeheader()
         writer.writerows(csv_rows)
     
@@ -175,13 +278,14 @@ def main():
     aggregate = round(sum(scores) / n_evaluated, 2) if n_evaluated else None
     pass_count = sum(1 for s in scores if s > 85)
     pass_rate = round(100.0 * pass_count / n_evaluated, 1) if n_evaluated else None
+    n_failed_eval = sum(1 for r in csv_rows if r.get("eval_error") == "inceptbench_failed")
     
     summary = {
         "n_total": n_total,
         "n_evaluated": n_evaluated,
         "aggregate_score": aggregate,
         "pass_rate_percent": pass_rate,
-        "n_failed": n_total - n_evaluated,
+        "n_failed_evaluation": n_failed_eval,
         "timestamp": datetime.now().isoformat(),
     }
     
@@ -191,8 +295,9 @@ def main():
     print(f"\n{'='*60}")
     print("Evaluation Complete")
     print(f"{'='*60}")
-    print(f"Total: {n_total}")
-    print(f"Evaluated: {n_evaluated}")
+    print(f"Total items: {n_total}")
+    print(f"Successfully evaluated: {n_evaluated}")
+    print(f"Evaluation failures: {n_failed_eval}")
     print(f"Aggregate score: {aggregate}%")
     print(f"Pass rate (>85%): {pass_rate}%")
     print(f"\nFiles saved:")

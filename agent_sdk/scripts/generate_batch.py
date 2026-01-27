@@ -1,26 +1,35 @@
 #!/usr/bin/env python3
 """
-Batch generate ELA questions using Agent SDK skills approach.
+Batch generate ELA questions using AGENTIC approach.
+
+Claude autonomously decides when to:
+1. Look up curriculum data
+2. Populate missing curriculum data
+3. Generate questions
 
 Usage:
-  python scripts/generate_batch.py [--input PATH] [--output PATH] [--limit N] [--type TYPE]
+  python scripts/generate_batch.py [--input PATH] [--output PATH] [--limit N] [--type TYPE] [--verbose]
 
 Example:
-  python scripts/generate_batch.py --limit 50 --type mcq
+  python scripts/generate_batch.py --limit 5 --verbose
 """
 
 from __future__ import annotations
 
 import argparse
+import asyncio
 import json
 import os
-import re
 import sys
 from datetime import datetime
 from pathlib import Path
 
 # Project root
 ROOT = Path(__file__).resolve().parents[1]
+
+# Add src to path
+if str(ROOT / "src") not in sys.path:
+    sys.path.insert(0, str(ROOT / "src"))
 
 # Load environment variables
 try:
@@ -36,151 +45,6 @@ if not ANTHROPIC_API_KEY:
     sys.exit(1)
 
 
-def load_skill() -> str:
-    """Load the ela-question-generation skill as system prompt."""
-    skill_path = ROOT / ".claude" / "skills" / "ela-question-generation" / "SKILL.md"
-    if not skill_path.exists():
-        print(f"Error: Skill file not found: {skill_path}", file=sys.stderr)
-        sys.exit(1)
-    
-    content = skill_path.read_text(encoding="utf-8")
-    # Remove YAML frontmatter
-    if content.startswith("---"):
-        parts = content.split("---", 2)
-        if len(parts) >= 3:
-            content = parts[2].strip()
-    return content
-
-
-def lookup_curriculum(standard_id: str) -> dict:
-    """Look up curriculum data for a standard."""
-    import subprocess
-    
-    script_path = ROOT / ".claude" / "skills" / "ela-question-generation" / "scripts" / "lookup_curriculum.py"
-    if not script_path.exists():
-        return {"found": False, "error": "Script not found"}
-    
-    try:
-        result = subprocess.run(
-            [sys.executable, str(script_path), standard_id],
-            capture_output=True,
-            text=True,
-            timeout=30,
-            cwd=str(ROOT),
-        )
-        if result.returncode == 0:
-            return json.loads(result.stdout)
-        return {"found": False, "error": result.stderr}
-    except Exception as e:
-        return {"found": False, "error": str(e)}
-
-
-def extract_json(text: str) -> dict | None:
-    """Extract JSON from response text."""
-    # Try to find JSON object
-    patterns = [
-        r'```json\s*([\s\S]*?)\s*```',
-        r'```\s*([\s\S]*?)\s*```',
-        r'(\{[\s\S]*"id"[\s\S]*"content"[\s\S]*\})',
-    ]
-    
-    for pattern in patterns:
-        match = re.search(pattern, text)
-        if match:
-            try:
-                return json.loads(match.group(1))
-            except json.JSONDecodeError:
-                continue
-    
-    # Try parsing entire text as JSON
-    try:
-        return json.loads(text.strip())
-    except json.JSONDecodeError:
-        return None
-
-
-def generate_one(request: dict, skill_prompt: str) -> dict:
-    """Generate one question using Claude API with skill prompt."""
-    import anthropic
-    
-    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-    
-    # Get curriculum context
-    substandard_id = request.get("skills", {}).get("substandard_id", "")
-    curriculum = lookup_curriculum(substandard_id)
-    
-    # Build user message
-    user_message = f"""Generate a question for this request:
-
-```json
-{json.dumps(request, indent=2)}
-```
-
-"""
-    
-    if curriculum.get("found"):
-        user_message += f"""
-Curriculum Context for {substandard_id}:
-
-Assessment Boundaries:
-{curriculum.get('assessment_boundaries', 'Not specified')}
-
-Common Misconceptions:
-{json.dumps(curriculum.get('common_misconceptions', []), indent=2)}
-
-Use these misconceptions to design effective distractors.
-"""
-    
-    user_message += """
-Return ONLY the JSON object with id, content (answer, question, image_url, answer_options, answer_explanation).
-"""
-    
-    try:
-        response = client.messages.create(
-            model=os.getenv("ANTHROPIC_MODEL", "claude-3-5-sonnet-20241022"),
-            max_tokens=2000,
-            system=skill_prompt,
-            messages=[{"role": "user", "content": user_message}],
-        )
-        
-        # Extract text from response
-        text = ""
-        for block in response.content:
-            if hasattr(block, "text"):
-                text += block.text
-        
-        # Parse JSON
-        parsed = extract_json(text)
-        if parsed:
-            return {
-                "success": True,
-                "id": parsed.get("id", ""),
-                "content": parsed.get("content", {}),
-                "request": request,
-            }
-        else:
-            return {
-                "success": False,
-                "error": "Failed to parse JSON from response",
-                "raw_response": text[:500],
-                "request": request,
-            }
-            
-    except Exception as e:
-        error_msg = str(e)
-        # Try to extract more details from API errors
-        if hasattr(e, 'response'):
-            try:
-                error_msg = f"{error_msg} - {e.response.text}"
-            except:
-                pass
-        return {
-            "success": False,
-            "error": error_msg,
-            "request": request,
-        }
-
-
 def load_benchmark(path: Path) -> list[dict]:
     """Load benchmark JSONL file."""
     requests = []
@@ -192,8 +56,82 @@ def load_benchmark(path: Path) -> list[dict]:
     return requests
 
 
+async def generate_one_agentic_wrapper(request: dict, verbose: bool = False) -> dict:
+    """
+    Wrapper to call agentic pipeline.
+    
+    Claude autonomously decides when to call tools:
+    - lookup_curriculum: to get assessment boundaries and misconceptions
+    - populate_curriculum: to generate missing curriculum data
+    """
+    from agentic_pipeline import generate_one_agentic
+    
+    # Paths for curriculum and scripts
+    curriculum_path = ROOT / ".claude" / "skills" / "ela-question-generation" / "references" / "curriculum.md"
+    if not curriculum_path.exists():
+        curriculum_path = ROOT / "data" / "curriculum.md"
+    
+    scripts_dir = ROOT / ".claude" / "skills" / "ela-question-generation" / "scripts"
+    
+    result = await generate_one_agentic(
+        request,
+        curriculum_path=curriculum_path,
+        scripts_dir=scripts_dir,
+        verbose=verbose,
+    )
+    
+    # Extract the generated item from the result
+    if result.get("success"):
+        generated_content = result.get("generatedContent", {}).get("generated_content", [])
+        if generated_content:
+            item = generated_content[0]
+            return {
+                "success": True,
+                "id": item.get("id", ""),
+                "content": item.get("content", {}),
+                "request": request,
+                "tools_used": result.get("tools_used", []),
+            }
+    
+    return {
+        "success": False,
+        "error": result.get("error", "Unknown error"),
+        "request": request,
+        "tools_used": result.get("tools_used", []),
+    }
+
+
+async def run_batch_generation(
+    requests: list[dict],
+    verbose: bool = False,
+) -> list[dict]:
+    """Run batch generation sequentially (to avoid rate limits)."""
+    results = []
+    
+    for i, request in enumerate(requests):
+        item_id = f"{request.get('skills', {}).get('substandard_id', 'unknown')}_{request.get('type', 'mcq')}_{request.get('difficulty', 'easy')}"
+        print(f"\n  [{i+1}/{len(requests)}] {item_id}")
+        
+        result = await generate_one_agentic_wrapper(request, verbose)
+        results.append(result)
+        
+        # Show tool calls (Claude's decisions)
+        tools_used = result.get("tools_used", [])
+        if tools_used:
+            tool_names = [t.get("name", "unknown") for t in tools_used]
+            print(f"      [CLAUDE TOOLS] {' → '.join(tool_names)}")
+        
+        if result.get("success"):
+            print(f"      → ✓ Generated successfully")
+        else:
+            error = result.get('error', 'Unknown error')
+            print(f"      → ✗ {error[:100]}")
+    
+    return results
+
+
 def main():
-    parser = argparse.ArgumentParser(description="Batch generate ELA questions")
+    parser = argparse.ArgumentParser(description="Batch generate ELA questions (AGENTIC)")
     parser.add_argument(
         "--input", "-i",
         type=Path,
@@ -218,15 +156,25 @@ def main():
         default="all",
         help="Filter by question type",
     )
+    parser.add_argument(
+        "--verbose", "-v",
+        action="store_true",
+        help="Show detailed Claude tool calls and reasoning",
+    )
     args = parser.parse_args()
     
-    # Load skill
-    print("Loading skill...")
-    skill_prompt = load_skill()
+    print("=" * 60)
+    print("AGENTIC ELA Question Generation")
+    print("=" * 60)
+    print("\nClaude autonomously decides when to:")
+    print("  1. lookup_curriculum - get assessment boundaries & misconceptions")
+    print("  2. populate_curriculum - generate missing curriculum data")
+    print("  3. Generate the question using curriculum context")
+    print()
     
     # Show model being used
-    model = os.getenv("ANTHROPIC_MODEL", "claude-3-5-sonnet-20241022")
-    print(f"Using model: {model}")
+    model = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-5-20250929")
+    print(f"Model: {model}")
     
     # Load benchmark
     print(f"Loading benchmark from: {args.input}")
@@ -247,27 +195,25 @@ def main():
         requests = requests[:args.limit]
         print(f"Limited to {len(requests)} requests")
     
-    # Generate
-    print(f"\nGenerating {len(requests)} questions...\n")
-    results = []
-    success_count = 0
+    if args.verbose:
+        print("\nVerbose mode: ON (showing Claude's tool decisions)")
     
-    for i, request in enumerate(requests):
-        item_id = f"{request.get('skills', {}).get('substandard_id', 'unknown')}_{request.get('type', 'mcq')}_{request.get('difficulty', 'easy')}"
-        print(f"  [{i+1}/{len(requests)}] {item_id}...", end=" ")
-        
-        result = generate_one(request, skill_prompt)
-        results.append(result)
-        
-        if result.get("success"):
-            print("✓")
-            success_count += 1
-        else:
-            error = result.get('error', 'Unknown error')
-            print(f"✗ {error[:100]}")
-            # Print full error for first failure
-            if success_count == 0 and len(results) == 1:
-                print(f"\n    Full error: {error}\n")
+    # Generate using agentic approach
+    print(f"\nGenerating {len(requests)} questions (Claude orchestrates)...")
+    
+    results = asyncio.run(run_batch_generation(requests, args.verbose))
+    
+    # Count successes
+    success_count = sum(1 for r in results if r.get("success"))
+    
+    # Collect tool usage stats
+    all_tools = []
+    for r in results:
+        all_tools.extend([t.get("name") for t in r.get("tools_used", [])])
+    
+    tool_counts = {}
+    for tool in all_tools:
+        tool_counts[tool] = tool_counts.get(tool, 0) + 1
     
     # Save results
     args.output.parent.mkdir(parents=True, exist_ok=True)
@@ -280,6 +226,8 @@ def main():
             "success": success_count,
             "failed": len(requests) - success_count,
             "type_filter": args.type,
+            "generation_mode": "agentic",
+            "tool_calls": tool_counts,
             "timestamp": datetime.now().isoformat(),
         },
     }
@@ -292,6 +240,9 @@ def main():
     print(f"Total: {len(requests)}")
     print(f"Success: {success_count}")
     print(f"Failed: {len(requests) - success_count}")
+    print(f"\nClaude's tool usage:")
+    for tool, count in tool_counts.items():
+        print(f"  - {tool}: {count} calls")
     print(f"\nOutput saved to: {args.output}")
 
 
