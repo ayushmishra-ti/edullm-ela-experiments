@@ -1,19 +1,21 @@
 #!/bin/bash
-# Deploy ELA SDK v2 to Google Cloud Run (NEW separate service)
+# Deploy ELA SDK v2 to Google Cloud Run
 
 set -e
 
 PROJECT_ID="eternal-aspect-485115-e3"
 REGION="us-central1"
-SERVICE_NAME="ela-sdk-v2"
-IMAGE_NAME="us-central1-docker.pkg.dev/${PROJECT_ID}/ccapi-repo/ela-sdk-v2:latest"
+SERVICE_NAME="inceptagentic-skill-mcq"
+IMAGE_NAME="us-central1-docker.pkg.dev/${PROJECT_ID}/ccapi-repo/inceptagentic-skill-mcq:latest"
 
 echo "=============================================="
-echo "Deploying ELA SDK v2 (NEW service)"
+echo "Deploying ELA SDK v2 (Claude Agent SDK with Skills)"
 echo "=============================================="
 echo ""
 echo "Endpoints:"
-echo "  POST /generate              - Generate ELA questions"
+echo "  POST /generate       - Generate ELA questions (v1 compatible)"
+echo "  POST /generate_v2    - Generate ELA questions (SDK Skills)"
+echo "  GET  /               - Health check"
 echo ""
 
 echo "Building Docker image..."
@@ -42,3 +44,4 @@ echo ""
 echo "Test endpoints:"
 echo "  curl ${SERVICE_URL}/"
 echo "  curl -X POST ${SERVICE_URL}/generate -H 'Content-Type: application/json' -d '{...}'"
+echo "  curl -X POST ${SERVICE_URL}/generate_v2 -H 'Content-Type: application/json' -d '{...}'"
