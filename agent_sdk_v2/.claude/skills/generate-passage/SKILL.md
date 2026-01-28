@@ -1,16 +1,22 @@
 ---
 name: generate-passage
-description: Generate grade-appropriate reading passages for Reading Literature (RL.*) and Reading Informational (RI.*) standards. Use when a passage is needed for comprehension questions or reading assessments.
+description: Generate reading passages for RL.* and RI.* standards. CRITICAL - This skill MUST be invoked FIRST by ela-question-generation when the standard contains RL. or RI. in the ID. Returns plain passage text only (no JSON).
 ---
 
 # Generate Passage
 
 Generate grade-appropriate reading passages for Reading Literature (RL.*) and Reading Informational (RI.*) standards.
 
+## IMPORTANT: This is a Helper Skill
+
+This skill is called by other skills (like `ela-question-generation`) when they need a passage.
+- **Input**: Standard ID and grade level
+- **Output**: Plain passage text ONLY (no JSON, no metadata)
+
 ## When to Use
 
-- Standard contains `RL.` (Reading Literature) → Generate **narrative** passage
-- Standard contains `RI.` (Reading Informational) → Generate **informational** passage
+- Standard ID contains `RL.` (Reading Literature) → Generate **narrative** passage
+- Standard ID contains `RI.` (Reading Informational) → Generate **informational** passage
 - **Do NOT use** for Language (L.*), Writing (W.*), or other standards
 
 ## Passage Styles

@@ -1,6 +1,6 @@
 ---
 name: ela-question-generation
-description: Generate K-12 ELA assessment questions (MCQ, MSQ, Fill-in) aligned to Common Core standards. Use when asked to create ELA questions, assessment items, or Common Core aligned questions.
+description: Generate K-12 ELA assessment questions (MCQ, MSQ, Fill-in) aligned to Common Core standards. Use when asked to create ELA questions, assessment items, or Common Core aligned questions. For RL.*/RI.* standards, this skill MUST first invoke the generate-passage skill.
 ---
 
 # ELA Question Generation
@@ -19,30 +19,25 @@ Generate K-12 ELA assessment questions (MCQ, MSQ, Fill-in) aligned to Common Cor
 
 **Route by standard family:**
 
-| Standard | Requires Passage? | Passage Style |
-|----------|-------------------|---------------|
-| `RL.*` (Reading Literature) | YES | narrative |
-| `RI.*` (Reading Informational) | YES | informational |
-| `L.*` (Language) | NO | - |
-| `W.*` (Writing) | NO | - |
-| `RF.*` (Reading Foundational) | NO | - |
-| `SL.*` (Speaking & Listening) | NO | - |
+| Standard | Requires Passage? | Action |
+|----------|-------------------|--------|
+| `RL.*` (Reading Literature) | YES | **INVOKE `generate-passage` skill FIRST** |
+| `RI.*` (Reading Informational) | YES | **INVOKE `generate-passage` skill FIRST** |
+| `L.*` (Language) | NO | Proceed to Step 2 |
+| `W.*` (Writing) | NO | Proceed to Step 2 |
+| `RF.*` (Reading Foundational) | NO | Proceed to Step 2 |
+| `SL.*` (Speaking & Listening) | NO | Proceed to Step 2 |
 
-**If passage is required (RL.*/RI.*)**, generate the passage INLINE (do NOT call a separate skill):
+### CRITICAL: For RL.* and RI.* Standards
 
-1. Create a grade-appropriate passage (150-400 words depending on grade)
-2. For `RL.*`: narrative style (story, fable, folktale)
-3. For `RI.*`: informational style (article, explanatory text)
-4. Include the passage in the `passage` field of the JSON output
-5. Then create a comprehension question anchored to the passage
+**YOU MUST invoke the `generate-passage` skill BEFORE generating the question.**
 
-**Passage Guidelines by Grade:**
-| Grade | Word Count | Style |
-|-------|------------|-------|
-| 2-3 | 100-200 | Simple sentences, familiar topics |
-| 4-5 | 150-250 | Compound sentences, varied vocabulary |
-| 6-8 | 200-350 | Complex sentences, academic vocabulary |
-| 9-12 | 300-450 | Sophisticated structure, literary devices |
+1. First, use the `generate-passage` skill with the standard ID and grade
+2. The `generate-passage` skill will return plain passage text
+3. Store that passage text
+4. Then proceed to Step 2, including the passage in the `passage` field of your JSON output
+
+**DO NOT generate the passage yourself. ALWAYS use the `generate-passage` skill for RL.*/RI.* standards.**
 
 ### Step 2: Generate the Question
 
@@ -233,5 +228,8 @@ Before returning a question, verify:
 
 - `image_url` is ALWAYS `[]`
 - Return ONLY the JSON object, no markdown, no explanations
-- For RL.*/RI.* standards: include `passage` field in the content, question must reference the passage
-- Generate passage INLINE (do NOT call separate skill) - include everything in one JSON response
+- For RL.*/RI.* standards: 
+  1. FIRST invoke the `generate-passage` skill to get the passage
+  2. Include the passage in the `passage` field of your JSON output
+  3. Create a question that references the passage
+- **ALWAYS use the `generate-passage` skill for RL.*/RI.* - do NOT generate passages yourself**
