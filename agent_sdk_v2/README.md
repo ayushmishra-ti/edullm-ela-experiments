@@ -184,6 +184,50 @@ allowed_tools=["Skill", "Read"]
 
 **Note:** `Bash` is optional. Only add it if your SKILL.md files need to execute scripts.
 
+## Curriculum Pre-fetching (Optimization)
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                      CURRICULUM DATA OPTIMIZATION                            │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  THE PROBLEM:                                                               │
+│    curriculum.md = 8,190 lines (223 standards × ~35 lines each)            │
+│    Having Claude read the entire file = ~70,000 tokens = expensive         │
+│                                                                             │
+│  THE SOLUTION:                                                              │
+│    Python pre-fetches ONLY the relevant standard's data (~30-40 lines)     │
+│    This data is included directly in the prompt sent to SDK                │
+│                                                                             │
+│  HOW IT WORKS:                                                              │
+│    1. Request comes in: "Generate MCQ for L.3.1.A"                         │
+│    2. Python calls lookup_curriculum("CCSS.ELA-LITERACY.L.3.1.A")          │
+│    3. Function extracts ~30 lines for that standard                         │
+│    4. Curriculum data included in prompt to SDK                             │
+│    5. Claude has context without reading huge file                          │
+│                                                                             │
+│  RESULT:                                                                    │
+│    Before: 8,190 lines (~70K tokens)                                       │
+│    After:  ~30 lines (~500 tokens)                                         │
+│    Savings: 99% reduction in context for curriculum data                    │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+```python
+# In agentic_pipeline_sdk.py
+def lookup_curriculum(standard_id: str) -> str | None:
+    """Extract only the relevant ~30 lines for this standard."""
+    path = _curriculum_md_path()
+    content = path.read_text(encoding="utf-8")
+    blocks = content.split("\n---\n")
+    
+    for block in blocks:
+        if f"Standard ID: {standard_id}" in block:
+            return block.strip()  # ~30-40 lines
+    return None
+```
+
 ## Quick Start
 
 ```bash
@@ -193,6 +237,9 @@ pip install -r requirements.txt
 # Configure
 cp .env.example .env
 # Add your ANTHROPIC_API_KEY
+
+# (Optional but recommended) Populate curriculum.md locally before deploying
+python src/main.py --populate-curriculum '{"standard_id":"CCSS.ELA-LITERACY.L.3.1.A","standard_description":"...","grade":"3"}'
 
 # Test
 python src/main.py --test-generate '{"substandard_id": "CCSS.ELA-LITERACY.L.3.1.A"}'
@@ -238,7 +285,6 @@ async for message in query(prompt="Generate an ELA MCQ...", options=options):
 | Endpoint | Method | Description |
 |----------|--------|-------------|
 | `/generate` | POST | Generate ELA question |
-| `/populate-curriculum` | POST | Generate curriculum data |
 | `/skills` | GET | List available skills |
 | `/` | GET | Health check |
 
@@ -247,6 +293,9 @@ async for message in query(prompt="Generate an ELA MCQ...", options=options):
 ```bash
 # Test question generation
 python src/main.py --test-generate '{"substandard_id": "CCSS.ELA-LITERACY.L.3.1.A"}'
+
+# Populate curriculum.md locally (pre-deploy step)
+python src/main.py --populate-curriculum '{"standard_id":"CCSS.ELA-LITERACY.L.3.1.A","standard_description":"...","grade":"3"}'
 
 # Test with RL standard (will generate passage first)
 python src/main.py --test-generate '{"substandard_id": "CCSS.ELA-LITERACY.RL.3.1"}'

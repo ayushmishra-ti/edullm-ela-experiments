@@ -90,6 +90,216 @@ def _extract_text_from_content(content) -> str:
     
     return text.strip()
 
+def _curriculum_md_path() -> Path:
+    """
+    Canonical curriculum file used by the question-generation skill.
+    We update this locally before deployment.
+    """
+    return ROOT / ".claude" / "skills" / "ela-question-generation" / "reference" / "curriculum.md"
+
+
+def lookup_curriculum(standard_id: str) -> str | None:
+    """
+    Extract curriculum data for a specific standard from curriculum.md.
+    
+    Instead of having Claude read the entire 8,190-line file,
+    we pre-fetch only the relevant section (~30-40 lines).
+    
+    Args:
+        standard_id: e.g., "CCSS.ELA-LITERACY.L.3.1.A"
+    
+    Returns:
+        The curriculum block for that standard, or None if not found.
+    """
+    path = _curriculum_md_path()
+    if not path.exists():
+        logger.warning(f"curriculum.md not found at {path}")
+        return None
+    
+    content = path.read_text(encoding="utf-8")
+    
+    # Split by block delimiter
+    blocks = content.split("\n---\n")
+    
+    for block in blocks:
+        # Check if this block contains the standard_id
+        if f"Standard ID: {standard_id}" in block:
+            return block.strip()
+    
+    logger.warning(f"Standard ID {standard_id} not found in curriculum.md")
+    return None
+
+
+def _format_bullets(items: object) -> str:
+    if not items:
+        return "*None specified*"
+    if isinstance(items, list):
+        cleaned = [str(x).strip() for x in items if str(x).strip()]
+        return "\n".join([f"* {x}" for x in cleaned]) if cleaned else "*None specified*"
+    # If skill ever returns a string, keep it
+    s = str(items).strip()
+    return s if s else "*None specified*"
+
+
+def _update_curriculum_md_section(text: str, standard_id: str, data: dict) -> tuple[str, bool]:
+    """
+    Update the Learning Objectives / Assessment Boundaries / Common Misconceptions
+    inside the existing curriculum.md section for a given Standard ID.
+
+    Returns: (new_text, updated?)
+    """
+    if f"Standard ID: {standard_id}" not in text:
+        return text, False
+
+    # Find the block containing this standard (from Standard ID to next --- delimiter)
+    block_re = re.compile(
+        rf"(Standard ID:\s*{re.escape(standard_id)}[\s\S]*?)(?=\n---\n|\Z)",
+        re.MULTILINE,
+    )
+    m = block_re.search(text)
+    if not m:
+        return text, False
+
+    block = m.group(1)
+
+    objectives = _format_bullets(data.get("learning_objectives"))
+    boundaries = _format_bullets(data.get("assessment_boundaries"))
+    misconceptions = _format_bullets(data.get("common_misconceptions"))
+
+    def replace_section(block_text: str, header: str, next_header: str, new_body: str) -> str:
+        # Replace anything between "Header:\n" and "\n\nNext Header:"
+        pattern = re.compile(
+            rf"({re.escape(header)}:\s*\n)([\s\S]*?)(\n\n{re.escape(next_header)}:)",
+            re.MULTILINE,
+        )
+        if pattern.search(block_text):
+            return pattern.sub(rf"\1{new_body}\3", block_text)
+        return block_text
+
+    block2 = block
+    block2 = replace_section(block2, "Learning Objectives", "Assessment Boundaries", objectives)
+    block2 = replace_section(block2, "Assessment Boundaries", "Common Misconceptions", boundaries)
+
+    # Misconceptions section goes until Difficulty Definitions OR end of block
+    mis_re = re.compile(
+        r"(Common Misconceptions:\s*\n)([\s\S]*?)(\n\nDifficulty Definitions:)",
+        re.MULTILINE,
+    )
+    if mis_re.search(block2):
+        block2 = mis_re.sub(rf"\1{misconceptions}\3", block2)
+
+    new_text = text[: m.start(1)] + block2 + text[m.end(1) :]
+    return new_text, True
+
+
+async def run_skill_return_json(
+    *,
+    skill_name: str,
+    input_obj: dict,
+    verbose: bool = False,
+) -> dict:
+    """
+    Invoke a skill and parse the returned JSON object.
+
+    This is for skills that return a JSON object NOT in the {id, content} question format
+    (e.g., populate-curriculum).
+    """
+    try:
+        from claude_agent_sdk import query, ClaudeAgentOptions
+    except ImportError:
+        return {"success": False, "error": "claude_agent_sdk not installed"}
+
+    prompt = (
+        f"Use the {skill_name} skill.\n\n"
+        f"Input JSON:\n{json.dumps(input_obj, indent=2)}\n\n"
+        "Return ONLY the JSON object."
+    )
+
+    options = ClaudeAgentOptions(
+        cwd=str(ROOT),
+        setting_sources=["user", "project"],
+        allowed_tools=["Skill", "Read"],
+    )
+
+    result_content = None
+    async for message in query(prompt=prompt, options=options):
+        if hasattr(message, "result"):
+            result_content = message.result
+        elif hasattr(message, "content"):
+            result_content = message.content
+        elif isinstance(message, str):
+            result_content = message
+
+    text = _extract_text_from_content(result_content) if result_content else ""
+    json_str = extract_json(text) if text else ""
+    if not json_str:
+        return {"success": False, "error": "No JSON found in skill response", "raw_response": text[:500]}
+
+    try:
+        parsed = json.loads(json_str)
+        if not isinstance(parsed, dict):
+            return {"success": False, "error": "Skill returned non-object JSON", "raw_response": json_str[:500]}
+        return {"success": True, "data": parsed}
+    except Exception as e:
+        return {"success": False, "error": str(e), "raw_response": json_str[:500]}
+
+
+async def populate_curriculum_entry(
+    *,
+    standard_id: str,
+    standard_description: str,
+    grade: str = "3",
+    verbose: bool = False,
+) -> dict:
+    """
+    LOCAL-ONLY: Generate curriculum data using populate-curriculum skill and
+    update curriculum.md in-place.
+    """
+    skill_result = await run_skill_return_json(
+        skill_name="populate-curriculum",
+        input_obj={
+            "standard_id": standard_id,
+            "standard_description": standard_description,
+            "grade": grade,
+        },
+        verbose=verbose,
+    )
+    if not skill_result.get("success"):
+        return {
+            "success": False,
+            "standard_id": standard_id,
+            "error": skill_result.get("error", "Unknown error"),
+            "raw_response": skill_result.get("raw_response"),
+        }
+
+    data = skill_result["data"]
+    path = _curriculum_md_path()
+    if not path.exists():
+        return {
+            "success": False,
+            "standard_id": standard_id,
+            "error": f"curriculum.md not found at {path}",
+        }
+
+    original = path.read_text(encoding="utf-8")
+    updated_text, updated = _update_curriculum_md_section(original, standard_id, data)
+    if not updated:
+        return {
+            "success": False,
+            "standard_id": standard_id,
+            "error": "Standard ID not found in curriculum.md (cannot update in-place).",
+            "curriculum_path": str(path),
+        }
+
+    path.write_text(updated_text, encoding="utf-8")
+    return {
+        "success": True,
+        "standard_id": standard_id,
+        "curriculum_path": str(path),
+        "updated": True,
+        "curriculum_data": data,
+    }
+
 
 async def generate_one_agentic(
     request: dict,
@@ -101,11 +311,16 @@ async def generate_one_agentic(
     
     How the prompt flows:
     1. This function receives a request dict from main.py
-    2. We build a prompt string from the request data
-    3. We call query(prompt=..., options=...) - THIS IS WHERE PROMPT IS SENT
-    4. SDK discovers skills from .claude/skills/
-    5. Claude reads skill descriptions and decides which to invoke
-    6. Claude generates the question following SKILL.md instructions
+    2. Pre-fetch curriculum data for the standard (~30 lines instead of 8,190)
+    3. Build prompt with the pre-fetched curriculum context
+    4. Call query(prompt=..., options=...) - THIS IS WHERE PROMPT IS SENT
+    5. SDK discovers skills from .claude/skills/
+    6. Claude reads skill descriptions and decides which to invoke
+    7. Claude generates the question following SKILL.md instructions
+    
+    OPTIMIZATION: We pre-fetch curriculum data in Python before sending to SDK.
+    This avoids Claude having to read the entire 8,190-line curriculum.md file,
+    reducing context length from ~70K tokens to ~500 tokens.
     
     Args:
         request: Question generation request with:
@@ -140,7 +355,21 @@ async def generate_one_agentic(
     difficulty = request.get("difficulty", "medium")
     
     # =========================================================================
-    # STEP 2: Build the prompt
+    # STEP 2: Pre-fetch curriculum data (OPTIMIZATION)
+    # Instead of having Claude read the entire 8,190-line curriculum.md,
+    # we extract only the relevant ~30-40 lines for this standard.
+    # This significantly reduces context length and cost.
+    # =========================================================================
+    curriculum_context = lookup_curriculum(substandard_id)
+    
+    if verbose:
+        if curriculum_context:
+            logger.info(f"[SDK] Pre-fetched curriculum data ({len(curriculum_context)} chars)")
+        else:
+            logger.info(f"[SDK] No curriculum data found for {substandard_id}")
+    
+    # =========================================================================
+    # STEP 3: Build the prompt with pre-fetched curriculum
     # This is what gets sent to the SDK via query(prompt=...)
     # Claude will see this prompt and decide which skill to use
     # =========================================================================
@@ -151,11 +380,23 @@ async def generate_one_agentic(
 - Grade Level: {grade}
 - Question Type: {qtype}
 - Difficulty: {difficulty}
+"""
+    
+    # Include pre-fetched curriculum data if available
+    if curriculum_context:
+        prompt += f"""
+## Curriculum Context (Pre-fetched)
+The following curriculum data is provided for your reference. Use this information
+to create pedagogically aligned questions. DO NOT read curriculum.md - use this data:
 
+{curriculum_context}
+"""
+    
+    prompt += """
 Return the question as a JSON object with "id" and "content" fields."""
 
     # =========================================================================
-    # STEP 3: Configure SDK options
+    # STEP 4: Configure SDK options
     # - cwd: Directory containing .claude/skills/
     # - setting_sources: REQUIRED to load skills from filesystem
     # - allowed_tools: Must include "Skill" to enable skill invocation
@@ -174,7 +415,7 @@ Return the question as a JSON object with "id" and "content" fields."""
         logger.info(f"[SDK] Prompt: {prompt[:100]}...")
     
     # =========================================================================
-    # STEP 4: Send prompt to SDK via query()
+    # STEP 5: Send prompt to SDK via query()
     # This is where the prompt actually gets sent!
     # The SDK will:
     # - Discover skills in .claude/skills/
@@ -268,7 +509,7 @@ Return the question as a JSON object with "id" and "content" fields."""
             }
         
         # =====================================================================
-        # STEP 5: Parse the response
+        # STEP 6: Parse the response
         # Claude should return JSON following SKILL.md format
         # =====================================================================
         try:
@@ -395,6 +636,9 @@ async def generate_with_explicit_skill(
     qtype = request.get("type", "mcq")
     difficulty = request.get("difficulty", "medium")
     
+    # Pre-fetch curriculum data (same optimization as generate_one_agentic)
+    curriculum_context = lookup_curriculum(substandard_id)
+    
     # EXPLICIT skill invocation - mention skill by name in prompt
     prompt = f"""Use the {skill_name} skill to generate an ELA {qtype.upper()} question:
 
@@ -403,7 +647,15 @@ async def generate_with_explicit_skill(
 - Grade Level: {grade}
 - Question Type: {qtype}
 - Difficulty: {difficulty}
-
+"""
+    
+    if curriculum_context:
+        prompt += f"""
+## Curriculum Context (Pre-fetched)
+{curriculum_context}
+"""
+    
+    prompt += """
 Return the question as a JSON object."""
 
     options = ClaudeAgentOptions(
