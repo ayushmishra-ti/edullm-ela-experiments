@@ -353,8 +353,8 @@ async for message in query(prompt="Generate an ELA MCQ...", options=options):
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
-| `/generate` | POST | Generate ELA question |
-| `/skills` | GET | List available skills |
+| `/generate` | POST | Generate ELA question (v1 compatible) |
+| `/generate_v2` | POST | Generate ELA question (SDK Skills) |
 | `/` | GET | Health check |
 
 ## CLI Commands
@@ -363,17 +363,11 @@ async for message in query(prompt="Generate an ELA MCQ...", options=options):
 # Test question generation
 python src/main.py --test-generate '{"substandard_id": "CCSS.ELA-LITERACY.L.3.1.A"}'
 
-# Populate curriculum.md locally (pre-deploy step)
-python src/main.py --populate-curriculum '{"standard_id":"CCSS.ELA-LITERACY.L.3.1.A","standard_description":"...","grade":"3"}'
-
 # Test with RL standard (will generate passage first)
 python src/main.py --test-generate '{"substandard_id": "CCSS.ELA-LITERACY.RL.3.1"}'
 
 # Start API server
 python src/main.py --serve
-
-# List available skills
-python src/main.py --list-skills
 ```
 
 ## Skills

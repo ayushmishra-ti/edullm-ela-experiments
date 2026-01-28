@@ -5,20 +5,21 @@ This API uses the Claude Agent SDK with Skills for question generation.
 Skills are defined in .claude/skills/ and discovered automatically by the SDK.
 
 Endpoints:
-- POST /generate              - Generate ELA questions (MCQ, MSQ, Fill-in)
+- POST /generate              - Generate ELA questions (v1 compatible)
+- POST /generate_v2           - Generate ELA questions (SDK Skills)
 - GET  /                      - Health check
 
 Architecture:
-- Skills are in .claude/skills/ (ela-question-generation, generate-passage, populate-curriculum)
+- Skills are in .claude/skills/ (ela-question-generation, generate-passage)
 - SDK discovers skills automatically via setting_sources=["user", "project"]
 - Claude autonomously invokes skills when relevant to the request
+- Curriculum data is pre-fetched by Python (not via skill)
 
 Reference: https://platform.claude.com/docs/en/agent-sdk/skills
 
 CLI Testing:
   python src/main.py --serve
   python src/main.py --test-generate '{"substandard_id": "CCSS.ELA-LITERACY.L.3.1.A"}'
-  python src/main.py --populate-curriculum '{"standard_id": "CCSS.ELA-LITERACY.L.3.1.A", "standard_description": "...", "grade": "3"}'
 """
 
 from __future__ import annotations
@@ -52,7 +53,7 @@ if str(ROOT / "src") not in sys.path:
     sys.path.insert(0, str(ROOT / "src"))
 
 # Import SDK-based pipelines (Skills approach only)
-from agentic_pipeline_sdk import generate_one_agentic, list_available_skills
+from agentic_pipeline_sdk import generate_one_agentic
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -111,21 +112,6 @@ class GenerateResponse(BaseModel):
     generated_content: list[GeneratedContent]
 
 
-class CurriculumRequest(BaseModel):
-    standard_id: str
-    standard_description: str
-    grade: str = "3"
-    force: bool = False
-
-
-class CurriculumResponse(BaseModel):
-    success: bool
-    standard_id: str
-    source: str | None = None
-    curriculum_data: dict | None = None
-    error: str | None = None
-
-
 # ============================================================================
 # Endpoints
 # ============================================================================
@@ -141,30 +127,14 @@ async def health_check() -> dict:
         "skills_location": str(ROOT / ".claude" / "skills"),
         "documentation": "https://platform.claude.com/docs/en/agent-sdk/skills",
         "endpoints": {
-            "/generate": "POST - Generate ELA questions",
-            "/skills": "GET - List available skills",
+            "/generate": "POST - Generate ELA questions (v1 compatible)",
+            "/generate_v2": "POST - Generate ELA questions (SDK Skills)",
         },
     }
 
 
-@app.get("/skills")
-async def get_skills() -> dict:
-    """List available skills discovered by the SDK."""
-    try:
-        skills = await list_available_skills()
-        return {
-            "success": True,
-            "skills_location": str(ROOT / ".claude" / "skills"),
-            "skills": skills,
-        }
-    except Exception as e:
-        return {
-            "success": False,
-            "error": str(e),
-        }
-
-
 @app.post("/generate", response_model=GenerateResponse)
+@app.post("/generate_v2", response_model=GenerateResponse)
 async def generate_question(request: GenerateRequest) -> GenerateResponse:
     """
     Generate an ELA question using Claude Agent SDK with Skills.
@@ -269,50 +239,6 @@ async def cli_test_generate(request_json: str) -> None:
             print(f"Raw response: {result.get('raw_response')}")
 
 
-async def cli_test_curriculum(request_json: str) -> None:
-    """Populate curriculum.md locally via Skill (no API endpoint)."""
-    try:
-        data = json.loads(request_json)
-    except json.JSONDecodeError as e:
-        print(f"Error: Invalid JSON: {e}")
-        return
-    
-    standard_id = data.get("standard_id", "")
-    standard_description = data.get("standard_description", "")
-    grade = data.get("grade", "3")
-    
-    print("=" * 60)
-    print("Populate Curriculum (LOCAL) - Claude Agent SDK (Skills)")
-    print("=" * 60)
-    print(f"Standard: {standard_id}")
-    print(f"Skills Location: {ROOT / '.claude' / 'skills'}")
-    print()
-    
-    from agentic_pipeline_sdk import populate_curriculum_entry
-    result = await populate_curriculum_entry(
-        standard_id=standard_id,
-        standard_description=standard_description,
-        grade=grade,
-        verbose=True,
-    )
-    print("\n" + "=" * 60)
-    print("Result")
-    print("=" * 60)
-    print(json.dumps(result, indent=2))
-
-
-async def cli_list_skills() -> None:
-    """List available skills."""
-    print("=" * 60)
-    print("Available Skills - Claude Agent SDK")
-    print("=" * 60)
-    print(f"Skills Location: {ROOT / '.claude' / 'skills'}")
-    print()
-    
-    skills = await list_available_skills()
-    print(json.dumps(skills, indent=2))
-
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="ELA Question Generation API - Claude Agent SDK (Skills)",
@@ -321,29 +247,22 @@ if __name__ == "__main__":
 Examples:
   python src/main.py --serve
   python src/main.py --test-generate '{"substandard_id": "CCSS.ELA-LITERACY.L.3.1.A"}'
-  python src/main.py --populate-curriculum '{"standard_id": "CCSS.ELA-LITERACY.L.3.1.A", "standard_description": "...", "grade": "3"}'
-  python src/main.py --list-skills
 
 Architecture:
-  - Skills are in .claude/skills/
+  - Skills are in .claude/skills/ (ela-question-generation, generate-passage)
   - SDK discovers skills automatically
   - Claude invokes skills based on prompt content
+  - Curriculum is pre-fetched by Python
   - Reference: https://platform.claude.com/docs/en/agent-sdk/skills
 """
     )
     parser.add_argument("--serve", "-s", action="store_true", help="Start the API server")
     parser.add_argument("--test-generate", type=str, help="Test question generation with JSON")
-    parser.add_argument("--populate-curriculum", type=str, help="Populate curriculum.md locally (JSON)")
-    parser.add_argument("--list-skills", action="store_true", help="List available skills")
     parser.add_argument("--port", "-p", type=int, default=int(os.environ.get("PORT", 8080)))
     args = parser.parse_args()
     
     if args.test_generate:
         asyncio.run(cli_test_generate(args.test_generate))
-    elif args.populate_curriculum:
-        asyncio.run(cli_test_curriculum(args.populate_curriculum))
-    elif args.list_skills:
-        asyncio.run(cli_list_skills())
     elif args.serve:
         import uvicorn
         print("\n" + "=" * 60)

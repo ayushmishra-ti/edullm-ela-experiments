@@ -16390,13 +16390,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will independently read and comprehend grade-level stories and poetry within the grades 2-3 text complexity band.
+* Students will demonstrate comprehension of literary texts through discussion, retelling, and answering questions about key details.
+* Students will use scaffolding strategies such as read-alouds, partner reading, and graphic organizers to access texts at the higher end of the complexity range.
+* Students will build reading stamina to engage with increasingly complex literary texts throughout the school year.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on overall comprehension of grade-appropriate literature rather than mastery of specific advanced literary analysis techniques.
+* Texts used for independent assessment should fall within the grades 2-3 complexity band, with more complex texts reserved for scaffolded instruction.
+* Students are not expected to comprehend texts above the grade 2-3 complexity band without significant teacher support.
 
 Common Misconceptions:
-*None specified*
+* Teachers may assume all second graders should read at the same level by year's end, when the standard allows for scaffolding at the high end of the range.
+* Students may believe they must understand every word in a text to comprehend it, rather than using context clues and reading strategies.
+* Teachers may focus solely on decoding skills rather than balancing decoding with comprehension strategies.
+* Students may think reading comprehension means only recalling facts rather than understanding themes, character motivations, and story elements.
+* Teachers may not provide sufficient scaffolding for struggling readers, assuming students should read independently without support structures.
 
 Difficulty Definitions:
 * Easy:
@@ -16424,13 +16433,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will retell stories, including fables and folktales from diverse cultures, using key details in sequential order.
+* Students will identify and explain the central message, lesson, or moral of a story, fable, or folktale.
+* Students will compare and contrast the central messages or morals from stories representing different cultures.
+* Students will connect the central message or moral of a story to their own life experiences and make text-to-self connections.
 
 Assessment Boundaries:
-*None specified*
+* At grade 2, students should focus on explicitly stated morals and lessons rather than complex implied themes requiring advanced inference skills.
+* Stories and folktales should be appropriate for second-grade reading levels, with clear narrative structures and accessible vocabulary.
+* Students are not expected to analyze multiple themes simultaneously or understand nuanced cultural contexts beyond surface-level recognition of different cultures.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse retelling the entire story with identifying the central message, focusing too much on plot details rather than the lesson.
+* Students may believe that every story has only one correct moral or lesson, rather than understanding that stories can have multiple valid interpretations.
+* Students may think the moral is always explicitly stated at the end of the story, missing implicit lessons woven throughout the narrative.
+* Students may assume that the central message is simply a summary of what happened in the story rather than the underlying lesson or teaching.
+* Students may have difficulty distinguishing between what a character learned and what the reader should learn from the story.
 
 Difficulty Definitions:
 * Easy:
@@ -16458,13 +16476,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify the central message, lesson, or moral in stories from diverse cultures including fables, folktales, and myths.
+* Students will distinguish between important story details and the overall message or lesson of a text.
+* Students will explain how characters' actions and story events contribute to the central message or moral.
+* Students will compare central messages across different stories from various cultural traditions.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to analyze complex symbolism or abstract themes beyond age-appropriate comprehension.
+* Stories should have clear, explicit morals or lessons rather than subtle or implied themes requiring advanced inference.
+* Students should work with texts at second-grade reading levels with straightforward plot structures and clearly defined character motivations.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse the main idea (what the story is about) with the central message or moral (what the story teaches).
+* Students may retell plot events instead of identifying the lesson or message that the story conveys.
+* Students may think every story has an explicitly stated moral at the end, when some messages must be inferred from character actions and consequences.
+* Students may believe the central message is always about the main character only, rather than understanding it as a universal lesson applicable to readers.
+* Students may assume all stories from a particular culture have the same message or moral, rather than recognizing diversity within cultural traditions.
 
 Difficulty Definitions:
 * Easy:
@@ -16492,13 +16519,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify major events and challenges that characters face in a story.
+* Students will describe how characters respond to major events using evidence from the text.
+* Students will explain the actions, thoughts, and feelings characters have when responding to challenges.
+* Students will compare how different characters respond to the same event or challenge in a story.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to analyze complex character motivations or make inferences about unstated psychological responses.
+* Students should work with grade-level appropriate texts with clearly identifiable character responses rather than subtle or implied reactions.
+* Students are not expected to analyze multiple plot lines or secondary character development beyond main characters.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse describing what happens in the story (plot summary) with describing how characters respond to events.
+* Students may focus only on characters' actions without considering their feelings or thoughts as part of their response.
+* Students may identify minor details or events as major events rather than recognizing key turning points or challenges in the story.
+* Students may assume all characters respond the same way to events rather than recognizing that different characters can have different responses.
+* Students may state their own feelings about an event rather than focusing on how the character in the story responds.
 
 Difficulty Definitions:
 * Easy:
@@ -16526,13 +16562,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify major events and challenges that characters face in a story.
+* Students will describe characters' actions, thoughts, and feelings in response to story events using text evidence.
+* Students will explain how characters change or grow as a result of responding to challenges in the story.
+* Students will compare how different characters respond to the same event or challenge.
 
 Assessment Boundaries:
-*None specified*
+* Students at this level should focus on explicit character responses found directly in the text rather than complex implicit motivations or psychological interpretations.
+* Challenges and events should be major plot points rather than minor details or subtle character developments.
+* Analysis should be limited to individual stories rather than comparing across multiple texts or requiring extensive background knowledge.
 
 Common Misconceptions:
-*None specified*
+* Students may retell events in sequence rather than describing how characters respond to those events.
+* Students may confuse what happens to a character (the event) with how the character responds (their actions, feelings, or thoughts).
+* Students may focus only on what characters say without considering their actions or internal responses.
+* Students may describe only physical actions without recognizing emotional or problem-solving responses.
+* Students may treat all story events as equally important rather than identifying major events and challenges that drive the plot.
 
 Difficulty Definitions:
 * Easy:
@@ -16560,13 +16605,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify words and phrases that create rhythm in stories, poems, and songs, including regular beats, alliteration, rhymes, and repeated lines.
+* Students will explain how rhythmic elements like rhyme and repetition affect the sound and feel of a text.
+* Students will describe how specific words and phrases contribute to the meaning of a story, poem, or song.
+* Students will recognize patterns in language and connect them to the overall message or mood of a text.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to use technical literary terminology beyond basic terms like rhyme, rhythm, and repetition.
+* Analysis should focus on obvious, explicit examples of rhythm and meaning rather than subtle or complex literary devices.
+* Students should work with age-appropriate texts that clearly demonstrate rhythmic patterns and should not be expected to analyze complex metaphorical meanings.
 
 Common Misconceptions:
-*None specified*
+* Students may think that all poems must rhyme, not recognizing that rhythm can exist without rhyme.
+* Students may identify rhyming words but fail to connect how those rhymes contribute to meaning or mood.
+* Students may confuse alliteration with rhyming, thinking words that start with the same sound are the same as words that end with the same sound.
+* Students may recognize repeated lines but not understand their purpose in emphasizing meaning or creating rhythm.
+* Students may think rhythm only exists in poems and songs, not recognizing rhythmic language in narrative stories.
 
 Difficulty Definitions:
 * Easy:
@@ -16594,13 +16648,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify words and phrases that create rhythm in stories, poems, and songs through repetition, rhyme, and beat patterns.
+* Students will describe how specific words and phrases contribute to the rhythm of a text by clapping, tapping, or moving to the beat.
+* Students will compare rhythm in different types of texts (stories, poems, and songs) and explain how word choice affects the rhythm.
+* Students will use rhythm-related vocabulary (such as beat, pattern, rhyme, and repetition) to explain how words create rhythm in a text.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to use technical musical terminology beyond basic terms like beat, rhythm, and rhyme.
+* Students should focus on recognizing and describing rhythm rather than analyzing complex poetic meter or advanced literary devices.
+* Assessment should emphasize oral and physical demonstration of rhythm (clapping, chanting) alongside written or verbal descriptions appropriate for second-grade literacy levels.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse rhythm with rhyme, thinking that only rhyming words create rhythm in a text.
+* Students may believe that rhythm only exists in poems and songs, not recognizing rhythmic patterns in prose stories with repetitive phrases.
+* Students may think that rhythm is only about how fast or slow you read, rather than understanding the pattern of stressed and unstressed sounds.
+* Students may assume all poems have obvious rhythm, not recognizing that some poems have subtle or irregular rhythmic patterns.
+* Students may focus only on the ends of lines for rhythm, missing rhythmic elements created by word repetition, alliteration, or phrasing throughout the text.
 
 Difficulty Definitions:
 * Easy:
@@ -16628,13 +16691,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify specific words and phrases in stories, poems, or songs that contribute to meaning or create a particular effect.
+* Students will describe how particular words and phrases (e.g., regular beats, alliteration, rhymes, repeated lines) supply rhythm and meaning in a story, poem, or song.
+* Students will explain how an author's choice of words helps them visualize characters, settings, or events.
+* Students will compare how different words or phrases could change the meaning or feeling of a text.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to use formal literary terminology such as 'metaphor,' 'simile,' or 'onomatopoeia' but should describe effects in their own words.
+* Focus should remain on grade-appropriate texts with accessible vocabulary and clear examples of word choice affecting meaning.
+* Students should describe literal meanings and simple sensory or emotional effects rather than complex symbolism or abstract interpretations.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that only 'big' or unfamiliar words are important, overlooking how simple, repeated words or phrases create meaning and rhythm.
+* Students may focus solely on what words mean (definitions) rather than how words make them feel or what pictures words create in their minds.
+* Students may think all words in a text are equally important, rather than recognizing that authors make deliberate choices about specific words to create effects.
+* Students may confuse describing what happens in the story with describing how the words tell the story or create particular feelings.
+* Students may assume that rhyming words are only for making text sound nice, not recognizing that rhyme and rhythm contribute to overall meaning and memorability.
 
 Difficulty Definitions:
 * Easy:
@@ -16662,13 +16734,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and describe the beginning, middle, and end of a story
+* Explain how the beginning of a story introduces characters, setting, and problem
+* Describe how the ending of a story concludes the action and resolves the problem
+* Recognize the sequential structure of narrative texts and how events connect from beginning to end
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to analyze complex plot structures such as flashbacks, parallel storylines, or non-linear narratives
+* Focus should be on simple narrative structures appropriate for early elementary texts, not advanced literary techniques like foreshadowing or symbolism
+* Students should work with age-appropriate texts that have clear beginning-middle-end structures, not complex chapter books or texts with ambiguous endings
 
 Common Misconceptions:
-*None specified*
+* Students may think the beginning is only the first sentence or page, rather than understanding it as the introduction section that sets up the story
+* Students may confuse retelling all story events with describing the story's structure and how parts work together
+* Students may believe the ending is just the last sentence, rather than recognizing it as the section where action concludes and problems are resolved
+* Students may struggle to distinguish between the middle events and how the ending specifically wraps up the story
+* Students may think all stories must end happily or with complete resolution, not understanding that endings simply conclude the action in various ways
 
 Difficulty Definitions:
 * Easy:
@@ -16696,13 +16777,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify the beginning, middle, and end of a story and explain what happens in each part
+* Recognize how the introduction sets up characters and setting, the middle presents the problem or events, and the ending resolves the story
+* Describe how a story flows from one event to the next in sequence
+* Explain the overall structure of different story types (such as cumulative tales, circular stories, or problem-solution stories)
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to use formal literary terminology such as 'exposition,' 'rising action,' 'climax,' or 'denouement' at this grade level
+* Focus should be on simple story structures appropriate for second grade; complex narratives with multiple plotlines or flashbacks are beyond expectations
+* Students should work with grade-level appropriate texts and are not expected to analyze sophisticated structural elements like foreshadowing or parallel plots
 
 Common Misconceptions:
-*None specified*
+* Students may confuse story structure with simply retelling all events in order, rather than understanding how parts work together as a whole
+* Students may believe every story must have the exact same structure, not recognizing that different types of stories can be organized in different ways
+* Students may think the 'middle' of a story is simply the pages in the physical center of the book, rather than the section where main events and problems occur
+* Students may have difficulty distinguishing between the problem/conflict in a story and the sequence of events, treating all story elements as equal parts
+* Students may focus only on what happens without recognizing how the beginning introduces and the ending wraps up the story
 
 Difficulty Definitions:
 * Easy:
@@ -16730,13 +16820,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify the beginning of a story and explain what happens in the opening.
+* Students will describe how the beginning of a story introduces characters, setting, or the problem.
+* Students will compare how different stories begin and what information is provided at the start.
+* Students will explain why the beginning of a story is important for understanding what comes next.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to analyze complex narrative structures or multiple plot lines at this grade level.
+* Students should focus on explicit information in the beginning rather than making complex inferences about foreshadowing or symbolism.
+* Assessment should use stories appropriate for second-grade reading levels with clear and straightforward beginnings.
 
 Common Misconceptions:
-*None specified*
+* Students may think the beginning only includes the very first sentence rather than the opening section that sets up the story.
+* Students may confuse the beginning with the title or cover illustration rather than the actual opening text.
+* Students may believe every story beginning must introduce all characters and the entire setting at once.
+* Students may think the problem or conflict must appear in the first paragraph when some stories introduce characters and setting before presenting the problem.
+* Students may not recognize that different types of stories (realistic fiction, folktales, fantasy) can have different types of beginnings.
 
 Difficulty Definitions:
 * Easy:
@@ -16764,13 +16863,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify the ending of a story and explain how it brings the story's events to a close.
+* Students will describe what happens to the main character(s) by the end of the story.
+* Students will explain how the problem or conflict in a story is resolved in the ending.
+* Students will connect the story's ending to earlier events in the beginning and middle of the story.
 
 Assessment Boundaries:
-*None specified*
+* At grade 2, students should focus on simple, straightforward story endings rather than complex plot twists or ambiguous conclusions.
+* Students are not expected to analyze multiple subplots or make inferences about implied endings beyond what is explicitly stated.
+* Focus should be on narrative texts appropriate for grade 2 reading levels with clear beginning, middle, and end structures.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse the climax (most exciting part) with the ending/resolution of the story.
+* Students may think the ending is only the last sentence or paragraph, rather than the section that wraps up the action.
+* Students may believe all story endings must be happy or that problems must be completely solved.
+* Students may not recognize that the ending should connect back to problems or events introduced earlier in the story.
+* Students may retell the entire story instead of focusing specifically on how the ending concludes the action.
 
 Difficulty Definitions:
 * Easy:
@@ -16798,13 +16906,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and distinguish between different characters' points of view in a story by recognizing what different characters think, feel, and believe.
+* Students will demonstrate understanding of character perspectives by using different voices, tones, or expression when reading character dialogue aloud.
+* Students will explain how two or more characters in the same story may see or experience the same event differently.
+* Students will compare and contrast what different characters know or understand at various points in a story.
 
 Assessment Boundaries:
-*None specified*
+* At grade 2, students are not expected to analyze complex or abstract differences in perspective, such as unreliable narrators or subtle implications of bias.
+* Students should focus on explicit differences in what characters say, do, think, or feel rather than inferring deep psychological motivations.
+* Analysis should be limited to stories with clear, distinguishable character voices and perspectives rather than nuanced or ambiguous viewpoints.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse the narrator's point of view with individual character points of view, not recognizing that characters can have different perspectives from the storyteller.
+* Students may believe that all characters in a story share the same knowledge and feelings about events, rather than understanding that each character has unique experiences and reactions.
+* Students may think that using a different voice when reading dialogue only means changing volume or speed, rather than reflecting the character's emotions, personality, or attitude.
+* Students may assume that point of view only refers to who is telling the story (first person vs. third person) rather than recognizing it also means what individual characters think and believe.
+* Students may struggle to recognize that two characters can witness the same event but interpret or react to it differently based on their individual perspectives.
 
 Difficulty Definitions:
 * Easy:
@@ -16832,13 +16949,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and describe different characters' points of view within a story by analyzing what characters say, think, and do.
+* Recognize that different characters in a story may have different perspectives about the same event or situation.
+* Compare and contrast how two or more characters view or respond to the same story event.
+* Explain how a character's point of view influences their actions and reactions in a story.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to analyze complex narrative perspectives such as unreliable narrators or stream of consciousness.
+* Focus should remain on explicitly stated character thoughts and feelings rather than deeply inferred subtext or symbolism.
+* Students should work with age-appropriate texts where character perspectives are clearly distinguishable rather than subtle or ambiguous.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse point of view with the narrator's voice, believing that all characters share the narrator's perspective.
+* Students may think that one character's point of view is always 'right' or 'wrong' rather than understanding that different perspectives can coexist.
+* Students may struggle to separate their own feelings about a situation from a character's point of view, projecting their own perspective onto the character.
+* Students may believe that characters who agree on one thing must agree on everything, failing to recognize that perspectives can vary by situation.
+* Students may conflate a character's emotions with their point of view, not recognizing that perspective encompasses thoughts, beliefs, and interpretations beyond just feelings.
 
 Difficulty Definitions:
 * Easy:
@@ -16866,13 +16992,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and describe key details about characters, setting, and plot using both illustrations and text from a story.
+* Students will explain how illustrations and words work together to tell a story and provide information about story elements.
+* Students will use evidence from both pictures and text to answer questions about characters' feelings, motivations, and actions.
+* Students will compare information gained from illustrations with information gained from the words to develop a complete understanding of the story.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to analyze complex literary devices or symbolism in illustrations at this grade level.
+* Students should focus on literal comprehension of story elements rather than inferential analysis of themes or author's purpose.
+* Digital texts should be limited to those with age-appropriate navigation and interactive features suitable for second-grade students.
 
 Common Misconceptions:
-*None specified*
+* Students may rely solely on illustrations without reading the text, missing important details that are only provided in words.
+* Students may believe that illustrations are just decorations rather than integral sources of information about the story.
+* Students may confuse the setting with the plot, describing where the story takes place instead of what happens in the story.
+* Students may focus only on the main character and overlook important secondary characters shown in illustrations.
+* Students may think that all information in a story must appear in both the pictures and the words, not recognizing that each can provide unique details.
 
 Difficulty Definitions:
 * Easy:
@@ -16900,13 +17035,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify key elements of a story including characters, setting, plot, and problem/solution across two or more versions of the same story.
+* Students will compare similarities between two or more versions of the same story from different authors or cultures using a graphic organizer or other visual tool.
+* Students will contrast differences between two or more versions of the same story from different authors or cultures, explaining how details vary.
+* Students will articulate preferences for one version over another by providing text-based evidence and personal reasoning.
 
 Assessment Boundaries:
-*None specified*
+* Students at this level should focus on comparing obvious story elements (characters, settings, main events) rather than analyzing complex themes or author's purpose.
+* Comparisons should be limited to 2-3 versions of the same story to avoid cognitive overload for second-grade students.
+* Students are not expected to analyze cultural symbolism or historical context beyond basic recognition that stories come from different cultures or time periods.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that one version of a story is the 'correct' or 'original' version rather than understanding that multiple valid versions can exist.
+* Students may focus only on differences and overlook important similarities between story versions, or vice versa.
+* Students may confuse comparing different stories with similar themes (like different fairy tales) with comparing different versions of the same story (like multiple Cinderella retellings).
+* Students may think that all differences between versions are equally important, rather than distinguishing between major plot differences and minor detail variations.
+* Students may assume that stories from different cultures must be completely different, missing the universal story elements that connect them.
 
 Difficulty Definitions:
 * Easy:
@@ -16934,13 +17078,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will locate and quote specific textual evidence accurately to support explicit comprehension of a literary text.
+* Students will draw logical inferences from a literary text and support those inferences with accurate quotations.
+* Students will distinguish between explicit information stated directly in the text and implicit information that requires inference.
+* Students will use proper quotation marks and citation practices when referencing evidence from a text.
 
 Assessment Boundaries:
-*None specified*
+* Texts should be appropriately complex for grade 5, typically within the 740L-1010L Lexile range for literary texts.
+* Students should focus on short, relevant quotations rather than lengthy passages; quotations should be integrated into written or oral responses.
+* Assessment should not require students to analyze multiple texts simultaneously or synthesize evidence across different sources at this grade level.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that quoting means copying large chunks of text rather than selecting brief, relevant phrases or sentences.
+* Students may confuse summarizing or paraphrasing with quoting, failing to use exact words and quotation marks.
+* Students may think that inferences are wild guesses rather than logical conclusions based on textual evidence combined with background knowledge.
+* Students may quote accurately but fail to explain how the quote supports their explanation or inference, treating the quote as self-evident.
+* Students may believe that all answers must be explicitly stated in the text and struggle to recognize when inference is required.
 
 Difficulty Definitions:
 * Easy:
@@ -16968,13 +17121,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will accurately locate and extract direct quotations from a literary text that support their understanding of explicit information.
+* Students will use proper quotation marks and citation methods when referencing specific text evidence.
+* Students will distinguish between explicit textual information and their own inferences or interpretations.
+* Students will explain how selected quotes directly support their understanding of what the text states clearly and literally.
 
 Assessment Boundaries:
-*None specified*
+* Focus should be on explicitly stated information rather than inferred or implicit meanings at this level.
+* Quotations should be brief and manageable (typically one to three sentences) rather than extended passages.
+* Students should work with grade-level appropriate literary texts including stories, dramas, and poetry.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse paraphrasing with direct quoting, forgetting to use exact wording from the text.
+* Students often select quotes that support their inferences rather than quotes that contain explicit, directly stated information.
+* Students may believe any sentence from the text counts as evidence, rather than selecting quotes that specifically address the question or claim.
+* Students frequently omit quotation marks or fail to indicate where the quote begins and ends.
+* Students may add their own interpretations or words within quotes, changing the original meaning of the text.
 
 Difficulty Definitions:
 * Easy:
@@ -17002,13 +17164,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will quote accurately from a text using quotation marks and proper citation to support explicit answers to questions about the text.
+* Students will draw logical inferences from a text and support those inferences with accurate, relevant quotations as textual evidence.
+* Students will distinguish between explicit information directly stated in the text and inferences that require reading between the lines.
+* Students will determine a theme of a story, drama, or poem from details in the text, including how characters respond to challenges or how the speaker reflects upon a topic.
 
 Assessment Boundaries:
-*None specified*
+* At grade 5, students should work with grade-level appropriate literary texts; highly complex texts with abstract themes or archaic language may be beyond the scope of this standard.
+* Students are expected to quote accurately but are not required to use formal citation formats (MLA, APA) at this grade level; simple attribution and quotation marks are sufficient.
+* Inferences should be grounded in textual evidence; purely speculative interpretations without text support are outside the boundary of this standard.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that any sentence copied from the text counts as an accurate quote, without understanding that quotes must be relevant to the question or inference being made.
+* Students often confuse summary or paraphrase with direct quotation, failing to use quotation marks or exact wording from the text.
+* Students may think that inferences are the same as guesses or personal opinions, rather than logical conclusions drawn from textual evidence.
+* Students frequently misunderstand that inferences require combining textual clues with background knowledge, instead relying solely on explicit statements or purely on personal experience without text support.
+* Students may select quotations that are too long or too short, not recognizing that effective quotes should be concise yet substantial enough to support their inference or answer.
 
 Difficulty Definitions:
 * Easy:
@@ -17036,13 +17207,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will independently read and comprehend grade-level complex literary texts including stories, dramas, and poetry with proficiency.
+* Students will demonstrate comprehension of texts at the high end of the grades 4-5 complexity band through discussion, analysis, and written responses.
+* Students will apply reading strategies to navigate challenging vocabulary, sentence structures, and literary elements in complex texts.
+* Students will sustain attention and stamina to read lengthy and sophisticated literary works independently by the end of fifth grade.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on independent reading comprehension at grade-level complexity rather than texts significantly above or below the grades 4-5 band.
+* Evaluation should measure proficiency with literature specifically (stories, dramas, poetry) rather than informational texts, which are addressed in separate standards.
+* Assessment should emphasize independent reading abilities rather than comprehension achieved only with significant scaffolding or teacher support.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that reading quickly equals reading proficiently, when comprehension and deep understanding are the actual goals.
+* Students may think that looking up every unknown word is necessary for comprehension, rather than using context clues and reading strategies to maintain fluency.
+* Teachers may assume all students need the same amount of scaffolding, when the goal is independent proficiency that varies by individual student readiness.
+* Students may believe that comprehension only means recalling basic plot details rather than understanding themes, character development, and literary techniques.
+* Students may think that proficient reading means never struggling with text, when strategic problem-solving with challenging passages is part of proficiency.
 
 Difficulty Definitions:
 * Easy:
@@ -17070,13 +17250,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and determine the theme of a story, drama, or poem by analyzing details, character responses to challenges, and speaker reflections in the text
+* Analyze how characters respond to challenges and obstacles to help determine the theme of a story or drama
+* Examine how the speaker in a poem reflects upon a topic to identify the underlying theme or message
+* Summarize a literary text objectively by including key details and events without inserting personal opinions
 
 Assessment Boundaries:
-*None specified*
+* Students should work with grade-level appropriate texts; highly complex symbolic or abstract themes may be beyond grade 5 expectations
+* Assessments should focus on explicitly supported themes found in textual evidence rather than requiring extensive inferential leaps or outside knowledge
+* Summary writing should focus on main events and key details appropriate to text length, not requiring comprehensive retellings of lengthy texts
 
 Common Misconceptions:
-*None specified*
+* Students may confuse theme with topic, believing that a one-word subject (like 'friendship') is a complete theme rather than a complete statement or message about that topic
+* Students may think the theme is the same as the moral or lesson, when not all stories have explicit morals and themes can be more complex observations about life
+* Students may believe there is only one correct theme for any text, rather than understanding that texts can support multiple valid themes when backed by evidence
+* Students may include personal opinions, predictions, or judgments in summaries rather than providing objective retellings of key events and details
+* Students may identify a minor detail or isolated incident as the theme rather than looking at patterns throughout the entire text and how characters respond to central challenges
 
 Difficulty Definitions:
 * Easy:
@@ -17104,13 +17293,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and analyze specific details from a text that reveal the theme or central message of a story
+* Explain how characters' responses to challenges help develop and support the theme of a story
+* Distinguish between the theme (universal message) and the topic or plot summary of a story
+* Use textual evidence to support inferences about a story's theme
 
 Assessment Boundaries:
-*None specified*
+* Students should not be expected to identify themes using sophisticated literary terminology beyond grade-level vocabulary
+* Assessment should focus on themes that are clearly supported by textual evidence rather than requiring highly abstract or symbolic interpretation
+* Students are not expected to analyze multiple complex themes simultaneously, but should focus on identifying one major theme with supporting details
 
 Common Misconceptions:
-*None specified*
+* Students often confuse the theme with the topic or subject of the story (e.g., stating 'friendship' as the theme rather than 'true friends support each other through difficult times')
+* Students may believe the theme is the same as the moral or lesson, missing that themes are broader universal messages about life or human nature
+* Students sometimes think the theme must be explicitly stated in the text rather than inferred from character actions, dialogue, and plot events
+* Students may focus only on what happens in the plot rather than considering how characters respond to challenges and what those responses reveal
+* Students often select minor details rather than identifying the central, recurring ideas that support the theme throughout the entire story
 
 Difficulty Definitions:
 * Easy:
@@ -17138,13 +17336,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and analyze specific details in a drama that reveal its central theme or message
+* Examine how characters' responses to challenges contribute to the development of theme
+* Determine the theme of a drama by synthesizing evidence from character dialogue, actions, and reactions throughout the text
+* Distinguish between a theme and a topic, understanding that theme is a complete statement about life or human nature
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to analyze multiple complex themes simultaneously or identify subtle sub-themes at this grade level
+* Assessment should focus on explicitly supported themes rather than requiring students to infer highly abstract or symbolic meanings
+* Students should work with dramas appropriate to fifth-grade complexity and should not be expected to analyze advanced literary devices beyond character response and basic plot details
 
 Common Misconceptions:
-*None specified*
+* Students may confuse the topic or subject of a drama with its theme, stating 'friendship' instead of 'true friends support each other during difficult times'
+* Students may believe that theme is always directly stated in the text rather than understanding it must often be inferred from details
+* Students may identify a minor detail or isolated event as the theme rather than considering the entire drama and how characters respond throughout
+* Students may think there is only one correct theme for any drama, rather than understanding that texts can support multiple valid theme interpretations when supported by evidence
+* Students may summarize the plot instead of identifying the underlying message or lesson that the drama conveys
 
 Difficulty Definitions:
 * Easy:
@@ -17172,13 +17379,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and determine the theme of a poem by analyzing specific details, lines, and stanzas from the text.
+* Explain how the speaker's perspective, thoughts, and reflections on a topic contribute to the overall theme of the poem.
+* Use textual evidence from the poem to support inferences about the theme and the speaker's point of view.
+* Distinguish between the topic of a poem and its underlying theme or message.
 
 Assessment Boundaries:
-*None specified*
+* Focus should be on grade-appropriate poems with clear themes accessible to fifth-grade readers, avoiding overly abstract or complex symbolic poetry.
+* Students are not expected to analyze advanced poetic devices such as extended metaphors or allusions beyond grade-level expectations.
+* Assessment should not require knowledge of the poet's biographical information unless explicitly provided in the text or accompanying materials.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse the topic of a poem with its theme, stating what the poem is about rather than the underlying message or lesson.
+* Students may believe the speaker of the poem is always the poet, rather than understanding the speaker as a separate voice or persona created by the poet.
+* Students may focus only on the literal meaning of the words without considering how figurative language and imagery contribute to the theme.
+* Students may think a poem can only have one correct theme, rather than recognizing that poems can have multiple valid interpretations supported by textual evidence.
+* Students may identify a theme too broadly (such as 'friendship' or 'nature') without explaining the specific message or insight the poem conveys about that topic.
 
 Difficulty Definitions:
 * Easy:
@@ -17206,13 +17422,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and analyze the traits, motivations, and actions of two or more characters in a story or drama using specific textual evidence.
+* Students will compare and contrast different settings in a text, explaining how each setting influences the plot or characters.
+* Students will examine how characters interact with one another and how these interactions reveal character development or advance the plot.
+* Students will organize comparative analysis using appropriate text structures (e.g., Venn diagrams, comparison charts) and cite specific details from the text to support their conclusions.
 
 Assessment Boundaries:
-*None specified*
+* At grade 5, students should focus on explicit character traits, settings, and events rather than complex symbolism or abstract thematic interpretations requiring inference beyond the text.
+* Comparisons should be limited to elements within a single story or drama, not across multiple texts or requiring outside knowledge of literary criticism.
+* Students are expected to use direct textual evidence but are not required to analyze author's purpose, complex narrative techniques, or make sophisticated literary analyses appropriate for higher grades.
 
 Common Misconceptions:
-*None specified*
+* Students may simply summarize characters or events rather than actually comparing and contrasting them by identifying similarities and differences.
+* Students may make comparisons based on personal opinions or general impressions without supporting their analysis with specific details from the text.
+* Students may confuse character traits with physical descriptions, focusing only on what characters look like rather than their personalities, motivations, or behaviors.
+* Students may believe that comparing means only finding similarities and contrasting means only finding differences, rather than understanding that comparison involves examining both.
+* Students may overlook how characters interact with each other, focusing only on individual character analysis without considering relationships and dialogue.
 
 Difficulty Definitions:
 * Easy:
@@ -17240,13 +17465,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and analyze the traits, motivations, and actions of two or more characters in a story or drama using specific textual evidence.
+* Students will compare similarities between two or more characters by examining their physical descriptions, personalities, relationships, and roles in the plot.
+* Students will contrast differences between two or more characters by analyzing how they respond to events, challenges, and other characters differently.
+* Students will organize their comparisons and contrasts using graphic organizers, written paragraphs, or other structured formats that cite specific details from the text.
 
 Assessment Boundaries:
-*None specified*
+* At grade 5, students should focus on explicit character traits and actions directly stated or clearly implied in the text, rather than complex psychological analysis or subtle symbolism.
+* Comparisons should be limited to characters within the same story or drama, not across multiple texts or outside sources.
+* Students should use evidence from the text itself, not personal opinions or experiences unrelated to the story's details.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse comparing and contrasting with simply summarizing what each character does, without analyzing similarities and differences.
+* Students may rely on surface-level observations like physical appearance only, without examining deeper traits such as motivations, feelings, or character development.
+* Students may make comparisons based on their own opinions or preferences rather than using specific details and evidence from the text.
+* Students may assume that characters who are friends or allies are similar in all ways, missing important contrasts in their personalities or approaches.
+* Students may focus only on differences or only on similarities, rather than providing a balanced comparison that includes both.
 
 Difficulty Definitions:
 * Easy:
@@ -17274,13 +17508,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and describe two or more distinct settings in a story or drama using specific textual evidence
+* Compare settings by analyzing similarities in details such as time period, location, atmosphere, and cultural context
+* Contrast settings by examining differences in physical descriptions, mood, and their impact on characters and plot
+* Draw conclusions about how different settings influence character behavior and story events using explicit textual support
 
 Assessment Boundaries:
-*None specified*
+* Settings should be explicitly described in the text; students are not expected to infer settings with minimal textual evidence at this level
+* Comparisons should focus on concrete, observable details rather than complex symbolic or thematic interpretations of setting
+* Students should work with grade-level appropriate texts with clearly distinguishable settings rather than subtle or abstract setting shifts
 
 Common Misconceptions:
-*None specified*
+* Students may confuse setting with plot events, describing what happens rather than where and when it happens
+* Students may identify settings but fail to use specific textual details as evidence, instead making general or unsupported statements
+* Students may list differences between settings without explaining how those differences matter to the story or characters
+* Students may assume that comparing settings only means finding similarities, not recognizing that contrast involves identifying differences
+* Students may focus only on physical location while overlooking other setting elements like time period, weather, or social environment
 
 Difficulty Definitions:
 * Easy:
@@ -17308,13 +17551,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and describe two or more key events in a story or drama using specific textual evidence.
+* Students will compare events in a text by identifying similarities using details such as characters involved, settings, outcomes, and causes.
+* Students will contrast events in a text by identifying differences using details such as characters' reactions, consequences, timing, and significance to the plot.
+* Students will organize their comparisons in a structured format (such as a Venn diagram, T-chart, or comparative paragraph) that clearly shows relationships between events.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to analyze complex literary devices such as foreshadowing, symbolism, or irony when comparing events.
+* Comparisons should focus on explicit details from the text rather than requiring extensive inferential reasoning beyond grade-level expectations.
+* Students are not required to compare events across multiple texts, only within a single story or drama.
 
 Common Misconceptions:
-*None specified*
+* Students may simply retell events sequentially rather than actually comparing and contrasting them by identifying specific similarities and differences.
+* Students may confuse comparing events with comparing characters, focusing on character traits rather than the events themselves.
+* Students may provide general observations without citing specific textual details or evidence to support their comparisons.
+* Students may identify only surface-level similarities or differences (such as both events happening in the same location) without examining deeper connections like cause-effect relationships or thematic significance.
+* Students may treat 'compare' as only finding similarities, not understanding that comparing includes both similarities and differences, with contrasting focusing specifically on differences.
 
 Difficulty Definitions:
 * Easy:
@@ -17342,13 +17594,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will determine the literal and figurative meanings of words and phrases in literary texts by using context clues and their understanding of language structures.
+* Students will identify and interpret metaphors and similes in literature, explaining how these comparisons enhance meaning and create imagery.
+* Students will analyze how an author's choice of specific words and phrases contributes to the tone, mood, and meaning of a text.
+* Students will distinguish between literal and non-literal language and explain the purpose and effect of figurative language in context.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on metaphors and similes as the primary forms of figurative language, though students may encounter other types. Advanced figurative devices like synecdoche or metonymy are beyond grade 5 expectations.
+* Students should work with grade-appropriate literary texts. Technical vocabulary or domain-specific terms requiring specialized background knowledge should be limited or scaffolded.
+* Assessment should focus on determining meaning within the context of a complete text rather than analyzing isolated sentences or requiring students to create original figurative language.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse metaphors and similes, not recognizing that similes use 'like' or 'as' to make explicit comparisons while metaphors make implicit comparisons.
+* Students may interpret figurative language too literally, missing the intended comparison or deeper meaning (e.g., thinking 'time flies' means time has wings).
+* Students may believe that figurative language always has only one correct interpretation rather than understanding that context and reader perspective can influence meaning.
+* Students may think any comparison is a simile or metaphor, not recognizing that figurative language creates non-literal meaning through imaginative comparison.
+* Students may struggle to explain why an author chose figurative language, focusing only on identifying it rather than analyzing its effect on meaning or tone.
 
 Difficulty Definitions:
 * Easy:
@@ -17376,13 +17637,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will determine the meaning of unknown words and phrases in literary texts using context clues, word relationships, and word structure.
+* Students will analyze how specific word choices, including figurative language and connotative meanings, contribute to the meaning and tone of a literary text.
+* Students will interpret figurative language such as metaphors, similes, idioms, and personification as used in grade-level literary texts.
+* Students will use reference materials (glossaries, dictionaries, thesauruses) effectively to clarify the precise meaning of key words and phrases in literature.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on words and phrases that are appropriate for fifth-grade reading level and commonly encountered in grade-level literary texts.
+* Students are not expected to identify or define highly specialized literary terminology beyond basic figurative language (simile, metaphor, personification, idiom).
+* Assessment should emphasize determining meaning within context rather than memorizing isolated vocabulary definitions.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that words have only one fixed meaning rather than understanding that context determines which meaning applies.
+* Students may think figurative language should be interpreted literally, missing the author's intended meaning (e.g., thinking 'it's raining cats and dogs' means animals are falling from the sky).
+* Students may assume that looking up every unknown word in a dictionary is always necessary, rather than first attempting to use context clues.
+* Students may confuse the denotation (dictionary definition) with connotation (emotional association) of words and fail to recognize how word choice affects tone.
+* Students may believe that all phrases can be understood by defining each word separately, not recognizing that idioms and phrases often have meanings different from their individual parts.
 
 Difficulty Definitions:
 * Easy:
@@ -17410,13 +17680,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and categorize types of figurative language including similes, metaphors, personification, idioms, and hyperbole in literary texts.
+* Students will explain the meaning of figurative language by analyzing context clues and the author's purpose.
+* Students will interpret how figurative language contributes to the overall meaning and tone of a text.
+* Students will compare literal and figurative meanings of words and phrases to determine their effect on the reader.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to analyze complex or obscure figurative devices beyond grade-level appropriate similes, metaphors, personification, idioms, and hyperbole.
+* Students should focus on figurative language within the context of complete sentences and passages rather than isolated phrases without context.
+* Assessment should not require students to create original figurative language, but rather to interpret and explain existing examples in texts.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse similes and metaphors, forgetting that similes use 'like' or 'as' for comparison while metaphors make direct comparisons.
+* Students may interpret figurative language literally, missing the intended meaning (e.g., thinking 'it's raining cats and dogs' means actual animals are falling).
+* Students may identify figurative language correctly but struggle to explain what it means or how it enhances the text.
+* Students may believe that all comparisons are figurative language, not recognizing when authors are making literal comparisons.
+* Students may think figurative language is only present in poetry and not recognize it in prose, dialogue, or informational texts with literary elements.
 
 Difficulty Definitions:
 * Easy:
@@ -17444,13 +17723,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and explain how chapters, scenes, or stanzas are organized within a text to create its overall structure.
+* Students will analyze how individual structural elements (chapters, scenes, or stanzas) contribute to the development of theme, plot, or meaning in a story, drama, or poem.
+* Students will compare and contrast different structural formats across multiple genres (stories, dramas, and poems) and explain the purpose of each format.
+* Students will describe how transitions between chapters, scenes, or stanzas connect ideas and advance the narrative or message.
 
 Assessment Boundaries:
-*None specified*
+* Students are expected to explain structural organization at the macro level (how larger sections fit together) rather than analyzing sentence-level or paragraph-level structure.
+* Focus should remain on how structure supports meaning and narrative flow, not on identifying structure for its own sake or memorizing structural terminology beyond grade-level expectations.
+* Students should work with grade-appropriate texts; complex literary devices or sophisticated structural analysis beyond fifth-grade comprehension should not be assessed.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse structure with plot, believing that summarizing what happens in each chapter is the same as explaining how chapters fit together structurally.
+* Students may think that chapters, scenes, or stanzas are interchangeable terms that can be used for any text type, rather than understanding that each term corresponds to specific genres.
+* Students may believe that structure is only about the number of chapters or stanzas, rather than understanding how these elements connect thematically or build upon each other.
+* Students may focus solely on chronological order without recognizing other structural patterns such as flashbacks, parallel plots, or thematic organization.
+* Students may assume all stories follow the same structural pattern and fail to recognize that authors make deliberate choices about how to organize their work for specific effects.
 
 Difficulty Definitions:
 * Easy:
@@ -17478,13 +17766,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and describe how individual chapters contribute to the development of a story's plot, setting, and characters.
+* Analyze how chapters are sequenced and connected to create the overall structure of a narrative.
+* Explain the purpose and function of different chapters within a story's beginning, middle, and end.
+* Evaluate how transitions between chapters advance the story and create cohesion in the narrative structure.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to analyze complex literary devices such as foreshadowing, symbolism, or irony at this grade level.
+* Focus should be on chapter-level structure rather than analyzing paragraph or sentence-level organization.
+* Students should work with grade-level appropriate texts and are not expected to analyze highly complex narrative structures with multiple timelines or unreliable narrators.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that each chapter functions as a completely independent story rather than understanding how chapters build upon one another.
+* Students may confuse summarizing what happens in each chapter with explaining how chapters work together structurally.
+* Students may think that all stories follow the same chapter structure and not recognize that authors make deliberate choices about how to organize chapters.
+* Students may focus only on chronological sequencing and miss other structural elements such as shifts in perspective, setting, or pacing across chapters.
+* Students may believe that longer chapters are always more important to the overall structure than shorter chapters.
 
 Difficulty Definitions:
 * Easy:
@@ -17512,13 +17809,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and describe the individual scenes within a drama and explain their purpose in the overall story.
+* Analyze how scenes connect to one another through plot development, character actions, and story progression.
+* Explain how the sequence and arrangement of scenes contributes to the overall structure and meaning of a drama.
+* Evaluate how specific scenes work together to build tension, resolve conflict, or develop themes in a dramatic work.
 
 Assessment Boundaries:
-*None specified*
+* Focus should be on age-appropriate dramas and plays, not complex theatrical works requiring advanced literary analysis.
+* Students are not expected to analyze technical theatrical elements such as lighting, staging directions, or advanced dramatic techniques beyond basic scene structure.
+* Assessment should not require knowledge of dramatic terminology beyond basic terms such as scene, act, dialogue, and character.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that scenes are independent units rather than interconnected parts that build upon one another.
+* Students may confuse the concept of a scene with an act, not recognizing that acts are larger divisions containing multiple scenes.
+* Students may focus only on what happens in each scene without considering how scenes relate to and build upon previous scenes.
+* Students may think that all scenes have equal importance in a drama, rather than recognizing that some scenes serve as key turning points or climaxes.
+* Students may believe that the order of scenes is arbitrary and could be rearranged without affecting the drama's meaning or impact.
 
 Difficulty Definitions:
 * Easy:
@@ -17546,13 +17852,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify individual stanzas within a poem and describe their distinct characteristics.
+* Students will analyze how stanzas connect to one another through theme, imagery, or narrative progression.
+* Students will explain how the arrangement and organization of stanzas contributes to the poem's overall meaning and structure.
+* Students will articulate how the structure of a poem (including stanza patterns) enhances the poet's message or creates specific effects.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to identify or analyze complex poetic forms beyond grade-level exposure (such as villanelles or sestinas).
+* Technical analysis of meter and scansion is beyond the scope of this standard.
+* Students should focus on structural organization rather than extensive literary criticism or interpretation of symbolism.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that all poems must have stanzas or that stanzas must be equal in length.
+* Students may confuse stanzas with paragraphs and not recognize the deliberate structural choices poets make.
+* Students may think each stanza must present a completely new idea rather than understanding how stanzas can develop or expand upon connected themes.
+* Students may focus only on rhyme scheme rather than understanding how stanzas contribute to overall meaning and structure.
+* Students may believe that line breaks and stanza breaks are arbitrary rather than intentional structural elements chosen by the poet.
 
 Difficulty Definitions:
 * Easy:
@@ -17580,13 +17895,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify the narrator's or speaker's point of view (first person, third person limited, third person omniscient) in a literary text.
+* Students will analyze how a narrator's or speaker's point of view affects the description of events, characters, and settings in a story.
+* Students will compare how the same event might be described differently from different points of view.
+* Students will explain how a narrator's perspective, background, or position influences what information is shared or withheld from the reader.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to analyze complex literary devices such as unreliable narration or stream of consciousness at this grade level.
+* Focus should remain on how point of view influences event description rather than advanced narrative techniques like frame narratives or multiple shifting perspectives within a single text.
+* Students should work with grade-level appropriate texts and are not expected to analyze point of view in highly abstract or symbolic literature.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse the narrator's point of view with the author's opinion or personal beliefs.
+* Students may think that first-person narrators always tell the complete truth or have full knowledge of all events in the story.
+* Students may believe that third-person narrators are always objective and unbiased in their descriptions.
+* Students may confuse point of view with perspective, not recognizing that characters can have different perspectives within the same point of view.
+* Students may assume that the narrator and the main character are always the same person, especially in first-person narratives.
 
 Difficulty Definitions:
 * Easy:
@@ -17614,13 +17938,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify the narrator's or speaker's point of view in a text (first person, third person limited, third person omniscient).
+* Explain how the narrator's point of view affects which details and events are included or emphasized in the story.
+* Compare how the same event would be described differently from different characters' points of view.
+* Analyze specific word choices and descriptions that reveal the narrator's perspective and bias toward events or characters.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to analyze complex unreliable narrators or highly sophisticated narrative techniques beyond grade level.
+* Focus should remain on accessible literary texts appropriate for fifth grade reading levels.
+* Students are not required to use advanced literary terminology beyond basic point of view terms (first person, third person).
 
 Common Misconceptions:
-*None specified*
+* Students may confuse the narrator with the author, not recognizing that the narrator is a literary construct created by the author.
+* Students may believe that third-person narrators are always objective and unbiased, when in fact third-person narrators can have limited perspectives and biases.
+* Students may think point of view only refers to opinion rather than understanding it as the vantage point from which a story is told.
+* Students may not recognize that first-person narrators can only describe events they witness or are told about, limiting what information readers receive.
+* Students may assume all characters in a story share the narrator's perspective on events, rather than recognizing different characters may interpret events differently.
 
 Difficulty Definitions:
 * Easy:
@@ -17648,13 +17981,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and describe visual and multimedia elements in various text formats including graphic novels, multimedia presentations, poems, folktales, and myths.
+* Students will analyze how specific visual elements (illustrations, images, graphics, video, audio) contribute to the meaning of a text.
+* Students will evaluate how visual and multimedia elements affect the tone or mood of a literary work.
+* Students will explain how visual and multimedia elements enhance the beauty or aesthetic quality of a text.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to use specialized technical vocabulary for film techniques or advanced artistic terminology beyond grade-appropriate language.
+* Focus should remain on how visual elements contribute to understanding rather than on critiquing artistic merit or production quality.
+* Students should analyze existing visual elements rather than create complex original multimedia presentations as the primary assessment.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that visual elements are merely decorative rather than integral to meaning and understanding of the text.
+* Students may focus only on literal representation in images rather than recognizing symbolic or metaphorical meanings conveyed through visual elements.
+* Students may assume that text is always more important than visual elements, missing the collaborative relationship between words and images.
+* Students may confuse describing what they see in a visual element with analyzing how it contributes to meaning, tone, or beauty.
+* Students may think that all visual elements in a text serve the same purpose rather than recognizing that different elements can serve different functions.
 
 Difficulty Definitions:
 * Easy:
@@ -17682,13 +18024,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and compare themes and topics across two or more stories within the same genre (mysteries, adventure stories, realistic fiction, etc.).
+* Students will analyze how different authors approach similar themes using varied plot structures, character development, and literary techniques.
+* Students will contrast the ways multiple texts in the same genre handle similar topics, providing specific textual evidence to support their comparisons.
+* Students will articulate similarities and differences between stories in writing or discussion, using genre-specific vocabulary and literary terms.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to compare stories across different genres; focus should remain on stories within the same genre.
+* Analysis should focus on themes and topics rather than complex literary theory or advanced narrative techniques beyond grade level.
+* Students are not required to analyze author's biographical background or historical context unless it directly relates to theme comparison.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse theme with topic, believing they are the same thing rather than understanding that theme is the underlying message while topic is the subject matter.
+* Students may simply retell plot events from each story rather than analyzing how the stories approach themes differently.
+* Students may believe that stories in the same genre must have identical themes, rather than recognizing that similar genres can explore themes in diverse ways.
+* Students may focus only on surface-level similarities (both have a detective, both take place at school) without examining deeper thematic connections.
+* Students may think comparison means only finding similarities, not recognizing that contrasting differences is equally important to the analysis.
 
 Difficulty Definitions:
 * Easy:
@@ -17716,13 +18067,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and articulate common themes and topics across multiple stories within the same genre
+* Analyze and compare how different authors approach similar themes using various literary elements such as character development, plot structure, and setting
+* Contrast the techniques and perspectives authors use when addressing similar topics within a genre
+* Evaluate the effectiveness of different authorial approaches to similar themes and support conclusions with textual evidence
 
 Assessment Boundaries:
-*None specified*
+* Students should focus on comparing stories within the same genre rather than across different genres at this level
+* Analysis should center on clearly identifiable themes and topics rather than abstract or highly symbolic interpretations
+* Comparisons should be limited to 2-3 texts to allow for depth of analysis rather than surface-level observations across many texts
 
 Common Misconceptions:
-*None specified*
+* Students may confuse topic (what the story is about) with theme (the underlying message or lesson)
+* Students may believe that stories with similar themes must have similar plots or outcomes
+* Students may think that comparing means only finding similarities, without recognizing that contrasting differences is equally important
+* Students may assume that all stories in the same genre must approach themes in the same way
+* Students may focus solely on plot events rather than examining how authors use literary elements to develop themes
 
 Difficulty Definitions:
 * Easy:
@@ -17750,13 +18110,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will accurately locate and cite specific textual evidence that directly supports their understanding of explicit information in literary texts.
+* Students will make logical inferences based on textual clues and cite the evidence that led to those inferences.
+* Students will distinguish between what a text states explicitly and what requires inferential reasoning, providing appropriate textual support for both.
+* Students will analyze how specific details and evidence from a text support their interpretations and conclusions about characters, plot, theme, and other literary elements.
 
 Assessment Boundaries:
-*None specified*
+* At grade 6, students should focus on citing evidence from single texts rather than synthesizing evidence across multiple complex texts, which is more appropriate for grades 7-8.
+* Students are not expected to evaluate the quality or reliability of textual evidence at this level, but rather to identify and cite relevant supporting details.
+* Analysis should center on literary texts (fiction, poetry, drama) rather than informational texts, which are addressed in separate reading standards.
 
 Common Misconceptions:
-*None specified*
+* Students believe that summarizing or retelling the story is the same as citing textual evidence to support an analysis.
+* Students think that inferences are the same as opinions and do not need to be grounded in specific textual evidence.
+* Students assume that quoting any part of the text counts as citing evidence, even if the quote does not directly support their claim or analysis.
+* Students confuse explicit information (directly stated) with implicit information (inferred), leading to inappropriate citations or claims about what the text 'says.'
+* Students believe that personal experiences or outside knowledge can substitute for textual evidence when supporting their analysis of a literary text.
 
 Difficulty Definitions:
 * Easy:
@@ -17784,13 +18153,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will locate and extract relevant textual evidence from literary texts to support their understanding of explicit information.
+* Students will accurately cite specific quotes, phrases, or sentences from a text that directly state information.
+* Students will explain how selected textual evidence supports their analysis of what the text explicitly states.
+* Students will distinguish between explicit information stated directly in the text and information that requires inference.
 
 Assessment Boundaries:
-*None specified*
+* At this level, focus should be on explicit textual evidence only, not on inferences or implicit meanings beyond what is directly stated.
+* Students should work with grade-level appropriate literary texts including stories, dramas, and poems.
+* Citations may use informal formatting (line numbers, paragraph references) rather than formal MLA or APA style.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse explicit information with inferred information, citing evidence for conclusions they've drawn rather than what the text directly states.
+* Students may paraphrase or summarize rather than cite specific textual evidence with direct quotes or precise references.
+* Students may select evidence that is tangentially related to the question rather than evidence that directly supports their analysis.
+* Students may believe that any sentence from the text counts as evidence, without evaluating whether it actually supports their specific claim.
+* Students may think stating their opinion or interpretation is the same as citing what the text explicitly says.
 
 Difficulty Definitions:
 * Easy:
@@ -17818,13 +18196,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will cite explicit textual evidence to support their analysis of what the text directly states.
+* Students will cite textual evidence to support inferences and conclusions drawn from the text.
+* Students will determine a theme or central idea of a text and explain how it is developed through specific details over the course of the text.
+* Students will provide an objective summary of a text that is distinct from personal opinions or judgments.
 
 Assessment Boundaries:
-*None specified*
+* At grade 6, students should work with age-appropriate literary texts of moderate complexity; highly complex texts with multiple layers of symbolism or abstract themes may be beyond the scope.
+* Students are not expected to analyze multiple texts comparatively or synthesize evidence across different sources for this standard.
+* Focus should remain on literary texts (fiction, poetry, drama) rather than informational texts, which are covered under separate reading standards.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse direct quotations with paraphrasing, believing that only exact quotes count as textual evidence.
+* Students often mistake personal opinions or reactions for inferences, not understanding that inferences must be supported by evidence from the text.
+* Students may believe a summary should include their personal feelings or evaluations rather than being an objective retelling of key events and ideas.
+* Students sometimes think citing evidence means simply locating any quote from the text, rather than selecting relevant evidence that directly supports their claim or inference.
+* Students may struggle to distinguish between a theme (the central message or lesson) and the topic (what the text is about), often stating the topic instead of identifying the theme.
 
 Difficulty Definitions:
 * Easy:
@@ -17852,13 +18239,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will independently read and comprehend grade-level appropriate literature across multiple genres including stories, dramas, and poems.
+* Students will apply reading strategies and use scaffolding supports when encountering complex texts at the high end of the grades 6-8 text complexity band.
+* Students will demonstrate proficiency in understanding literary elements, themes, and author's craft across various forms of literature throughout the school year.
+* Students will build reading stamina and fluency to successfully engage with increasingly complex texts by year's end.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on students' ability to comprehend grade-level texts independently, not on reading speed or oral reading performance.
+* Scaffolding and support should be provided for texts at the higher end of complexity, and assessments should acknowledge that students may need different levels of support based on text difficulty.
+* Evaluation should encompass comprehension across multiple literary genres rather than mastery of only one type of literature.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that reading comprehension means only understanding basic plot details rather than deeper analysis of themes, character development, and literary devices.
+* Students may think that needing scaffolding or support with complex texts indicates reading failure rather than being a normal part of engaging with appropriately challenging material.
+* Students may assume that all grade 6 texts should be equally difficult, not understanding that there is a range of complexity within the grades 6-8 text band.
+* Students may believe that reading proficiency is solely about reading speed rather than depth of understanding and engagement with the text.
+* Students may think that poetry and drama require the same reading strategies as narrative fiction, not recognizing the unique approaches needed for different literary forms.
 
 Difficulty Definitions:
 * Easy:
@@ -17886,13 +18282,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and articulate the theme or central idea of a literary text using evidence from the text
+* Analyze how specific details, events, and character actions contribute to the development of the theme or central idea
+* Write an objective summary of a text that includes key events and details without inserting personal opinions, judgments, or interpretations
+* Distinguish between a theme (the underlying message or lesson) and a topic (what the text is about)
 
 Assessment Boundaries:
-*None specified*
+* Texts should be appropriate for grade 6 complexity level; highly symbolic or abstract themes that require advanced literary analysis beyond grade level should be avoided
+* Students are not expected to analyze multiple themes simultaneously or compare themes across multiple texts at this level
+* Assessment should focus on clearly conveyed themes rather than ambiguous or highly nuanced thematic interpretations that lack sufficient textual support
 
 Common Misconceptions:
-*None specified*
+* Students often confuse the topic of a text with its theme, stating 'friendship' as a theme rather than 'true friendship requires sacrifice and trust'
+* Students may include personal opinions or reactions in their summaries rather than providing objective retellings of the text
+* Students frequently believe that a theme must be explicitly stated in the text rather than understanding it can be inferred from details, dialogue, and events
+* Students may think there is only one correct theme for any given text instead of recognizing that texts can support multiple valid thematic interpretations when supported by evidence
+* Students often select minor details or interesting plot points for their summaries rather than focusing on the most important events that convey the central idea
 
 Difficulty Definitions:
 * Easy:
@@ -17920,13 +18325,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and articulate the theme or central idea of a literary text using textual evidence
+* Analyze how specific details, events, and character actions contribute to the development of theme
+* Distinguish between theme and topic, recognizing that theme is a complete idea or message about life
+* Trace how the author conveys theme through literary elements such as plot, character development, setting, and conflict
 
 Assessment Boundaries:
-*None specified*
+* Students should not be expected to identify highly abstract or philosophical themes that require advanced life experience beyond typical sixth-grade maturity
+* Assessments should focus on themes explicitly supported by textual details rather than requiring extensive inferential leaps or outside knowledge
+* Students are not expected to analyze multiple competing themes simultaneously or evaluate authorial intent beyond what is evident in the text
 
 Common Misconceptions:
-*None specified*
+* Students often confuse theme with topic, stating a one-word concept like 'friendship' rather than a complete statement about friendship
+* Students may identify the moral of the story or an explicit message rather than recognizing implicit themes developed throughout the text
+* Students sometimes summarize plot events instead of identifying the underlying central idea or universal truth
+* Students may overlook how multiple details work together to convey theme, focusing only on one or two obvious examples
+* Students frequently assume there is only one correct theme for a text rather than recognizing that texts can support multiple valid interpretations when backed by evidence
 
 Difficulty Definitions:
 * Easy:
@@ -17954,13 +18368,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and extract key details, main ideas, and central themes from literary texts without inserting personal opinions or interpretations.
+* Students will write objective summaries that include only relevant textual information in a logical sequence, excluding personal reactions or judgments.
+* Students will distinguish between factual textual evidence and subjective commentary when analyzing and summarizing literature.
+* Students will demonstrate understanding of the difference between summarizing (what the text says) and evaluating (what they think about the text).
 
 Assessment Boundaries:
-*None specified*
+* Summaries should focus on grade-level appropriate literary texts with clear plot structures and identifiable themes; highly complex or ambiguous texts with multiple interpretive layers are beyond the scope of this standard.
+* Students are expected to summarize complete short texts or substantial excerpts from longer works, not analyze isolated sentences or brief passages without context.
+* Assessment should not require students to write literary criticism, thematic essays, or personal responses, as these involve evaluation rather than objective summary.
 
 Common Misconceptions:
-*None specified*
+* Students often believe that a summary should include their personal reactions, opinions, or feelings about the text rather than focusing solely on what the text contains.
+* Students may confuse summarizing with retelling every detail, failing to distinguish between essential information and minor details.
+* Students frequently include interpretations or inferences as if they were explicitly stated facts in the text rather than their own conclusions.
+* Students may think that using phrases like 'I think' or 'I believe' makes their summary more complete, not recognizing these indicate personal judgment rather than objective summary.
+* Students often struggle to identify the difference between a theme (what the text is about) and their evaluation of that theme (whether they agree with or like it).
 
 Difficulty Definitions:
 * Easy:
@@ -17988,13 +18411,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and describe the sequence of episodes or events that make up a story's or drama's plot structure, including exposition, rising action, climax, falling action, and resolution.
+* Analyze how characters respond to challenges and conflicts within the plot, including their actions, dialogue, and thoughts.
+* Trace and explain how characters develop and change throughout the story as they encounter different plot events and move toward resolution.
+* Evaluate the relationship between plot events and character development, explaining how specific episodes influence character transformation.
 
 Assessment Boundaries:
-*None specified*
+* Students at this level should focus on explicit character changes and responses rather than complex psychological analysis or subtle implicit character motivations that require advanced inferential skills.
+* Plot analysis should center on clearly defined episodes and major plot points rather than complex narrative structures with multiple subplots or non-linear timelines.
+* Character development assessment should be based on textual evidence from the story rather than extensive outside knowledge or comparisons across multiple texts.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse plot summary with plot analysis, simply retelling what happens rather than describing how the plot unfolds through connected episodes.
+* Students may believe that all characters must change significantly by the end of a story, when some characters may remain static or undergo subtle changes.
+* Students may think that character change only happens at the resolution, rather than recognizing that characters can respond and evolve throughout multiple episodes in the plot.
+* Students may focus only on external actions and events without recognizing internal character responses such as changing attitudes, beliefs, or emotions.
+* Students may treat each episode as isolated rather than understanding how episodes build upon each other and create cumulative effects on character development and plot progression.
 
 Difficulty Definitions:
 * Easy:
@@ -18022,13 +18454,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and sequence the key episodes or events that comprise a story's plot structure
+* Analyze how individual episodes build upon one another to advance the plot toward resolution
+* Describe the relationship between episodes and explain how conflicts develop and move toward resolution
+* Trace the progression of plot from exposition through rising action, climax, falling action, and resolution
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to analyze complex literary devices such as foreshadowing, symbolism, or irony at this level
+* Focus should remain on plot structure and episode sequencing rather than deep thematic analysis or author's craft techniques
+* Students should work with grade-level appropriate texts; highly complex narratives with multiple subplots or non-linear timelines may be beyond the scope
 
 Common Misconceptions:
-*None specified*
+* Students may confuse plot episodes with chapters, believing that each chapter represents a separate episode rather than understanding that episodes are defined by key events
+* Students may believe that all stories follow a strict linear progression and struggle with flashbacks or non-chronological storytelling
+* Students may think the climax is always the final event in a story rather than understanding that falling action and resolution follow the climax
+* Students may focus solely on action-oriented events and overlook quieter but significant episodes involving character decisions or realizations that advance the plot
+* Students may treat all events as equally important rather than distinguishing between major plot episodes and minor supporting details
 
 Difficulty Definitions:
 * Easy:
@@ -18056,13 +18497,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and sequence the major episodes or scenes in a drama's plot structure
+* Analyze how each episode contributes to the development and progression of the plot toward resolution
+* Trace the rising action, climax, and falling action through the episodic structure of a drama
+* Explain the cause-and-effect relationships between episodes that drive the plot forward
 
 Assessment Boundaries:
-*None specified*
+* Focus should be on grade-level appropriate dramas with clear episodic structure rather than complex multi-layered plots
+* Students are not expected to analyze sophisticated dramatic techniques such as parallel plots or extensive use of dramatic irony
+* Assessment should emphasize plot development rather than deep analysis of themes or symbolism
 
 Common Misconceptions:
-*None specified*
+* Students may confuse individual scenes with episodes, not recognizing that an episode may contain multiple scenes unified by a single plot development
+* Students may believe that every episode must directly advance the main conflict, not understanding that some episodes develop subplots or character relationships that indirectly affect the resolution
+* Students may think the resolution occurs only in the final episode, rather than understanding that the plot moves progressively toward resolution throughout multiple episodes
+* Students may view episodes as independent units rather than recognizing the cumulative and interconnected nature of how episodes build upon each other
+* Students may focus only on external actions and events without recognizing how character decisions and internal conflicts drive plot progression across episodes
 
 Difficulty Definitions:
 * Easy:
@@ -18090,13 +18540,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and trace how characters respond to major events and challenges throughout a story's plot structure (exposition, rising action, climax, falling action, resolution).
+* Analyze the internal and external changes characters undergo as the plot progresses toward resolution, citing specific textual evidence.
+* Explain the relationship between plot events and character development, describing cause-and-effect connections between what happens and how characters change.
+* Compare and contrast a character's traits, motivations, and behaviors at different points in the narrative to demonstrate understanding of character arc.
 
 Assessment Boundaries:
-*None specified*
+* At grade 6, students should focus on explicit character responses and clearly stated changes rather than deeply implicit or symbolic transformations requiring advanced inferential skills.
+* Analysis should center on individual character development within a single text rather than complex comparative analysis across multiple texts or highly abstract thematic interpretations.
+* Students should work with appropriately complex grade-level texts; avoid requiring analysis of texts with multiple unreliable narrators, extensive flashbacks, or highly experimental narrative structures.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse plot summary with character analysis, simply retelling events rather than explaining how characters respond to or are changed by those events.
+* Students often believe that character change only occurs at major plot points like the climax, missing subtle developments throughout rising action and falling action.
+* Students may focus solely on external actions without recognizing internal changes in characters' thoughts, feelings, beliefs, or motivations.
+* Students sometimes assume all main characters must change significantly, not recognizing that static characters or minor characters may serve different literary purposes.
+* Students may identify a character trait at the beginning and end without tracing the progression of change or identifying the specific plot events that catalyzed the transformation.
 
 Difficulty Definitions:
 * Easy:
@@ -18124,13 +18583,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and describe how characters in a drama respond to major plot events and challenges throughout the story.
+* Analyze how characters change or develop as the plot progresses toward its resolution.
+* Trace the relationship between plot events and character responses, explaining how actions and decisions reveal character development.
+* Evaluate how a character's transformation contributes to the drama's resolution and overall meaning.
 
 Assessment Boundaries:
-*None specified*
+* Students should focus on explicit character actions, dialogue, and stage directions rather than requiring deep psychological analysis beyond grade-level expectations.
+* Analysis should center on main characters and major plot points rather than exhaustive examination of all minor characters and subplots.
+* Students are expected to support claims with textual evidence from the drama but are not required to use advanced literary terminology beyond basic drama vocabulary (character, plot, resolution, dialogue, stage directions).
 
 Common Misconceptions:
-*None specified*
+* Students may confuse character responses (immediate reactions to events) with character change (lasting transformation over time).
+* Students may believe that all characters must change significantly by the end of a drama, when some characters may remain static while still responding to events.
+* Students may focus solely on what happens in the plot without connecting events to how characters respond or develop.
+* Students may assume character change only occurs at the resolution rather than recognizing it as a gradual process throughout the drama.
+* Students may overlook stage directions as a source of information about character responses, focusing only on dialogue.
 
 Difficulty Definitions:
 * Easy:
@@ -18158,13 +18626,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will determine the meaning of words and phrases in literary texts using context clues, including both literal and figurative meanings.
+* Students will identify and analyze figurative language including similes, metaphors, personification, and idioms in grade-level texts.
+* Students will distinguish between connotative (emotional/associative) and denotative (literal/dictionary) meanings of words.
+* Students will analyze and explain how specific word choices affect the meaning, mood, and tone of a literary text.
 
 Assessment Boundaries:
-*None specified*
+* Focus should be on grade-appropriate literary texts and commonly used figurative language; highly technical or obscure literary devices beyond grade 6 scope should not be assessed.
+* Students are not expected to analyze historical or archaic language forms that require specialized knowledge beyond their grade level.
+* Assessment should not require students to identify or analyze every possible type of figurative language, but rather focus on the most common forms appropriate for grade 6.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that figurative language and connotative meanings are the same thing, when connotation refers to emotional associations while figurative language involves non-literal comparisons or expressions.
+* Students may think all descriptive or interesting words are examples of figurative language, rather than understanding that figurative language involves specific techniques like metaphor, simile, or personification.
+* Students may assume that words have only one fixed meaning, failing to recognize that context determines whether a word should be interpreted literally or figuratively.
+* Students may confuse tone (author's attitude) with mood (reader's emotional response), leading to incorrect analysis of how word choice impacts the text.
+* Students may believe that the dictionary definition is always the meaning intended in a text, overlooking the importance of connotative meanings and context-dependent interpretations.
 
 Difficulty Definitions:
 * Easy:
@@ -18192,13 +18669,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will accurately identify and explain the literal meaning of words and phrases as they appear in literary texts.
+* Students will use context clues within sentences and paragraphs to determine the explicit, dictionary-level meaning of unfamiliar words.
+* Students will distinguish between literal and figurative meanings of words in literature, focusing on the literal interpretation.
+* Students will demonstrate understanding of word meanings by paraphrasing or substituting words with synonyms that maintain the literal sense of the original text.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on determining literal meanings only, not figurative language, connotative meanings, or deeper symbolic interpretations at this level.
+* Words assessed should be grade-appropriate or slightly above grade level, avoiding highly technical or specialized vocabulary beyond typical sixth-grade literature.
+* Students are not expected to analyze author's purpose or tone related to word choice, only the explicit, denotative meaning of the words themselves.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse literal meaning with figurative meaning, interpreting idioms or metaphors as their dictionary definitions rather than recognizing when words are used non-literally.
+* Students may assume that a word has only one meaning and fail to consider that context determines which definition applies in a specific text.
+* Students may rely solely on their prior knowledge of a word without checking how it is actually used in the current context, leading to misinterpretation.
+* Students may believe that determining literal meaning is simply finding a synonym, without understanding that the literal meaning must fit the specific context of the sentence.
+* Students may overlook or misuse context clues, jumping to conclusions about word meanings without examining surrounding sentences or paragraphs for support.
 
 Difficulty Definitions:
 * Easy:
@@ -18226,13 +18712,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will accurately identify and explain the literal meaning of words and phrases as they appear in literary texts.
+* Students will distinguish between literal and figurative meanings of phrases in context.
+* Students will use context clues, word relationships, and reference materials to determine the literal meaning of unfamiliar phrases.
+* Students will demonstrate comprehension by paraphrasing phrases from a text using their own words while maintaining the literal meaning.
 
 Assessment Boundaries:
-*None specified*
+* Focus should be on determining literal meanings rather than figurative, connotative, or technical meanings at this level.
+* Phrases should be grade-appropriate and drawn from literary texts rather than informational or technical texts.
+* Assessment should not require specialized vocabulary knowledge beyond grade 6 expectations or extensive background knowledge of obscure topics.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse literal meaning with figurative meaning, attempting to interpret straightforward phrases as metaphors or idioms.
+* Students may believe that the literal meaning is always the most common or familiar meaning of a word, rather than the meaning that fits the specific context.
+* Students may think that determining literal meaning requires only knowing individual word definitions, without considering how words work together in phrases.
+* Students may assume that if they understand some words in a phrase, they understand the entire phrase's literal meaning.
+* Students may overlook context clues that clarify or modify the literal meaning of a phrase within the text.
 
 Difficulty Definitions:
 * Easy:
@@ -18260,13 +18755,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and analyze figurative language devices (simile, metaphor, personification, idiom, hyperbole) in literary texts and explain their meaning within context
+* Students will distinguish between connotative and denotative meanings of words and determine how word choice affects tone and meaning in a text
+* Students will analyze how an author's use of figurative and connotative language contributes to the overall theme, mood, or characterization in a literary work
+* Students will interpret the intended meaning of words and phrases by considering context clues, including cultural and historical references
 
 Assessment Boundaries:
-*None specified*
+* At grade 6, students should focus on common figurative language types (simile, metaphor, personification, idiom, hyperbole) rather than advanced devices like synecdoche or metonymy
+* Assessment should use age-appropriate texts with vocabulary and cultural references accessible to middle school students
+* Students are expected to explain meanings using textual evidence but are not required to analyze complex layers of symbolism or allegory typical of high school literary analysis
 
 Common Misconceptions:
-*None specified*
+* Students may confuse similes and metaphors, believing any comparison is a simile or that figurative language must include 'like' or 'as'
+* Students may think all non-literal language is automatically figurative, not recognizing that idioms are fixed expressions with established meanings
+* Students may believe that connotation and denotation are the same, or that words have only one correct connotative meaning regardless of context
+* Students may interpret figurative language too literally, missing the implied or symbolic meaning intended by the author
+* Students may assume that identifying the type of figurative language is sufficient, without explaining what the figurative language actually means or contributes to the text
 
 Difficulty Definitions:
 * Easy:
@@ -18294,13 +18798,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and distinguish between literal and figurative language in literary texts, including similes, metaphors, personification, and idioms
+* Analyze how specific word choices and phrases contribute to meaning and tone in a text, considering both denotative and connotative meanings
+* Explain how figurative language creates imagery and emotional impact in poetry and prose
+* Interpret the meaning of phrases in context by considering connotations, cultural references, and author's purpose
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on common figurative language types appropriate for grade 6 (simile, metaphor, personification, idiom, hyperbole) rather than advanced literary devices like synecdoche or metonymy
+* Phrases and vocabulary should be grade-level appropriate and accessible with context clues; avoid requiring extensive background knowledge or obscure cultural references
+* Assessment should emphasize interpretation within context rather than memorization of definitions or identification without explanation
 
 Common Misconceptions:
-*None specified*
+* Students may confuse connotative meaning (emotional associations) with denotative meaning (dictionary definition), treating all words as having only literal meanings
+* Students may identify figurative language but struggle to explain what it means or why the author used it, stopping at labeling rather than interpreting
+* Students may interpret idioms literally rather than understanding their figurative meanings (e.g., 'it's raining cats and dogs' means animals are falling from the sky)
+* Students may believe that figurative language only appears in poetry and not recognize it in prose, dialogue, or informational texts
+* Students may think all comparisons are similes or metaphors, failing to recognize that some comparisons are literal rather than figurative
 
 Difficulty Definitions:
 * Easy:
