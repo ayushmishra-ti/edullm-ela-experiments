@@ -18841,13 +18841,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Determine the meaning of words and phrases as they are used in a literary text, including figurative and connotative meanings
+* Analyze how specific word choices impact the overall meaning and tone of a literary passage
+* Explain how an author's word choice contributes to the development of theme, setting, or characterization
+* Compare the effects of different word choices and explain why an author selected particular words over alternatives
 
 Assessment Boundaries:
-*None specified*
+* Focus should be on grade-appropriate literary texts and vocabulary; avoid requiring knowledge of highly specialized or technical literary terminology beyond basic figurative language
+* Students are not expected to analyze word choice in texts written in archaic or Middle English, or texts significantly above grade-level complexity
+* Assessment should focus on analyzing existing word choices rather than extensive creative writing or word substitution exercises
 
 Common Misconceptions:
-*None specified*
+* Students may believe that words only have one fixed meaning rather than understanding that context and connotation affect meaning
+* Students may focus only on identifying figurative language devices (metaphor, simile) without analyzing how these devices impact meaning or tone
+* Students may think any synonym can replace a word without changing the meaning, failing to recognize subtle connotative differences
+* Students may confuse the literal dictionary definition of a word with how it functions in context within a specific literary passage
+* Students may overlook how word choice contributes to mood and tone, focusing only on plot-level comprehension
 
 Difficulty Definitions:
 * Easy:
@@ -18875,13 +18884,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify specific word choices made by an author in a literary text and explain their literal and figurative meanings.
+* Analyze how specific words and phrases impact the tone of a text, including words with strong connotations and emotional associations.
+* Compare different word choices and evaluate how alternative words would change the tone of a passage.
+* Determine the author's attitude or feelings toward a subject by examining deliberate word choices and their cumulative effect on tone.
 
 Assessment Boundaries:
-*None specified*
+* Focus should be on grade-appropriate literary texts; avoid highly complex or archaic vocabulary that requires extensive background knowledge beyond grade 6.
+* Students should analyze tone at the passage or section level rather than being expected to analyze tone across entire novels or complex multi-layered texts.
+* Limit analysis to identifiable tones appropriate for middle school understanding (e.g., humorous, serious, sad, angry, hopeful) rather than highly nuanced or sophisticated tones requiring advanced emotional intelligence.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse tone with mood, believing tone describes how the reader feels rather than the author's attitude toward the subject.
+* Students may think that tone is determined by the topic itself rather than by the specific words the author chooses to describe that topic.
+* Students may believe that tone is always consistent throughout a text, missing how word choice can shift tone within different sections.
+* Students may identify a word as 'positive' or 'negative' without considering the specific nuances and connotations that create particular tones.
+* Students may assume that formal or sophisticated vocabulary automatically creates a serious tone, overlooking how word choice context determines tone.
 
 Difficulty Definitions:
 * Easy:
@@ -18909,13 +18927,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and explain how specific structural elements (sentences, chapters, scenes, or stanzas) function within a literary text
+* Analyze the relationship between a text's structure and its development of theme, setting, or plot
+* Evaluate how authors use structural choices to create meaning and impact in a narrative
+* Compare different structural elements and determine their individual contributions to the overall text
 
 Assessment Boundaries:
-*None specified*
+* Students should focus on grade-appropriate texts and are not expected to analyze highly complex literary structures such as frame narratives or postmodern techniques
+* Analysis should center on clear connections between structure and meaning, not require advanced literary theory knowledge
+* Students are not expected to identify or analyze specialized poetic forms beyond basic stanza structure at this grade level
 
 Common Misconceptions:
-*None specified*
+* Students may believe that structure only refers to the physical organization of text rather than how elements work together to build meaning
+* Students may confuse summarizing content with analyzing how structural elements contribute to theme, setting, or plot development
+* Students may think that every sentence, scene, or stanza has equal importance rather than recognizing that some elements serve pivotal structural roles
+* Students may focus solely on what happens in a section rather than examining how and why the author positioned it within the overall structure
+* Students may believe that structural analysis is separate from understanding theme, setting, and plot rather than recognizing these elements as interconnected
 
 Difficulty Definitions:
 * Easy:
@@ -18943,13 +18970,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify the structural elements of a text (exposition, rising action, climax, falling action, resolution) and locate specific paragraphs within these elements
+* Analyze how a specific paragraph contributes to the development of theme by identifying key ideas, symbols, or messages it conveys
+* Explain how a particular paragraph advances the plot by examining cause-and-effect relationships, conflicts, or character decisions
+* Evaluate how a paragraph establishes or develops setting through descriptive details, time markers, or contextual information
 
 Assessment Boundaries:
-*None specified*
+* Students should focus on analyzing complete paragraphs rather than isolated sentences or phrases
+* Analysis should be limited to texts appropriate for grade 6 complexity level, avoiding overly sophisticated literary structures or abstract themes
+* Students are not expected to use advanced literary terminology beyond basic structural elements (e.g., flashback, foreshadowing acceptable; epistrophe, chiasmus not expected)
 
 Common Misconceptions:
-*None specified*
+* Students may believe that every paragraph must contribute equally to theme, setting, AND plot, rather than understanding that paragraphs often serve one primary purpose
+* Students may confuse summarizing what happens in a paragraph with analyzing how it functions within the larger text structure
+* Students may think that only paragraphs containing action or dialogue contribute to plot development, overlooking descriptive or reflective passages
+* Students may identify surface-level details without connecting them to how the paragraph advances the overall narrative or thematic purpose
+* Students may assume that a paragraph's position in the text (beginning, middle, end) automatically determines its structural role without examining its actual content and function
 
 Difficulty Definitions:
 * Easy:
@@ -18977,13 +19013,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and explain how a specific chapter or section functions within the overall structure of a literary text (e.g., introduction, rising action, climax, falling action, resolution).
+* Analyze how a particular chapter contributes to the development of theme by introducing or reinforcing key ideas, messages, or lessons.
+* Evaluate how a chapter advances the plot by introducing conflicts, complications, or resolutions that move the story forward.
+* Examine how a chapter develops or changes the setting and explain its significance to character development or plot progression.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to analyze complex literary devices beyond grade 6 scope, such as advanced symbolism, allegory, or postmodern narrative structures.
+* Focus should be on analyzing individual chapters rather than requiring students to simultaneously analyze multiple chapters or compare structural elements across different texts.
+* Students should work with appropriately complex grade 6 texts and not be assessed on literary analysis that requires specialized background knowledge of historical or cultural contexts beyond their grade level.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that every chapter must contribute equally to theme, setting, AND plot, rather than understanding that chapters may focus primarily on one or two of these elements.
+* Students often confuse plot summary with analysis, retelling what happens in a chapter instead of explaining how the chapter functions within the larger structure.
+* Students may think that a chapter's importance is determined only by exciting action or dramatic events, overlooking chapters that develop character, setting, or theme through quieter moments.
+* Students sometimes view chapters as isolated units rather than understanding how they connect to and build upon previous chapters and set up future events.
+* Students may incorrectly assume that the first chapter always introduces all major elements (theme, setting, plot) completely, rather than recognizing that these elements develop progressively throughout the text.
 
 Difficulty Definitions:
 * Easy:
@@ -19011,13 +19056,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and describe the structural elements of a literary text, including chapters, scenes, stanzas, and how they relate to one another.
+* Analyze how a specific section or passage contributes to the development of theme, setting, or plot within the overall narrative.
+* Explain the relationship between individual parts of a text and the whole text, demonstrating understanding of how authors organize their work for effect.
+* Evaluate why an author might have placed a particular section in a specific location within the text and how it impacts reader understanding.
 
 Assessment Boundaries:
-*None specified*
+* Students should focus on grade-appropriate texts with clear structural elements rather than complex experimental narratives or advanced literary forms.
+* Analysis should center on explicit textual evidence and observable structural patterns rather than requiring extensive background knowledge of literary theory or historical context.
+* Students are not expected to analyze multiple simultaneous plot lines or highly sophisticated narrative techniques such as unreliable narration or meta-fiction.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that every section of a text must contribute equally to theme, setting, AND plot, rather than understanding that sections may primarily develop one element.
+* Students may confuse summarizing what happens in a section with analyzing how that section functions within the larger structure of the text.
+* Students may think that structural analysis only applies to chapters or major divisions, overlooking how paragraphs, scenes, or stanzas also contribute to overall structure.
+* Students may assume that sections early in a text only develop setting and exposition, not recognizing that theme and plot development can begin immediately.
+* Students may believe that identifying structure is separate from understanding meaning, rather than recognizing that structure and content work together to create meaning.
 
 Difficulty Definitions:
 * Easy:
@@ -19045,13 +19099,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify the narrator or speaker in a text and determine whether the point of view is first person, second person, or third person (limited or omniscient).
+* Analyze specific words, phrases, and passages that reveal how an author establishes and develops the narrator's or speaker's point of view throughout a text.
+* Explain how the narrator's or speaker's point of view influences how events are described and what information is revealed to the reader.
+* Compare how different narrators or speakers might present the same event or information differently based on their unique perspectives.
 
 Assessment Boundaries:
-*None specified*
+* At grade 6, students should focus on analyzing point of view in age-appropriate literary texts; highly complex narrative techniques such as stream of consciousness or unreliable narration are more appropriate for higher grades.
+* Students are not expected to analyze point of view in highly technical or abstract philosophical texts, but rather in narrative fiction, poetry, and drama suitable for middle school readers.
+* Assessment should focus on how authors develop point of view through textual evidence rather than requiring students to write extensively in different points of view themselves.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse point of view with perspective or opinion, not understanding that point of view refers to the grammatical person and narrative position from which a story is told.
+* Students may believe that first-person narrators always tell the truth or have complete knowledge of events, failing to recognize that first-person narrators have limited perspectives.
+* Students may think that third-person omniscient narrators are the same as the author, not recognizing that the narrator is a constructed voice separate from the author.
+* Students may incorrectly assume that all third-person narration is omniscient, not recognizing the distinction between third-person limited and third-person omniscient points of view.
+* Students may focus only on identifying the type of point of view (first, second, or third person) without analyzing how the author develops and uses that point of view to shape the reader's understanding of events and characters.
 
 Difficulty Definitions:
 * Easy:
@@ -19079,13 +19142,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify the narrator or speaker in a literary text and determine whether the point of view is first person, second person, or third person (limited or omniscient).
+* Analyze specific words, phrases, and literary techniques the author uses to establish and develop the narrator's or speaker's point of view throughout a text.
+* Explain how the author's choice of point of view affects what readers know about characters, events, and settings in the text.
+* Compare how different narrators or speakers might present the same event or information differently based on their unique perspectives and limitations.
 
 Assessment Boundaries:
-*None specified*
+* At grade 6, students should focus on commonly used narrative points of view (first person, third person limited, third person omniscient) rather than complex or experimental narrative techniques like second person or shifting perspectives.
+* Students are expected to explain how point of view is developed through textual evidence, but are not yet required to analyze highly sophisticated narrative techniques such as unreliable narration or stream of consciousness.
+* Assessment should focus on single texts with consistent narrators rather than texts with multiple or alternating narrators, which are more appropriate for grades 7-8.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse the narrator's point of view with the author's personal opinion or perspective, failing to recognize that the narrator is a constructed voice created by the author.
+* Students may identify point of view simply by looking for pronouns (I, you, he/she) without understanding how the narrator's knowledge, bias, and perspective shape the story.
+* Students may believe that third person narrators always know everything about all characters, not recognizing the distinction between third person limited and third person omniscient.
+* Students may think that point of view remains static, missing how authors develop and reveal aspects of the narrator's perspective gradually throughout the text.
+* Students may assume that first person narrators are always reliable and truthful, not recognizing that narrators can have limited knowledge or biased perspectives.
 
 Difficulty Definitions:
 * Easy:
@@ -19113,13 +19185,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and describe the differences between reading a text and experiencing it through audio, video, or live performance formats.
+* Students will analyze how mental imagery created during reading compares to visual and auditory elements presented in multimedia or live versions of the same text.
+* Students will evaluate the unique advantages and limitations of different media formats in conveying story elements, mood, and character development.
+* Students will articulate specific examples of what they visualize and imagine while reading versus what is directly presented in audio, video, or live performances.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to analyze complex film techniques or theatrical staging principles beyond basic observation.
+* Focus should remain on comparing personal reading experience to other formats rather than critiquing the quality or artistic merit of adaptations.
+* Students should work with grade-level appropriate texts and should not be expected to analyze multiple adaptations simultaneously.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that video or audio versions are always superior to reading because they provide concrete images and sounds.
+* Students may think that their mental images while reading should match exactly what appears in filmed or staged versions.
+* Students may assume that comparing formats means determining which one is 'better' rather than understanding the unique experience each offers.
+* Students may confuse summarizing plot differences in adaptations with comparing the experiential differences between reading and viewing/listening.
+* Students may not recognize that reading allows for personalized interpretation while multimedia versions present a director's or producer's specific interpretation.
 
 Difficulty Definitions:
 * Easy:
@@ -19147,13 +19228,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and analyze themes and topics that appear across different literary forms and genres
+* Compare and contrast how authors use different literary forms (such as stories, poems, plays) to explore similar themes
+* Evaluate how genre conventions (such as fantasy elements vs. historical accuracy) influence the way themes and topics are presented
+* Articulate specific similarities and differences in how texts from different genres approach the same theme or topic
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to analyze texts that require extensive background knowledge beyond grade 6 level or highly sophisticated literary analysis
+* Comparisons should focus on accessible themes and topics appropriate for middle school readers rather than abstract philosophical concepts
+* Students should compare texts within reasonable length and complexity parameters suitable for grade 6
 
 Common Misconceptions:
-*None specified*
+* Students may believe that comparing texts means only finding similarities, rather than identifying both similarities and differences
+* Students may confuse plot summary with thematic analysis, focusing on what happens rather than the underlying themes
+* Students may think that different genres cannot share the same themes or that genre determines theme
+* Students may believe that one genre or form is inherently better than another at expressing themes, rather than recognizing different approaches as equally valid
+* Students may focus only on surface-level features (like length or presence of rhyme) rather than deeper analysis of how form affects meaning
 
 Difficulty Definitions:
 * Easy:
@@ -19181,13 +19271,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify similar themes and topics across texts in different forms or genres (e.g., poem, short story, drama, novel excerpt).
+* Students will analyze how different authors approach the same theme or topic through distinct literary techniques, structures, and genre conventions.
+* Students will compare and contrast the effectiveness of different genres in conveying similar themes, supporting their analysis with specific textual evidence.
+* Students will articulate in writing or discussion how genre and form influence the development and presentation of themes and topics.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to analyze highly complex or abstract themes that require advanced literary theory knowledge beyond grade 6 developmental level.
+* Comparisons should be limited to 2-3 texts to maintain depth of analysis; students are not expected to compare more than three different genres simultaneously.
+* Students are not required to have extensive knowledge of genre history or evolution, but should understand basic characteristics of common literary forms.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse theme with topic, believing they are interchangeable when theme is the underlying message and topic is the subject matter.
+* Students may think that texts with similar themes must have similar plots or characters, rather than understanding that themes can be explored through vastly different narratives.
+* Students may believe that one genre is inherently better than another at conveying themes, rather than recognizing that different genres offer unique strengths and approaches.
+* Students may focus only on surface-level similarities (setting, character names, general topic) rather than examining deeper thematic connections and how genre shapes meaning.
+* Students may assume that comparing and contrasting means finding only differences, overlooking the importance of identifying both similarities and differences in their analysis.
 
 Difficulty Definitions:
 * Easy:
@@ -19215,13 +19314,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will follow established classroom discussion rules, including raising hands to speak and waiting to be called on.
+* Students will demonstrate active listening skills by maintaining eye contact, facing the speaker, and keeping hands and feet still while others are talking.
+* Students will speak one at a time during discussions and stay on topic when contributing to conversations about texts and classroom subjects.
+* Students will use respectful language and tone when requesting a turn to speak and when responding to classmates' ideas.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on observable discussion behaviors rather than the content quality of student contributions.
+* Students are not expected to facilitate discussions independently or create their own discussion rules at this grade level.
+* Evaluation should occur in structured, teacher-led discussions rather than exclusively in independent small group settings.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that speaking loudly or interrupting shows enthusiasm rather than understanding it disrupts the discussion.
+* Students may think that looking around the room or fidgeting while others speak is acceptable as long as they are quiet.
+* Students may assume that raising their hand while someone else is talking is polite, not recognizing it can be distracting to the speaker.
+* Students may believe that changing the subject to something they find more interesting is a helpful contribution to the discussion.
+* Students may think that discussion rules only apply during formal lessons and not during informal classroom conversations or partner work.
 
 Difficulty Definitions:
 * Easy:
@@ -19249,13 +19357,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will actively listen to peers' comments during conversations and identify key ideas shared by others.
+* Students will make verbal connections between their own ideas and what classmates have said using linking phrases such as 'I agree with...', 'That reminds me of...', or 'Adding to what [name] said...'
+* Students will demonstrate conversational turn-taking while building upon previous speakers' comments to develop a cohesive group discussion.
+* Students will reference specific details from a peer's comment when contributing their own ideas to show they are listening and connecting thoughts.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to synthesize ideas from more than 2-3 previous speakers at once or track complex multi-step conversation threads.
+* Students are not required to use sophisticated academic vocabulary or formal debate language, but should use simple connecting phrases appropriate for second grade.
+* Students are not expected to build on comments made in previous class sessions, but should focus on linking ideas within the current conversation.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that simply waiting their turn to speak constitutes building on others' talk, without actually connecting their comment to what was previously said.
+* Students may think that agreeing or disagreeing with a peer is sufficient, without adding new information or explaining the connection to the previous comment.
+* Students may assume that building on others' talk means repeating exactly what someone else said rather than extending, elaborating, or connecting ideas.
+* Students may focus only on responding to the teacher's questions rather than listening to and building upon peer contributions.
+* Students may believe they must always agree with previous speakers to build on their comments, rather than understanding they can respectfully add different perspectives while still making connections.
 
 Difficulty Definitions:
 * Easy:
@@ -19283,13 +19400,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify when they do not understand a topic or text being discussed in a group or class setting.
+* Students will formulate appropriate questions to ask for clarification when meaning is unclear.
+* Students will request further explanation or additional information about topics and texts using complete sentences and polite language.
+* Students will demonstrate active listening skills by asking relevant follow-up questions that deepen understanding of the discussion topic.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to use formal academic language or technical vocabulary when asking questions at this grade level.
+* Questions should focus on understanding the immediate topic or text rather than making complex inferences or abstract connections.
+* Students are not expected to evaluate the quality of responses they receive, only to ask appropriate clarifying questions.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that asking questions shows they are not smart or paying attention, rather than understanding that questions demonstrate engagement and active learning.
+* Students may think they should only ask questions when the teacher prompts them, rather than recognizing they can ask for clarification at appropriate times during any discussion.
+* Students may confuse asking clarifying questions with changing the subject or sharing personal stories unrelated to the topic.
+* Students may believe that any question is appropriate, without understanding that clarifying questions should relate directly to the topic or text being discussed.
+* Students may think they need to understand every single word or detail, rather than focusing on asking about key ideas that affect overall understanding.
 
 Difficulty Definitions:
 * Easy:
@@ -19317,13 +19443,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will listen actively to texts read aloud and identify the main topic and key details.
+* Students will recount important ideas from oral presentations or media using complete sentences and appropriate sequence.
+* Students will describe specific details from information presented through various media formats (audio, video, digital presentations).
+* Students will demonstrate comprehension by answering questions about key ideas from orally presented information.
 
 Assessment Boundaries:
-*None specified*
+* Texts and media should be appropriate for grade 2 reading and listening comprehension levels, typically at or slightly above second grade complexity.
+* Students are not expected to analyze complex multimedia elements or evaluate the credibility of sources at this grade level.
+* Focus should be on recounting and describing rather than on critical analysis or synthesis of multiple sources.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse retelling every detail with identifying and recounting key ideas, leading to overly lengthy or unfocused responses.
+* Students may believe that listening to information is the same as remembering it, without understanding the need for active listening strategies.
+* Students may think they need to use the exact words from the text or presentation rather than putting ideas into their own words.
+* Students may focus only on the most recent information presented rather than organizing and recounting ideas in logical sequence.
+* Students may not recognize that information can be presented through various media formats beyond traditional read-alouds, such as videos, podcasts, or digital presentations.
 
 Difficulty Definitions:
 * Easy:
@@ -19351,13 +19486,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will ask relevant questions during or after a presentation to clarify information they did not understand.
+* Students will formulate questions to gather additional details or examples about a topic presented by a speaker.
+* Students will answer questions about what a speaker said by recalling key details and main ideas.
+* Students will ask follow-up questions that build on previous answers to deepen their understanding of a topic or issue.
 
 Assessment Boundaries:
-*None specified*
+* Questions and answers should focus on concrete information and straightforward clarification rather than abstract analysis or evaluation of the speaker's message.
+* Students are not expected to analyze the speaker's rhetorical strategies, bias, or credibility at this grade level.
+* Assessment should focus on oral presentations appropriate for second-grade comprehension level, not complex academic lectures or lengthy presentations.
 
 Common Misconceptions:
-*None specified*
+* Students may believe any question is acceptable, rather than understanding that questions should be relevant and connected to the speaker's topic.
+* Students may think asking questions means they weren't listening well, rather than understanding that questions demonstrate active engagement and thinking.
+* Students may confuse asking questions with making personal comments or sharing unrelated personal experiences.
+* Students may believe they should only ask questions if they didn't understand anything, rather than asking questions to learn more about topics that interest them.
+* Students may think questions must be asked immediately during a presentation, rather than understanding that some questions are more appropriate to ask after the speaker finishes.
 
 Difficulty Definitions:
 * Easy:
@@ -19385,13 +19529,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will orally tell a story or recount a personal experience using a logical sequence with a clear beginning, middle, and end.
+* Students will include appropriate facts and relevant, descriptive details that enhance their story or recount of an experience.
+* Students will speak audibly and clearly using complete, coherent sentences that can be understood by their audience.
+* Students will use descriptive language including adjectives, sensory details, and specific nouns to make their story or recount more engaging.
 
 Assessment Boundaries:
-*None specified*
+* At grade 2, students are not expected to deliver formal speeches with advanced rhetorical techniques or complex organizational structures beyond chronological sequencing.
+* Students are not expected to use extensive academic vocabulary or technical language beyond their grade-level reading and speaking capabilities.
+* Assessment should focus on clear communication and basic storytelling elements rather than persuasive techniques, multiple points of view, or abstract concepts.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that adding many details makes a story better, without understanding that details must be relevant and connected to the main story.
+* Students may think speaking louder is the same as speaking clearly, not recognizing the importance of enunciation and pacing.
+* Students may confuse telling a story with simply listing events, missing the need for descriptive details and connecting sentences.
+* Students may believe that only exciting or unusual experiences are worth recounting, rather than recognizing that everyday experiences can be interesting when told with good details.
+* Students may think that memorizing a script word-for-word is required, rather than understanding they should know their story well enough to tell it naturally in coherent sentences.
 
 Difficulty Definitions:
 * Easy:
@@ -19419,13 +19572,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will create clear audio recordings of stories or poems using appropriate volume, pacing, and expression.
+* Students will select and create drawings or visual displays that enhance understanding of their stories or personal experiences.
+* Students will explain how their visual displays help clarify specific ideas, thoughts, or feelings in their presentations.
+* Students will integrate audio and visual elements to create cohesive multimedia presentations appropriate for second-grade audiences.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to use advanced digital editing software or professional recording equipment beyond basic classroom technology.
+* Visual displays should focus on clarifying content rather than demonstrating advanced artistic techniques or complex graphic design.
+* Audio recordings should be evaluated on clarity and expression rather than professional voice acting or production quality.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that more visuals are always better, rather than understanding that visuals should be purposefully selected to clarify specific ideas.
+* Students may think audio recordings should sound like professional recordings, not recognizing that natural expression and clarity are the priorities.
+* Students may add decorative drawings that don't support comprehension, confusing artistic embellishment with purposeful visual displays that clarify meaning.
+* Students may believe they must create entirely new stories rather than understanding they can record existing poems or recount personal experiences.
+* Students may think visuals must be complex or detailed, rather than understanding that simple, clear illustrations can effectively clarify ideas and feelings.
 
 Difficulty Definitions:
 * Easy:
@@ -19453,13 +19615,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will speak in complete sentences when answering questions or providing information in classroom discussions and presentations.
+* Students will use appropriate sentence structure and grammar conventions when speaking to clarify ideas or provide additional details.
+* Students will recognize when complete sentences are needed versus informal speech in different classroom situations.
+* Students will self-correct and expand their spoken responses to ensure complete sentences are used when appropriate.
 
 Assessment Boundaries:
-*None specified*
+* At grade 2, students are not expected to use complex or compound-complex sentence structures consistently in oral communication.
+* Students are not expected to produce grammatically perfect sentences in all informal speaking situations, but should demonstrate awareness of when complete sentences are appropriate.
+* Assessment should focus on students' ability to produce complete sentences with subject and predicate, not advanced grammatical analysis or terminology.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that all spoken language must be in complete sentences, not understanding that informal conversations can use sentence fragments appropriately.
+* Students may think a complete sentence only needs to be long, rather than understanding it must have both a subject and predicate.
+* Students may confuse run-on sentences with complete sentences, stringing multiple thoughts together with 'and' without proper punctuation or pauses.
+* Students may believe that starting a sentence with 'because' or 'and' makes it incomplete, when these can be used in complete sentences with proper structure.
+* Students may not recognize that one-word responses like 'Yes' or 'No' are incomplete sentences when a full sentence response is requested for clarification or detail.
 
 Difficulty Definitions:
 * Easy:
@@ -19487,13 +19658,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will read and study required materials before participating in discussions, demonstrating evidence of preparation through specific references to texts or sources.
+* Students will explicitly draw upon their preparation by citing specific details, examples, or evidence from materials studied when contributing to group discussions.
+* Students will connect prior knowledge and information known about a topic to new ideas presented during discussions, making relevant connections that advance the conversation.
+* Students will use their preparation to ask questions and explore ideas that deepen understanding of the topic under discussion.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on evidence of preparation and ability to reference specific materials rather than evaluating the depth of literary analysis or critical thinking skills assessed in other standards.
+* Students are not expected to independently locate all discussion materials but should be assessed on their preparation with assigned or provided resources.
+* Assessment should not penalize students for the quality of their prior knowledge but rather focus on their ability to draw upon whatever preparation and knowledge they do have.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that simply completing assigned reading is sufficient, without understanding they must also be ready to reference and apply specific information from that reading.
+* Students may think that sharing any opinion or thought constitutes participation, rather than understanding the need to ground contributions in prepared materials and relevant knowledge.
+* Students may assume that preparation means memorizing facts rather than understanding that preparation enables them to explore and discuss ideas more deeply.
+* Students may believe they should only reference the most recent reading, not understanding that drawing on other information and prior knowledge about the topic is equally valuable.
+* Students may think that being prepared means having all the answers, rather than understanding that preparation helps them ask better questions and explore ideas collaboratively.
 
 Difficulty Definitions:
 * Easy:
@@ -19521,13 +19701,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will follow established discussion rules and norms including taking turns, listening actively, and building on others' ideas during collaborative conversations.
+* Students will successfully fulfill specific assigned roles in group discussions such as note-taker, timekeeper, facilitator, or presenter.
+* Students will demonstrate accountability by staying on topic, completing role responsibilities, and contributing appropriately to group goals.
+* Students will apply metacognitive skills to reflect on their own participation and adherence to discussion protocols.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on students' ability to follow established rules and complete assigned roles rather than the quality or content of their discussion contributions.
+* Students are not expected to independently create complex discussion protocols without teacher guidance at this grade level.
+* Evaluation should not penalize students for disagreeing with peers, but rather focus on how they express disagreement respectfully within agreed-upon norms.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that following discussion rules means never disagreeing or challenging others' ideas, rather than understanding that respectful disagreement is part of productive discussion.
+* Students may think their assigned role is more important than actively listening and participating, leading them to focus only on their specific task while disengaging from the actual discussion.
+* Students may confuse taking turns speaking with equal speaking time, not recognizing that contributions should be based on relevance and value rather than strict time limits.
+* Students may assume that following rules means being passive or quiet, rather than understanding that active engagement and appropriate contributions are part of discussion expectations.
+* Students may believe that carrying out an assigned role is only about completing a checklist of tasks rather than supporting the overall group's learning and discussion goals.
 
 Difficulty Definitions:
 * Easy:
@@ -19555,13 +19744,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will formulate specific, on-topic questions that deepen understanding and move discussions forward.
+* Students will provide relevant responses to questions that connect to the topic and build on previous comments.
+* Students will elaborate on peers' remarks by adding details, examples, or alternative perspectives that extend the conversation.
+* Students will demonstrate active listening by referencing and expanding upon specific ideas shared by classmates.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on the quality and relevance of questions and responses during discussions, not on the correctness of opinions or interpretations.
+* Students are not expected to facilitate entire discussions independently or manage off-topic behavior of peers.
+* Evaluation should not penalize students for needing processing time before responding or for cultural differences in discussion participation styles.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that asking any question counts as participation, rather than understanding that questions should be specific and related to the discussion topic.
+* Students may think that simply agreeing or disagreeing with a peer is sufficient, rather than elaborating with reasons, examples, or additional thoughts.
+* Students may confuse changing the subject with contributing to the discussion, not recognizing that effective comments build on what has already been said.
+* Students may believe that longer responses are always better, rather than understanding that concise, relevant contributions are more valuable.
+* Students may think they should only speak when they have a completely new idea, rather than recognizing that building on others' comments is an important discussion skill.
 
 Difficulty Definitions:
 * Easy:
@@ -19589,13 +19787,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will review and summarize the key ideas expressed by multiple speakers during a collaborative discussion.
+* Students will synthesize information from the discussion with prior knowledge to draw logical conclusions.
+* Students will articulate how new information from the discussion supports, contradicts, or extends their understanding of the topic.
+* Students will distinguish between main ideas and supporting details when reviewing discussion points.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to facilitate formal debate protocols or use advanced rhetorical analysis techniques beyond grade 5 expectations.
+* Assessment should focus on drawing conclusions from collaborative discussions rather than from independent research or reading comprehension alone.
+* Students are not expected to evaluate the credibility of sources or conduct fact-checking beyond recognizing when ideas are supported by evidence presented in the discussion.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that reviewing key ideas means simply repeating what was said rather than synthesizing and analyzing the information.
+* Students may think that drawing conclusions means choosing one person's opinion as correct rather than integrating multiple perspectives.
+* Students may confuse summarizing their own viewpoint with reviewing the key ideas expressed by all participants in the discussion.
+* Students may assume that conclusions must be definitive answers rather than thoughtful interpretations based on the discussion.
+* Students may believe that all ideas shared in a discussion are equally important rather than distinguishing between key ideas and minor details.
 
 Difficulty Definitions:
 * Easy:
@@ -19623,13 +19830,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and extract main ideas and key supporting details from texts read aloud, presentations, and multimedia sources.
+* Students will synthesize information presented in multiple formats (visual, quantitative, and oral) to create accurate summaries.
+* Students will distinguish between essential information and unnecessary details when summarizing diverse media presentations.
+* Students will produce concise oral or written summaries that capture the central message and important points from various information sources.
 
 Assessment Boundaries:
-*None specified*
+* Texts and media should be grade-appropriate in complexity and length, typically 3-5 minutes for audio/video presentations or 500-800 words for read-aloud texts.
+* Students are not expected to analyze highly technical quantitative data beyond basic graphs, charts, and tables appropriate for fifth grade mathematics standards.
+* Summaries should focus on comprehension and accurate representation rather than critical analysis or evaluation of the source material.
 
 Common Misconceptions:
-*None specified*
+* Students may believe a summary should include every detail rather than focusing on main ideas and key supporting points.
+* Students may confuse summarizing with retelling, including unnecessary sequential details instead of synthesizing the most important information.
+* Students may think summaries should be the same length regardless of the source, rather than adjusting summary length appropriately to the original material.
+* Students may include personal opinions, reactions, or interpretations in summaries instead of objectively representing the information presented.
+* Students may focus only on information presented in one format when multiple formats are used, missing the synthesis of visual, quantitative, and oral elements.
 
 Difficulty Definitions:
 * Easy:
@@ -19657,13 +19873,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will accurately identify and summarize the main points presented by a speaker in an oral presentation or discussion.
+* Students will identify specific claims made by a speaker and distinguish them from supporting details.
+* Students will analyze and explain how a speaker uses reasons and evidence to support each claim made.
+* Students will evaluate the effectiveness of the reasons and evidence provided by a speaker in supporting their claims.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to evaluate highly technical or specialized evidence that requires content knowledge beyond grade 5 level.
+* Students should focus on spoken presentations rather than complex multimedia presentations with multiple simultaneous information sources.
+* Students are not required to identify logical fallacies or use formal debate terminology, but should recognize when claims lack adequate support.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse the main claim with supporting reasons or examples, treating all points as equal in importance.
+* Students may believe that summarizing means retelling everything the speaker said rather than identifying key points.
+* Students may think that any statement made by a speaker is automatically a claim requiring evidence, rather than distinguishing between claims, reasons, and evidence.
+* Students may assume that if a speaker provides any example or detail, the claim is adequately supported, without evaluating the relevance or sufficiency of the evidence.
+* Students may focus only on explicit evidence and miss implicit connections between reasons and claims that speakers expect the audience to infer.
 
 Difficulty Definitions:
 * Easy:
@@ -19691,13 +19916,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will organize and deliver an oral presentation on a topic or text with a logical sequence of ideas that includes an introduction, supporting details, and conclusion.
+* Students will select and incorporate relevant facts and descriptive details that effectively support their main ideas or themes during oral presentations.
+* Students will speak clearly, using appropriate volume, pronunciation, and pacing that allows audience members to understand the presentation.
+* Students will present an opinion with supporting evidence in a coherent manner that persuades or informs the audience.
 
 Assessment Boundaries:
-*None specified*
+* Students at this level are not expected to deliver formal debate-style presentations with complex rhetorical devices or advanced persuasive techniques typically taught in middle school.
+* Presentations should focus on grade-appropriate topics and texts; students are not expected to analyze or present on complex abstract concepts or highly technical subject matter beyond fifth-grade comprehension.
+* While clarity and pacing are essential, students are not expected to demonstrate advanced public speaking skills such as sophisticated body language, advanced vocal variety, or professional presentation techniques.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that adding more facts automatically makes a presentation better, without understanding that facts must be relevant and directly support the main idea.
+* Students may think speaking loudly is the same as speaking clearly, not recognizing that clarity involves pronunciation, enunciation, and appropriate pacing.
+* Students may assume that a logical sequence simply means putting ideas in any order, rather than understanding that ideas should build upon each other with clear transitions and connections.
+* Students may confuse stating an opinion with supporting an opinion, believing that simply expressing what they think is sufficient without providing evidence or reasoning.
+* Students may believe that reading directly from notes or slides constitutes a presentation, not understanding the importance of engaging with the audience and presenting ideas conversationally.
 
 Difficulty Definitions:
 * Easy:
@@ -19725,13 +19959,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify appropriate multimedia components (graphics, sound, video) that support and enhance the main ideas or themes of a presentation.
+* Students will create effective visual displays that clarify and emphasize key points in their oral presentations.
+* Students will evaluate when and how to incorporate multimedia elements to strengthen their message rather than distract from it.
+* Students will integrate multiple forms of media purposefully to engage their audience and deepen understanding of content.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to demonstrate advanced technical skills in multimedia production software or professional-level graphic design.
+* Assessment should focus on appropriate selection and integration of multimedia rather than on technical quality or sophisticated editing techniques.
+* Students are not required to use expensive technology or specialized equipment; simple tools and resources are sufficient to meet the standard.
 
 Common Misconceptions:
-*None specified*
+* Students believe that adding any multimedia automatically improves a presentation, without considering whether it supports the main idea.
+* Students think that more multimedia is always better, leading to cluttered presentations that distract rather than enhance understanding.
+* Students may focus on entertainment value rather than educational value when selecting graphics, sounds, or other media.
+* Students assume that multimedia should be used in every presentation, rather than recognizing that some presentations are more effective without additional media.
+* Students may select visually appealing elements that are unrelated or only loosely connected to their main ideas or themes.
 
 Difficulty Definitions:
 * Easy:
@@ -19759,13 +20002,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and distinguish between formal and informal language in various speaking contexts
+* Students will adapt their speaking style, vocabulary, and tone to match different audiences and purposes (e.g., peer discussions, presentations, interviews)
+* Students will use formal English grammar and conventions when delivering presentations or speaking in academic settings
+* Students will recognize situational cues that indicate when formal versus informal speech is appropriate
 
 Assessment Boundaries:
-*None specified*
+* Assessments should focus on students' ability to adjust speech for different contexts rather than perfect formal speech in all situations
+* Students are not expected to master advanced rhetorical devices or professional-level formal speaking at this grade level
+* Evaluation should consider age-appropriate vocabulary and language structures aligned with grade 5 Language standards
 
 Common Misconceptions:
-*None specified*
+* Students may believe formal English means using complicated or unfamiliar vocabulary rather than clear, appropriate language
+* Students may think they must always use formal English in school settings, not recognizing that informal speech is appropriate for peer collaboration and casual discussions
+* Students may confuse being polite or respectful with using formal English, not understanding these are related but distinct concepts
+* Students may believe formal speech requires a robotic or unnatural tone rather than maintaining authenticity while adjusting language choices
+* Students may not recognize that written formal English and spoken formal English have different conventions and expectations
 
 Difficulty Definitions:
 * Easy:
@@ -19793,13 +20045,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will complete assigned readings and take notes on key ideas, evidence, and questions before participating in class discussions.
+* Students will reference specific textual evidence, page numbers, quotes, or studied material during discussions to support their ideas and responses.
+* Students will use their preparation materials to ask probing questions and make connections that deepen the discussion of texts or topics.
+* Students will demonstrate active listening by building on others' comments with relevant evidence from their preparatory work.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on whether students have completed preparatory work and can reference it during discussion, not on the quality of their interpretations or opinions.
+* Students are not expected to memorize extensive passages or details, but should have notes or materials available to reference during discussions.
+* Evaluation should center on the explicit use of preparation and evidence, not on students' speaking confidence or extroverted participation style.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that simply doing the reading is sufficient, without taking notes or marking evidence they can reference during discussion.
+* Students may think that sharing general opinions or reactions counts as being prepared, rather than citing specific textual evidence or material from their preparation.
+* Students may assume that listening quietly means they are participating adequately, without understanding the need to verbally contribute evidence-based ideas.
+* Students may believe they need to have all the 'right answers' prepared in advance, rather than using preparation as a foundation for exploring and probing ideas collaboratively.
+* Students may think that paraphrasing or summarizing what they read is the same as explicitly referring to evidence with specific references to the text or material.
 
 Difficulty Definitions:
 * Easy:
@@ -19827,13 +20088,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will follow established rules and norms for productive collegial discussions, including active listening, taking turns speaking, and respecting diverse perspectives.
+* Students will collaboratively set specific, measurable goals and realistic deadlines for group discussions and projects.
+* Students will identify and define individual roles within a group (such as facilitator, note-taker, timekeeper, or researcher) and fulfill their assigned responsibilities.
+* Students will demonstrate accountability by tracking progress toward group goals and adjusting strategies as needed to meet deadlines.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to lead complex multi-week projects independently without teacher guidance at this grade level.
+* Assessment should focus on students' ability to participate in structured collaborative discussions rather than spontaneous debates or formal parliamentary procedures.
+* Students are not expected to resolve significant interpersonal conflicts independently but should be able to follow conflict resolution protocols with teacher support.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that collegial discussions mean everyone must agree, rather than understanding that productive discussions involve respectful disagreement and diverse perspectives.
+* Students often think that setting goals means creating vague intentions (like 'do our best') rather than specific, measurable targets with clear deadlines.
+* Students may assume that group roles are permanent labels rather than flexible responsibilities that can rotate or be shared among members.
+* Students sometimes believe that following discussion rules limits their freedom to express ideas, rather than understanding that structures facilitate more equitable participation.
+* Students may think their individual role is less important if it's not a leadership position, failing to recognize that all roles contribute equally to group success.
 
 Difficulty Definitions:
 * Easy:
@@ -19861,13 +20131,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will formulate specific, on-topic questions that advance the discussion and require elaboration rather than yes/no answers.
+* Students will provide detailed responses to questions by incorporating relevant evidence, examples, and explanations that deepen understanding of the topic.
+* Students will make substantive comments that build on others' ideas and connect directly to the topic, text, or issue being discussed.
+* Students will distinguish between comments that contribute meaningfully to a discussion and those that are off-topic or superficial.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on the quality and relevance of questions and responses during collaborative discussions, not on formal debate techniques or parliamentary procedure.
+* Students are not expected to master advanced rhetorical strategies or Socratic seminar protocols, but should demonstrate basic elaboration and topic relevance.
+* Evaluation should emphasize meaningful contribution to discussion rather than quantity of participation or speed of response.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that any question counts as participation, without understanding that questions should be specific and require elaboration to advance discussion.
+* Students may think that simply agreeing or disagreeing with others constitutes a meaningful contribution, rather than adding new details, evidence, or perspectives.
+* Students may assume that longer responses are always better, without recognizing that concise, relevant comments can be more valuable than lengthy, unfocused ones.
+* Students may confuse personal storytelling or tangential anecdotes with on-topic elaboration that directly addresses the text or issue under discussion.
+* Students may believe they should only speak when they have a completely original idea, not understanding that building on or extending others' comments is a valuable form of contribution.
 
 Difficulty Definitions:
 * Easy:
@@ -19895,13 +20174,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will accurately identify and summarize the key ideas expressed during a collaborative discussion or presentation.
+* Students will demonstrate understanding of multiple perspectives by restating others' ideas in their own words through paraphrasing.
+* Students will reflect on discussion content by comparing and contrasting different viewpoints presented by peers.
+* Students will use paraphrasing techniques to confirm comprehension and show respect for diverse perspectives in group settings.
 
 Assessment Boundaries:
-*None specified*
+* At grade 6, students should focus on paraphrasing clearly stated perspectives rather than analyzing implicit or highly abstract viewpoints that require advanced inference skills.
+* Students are not expected to evaluate the validity or quality of arguments at this level, but rather demonstrate understanding of what was said.
+* Assessment should focus on oral and immediate written reflection rather than extended research-based analysis of perspectives.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that paraphrasing means simply changing one or two words in a sentence rather than restating the entire idea in their own words.
+* Students may think that reviewing key ideas means repeating them verbatim rather than synthesizing and summarizing the main points.
+* Students may confuse stating their own opinion with demonstrating understanding of others' perspectives, leading to responses that argue rather than reflect.
+* Students may assume that acknowledging multiple perspectives means they must agree with all viewpoints rather than simply understanding them.
+* Students may believe that paraphrasing is only necessary when they disagree with someone, rather than recognizing it as a tool for confirming understanding in all discussions.
 
 Difficulty Definitions:
 * Easy:
@@ -19929,13 +20217,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will interpret and analyze information presented in various media formats including visual displays, charts, graphs, audio recordings, and oral presentations.
+* Students will explain how information from diverse media and formats contributes to understanding a specific topic, text, or issue.
+* Students will compare and contrast how the same information is presented across different media formats and evaluate the effectiveness of each format.
+* Students will synthesize information from multiple media sources to develop a comprehensive understanding of a topic or issue under study.
 
 Assessment Boundaries:
-*None specified*
+* Students at this level are not expected to create complex statistical analyses or interpret highly technical data visualizations beyond grade-level appropriate graphs and charts.
+* Assessment should focus on interpretation and explanation rather than production of multimedia presentations, which is addressed in other standards.
+* Students are not expected to evaluate the credibility or bias of sources at an advanced level, but should focus on understanding how format affects meaning and contribution to the topic.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that simply identifying what is in an image, video, or graph constitutes interpretation rather than explaining how it contributes to understanding the topic.
+* Students may think that all media formats convey the same information equally well, without recognizing that different formats emphasize different aspects of a topic.
+* Students may focus only on literal information presented without making connections to the broader topic, text, or issue under study.
+* Students may assume that visual or multimedia information is less important or credible than written text, rather than recognizing it as a complementary or equally valid form of communication.
+* Students may confuse summarizing what they see or hear with explaining how the information contributes to their understanding of the subject matter.
 
 Difficulty Definitions:
 * Easy:
@@ -19963,13 +20260,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and articulate the main argument and specific claims presented by a speaker in an oral presentation or discussion
+* Evaluate whether a speaker's claims are supported by relevant reasons and sufficient evidence
+* Distinguish between claims that have credible supporting evidence and those that rely on opinion, assumption, or insufficient proof
+* Analyze the logical connections between a speaker's argument, claims, reasons, and evidence
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to evaluate highly technical or specialized arguments requiring extensive background knowledge beyond grade 6 curriculum
+* Focus should remain on accessible speeches, presentations, and discussions appropriate for middle school contexts rather than complex academic or legal arguments
+* Students are not required to identify sophisticated rhetorical devices or logical fallacies by formal names, but should recognize when reasoning is flawed or evidence is missing
 
 Common Misconceptions:
-*None specified*
+* Students may confuse a speaker's opinion or personal belief with evidence-based claims
+* Students may believe that any statement made confidently or with emotion constitutes a supported claim
+* Students may think that a single example or anecdote is sufficient evidence to support a broad claim
+* Students may fail to distinguish between relevant evidence that directly supports a claim and interesting but unrelated information
+* Students may assume that all claims made by authority figures or experts are automatically supported by adequate evidence without critical evaluation
 
 Difficulty Definitions:
 * Easy:
@@ -19997,13 +20303,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will present claims and findings with a logical sequence that enhances audience understanding of the main ideas or themes.
+* Students will support their presentations with pertinent descriptions, facts, and details that directly relate to and emphasize the main ideas.
+* Students will demonstrate effective presentation skills including appropriate eye contact, adequate volume, and clear pronunciation throughout their delivery.
+* Students will organize information in a coherent manner that builds understanding from introduction through conclusion.
 
 Assessment Boundaries:
-*None specified*
+* At grade 6, students are not expected to use advanced rhetorical devices or sophisticated multimedia integration beyond basic visual aids.
+* Students are not expected to deliver presentations longer than 5-7 minutes or handle complex, multi-layered argumentative structures more appropriate for high school level.
+* Formal debate techniques and advanced persuasive strategies are beyond the scope of this standard at grade 6.
 
 Common Misconceptions:
-*None specified*
+* Students believe that including more information automatically makes a presentation better, rather than selecting only pertinent details that support main ideas.
+* Students think that reading directly from notes or slides constitutes an adequate presentation, rather than using them as supports while engaging with the audience.
+* Students assume that speaking loudly is the same as speaking clearly, not recognizing that pronunciation and enunciation are distinct from volume.
+* Students may believe that a logical sequence means chronological order only, rather than understanding various organizational patterns like cause-effect, problem-solution, or order of importance.
+* Students often think eye contact means staring at one person or looking generally at the back wall, rather than naturally scanning and connecting with various audience members.
 
 Difficulty Definitions:
 * Easy:
@@ -20031,13 +20346,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will select and integrate appropriate multimedia components (graphics, images, music, sound) that enhance and clarify their presentation content.
+* Students will create visual displays that effectively organize and emphasize key information for their audience.
+* Students will evaluate the effectiveness of multimedia elements in supporting their main ideas and overall presentation purpose.
+* Students will demonstrate technical skills in incorporating multimedia components into digital or physical presentations.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on the appropriateness and clarity of multimedia choices rather than technical sophistication or production quality.
+* Students are not expected to create original multimedia from scratch but should demonstrate thoughtful selection and integration of existing resources.
+* Evaluation should emphasize how multimedia enhances understanding rather than decorative or entertainment value alone.
 
 Common Misconceptions:
-*None specified*
+* Students believe that adding more multimedia automatically makes a presentation better, rather than understanding that quality and relevance matter more than quantity.
+* Students think multimedia should entertain rather than clarify or enhance the information being presented.
+* Students assume that text-heavy slides with decorative images constitute effective visual displays rather than understanding the need for clear, purposeful design.
+* Students believe that all presentations require the same types of multimedia components regardless of topic, audience, or purpose.
+* Students think that using advanced technology or flashy effects is more important than selecting multimedia that directly supports their content and message.
 
 Difficulty Definitions:
 * Easy:
@@ -20065,13 +20389,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and distinguish between formal and informal language registers in various speaking contexts
+* Adapt vocabulary, tone, and speaking style appropriately based on audience, purpose, and situation
+* Demonstrate command of standard English grammar and conventions when speaking in formal settings such as presentations, academic discussions, and interviews
+* Recognize when formal English is appropriate versus when informal speech is acceptable, and adjust language choices accordingly
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on students' ability to recognize and apply appropriate speech registers rather than memorization of grammatical rules in isolation
+* Evaluation should not penalize students for dialectical variations or home language influences when they demonstrate understanding of code-switching abilities
+* Assessment should be context-based, measuring adaptation across multiple authentic speaking situations rather than single, isolated instances
 
 Common Misconceptions:
-*None specified*
+* Students may believe that formal English is always superior to informal speech rather than understanding that different contexts require different language registers
+* Students may think that using complex vocabulary automatically makes speech formal, without considering other elements like tone, pronunciation, and grammatical structure
+* Students may confuse being polite with being formal, not recognizing that informal speech can still be respectful and appropriate
+* Students may believe they must completely eliminate their natural speaking voice or dialect when using formal English, rather than understanding code-switching as an additive skill
+* Students may assume that formal speech is only necessary for presentations, overlooking other contexts such as academic discussions, interviews, or communications with authority figures
 
 Difficulty Definitions:
 * Easy:
@@ -20099,13 +20432,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will introduce a topic or book clearly at the beginning of their opinion piece.
+* Students will state a clear opinion and provide at least two reasons that support their opinion.
+* Students will use linking words such as 'because,' 'and,' and 'also' to connect their opinion to their reasons.
+* Students will write a concluding statement or section that wraps up their opinion piece.
 
 Assessment Boundaries:
-*None specified*
+* At this grade level, students are not expected to provide elaborate evidence or citations from texts, but rather simple reasons based on personal experience or basic text details.
+* Students should use simple linking words and are not expected to use complex transition phrases or sophisticated organizational structures.
+* Opinion pieces should be brief (typically 3-5 sentences or a short paragraph) and focus on clarity rather than length or complexity.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse opinion writing with narrative writing and tell a story instead of stating and supporting an opinion.
+* Students may state an opinion but forget to provide reasons to support it, thinking the opinion alone is sufficient.
+* Students may list reasons without using linking words to connect them to their opinion, resulting in disconnected sentences.
+* Students may not understand the difference between an opinion and a fact, leading them to state facts instead of personal preferences or beliefs.
+* Students may forget to include a concluding statement, ending abruptly after listing their reasons.
 
 Difficulty Definitions:
 * Easy:
@@ -20133,13 +20475,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will introduce a topic clearly at the beginning of their informative text using a topic sentence or opening statement.
+* Students will develop their topic by including 2-4 facts and definitions that relate to and explain the main idea.
+* Students will write a concluding statement or sentence that restates the topic or provides closure to their informative text.
+* Students will organize their informative writing with a clear beginning, middle, and end structure.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to conduct independent research or cite sources at this grade level.
+* Complex organizational structures such as compare-contrast, cause-effect, or multi-paragraph essays are beyond the scope of grade 2.
+* Students are not expected to use formal transitional phrases or advanced linking words beyond simple connectors like 'and,' 'also,' and 'because.'
 
 Common Misconceptions:
-*None specified*
+* Students may confuse informative writing with narrative writing and include personal stories instead of facts.
+* Students may list facts without introducing what the topic is about, jumping directly into details.
+* Students may forget to include a conclusion, ending their writing abruptly after presenting facts.
+* Students may believe that opinions are the same as facts and include statements like 'I think' or 'I like' in informative texts.
+* Students may provide facts that are not related to their main topic, losing focus on the central idea.
 
 Difficulty Definitions:
 * Easy:
@@ -20167,13 +20518,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will write narratives that recount a well-elaborated event or short sequence of related events with a clear beginning, middle, and end.
+* Students will include descriptive details that tell about actions, thoughts, and feelings of characters or themselves in their narratives.
+* Students will use temporal words and phrases (such as first, next, then, after, finally) to signal the order of events in their narratives.
+* Students will provide a sense of closure to their narratives through an appropriate ending statement or conclusion.
 
 Assessment Boundaries:
-*None specified*
+* At grade 2, students are not expected to write extended multi-paragraph narratives or complex plot structures with multiple subplots.
+* Students are not expected to use sophisticated literary devices such as metaphor, simile, or advanced dialogue formatting beyond basic quotation marks.
+* Assessment should focus on age-appropriate elaboration and sequencing rather than conventional spelling and grammar mastery, though basic conventions should be emerging.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that listing events in order is sufficient for narrative writing without including descriptive details about actions, thoughts, or feelings.
+* Students may confuse temporal words with other transition words and use them incorrectly or inconsistently throughout their narratives.
+* Students may think that writing more events makes a better narrative, rather than focusing on elaborating fewer events with richer details.
+* Students may end their narratives abruptly without providing closure, not understanding that narratives need a concluding statement or wrapping-up sentence.
+* Students may struggle to distinguish between recounting personal experiences and fictional narratives, leading to confusion about appropriate content and voice.
 
 Difficulty Definitions:
 * Easy:
@@ -20201,13 +20561,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and maintain a clear topic focus throughout their writing with guidance from adults and peers.
+* Students will revise their writing by adding, deleting, or rearranging words and sentences to improve clarity and coherence with support.
+* Students will edit their writing for basic conventions including capitalization, punctuation, and spelling using resources and guidance from others.
+* Students will respond to feedback from adults and peers by making appropriate changes to strengthen their writing.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to revise and edit independently without any adult or peer support at this grade level.
+* Complex grammatical concepts beyond grade 2 expectations (such as complex sentence structures, advanced punctuation like semicolons, or sophisticated word choice) should not be assessed.
+* Students should not be expected to make all revisions and edits in a single draft or to produce polished, publication-ready writing without multiple rounds of guided support.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that revising only means correcting spelling errors, rather than improving content, organization, and clarity of ideas.
+* Students may think their first draft is their final draft and resist making changes to improve their writing.
+* Students may confuse revising (making changes to content and organization) with editing (correcting conventions like spelling and punctuation).
+* Students may believe that receiving feedback means their writing is bad, rather than understanding that all writers benefit from revision.
+* Students may think they must accept all suggestions from peers and adults rather than learning to evaluate which feedback will strengthen their writing.
 
 Difficulty Definitions:
 * Easy:
@@ -20235,13 +20604,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will use digital tools such as word processors, drawing programs, or presentation software to create and share written work with guidance from adults.
+* Students will collaborate with peers using digital platforms to co-create written pieces, taking turns and contributing ideas.
+* Students will publish their writing digitally by saving, printing, or sharing their work through age-appropriate platforms with adult support.
+* Students will demonstrate basic digital citizenship skills such as following classroom technology rules and respecting others' work when collaborating online.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to independently troubleshoot technical issues or navigate complex software without adult guidance.
+* Students are not expected to use advanced formatting features or multiple simultaneous digital tools beyond basic word processing and simple creation tools.
+* Students are not expected to independently manage online accounts, passwords, or publish to public platforms without direct adult supervision.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that typing on a computer automatically makes their writing better, without understanding the need for revising and editing digital work.
+* Students may think that collaboration means working at the same time on the same device, rather than understanding various forms of digital collaboration such as taking turns or contributing to shared documents.
+* Students may assume that once something is published digitally it can easily be completely erased or made private, not understanding digital permanence.
+* Students may believe that all digital tools work the same way, leading to frustration when different programs have different interfaces or commands.
+* Students may think that publishing means only printing on paper, rather than understanding digital publishing includes sharing electronically or posting to classroom platforms.
 
 Difficulty Definitions:
 * Easy:
@@ -20269,13 +20647,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will actively participate in group research projects by contributing ideas, sharing information, and collaborating with peers to investigate a common topic.
+* Students will gather information from multiple sources (books, observations, and other media) on a single topic and use that information to contribute to a shared written product.
+* Students will record observations and findings from research or science activities in an organized manner appropriate for second grade level.
+* Students will work cooperatively with classmates to create a shared report or presentation that synthesizes information gathered during research.
 
 Assessment Boundaries:
-*None specified*
+* Students at this grade level are not expected to conduct independent formal research using multiple complex sources or to cite sources using formal citation formats.
+* Students are not expected to write lengthy individual research reports; the focus is on collaborative research and shared writing products with teacher guidance and support.
+* Students are not expected to critically evaluate the credibility or bias of sources, but rather to use teacher-selected, age-appropriate materials.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that copying information word-for-word from a book constitutes research, rather than understanding they need to put ideas into their own words or use information to answer questions.
+* Students may think that research means working alone, not understanding that shared research involves collaboration, discussion, and group decision-making.
+* Students may assume that one book or source is sufficient for research, rather than understanding that reading or consulting multiple sources on the same topic provides more complete information.
+* Students may believe that all group members must do identical tasks, rather than understanding that collaboration involves dividing responsibilities and contributing different strengths to the shared project.
+* Students may think that recording observations means writing everything they see, rather than focusing on relevant details related to the research question or topic.
 
 Difficulty Definitions:
 * Easy:
@@ -20303,13 +20690,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will recall and record information from personal experiences to answer specific questions.
+* Students will locate and extract relevant information from provided sources such as books, articles, and digital texts to answer questions.
+* Students will distinguish between relevant and irrelevant information when answering a question.
+* Students will organize gathered information in a simple format such as lists, notes, or simple graphic organizers.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to conduct independent research or use sources beyond those provided by the teacher.
+* Students are not required to cite sources formally or use advanced note-taking strategies.
+* Students should work with concrete, straightforward questions rather than abstract or complex research questions.
 
 Common Misconceptions:
-*None specified*
+* Students may believe they need to copy entire sentences or paragraphs from sources instead of selecting specific relevant information.
+* Students may think all information from a source is equally important rather than identifying details that specifically answer the question.
+* Students may confuse personal opinion with recalled factual information from experiences or sources.
+* Students may assume that information gathering only involves reading text, not recognizing that images, charts, or verbal sources also provide information.
+* Students may believe that one source or experience is always sufficient to answer a question completely.
 
 Difficulty Definitions:
 * Easy:
@@ -20337,13 +20733,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will compose clear introductions that identify the topic or text and explicitly state an opinion.
+* Students will develop an organizational structure that logically groups related ideas to support their opinion.
+* Students will select and arrange supporting ideas in a logical order that aligns with their writing purpose.
+* Students will distinguish between effective and ineffective organizational structures in opinion writing.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on the introduction and organizational structure rather than the full development of supporting details or conclusion.
+* Students are not expected to use advanced rhetorical devices or sophisticated transitions at this grade level.
+* Evaluation should prioritize logical grouping of ideas over stylistic elements or complex sentence structures.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that simply stating an opinion anywhere in the introduction is sufficient, rather than clearly and prominently positioning it.
+* Students often confuse listing random facts or details with logically grouping related ideas that support their position.
+* Students may think that organizational structure only refers to using paragraphs, rather than understanding how ideas within and across paragraphs connect logically.
+* Students frequently assume that introducing a topic means providing extensive background information rather than clearly and concisely identifying what they will discuss.
+* Students may believe that all organizational structures work equally well for all purposes, not recognizing that structure should align with their specific writing goal.
 
 Difficulty Definitions:
 * Easy:
@@ -20371,13 +20776,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will organize reasons in a logical sequence that builds their argument effectively.
+* Students will support each reason with relevant facts from credible sources.
+* Students will include specific details and examples that clearly connect to and strengthen their reasons.
+* Students will distinguish between strong evidence (facts and details) and weak evidence (unsupported opinions) when building an argument.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to use complex rhetorical devices or advanced persuasive techniques beyond logical ordering and factual support.
+* Students are not required to cite sources using formal citation formats (MLA, APA), though they should indicate where information comes from.
+* Students are not expected to address complex counterarguments or rebuttals at this grade level.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that any detail related to the topic counts as support, rather than selecting details that directly support their specific reason.
+* Students may confuse personal opinions or feelings with facts, thinking that stating their belief strongly makes it factual evidence.
+* Students may list reasons in random order rather than organizing them strategically (such as least to most important, chronological, or categorical).
+* Students may provide reasons without any supporting evidence, assuming the reason itself is sufficient.
+* Students may use the same piece of evidence to support multiple reasons without providing distinct support for each point.
 
 Difficulty Definitions:
 * Easy:
@@ -20405,13 +20819,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and use linking words, phrases, and clauses (e.g., consequently, specifically, for example, in addition, as a result) to connect opinions and supporting reasons in opinion writing.
+* Students will organize their opinion writing by strategically placing transitional words and phrases to show logical relationships between claims and evidence.
+* Students will evaluate the effectiveness of different linking words and phrases and select the most appropriate ones to clarify the connection between their opinion and reasons.
+* Students will revise their writing to improve cohesion by adding or replacing linking words, phrases, and clauses where connections between ideas are unclear.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on the functional use of linking words and phrases to connect ideas, not on memorization of extensive lists of transitions.
+* Students are not expected to use complex grammatical terminology to describe linking words and clauses, but should demonstrate understanding through application in their writing.
+* At grade 5, students should use grade-appropriate linking words and phrases; highly sophisticated or technical transitions typically used in advanced academic writing are beyond the scope of this standard.
 
 Common Misconceptions:
-*None specified*
+* Students may overuse simple transitions like 'and,' 'but,' and 'because' without exploring more varied and specific linking words appropriate for opinion writing.
+* Students may believe that adding linking words anywhere in their writing automatically improves it, rather than understanding that transitions must logically connect related ideas.
+* Students may confuse linking words used for opinion writing with those used primarily for narrative writing (e.g., 'suddenly,' 'once upon a time'), not recognizing the different purposes.
+* Students may place linking words at the beginning of sentences only, not recognizing that transitions can effectively connect ideas within sentences as well.
+* Students may think that longer or more complex linking phrases are always better, rather than selecting transitions based on the specific logical relationship they need to express.
 
 Difficulty Definitions:
 * Easy:
@@ -20439,13 +20862,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will write concluding statements that effectively restate their opinion in a fresh way without simply repeating the introduction.
+* Students will create concluding sections that synthesize the main reasons and evidence presented in their opinion piece.
+* Students will craft conclusions that provide a sense of closure and leave the reader with a final thought or call to action related to their opinion.
+* Students will recognize the purpose of a conclusion as wrapping up their argument and reinforcing their position without introducing new information.
 
 Assessment Boundaries:
-*None specified*
+* At grade 5, students are not expected to write sophisticated conclusions with complex rhetorical devices or abstract philosophical statements beyond their developmental level.
+* Students are not required to include formal thesis restatements using academic language typical of high school or college-level writing.
+* Conclusions should be appropriate in length and complexity for elementary-level opinion writing, typically 2-4 sentences or one brief paragraph.
 
 Common Misconceptions:
-*None specified*
+* Students believe a conclusion should introduce new reasons or evidence rather than synthesizing what has already been presented.
+* Students think they must use the exact same words from their introduction, resulting in repetitive or copied opening sentences.
+* Students assume a conclusion is optional or unimportant, ending their writing abruptly after the last supporting reason.
+* Students believe that simply writing 'The End' or 'That is why I think...' constitutes an adequate conclusion.
+* Students may confuse a conclusion with a summary, listing all their points again rather than providing closure and final impact.
 
 Difficulty Definitions:
 * Easy:
@@ -20473,13 +20905,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will write regularly for both extended periods (allowing time for research, reflection, and revision) and shorter timeframes (single sitting or one to two days) across various subjects and purposes.
+* Students will adapt their writing process and products to meet the requirements of different discipline-specific tasks, such as scientific observations, historical narratives, and literary responses.
+* Students will produce writing for multiple purposes including to inform, explain, persuade, and entertain, adjusting style and format based on intended audience.
+* Students will develop stamina and fluency in writing by engaging in consistent writing practice across content areas throughout the school year.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on the consistency and frequency of writing practice rather than only the quality of final polished pieces, recognizing that routine writing includes drafts, quick writes, and works-in-progress.
+* Students are not expected to master highly specialized or technical writing conventions beyond grade-level expectations, though they should attempt discipline-specific formats appropriate for fifth grade.
+* Assessment should not penalize students for taking risks with new writing formats or topics during routine practice, as the emphasis is on building writing habits and versatility.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that all writing must be lengthy and polished, not understanding that quick writes and informal responses are valuable forms of routine writing practice.
+* Students may think writing is only for language arts class and fail to recognize opportunities to write in science, social studies, math, and other content areas.
+* Students may assume that writing for shorter timeframes is less important than extended writing projects, when both types serve different but equally valuable purposes.
+* Students may believe that routine writing means repeating the same type of writing repeatedly, rather than understanding it involves writing across various tasks, purposes, and audiences.
+* Students may think that first drafts produced during routine writing should be perfect, leading to writing anxiety and resistance to regular writing practice.
 
 Difficulty Definitions:
 * Easy:
@@ -20507,13 +20948,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will clearly introduce an informational topic with a focused opening statement that provides a general observation about the subject.
+* Students will organize related information into logical groups using appropriate text structures (e.g., comparison, cause/effect, problem/solution).
+* Students will incorporate text features such as headings, subheadings, illustrations, diagrams, or multimedia elements to enhance reader comprehension.
+* Students will maintain a clear focus throughout their introduction by selecting relevant information that supports their general observation.
 
 Assessment Boundaries:
-*None specified*
+* At this grade level, students are not expected to write full research papers with formal thesis statements or complex multi-layered organizational structures beyond basic grouping strategies.
+* Students should demonstrate basic formatting skills but are not expected to use advanced desktop publishing or complex multimedia production techniques.
+* Assessment should focus on clarity and logical organization rather than extensive use of domain-specific vocabulary or sophisticated rhetorical devices.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that an introduction only needs to state the topic without providing a general observation or focus statement.
+* Students may think that headings and formatting are only decorative rather than functional tools that help organize information and guide readers.
+* Students may group information randomly or by surface-level similarities rather than by logical relationships or meaningful categories.
+* Students may include too much detail in the introduction instead of providing a broad overview that will be developed in the body paragraphs.
+* Students may confuse introducing a topic with telling a story, leading them to use narrative techniques instead of expository strategies.
 
 Difficulty Definitions:
 * Easy:
@@ -20541,13 +20991,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will develop informative/explanatory paragraphs and essays by incorporating at least three different types of supporting evidence (facts, definitions, concrete details, quotations, or examples) related to their topic.
+* Students will select and integrate relevant facts, definitions, and concrete details that directly support and elaborate on their main ideas and subtopics.
+* Students will appropriately incorporate quotations from credible sources using proper punctuation and attribution to strengthen their informative writing.
+* Students will evaluate the relevance and strength of supporting information to determine which facts, details, or examples best develop their topic for their intended audience.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to use advanced research methods such as primary source analysis or scholarly database searches; basic research from age-appropriate texts and reliable websites is sufficient.
+* Students are not required to use formal citation formats (MLA, APA) but should provide basic attribution when using quotations or specific facts from sources.
+* Students should focus on developing topics with varied supporting evidence rather than lengthy compositions; quality and variety of support matter more than length at this grade level.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that restating the topic sentence multiple times counts as developing the topic, rather than adding new supporting information.
+* Students often think that any fact or detail related to the general subject is appropriate, without considering whether it directly supports their specific main idea or subtopic.
+* Students may assume that quotations alone are sufficient development without explaining how the quotation connects to or supports their point.
+* Students frequently confuse opinions or personal experiences with facts and concrete details, not recognizing the difference between informative and opinion writing.
+* Students may believe that using only one type of evidence (such as all facts or all examples) is sufficient, rather than incorporating varied types of supporting information to fully develop the topic.
 
 Difficulty Definitions:
 * Easy:
@@ -20575,13 +21034,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will use transitional words and phrases (e.g., in contrast, especially, for example, in addition) to connect ideas within paragraphs of informative/explanatory texts.
+* Students will use transitional words, phrases, and clauses to show relationships between different categories of information across paragraphs.
+* Students will select appropriate linking words and phrases based on the logical relationship between ideas (comparison, contrast, cause/effect, emphasis, exemplification).
+* Students will revise writing to improve coherence by adding or replacing transitional elements that clarify connections between ideas.
 
 Assessment Boundaries:
-*None specified*
+* Students should not be expected to identify or use sophisticated transitions typically found in high school or college-level writing (e.g., notwithstanding, albeit, conversely).
+* Assessment should focus on common grade-appropriate transitions and should not require students to diagram sentence structures or perform complex grammatical analysis of clauses.
+* Students are not expected to use advanced subordinating conjunctions or complex clause structures beyond grade 5 syntactic complexity.
 
 Common Misconceptions:
-*None specified*
+* Students may overuse simple transitions like 'and' or 'also' without understanding that different relationships require different linking words.
+* Students may believe that adding any transition word automatically improves writing, even when the transition does not match the logical relationship between ideas.
+* Students may place transition words only at the beginning of paragraphs, not recognizing that transitions can also link ideas within paragraphs.
+* Students may confuse transitions that show contrast (e.g., however, in contrast) with those that show addition (e.g., furthermore, in addition), using them interchangeably.
+* Students may think that longer or more complex-sounding transitions are always better, leading to awkward or inappropriate word choices that don't fit the context.
 
 Difficulty Definitions:
 * Easy:
@@ -20609,13 +21077,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and use precise, domain-specific vocabulary appropriate to their informational or explanatory topic.
+* Students will replace general or vague words with more specific and accurate terminology to enhance clarity and meaning in their writing.
+* Students will demonstrate understanding of technical terms related to their topic by using them correctly in context.
+* Students will evaluate their word choices and revise their writing to include more precise language that effectively informs or explains their topic.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to use advanced academic vocabulary beyond fifth-grade level unless it is directly related to and necessary for their specific topic.
+* Students should focus on clarity and accuracy rather than using complex words for the sake of complexity; the vocabulary should enhance understanding, not obscure it.
+* Assessment should not penalize students for topic-specific vocabulary errors in highly specialized fields, but rather focus on their attempt to use appropriate terminology and their overall precision in word choice.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that using bigger or more complicated words always makes their writing better, when precision and clarity are actually more important.
+* Students may think that domain-specific vocabulary means using difficult words they don't fully understand, rather than learning and correctly applying terms specific to their topic.
+* Students may assume that general vocabulary is sufficient for all writing tasks and may not recognize when more precise or technical terms would better serve their explanatory purpose.
+* Students may confuse using a thesaurus to find synonyms with finding truly precise language, not recognizing that context and connotation matter in word choice.
+* Students may believe that domain-specific vocabulary is only necessary for science topics and may not apply this skill to social studies, arts, or other content areas.
 
 Difficulty Definitions:
 * Easy:
@@ -20643,13 +21120,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will write effective concluding statements that restate the main idea or topic in a fresh way.
+* Students will create concluding sections that synthesize key points presented in their informational or explanatory writing.
+* Students will craft conclusions that provide closure and leave the reader with a final thought or insight related to the topic.
+* Students will distinguish between effective and ineffective conclusions by analyzing how well they connect to and summarize the information presented.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to write complex analytical conclusions that introduce entirely new concepts or arguments not discussed in the body of the text.
+* At this grade level, conclusions should focus on summarizing and synthesizing information already presented rather than requiring sophisticated rhetorical devices or persuasive calls to action.
+* Students should not be assessed on conclusion length beyond what is appropriate for elementary-level informational writing (typically 2-4 sentences or a brief paragraph).
 
 Common Misconceptions:
-*None specified*
+* Students believe a conclusion must introduce completely new information rather than restating and synthesizing what has already been presented.
+* Students think simply writing 'The End' or 'That's all' constitutes an adequate conclusion.
+* Students assume repeating the introduction word-for-word is an effective concluding strategy.
+* Students believe conclusions are optional or unimportant parts of informational writing.
+* Students confuse concluding statements in informational writing with opinion statements or persuasive calls to action, not recognizing the difference between genres.
 
 Difficulty Definitions:
 * Easy:
@@ -20677,13 +21163,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will establish a clear situation or context at the beginning of a narrative that orients the reader to the story's setting, conflict, or circumstances.
+* Students will introduce a narrator and/or characters effectively, providing relevant details that help readers understand who is telling or experiencing the story.
+* Students will organize story events in a logical sequence that unfolds naturally and makes sense to the reader.
+* Students will demonstrate understanding of narrative structure by creating an opening that sets up the story and arranges events in a coherent progression.
 
 Assessment Boundaries:
-*None specified*
+* At this grade level, students are not expected to use complex narrative techniques such as flashbacks, multiple plot lines, or unreliable narrators.
+* The focus is on establishing clear orientation and natural sequence rather than sophisticated literary devices or experimental narrative structures.
+* Students should demonstrate basic narrative organization rather than advanced plot structures like parallel storylines or frame narratives.
 
 Common Misconceptions:
-*None specified*
+* Students may believe they need to introduce every character in the first paragraph, rather than introducing characters naturally as they appear in the story.
+* Students may think starting with extensive background information is necessary, when a more effective approach is to establish the situation through action or dialogue.
+* Students may confuse chronological order with natural unfolding, creating a list-like sequence of events rather than a flowing narrative with transitions and connections.
+* Students may assume the narrator must be explicitly identified by name at the beginning, rather than understanding that narrative voice can be established through perspective and tone.
+* Students may start stories without establishing when and where events take place, leaving readers disoriented about the story's context.
 
 Difficulty Definitions:
 * Easy:
@@ -20711,13 +21206,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will effectively use dialogue to reveal character traits, advance the plot, and show how characters respond to situations in narrative writing.
+* Students will incorporate descriptive language and sensory details to create vivid scenes and develop story events in their narratives.
+* Students will demonstrate control of pacing by varying sentence length, using transition words, and strategically placing action and reflection to maintain reader engagement.
+* Students will integrate multiple narrative techniques (dialogue, description, and pacing) within a single narrative to create a cohesive and engaging story.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to master complex literary devices such as flashbacks, foreshadowing, or multiple plot lines at this grade level.
+* Assessment should focus on the purposeful use of narrative techniques rather than advanced grammar or sophisticated vocabulary beyond grade-level expectations.
+* Students are not required to write lengthy narratives; the focus should be on quality use of techniques rather than story length or complexity of plot.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that dialogue only means making characters talk, without understanding that dialogue should reveal character personality, advance the plot, or show character responses to events.
+* Students often confuse description with simply listing adjectives, rather than using sensory details and figurative language to create vivid mental images.
+* Students may think that pacing means writing quickly or slowly, rather than understanding it as the strategic control of how fast or slow events unfold through sentence structure and detail selection.
+* Students frequently overuse dialogue tags (he said, she said) or use overly creative tags (he exclaimed, she shouted) instead of letting the dialogue itself convey emotion and tone.
+* Students may include dialogue, description, and pacing as separate, disconnected elements rather than weaving them together to create a unified narrative effect.
 
 Difficulty Definitions:
 * Easy:
@@ -20745,13 +21249,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and use temporal transitional words and phrases (e.g., meanwhile, eventually, suddenly, later that day) to show the passage of time in narrative writing.
+* Students will apply spatial and logical transitional words and phrases (e.g., across the room, on the other hand, as a result) to clarify relationships between events and ideas.
+* Students will integrate transitional clauses (e.g., After the storm passed, When the bell rang, Because she had practiced) to create smooth connections between sentences and paragraphs in narrative sequences.
+* Students will evaluate and revise their writing to replace overused or repetitive transitions with more varied and precise alternatives to improve narrative flow.
 
 Assessment Boundaries:
-*None specified*
+* At grade 5, students are not expected to identify transitions by grammatical classification (e.g., subordinating conjunctions, adverbial phrases) but should recognize their functional purpose in organizing narrative sequences.
+* Students should focus on transitions appropriate for narrative writing rather than argumentative or informational structures, though some overlap exists.
+* Assessment should not require memorization of extensive transition lists but rather demonstrate practical application in authentic writing contexts.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that only simple time words like 'then,' 'next,' and 'first' are appropriate transitions, limiting their variety and sophistication.
+* Students often overuse the same transition repeatedly (especially 'then' or 'next') throughout a narrative instead of incorporating diverse options.
+* Students may confuse transitions with conjunctions and use only coordinating conjunctions (and, but, so) to connect ideas rather than using transitional phrases and clauses.
+* Students sometimes place transitions randomly without considering logical sequence or cause-and-effect relationships between events.
+* Students may assume that every sentence requires a transition, leading to awkward or forced connections that disrupt rather than enhance narrative flow.
 
 Difficulty Definitions:
 * Easy:
@@ -20779,13 +21292,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and use concrete words and phrases that create clear, specific images rather than vague or general descriptions in narrative writing.
+* Students will incorporate sensory details (sight, sound, smell, taste, touch) to help readers experience events and settings in their narratives.
+* Students will revise their writing by replacing abstract or general words with precise, concrete language that enhances the reader's understanding of experiences and events.
+* Students will evaluate the effectiveness of sensory details and concrete language in conveying experiences precisely in their own and others' writing.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to use advanced literary devices such as extended metaphors, symbolism, or complex figurative language beyond grade-level expectations.
+* Assessment should focus on clarity and precision of concrete language rather than sophisticated vocabulary beyond fifth-grade level.
+* Students are not expected to incorporate all five senses in every piece of writing, but should demonstrate the ability to use sensory details purposefully when appropriate.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that using 'fancy' or complex vocabulary is the same as using concrete and precise language, when clarity and specificity are more important.
+* Students may think that sensory details only refer to visual descriptions and overlook the use of sound, smell, taste, and touch in their writing.
+* Students may overload their writing with excessive adjectives and adverbs, thinking more descriptive words automatically make writing better, rather than selecting the most precise and effective details.
+* Students may confuse abstract emotional statements (e.g., 'I was scared') with concrete sensory details that show the experience (e.g., 'My hands trembled and my heart pounded').
+* Students may believe that sensory details are only necessary for describing settings and not for conveying actions, events, or character experiences.
 
 Difficulty Definitions:
 * Easy:
@@ -20813,13 +21335,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will craft conclusions for narrative writing that logically follow from the events and experiences described in their stories.
+* Students will analyze how effective conclusions provide closure by reflecting on the meaning or significance of the narrated events.
+* Students will evaluate and revise their narrative conclusions to ensure they connect clearly to the main events and do not introduce unrelated information.
+* Students will demonstrate understanding that conclusions can include character reflections, lessons learned, or natural resolutions of story conflicts.
 
 Assessment Boundaries:
-*None specified*
+* At grade 5, students are not expected to write complex multi-paragraph conclusions or employ sophisticated literary devices such as circular narrative structures or ambiguous endings.
+* Students should not be assessed on formal essay conclusion techniques such as restating thesis statements, as this standard focuses on narrative rather than argumentative or informational writing.
+* Assessment should focus on logical flow and closure rather than on specific conclusion length or formulaic conclusion structures.
 
 Common Misconceptions:
-*None specified*
+* Students may believe conclusions must explicitly state a moral or lesson, when conclusions can simply provide closure through resolution of events.
+* Students may think conclusions should introduce new characters, settings, or plot points rather than wrapping up existing narrative elements.
+* Students may confuse narrative conclusions with summary paragraphs, leading them to simply restate all events rather than provide meaningful closure.
+* Students may believe all conclusions must be happy endings, not understanding that effective conclusions can reflect various emotions as long as they follow logically from events.
+* Students may write abrupt endings without transition, failing to understand that conclusions should flow naturally from the climax and falling action of their narrative.
 
 Difficulty Definitions:
 * Easy:
@@ -20847,13 +21378,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will produce opinion pieces, informative/explanatory texts, and narratives with clear organization appropriate to the specific writing task and purpose.
+* Students will adapt their writing style, tone, and vocabulary to suit different audiences (peers, teachers, community members).
+* Students will develop coherent writing by using transitional words and phrases to connect ideas within and across paragraphs.
+* Students will demonstrate understanding of task requirements by selecting appropriate text structures and organizational patterns for their writing.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on age-appropriate writing tasks and not expect sophistication beyond fifth-grade level in terms of vocabulary, sentence complexity, or abstract reasoning.
+* Students are not expected to master all conventions of formal academic writing or produce publication-ready work without teacher guidance and revision support.
+* Evaluation should consider the match between writing choices and stated purpose/audience rather than adherence to a single prescribed format for each writing type.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that longer writing is always better writing, rather than focusing on clarity and relevance to purpose.
+* Students may think that formal academic language is appropriate for all audiences, not understanding how to adjust tone and word choice for different readers.
+* Students may assume that one organizational structure works for all writing tasks, rather than selecting structures that match their specific purpose (chronological for narratives, cause-effect for explanations, etc.).
+* Students may confuse the purpose of writing (to inform, persuade, or entertain) with the topic they are writing about, leading to unclear development of ideas.
+* Students may believe that coherent writing means simply avoiding grammatical errors, rather than understanding it requires logical flow and connection of ideas throughout the piece.
 
 Difficulty Definitions:
 * Easy:
@@ -20881,13 +21421,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will plan their writing by brainstorming ideas, organizing thoughts, and creating outlines or graphic organizers with guidance from peers and adults.
+* Students will revise their writing to improve clarity, coherence, and development of ideas by adding, deleting, or rearranging content based on feedback.
+* Students will edit their writing for conventions including grammar, capitalization, punctuation, and spelling according to grade 5 language standards.
+* Students will demonstrate flexibility in their writing process by trying alternative approaches or rewriting sections when initial attempts are unsuccessful.
 
 Assessment Boundaries:
-*None specified*
+* Students should work with guidance and support rather than independently completing all aspects of the writing process.
+* Editing expectations should align with grade 5 Language standards 1-3 and not exceed grade-level conventions.
+* Assessment should focus on the student's ability to engage in the writing process rather than only evaluating the final product quality.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that revision only means fixing spelling and punctuation errors rather than improving content, organization, and clarity.
+* Students may think that good writers produce perfect first drafts and that needing to revise indicates poor writing ability.
+* Students may confuse revising (changing content and structure) with editing (fixing conventions), treating them as the same step.
+* Students may resist trying a new approach, believing they must stick with their original plan even when it isn't working effectively.
+* Students may view peer and adult feedback as criticism rather than as helpful support to strengthen their writing.
 
 Difficulty Definitions:
 * Easy:
@@ -20915,13 +21464,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will use word processing software and digital tools to compose, edit, and publish written work with adult guidance and support.
+* Students will utilize internet resources and digital platforms to collaborate with peers on writing projects, providing and receiving feedback.
+* Students will demonstrate keyboarding proficiency by typing a minimum of two pages of text in a single sitting with proper technique and adequate speed.
+* Students will apply basic technology skills to format, save, and share digital documents appropriately for different audiences and purposes.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on students' ability to use technology as a tool for writing rather than advanced technical troubleshooting or complex software features beyond grade-level expectations.
+* Keyboarding assessment should measure sustained typing ability (two pages minimum) rather than timed speed tests or professional-level typing proficiency.
+* Collaboration and interaction should be assessed with appropriate adult guidance and supervision, not independent use of unsupervised online platforms.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that typing speed is more important than accuracy, leading to careless errors and poor habits in keyboarding technique.
+* Students may think that using technology means simply handwriting text and then typing it, rather than composing and revising directly in digital format.
+* Students may assume that all internet sources are equally reliable and appropriate for research and collaboration without adult guidance.
+* Students may believe that publishing writing online means sharing on any public platform, rather than using supervised, age-appropriate educational tools.
+* Students may think that collaboration means dividing work equally without interaction, rather than engaging in meaningful peer review and discussion throughout the writing process.
 
 Difficulty Definitions:
 * Easy:
@@ -20949,13 +21507,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will conduct short research projects using at least three different sources to investigate various aspects of a single topic.
+* Students will formulate research questions that guide investigation into different facets of a topic.
+* Students will synthesize information from multiple sources to build comprehensive knowledge about a topic.
+* Students will demonstrate understanding that different sources provide different perspectives or information about the same topic.
 
 Assessment Boundaries:
-*None specified*
+* Research projects should be short and focused rather than lengthy, multi-week endeavors; emphasis is on the research process rather than extensive final products.
+* Students are not expected to conduct original empirical research or use advanced research methodologies; focus remains on gathering and synthesizing existing information.
+* Formal citation in MLA or APA format is not required at this grade level, though students should identify their sources.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that using multiple sources means simply finding sources that say the same thing, rather than exploring different aspects or perspectives of a topic.
+* Students may think that copying information from sources and placing it together constitutes research, rather than understanding that synthesis and building knowledge is required.
+* Students may assume that one source is sufficient if it contains a lot of information, not recognizing the value of consulting multiple sources for completeness and reliability.
+* Students may believe all sources are equally reliable and appropriate for research purposes without evaluating source credibility or relevance.
+* Students may think research means answering a single question rather than investigating multiple aspects or dimensions of a broader topic.
 
 Difficulty Definitions:
 * Easy:
@@ -20983,13 +21550,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Recall and record relevant information from personal experiences to support research and writing tasks.
+* Gather relevant information from multiple print and digital sources, evaluating the credibility and usefulness of each source.
+* Summarize or paraphrase information accurately in notes and finished work while avoiding plagiarism.
+* Create and format a bibliography or list of sources using a consistent citation method appropriate for grade level.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to use formal citation styles such as MLA or APA format with complete accuracy, but should demonstrate basic understanding of listing sources with author, title, and publication information.
+* Digital sources should be limited to age-appropriate, vetted websites and databases rather than requiring independent evaluation of complex or unreliable internet sources.
+* Paraphrasing tasks should focus on demonstrating understanding and avoiding direct copying rather than sophisticated rhetorical rewording.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that changing one or two words in a sentence constitutes adequate paraphrasing rather than restating ideas in their own words.
+* Students often think that only direct quotes require citation and that paraphrased or summarized information does not need to be attributed to a source.
+* Students may assume that all information found online is accurate and credible without considering the source's authority or bias.
+* Students frequently confuse summarizing (providing main ideas briefly) with paraphrasing (restating specific information in their own words).
+* Students may believe that personal experiences do not count as valid sources of information for research and writing projects.
 
 Difficulty Definitions:
 * Easy:
@@ -21017,13 +21593,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will write responses that compare and contrast two or more characters from literary texts, citing specific textual evidence to support their analysis.
+* Students will write responses that compare and contrast settings or events in stories or dramas, drawing on precise details from the text.
+* Students will analyze how characters interact with one another and use this analysis as evidence in their written responses to literature.
+* Students will apply reading comprehension skills to written literary analysis by integrating quotations and paraphrased details from the source text.
 
 Assessment Boundaries:
-*None specified*
+* At grade 5, students should focus on comparing and contrasting elements within a single text or between two texts at appropriate complexity levels, not analyzing multiple complex texts simultaneously.
+* Students are expected to draw on explicit textual details rather than making inferences that require advanced interpretive skills beyond grade 5 expectations.
+* Writing responses should demonstrate grade-appropriate conventions and organization, but are not expected to include sophisticated literary terminology or college-level analytical frameworks.
 
 Common Misconceptions:
-*None specified*
+* Students may summarize the plot rather than comparing and contrasting specific characters, settings, or events as required by the standard.
+* Students often state similarities and differences without supporting their claims with specific textual evidence or examples from the story.
+* Students may focus only on similarities or only on differences, rather than addressing both compare and contrast elements in their writing.
+* Students sometimes confuse character traits with character actions, failing to distinguish between what a character is like versus what a character does.
+* Students may provide general observations about characters or events without explaining how these elements interact or relate to one another within the text.
 
 Difficulty Definitions:
 * Easy:
@@ -21051,13 +21636,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and explain the reasons and evidence an author uses to support specific points in informational texts.
+* Match specific reasons and evidence to the particular points they support in an informational text.
+* Apply understanding of author's reasoning and evidence when writing about informational texts.
+* Evaluate whether the reasons and evidence provided by an author effectively support the points being made.
 
 Assessment Boundaries:
-*None specified*
+* Texts should be at or near grade 5 complexity level with clearly identifiable points, reasons, and evidence.
+* Students are not expected to evaluate the validity of sources or conduct external research to verify evidence at this level.
+* Focus should remain on explicit reasons and evidence rather than requiring extensive inference about implicit support.
 
 Common Misconceptions:
-*None specified*
+* Students may confuse the author's main point with the reasons or evidence used to support it.
+* Students may believe that any fact in the text serves as evidence for all points rather than matching evidence to specific claims.
+* Students may treat opinions stated in the text as evidence rather than recognizing them as claims that need support.
+* Students may assume that the first piece of evidence in a paragraph always supports the first point mentioned, rather than analyzing logical connections.
+* Students may struggle to distinguish between reasons (logical explanations) and evidence (facts, examples, data) that support a point.
 
 Difficulty Definitions:
 * Easy:
@@ -21085,13 +21679,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and articulate a clear claim that takes a position on a topic or issue appropriate for 6th grade.
+* Select relevant reasons that support the claim and logically connect to the argument being made.
+* Organize supporting evidence in a clear, logical structure that strengthens the overall argument.
+* Distinguish between strong and weak claims, recognizing that effective claims are specific, arguable, and supportable with evidence.
 
 Assessment Boundaries:
-*None specified*
+* Students at this level are not expected to address complex counterarguments or use sophisticated rhetorical devices beyond basic persuasive techniques.
+* Arguments should focus on age-appropriate topics and should not require extensive research or citation of multiple complex sources.
+* Students are not expected to write full argumentative essays at this standard level, but rather demonstrate the ability to introduce and organize the foundational elements of argument.
 
 Common Misconceptions:
-*None specified*
+* Students often confuse a claim with a fact or a topic statement, not understanding that a claim must be arguable and take a position.
+* Students may believe that listing reasons is sufficient without organizing them in a logical sequence or providing evidence to support each reason.
+* Students frequently think that personal opinions alone constitute valid claims without needing supporting reasons or evidence.
+* Students may assume that more reasons automatically make a stronger argument, rather than focusing on the quality and relevance of fewer, well-supported reasons.
+* Students often fail to distinguish between evidence (facts, examples, statistics) and reasons (explanations of why the evidence supports the claim), treating them as interchangeable.
 
 Difficulty Definitions:
 * Easy:
@@ -21119,13 +21722,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and articulate clear, logical reasons that directly support their claim in an argumentative essay.
+* Students will locate and select relevant evidence from credible sources that strengthens their argument and demonstrates understanding of the topic.
+* Students will evaluate sources for credibility by examining author expertise, publication date, purpose, and potential bias.
+* Students will explain the connection between their evidence and their claim, showing how the evidence supports their reasoning.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to use advanced citation formats such as MLA or APA, but should acknowledge sources in a simple, consistent manner.
+* Evidence should come from grade-appropriate texts and sources; students are not expected to conduct independent research using scholarly databases or academic journals.
+* Arguments should focus on topics within students' realm of experience and understanding, not complex political, philosophical, or highly technical subjects requiring specialized knowledge.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that any example or detail counts as relevant evidence, rather than selecting information that directly relates to and supports their specific claim.
+* Students may think that personal opinion or belief alone constitutes sufficient support, without recognizing the need for external, verifiable evidence from credible sources.
+* Students may assume all sources are equally credible and fail to evaluate whether a source is reliable, current, or authoritative on the topic.
+* Students may list evidence without explaining how it connects to their claim, thinking that the relevance of the evidence is self-evident to the reader.
+* Students may confuse reasons with evidence, not understanding that reasons are logical explanations while evidence consists of facts, examples, statistics, or quotations that prove those reasons.
 
 Difficulty Definitions:
 * Easy:
@@ -21153,13 +21765,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and use transitional words and phrases (e.g., because, therefore, for example, in addition) to connect claims and reasons in argumentative writing
+* Apply subordinating and coordinating conjunctions to show logical relationships between ideas in argumentative essays
+* Construct clear sentences using clauses that explicitly link evidence back to the main claim
+* Revise writing to improve coherence by adding or replacing words, phrases, and clauses that clarify connections between arguments
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to identify complex grammatical terminology beyond basic clauses, phrases, and transitional words
+* Assessment should focus on functional use of connecting language rather than memorization of exhaustive lists of transition words
+* Students at this level are developing skills with multi-paragraph arguments and should not be expected to produce college-level thesis-driven essays
 
 Common Misconceptions:
-*None specified*
+* Students believe that any transitional word will work in any context without considering the specific logical relationship being expressed
+* Students think that simply adding transition words like 'also' or 'next' automatically makes their argument clearer, without ensuring the ideas themselves are logically connected
+* Students confuse narrative transitions (first, then, finally) with argumentative transitions (therefore, consequently, as a result)
+* Students assume that longer, more sophisticated-sounding phrases always improve writing, when sometimes simpler connectors are more effective
+* Students fail to recognize that clauses can show relationships implicitly and may overuse explicit transitional phrases, making writing repetitive
 
 Difficulty Definitions:
 * Easy:
@@ -21187,13 +21808,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify characteristics of formal writing style, including appropriate word choice, sentence structure, and tone
+* Consistently use formal language and avoid informal expressions, slang, and conversational phrases in argument writing
+* Maintain an objective and respectful tone throughout an argumentative piece
+* Revise writing to eliminate informal language and strengthen formal style
 
 Assessment Boundaries:
-*None specified*
+* Students at grade 6 are not expected to master complex rhetorical devices or advanced academic vocabulary beyond grade level
+* Focus should be on basic formal style elements rather than discipline-specific formal conventions (such as legal or scientific writing styles)
+* Students are developing formal style awareness and may still occasionally lapse into informal language, which is developmentally appropriate
 
 Common Misconceptions:
-*None specified*
+* Students believe formal writing means using overly complicated or pretentious vocabulary that they don't fully understand
+* Students think formal style requires completely eliminating their personal voice or making writing boring and lifeless
+* Students confuse formal style with formal format, focusing only on structural elements like headings rather than language and tone
+* Students believe contractions are the only element of informal writing they need to avoid, overlooking slang, colloquialisms, and casual tone
+* Students think formal writing should sound exactly like they speak, not understanding the distinction between written and spoken communication styles
 
 Difficulty Definitions:
 * Easy:
@@ -21221,13 +21851,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Write a concluding statement or section that restates the main argument or claim in a fresh way without introducing new evidence.
+* Craft conclusions that logically follow from the argument and evidence presented in the body of the writing.
+* Synthesize key points from the argument to create a sense of closure for the reader.
+* Use transitional words and phrases to signal the conclusion and connect it smoothly to the preceding argument.
 
 Assessment Boundaries:
-*None specified*
+* At grade 6, students are not expected to write sophisticated conclusions with complex rhetorical devices or appeal to broader implications beyond their argument.
+* Conclusions should focus on summarizing and reinforcing the argument rather than introducing advanced persuasive techniques like calls to action or predictions about future consequences.
+* Students should demonstrate basic synthesis skills appropriate to middle school level, not college-level argumentative writing strategies.
 
 Common Misconceptions:
-*None specified*
+* Students believe they should introduce completely new information or evidence in the conclusion rather than synthesizing what has already been presented.
+* Students think the conclusion should simply restate the introduction word-for-word rather than restating the argument in a fresh way.
+* Students assume a conclusion must be only one sentence rather than understanding it can be a full paragraph or section.
+* Students believe that adding phrases like 'In conclusion' or 'To sum up' is sufficient without actually synthesizing the argument.
+* Students think the conclusion is optional or unimportant rather than recognizing it as essential for providing closure and reinforcing their argument.
 
 Difficulty Definitions:
 * Easy:
@@ -21255,13 +21894,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will write regularly for both extended periods (involving research, reflection, and revision) and shorter time frames (single sitting or one to two days) across various subjects and purposes.
+* Students will adapt their writing process and stamina to meet the demands of different time frames, ranging from quick-writes to multi-week projects.
+* Students will produce writing for multiple discipline-specific tasks including argumentative, informative/explanatory, and narrative texts appropriate to their grade level.
+* Students will demonstrate the ability to write for varied audiences and purposes, adjusting tone, style, and content accordingly.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on the student's ability to complete writing tasks within appropriate time frames rather than the sophistication of final products beyond grade-level expectations.
+* Students are not expected to master advanced research methodologies or professional-level revision processes, but should show developing stamina and routine practice.
+* Evaluation should consider writing across multiple disciplines (science, social studies, math, etc.) rather than limiting assessment to language arts writing only.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that 'routine writing' means repetitive or boring tasks, rather than understanding it as regular, varied writing practice across contexts.
+* Students often think that shorter time frame writing doesn't require planning or organization, leading to unfocused quick-writes.
+* Some students assume that extended writing projects only involve one long writing session rather than understanding the iterative process of drafting, revising, and refining over time.
+* Students may believe that writing in non-ELA classes (like science or social studies) doesn't 'count' as real writing or isn't subject to the same standards of quality.
+* Many students think that writing routinely means producing the same type of writing repeatedly, rather than varying formats, purposes, and audiences regularly.
 
 Difficulty Definitions:
 * Easy:
@@ -21289,13 +21937,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will introduce a topic clearly and engagingly in informative/explanatory writing.
+* Students will organize ideas, concepts, and information using appropriate organizational strategies including definition, classification, comparison/contrast, and cause/effect.
+* Students will incorporate text features such as headings, subheadings, graphics (charts, tables, diagrams), and multimedia elements to enhance reader comprehension.
+* Students will select and apply the most effective organizational structure based on the topic and purpose of their writing.
 
 Assessment Boundaries:
-*None specified*
+* At grade 6, students are not expected to use advanced organizational patterns such as problem-solution or complex multi-layered structures that combine more than two organizational strategies simultaneously.
+* Students should use age-appropriate multimedia and graphics; they are not expected to create sophisticated digital presentations or complex infographics requiring advanced technical skills.
+* Assessment should focus on the appropriateness and clarity of organizational choices rather than the length or complexity of the written piece.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that simply adding headings or graphics to their writing automatically improves organization, without ensuring these elements actually support the content.
+* Students often confuse listing information with true classification or fail to establish clear criteria when using classification as an organizational strategy.
+* Students may think they must use all organizational strategies (definition, classification, comparison/contrast, cause/effect) in a single piece of writing rather than selecting the most appropriate strategy for their topic.
+* Students frequently believe that an introduction only needs to state the topic rather than also engaging the reader and previewing the organizational structure.
+* Students may assume that graphics and multimedia should be decorative rather than functional, including images that do not directly support comprehension of the text.
 
 Difficulty Definitions:
 * Easy:
@@ -21323,13 +21980,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will select and incorporate relevant facts, definitions, and concrete details that directly support their topic in informative/explanatory writing.
+* Students will integrate quotations and examples from credible sources to develop and strengthen their topic.
+* Students will differentiate between relevant and irrelevant information when developing a topic in writing.
+* Students will organize supporting information logically to create a well-developed informative/explanatory text.
 
 Assessment Boundaries:
-*None specified*
+* At grade 6, students are not expected to conduct extensive independent research using multiple complex sources, though they should use provided sources effectively.
+* Students are not expected to use advanced citation formats like MLA or APA, but should acknowledge sources in a basic way.
+* The focus is on selecting appropriate supporting information rather than sophisticated analysis or synthesis of sources.
 
 Common Misconceptions:
-*None specified*
+* Students believe that adding any facts or details, regardless of relevance, will strengthen their writing.
+* Students think that more information is always better, leading to including excessive or repetitive details that do not develop the topic.
+* Students confuse summarizing a topic with developing it, providing only surface-level information without concrete details or examples.
+* Students believe that quotations alone are sufficient development without explaining how the quotations connect to or support the topic.
+* Students assume that personal opinions or experiences are the same as facts, definitions, or concrete details.
 
 Difficulty Definitions:
 * Easy:
@@ -21357,13 +22023,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and use transitional words and phrases that show chronological order, cause and effect, comparison and contrast, and addition of ideas in informative/explanatory writing.
+* Students will evaluate the effectiveness of transitions in a given text and determine whether they clarify relationships between ideas and concepts.
+* Students will revise their own writing by adding, removing, or replacing transitions to improve clarity and logical flow between sentences and paragraphs.
+* Students will distinguish between different types of transitions and select appropriate ones based on the relationship they want to convey between ideas.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to use sophisticated or academic-level transitions beyond grade 6 complexity (e.g., 'notwithstanding,' 'albeit').
+* Assessment should focus on clarity and appropriateness of transitions rather than memorization of extensive transition word lists.
+* Students are not expected to master all possible types of transitions but should demonstrate facility with common categories such as time order, cause/effect, comparison/contrast, and addition.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that starting every sentence with a transition word is necessary or improves writing quality, leading to overuse and awkward flow.
+* Students may confuse transitions with conjunctions and use them incorrectly in sentence structure (e.g., creating run-on sentences or fragments).
+* Students may rely on a limited set of basic transitions (e.g., 'first,' 'next,' 'then,' 'finally') without recognizing more varied options that better clarify relationships.
+* Students may think transitions are only needed between paragraphs rather than understanding they also connect ideas within paragraphs and between sentences.
+* Students may select transitions based on how they sound rather than on the logical relationship between ideas, leading to mismatched or confusing connections.
 
 Difficulty Definitions:
 * Easy:
@@ -21391,13 +22066,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and use precise, grade-appropriate vocabulary words that accurately convey meaning when writing informative and explanatory texts.
+* Students will incorporate domain-specific terminology relevant to their topic to demonstrate understanding and provide clarity for their audience.
+* Students will replace vague or general language with specific words and phrases that strengthen their informative writing.
+* Students will evaluate word choices in mentor texts to determine how precise language and domain-specific vocabulary enhance informational writing.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to use technical vocabulary beyond grade 6 complexity or vocabulary that requires specialized knowledge beyond the scope of their research.
+* Assessment should focus on appropriate use of terminology rather than quantity of domain-specific words used.
+* Students should not be assessed on memorization of domain-specific vocabulary without demonstrating understanding of proper context and usage.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that using complex or sophisticated-sounding words always improves writing, even when those words are used incorrectly or inappropriately for the audience.
+* Students may think domain-specific vocabulary means using as many technical terms as possible, rather than selecting the most relevant and clear terms for their topic.
+* Students may assume that precise language only refers to adjectives and adverbs, overlooking the importance of specific nouns and strong verbs.
+* Students may believe they should avoid repeating key domain-specific terms, when in fact repetition of precise terminology often enhances clarity in informational writing.
+* Students may confuse precise language with overly complicated language, failing to recognize that clarity and specificity are more important than appearing advanced.
 
 Difficulty Definitions:
 * Easy:
@@ -21425,13 +22109,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify characteristics of formal writing style including appropriate word choice, sentence structure, and tone
+* Apply formal language conventions consistently throughout an informative or explanatory text
+* Distinguish between formal and informal language and determine when each is appropriate
+* Revise writing to eliminate informal language, slang, and conversational phrases to maintain a formal style
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to use advanced academic vocabulary beyond grade 6 level
+* Focus should be on establishing formal style rather than sophisticated rhetorical devices or advanced sentence variety
+* Students are not expected to maintain formal style across all writing genres, only in informative and explanatory texts
 
 Common Misconceptions:
-*None specified*
+* Students believe that formal writing means using complicated or overly complex words they don't fully understand
+* Students think that formal style requires extremely long sentences or academic jargon inappropriate for their grade level
+* Students confuse formal style with being impersonal or boring, believing they cannot engage readers while maintaining formality
+* Students assume that any use of first-person pronouns automatically makes writing informal
+* Students believe that formal writing should avoid all contractions but may not recognize other informal elements like slang, colloquialisms, or conversational phrases
 
 Difficulty Definitions:
 * Easy:
@@ -21459,13 +22152,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Write a concluding statement or section that logically follows from and supports the information or explanation presented in an informative/explanatory text
+* Synthesize the main ideas presented in the body of the text to create a cohesive conclusion
+* Avoid introducing new information in the conclusion while effectively reinforcing the central message or purpose of the text
+* Use transitional words and phrases to signal the conclusion and connect it to the preceding information
 
 Assessment Boundaries:
-*None specified*
+* Students at this level are not expected to write lengthy conclusions with complex philosophical implications or abstract generalizations beyond the scope of the text
+* Conclusions should be assessed based on their logical connection to the body text rather than on creative or persuasive elements more appropriate for other writing modes
+* Students are not expected to include formal calls-to-action or argumentative elements typical of persuasive writing unless the informative text specifically warrants such an approach
 
 Common Misconceptions:
-*None specified*
+* Students believe they must introduce completely new information in the conclusion to make it interesting, rather than synthesizing what has already been presented
+* Students think a conclusion is simply a restatement of the introduction or topic sentence, rather than a synthesis that follows logically from the explanation provided
+* Students assume that all conclusions must follow a rigid formula (such as starting with 'In conclusion') rather than using varied and natural transitional language
+* Students confuse informative conclusions with persuasive conclusions, attempting to convince the reader of an opinion rather than reinforcing the explanation or information shared
+* Students believe a conclusion is optional or unimportant, not recognizing its role in providing closure and reinforcing the central ideas of the text
 
 Difficulty Definitions:
 * Easy:
@@ -21493,13 +22195,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will craft compelling narrative openings that establish context including setting, time period, and situation to orient readers.
+* Students will introduce narrators and/or characters effectively through description, dialogue, or action in the opening of a narrative.
+* Students will organize events in a logical sequence that follows a natural progression of cause and effect.
+* Students will use transitional words and phrases to guide readers through the event sequence and show relationships between events.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on the opening and organizational structure of narratives rather than complete plot development or resolution.
+* Students are not expected to use sophisticated literary devices such as foreshadowing, flashbacks, or complex non-linear narrative structures at this grade level.
+* Evaluation should not emphasize advanced grammar or vocabulary beyond grade 6 expectations, but rather clarity of context and logical event sequencing.
 
 Common Misconceptions:
-*None specified*
+* Students often believe they must provide extensive backstory in the opening rather than establishing just enough context to orient the reader.
+* Students may confuse chronological order with logical organization, not recognizing that events should be connected by cause and effect relationships.
+* Students frequently introduce too many characters at once in the opening, overwhelming the reader instead of focusing on key characters.
+* Students may think that engaging the reader requires dramatic action immediately, without first establishing necessary context for that action to be meaningful.
+* Students sometimes fail to distinguish between first-person and third-person narration, inconsistently switching perspectives or not clearly establishing the narrative point of view.
 
 Difficulty Definitions:
 * Easy:
@@ -21527,13 +22238,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will effectively use dialogue to reveal character traits, advance plot, and develop relationships between characters in narrative writing.
+* Students will manipulate pacing through sentence structure, paragraph length, and strategic placement of events to create tension, suspense, or emotional impact in their narratives.
+* Students will employ descriptive language including sensory details, figurative language, and precise word choice to bring characters, settings, and events to life.
+* Students will demonstrate the ability to integrate multiple narrative techniques (dialogue, pacing, and description) cohesively within a single piece of writing to craft a well-developed narrative experience.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to master advanced literary devices such as foreshadowing, flashback, or stream of consciousness at this grade level, though exposure is appropriate.
+* Assessment should focus on the presence and effectiveness of narrative techniques rather than the sophistication or complexity expected of high school level writing.
+* Students should not be expected to write full-length novels or extended narratives; focus should be on shorter pieces (2-5 pages) where techniques can be clearly demonstrated and evaluated.
 
 Common Misconceptions:
-*None specified*
+* Students often believe that dialogue only serves to show what characters are saying, rather than understanding it as a tool to reveal personality, create conflict, or advance the plot.
+* Many students think that 'more description is always better' and overload narratives with excessive adjectives rather than selecting precise, impactful details.
+* Students frequently confuse pacing with speed, believing narratives should always move quickly, rather than understanding that varying pace creates different effects and emphasis.
+* Students may use dialogue tags repetitively (he said, she said) without exploring action beats or embedded descriptions that can serve the same purpose while adding depth.
+* Students often write dialogue that sounds formal or unnatural because they don't consider how people actually speak, including use of contractions, interruptions, and informal language appropriate to characters.
 
 Difficulty Definitions:
 * Easy:
@@ -21561,13 +22281,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will identify and use temporal transition words and phrases (e.g., later, meanwhile, eventually, after some time) to show the passage of time in narrative writing.
+* Students will apply spatial and setting transition words and phrases (e.g., across town, back at the house, in the distance) to signal changes in location or setting.
+* Students will employ transitional clauses (e.g., As the sun set over the horizon, When they arrived at the new school, While she was waiting) to smoothly connect events and show shifts in time or place.
+* Students will analyze how different transition words and phrases affect the flow and clarity of a narrative sequence.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on transitions appropriate for narrative writing rather than argumentative or expository transitions (e.g., therefore, in conclusion, for example).
+* Students at this grade level are not expected to use complex or sophisticated literary transitions beyond grade-appropriate vocabulary and sentence structures.
+* Evaluation should emphasize the functional use of transitions to clarify sequence and setting changes, not merely the presence of transition words.
 
 Common Misconceptions:
-*None specified*
+* Students believe that simply adding transition words like 'first,' 'next,' and 'last' is sufficient, without understanding that varied transitions improve narrative flow and reader engagement.
+* Students confuse narrative transitions with expository or argumentative transitions, using phrases like 'for instance' or 'in conclusion' inappropriately in stories.
+* Students overuse basic time transitions (e.g., then, next, after that) repetitively without incorporating more sophisticated options or transitional clauses.
+* Students think transitions are only needed between paragraphs, not recognizing their importance within paragraphs to signal smaller shifts in time or setting.
+* Students place transitions awkwardly without considering natural sentence flow, resulting in choppy or mechanical-sounding narratives.
 
 Difficulty Definitions:
 * Easy:
@@ -21595,13 +22324,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will select and use precise words and phrases that accurately convey specific meanings and create vivid images in narrative writing.
+* Students will incorporate relevant descriptive details that enhance the reader's understanding of experiences and events.
+* Students will effectively employ sensory language (sight, sound, smell, taste, touch) to create engaging and immersive narrative experiences.
+* Students will revise their writing to replace vague or general words with more precise and descriptive language.
 
 Assessment Boundaries:
-*None specified*
+* Students are not expected to use advanced literary devices such as extended metaphors, symbolism, or complex figurative language beyond grade-level expectations.
+* Assessment should focus on age-appropriate vocabulary and sensory details rather than sophisticated or technical terminology.
+* Students are not required to demonstrate mastery of all five senses in a single piece of writing, but should show ability to use multiple sensory details appropriately.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that using more adjectives automatically makes writing better, rather than focusing on selecting the most precise and effective words.
+* Students may think sensory language only refers to visual descriptions and neglect other senses like sound, smell, taste, and touch.
+* Students may confuse adding excessive details with adding relevant details, including unnecessary information that distracts from the narrative.
+* Students may believe that sophisticated or complex vocabulary is always better, rather than choosing words that are precise and appropriate for their audience and purpose.
+* Students may think that sensory language and descriptive details are only needed at the beginning of a narrative rather than throughout the entire piece.
 
 Difficulty Definitions:
 * Easy:
@@ -21629,13 +22367,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will craft conclusions that logically follow from and reflect on the narrative's events, characters, and experiences.
+* Students will demonstrate understanding that effective narrative conclusions provide closure by resolving conflicts, revealing character growth, or highlighting the significance of events.
+* Students will analyze how different conclusion techniques (reflection, resolution, circular ending, or insight) can effectively close a narrative.
+* Students will revise narrative conclusions to ensure they connect meaningfully to the story's key moments and themes rather than introducing new, unrelated information.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on logical connection between conclusion and narrative events, not on sophisticated literary devices or complex philosophical reflections beyond grade 6 level.
+* Students are not expected to write conclusions for complex multi-plot narratives or stories with abstract themes requiring advanced interpretive skills.
+* Evaluation should not penalize students for conclusion style preferences (reflective vs. action-oriented) as long as the conclusion appropriately follows from the narrative.
 
 Common Misconceptions:
-*None specified*
+* Students believe conclusions must always include a moral lesson or explicitly state "the point" of the story rather than allowing meaning to emerge naturally from events.
+* Students think conclusions require introducing new plot elements, characters, or conflicts rather than resolving or reflecting on existing narrative threads.
+* Students assume all narrative conclusions must be happy or positive, not recognizing that effective conclusions can be ambiguous, bittersweet, or open-ended while still providing closure.
+* Students confuse narrative conclusions with summaries, simply retelling what happened instead of reflecting on significance or providing resolution.
+* Students believe conclusions must be lengthy and detailed, not understanding that brief, focused conclusions can be equally or more effective than extended ones.
 
 Difficulty Definitions:
 * Easy:

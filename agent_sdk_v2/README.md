@@ -353,9 +353,10 @@ async for message in query(prompt="Generate an ELA MCQ...", options=options):
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
-| `/generate` | POST | Generate ELA question (v1 compatible) |
-| `/generate_v2` | POST | Generate ELA question (SDK Skills) |
+| `/generate` | POST | Generate ELA question (SDK Skills) |
 | `/` | GET | Health check |
+
+**Note:** This deploys as a NEW separate service (`inceptagentic-skill-mcq-v2`). The existing service (`inceptagentic-skill-mcq`) remains untouched.
 
 ## CLI Commands
 

@@ -1,13 +1,12 @@
 """
-ELA Question Generation API - Claude Agent SDK (Skills Approach)
+ELA Question Generation API v2 - Claude Agent SDK (Skills Approach)
 
 This API uses the Claude Agent SDK with Skills for question generation.
 Skills are defined in .claude/skills/ and discovered automatically by the SDK.
 
 Endpoints:
-- POST /generate              - Generate ELA questions (v1 compatible)
-- POST /generate_v2           - Generate ELA questions (SDK Skills)
-- GET  /                      - Health check
+- POST /generate    - Generate ELA questions (SDK Skills)
+- GET  /            - Health check
 
 Architecture:
 - Skills are in .claude/skills/ (ela-question-generation, generate-passage)
@@ -121,20 +120,18 @@ async def health_check() -> dict:
     """Health check and API info."""
     return {
         "status": "ok",
-        "service": "ela-question-generation",
+        "service": "ela-question-generation-v2",
         "version": "2.0.0",
         "architecture": "Claude Agent SDK with Skills",
         "skills_location": str(ROOT / ".claude" / "skills"),
         "documentation": "https://platform.claude.com/docs/en/agent-sdk/skills",
         "endpoints": {
-            "/generate": "POST - Generate ELA questions (v1 compatible)",
-            "/generate_v2": "POST - Generate ELA questions (SDK Skills)",
+            "/generate": "POST - Generate ELA questions (SDK Skills)",
         },
     }
 
 
 @app.post("/generate", response_model=GenerateResponse)
-@app.post("/generate_v2", response_model=GenerateResponse)
 async def generate_question(request: GenerateRequest) -> GenerateResponse:
     """
     Generate an ELA question using Claude Agent SDK with Skills.
