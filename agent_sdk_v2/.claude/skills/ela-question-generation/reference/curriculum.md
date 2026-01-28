@@ -8188,3 +8188,13187 @@ Difficulty Definitions:
   <unspecified>
 * Hard:
   <unspecified>
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.1.A
+Standard Description: Use collective nouns (e.g., group).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.1.A+1
+Standard Description: Use collective nouns.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify collective nouns in sentences
+* Students can choose the correct collective noun to describe a group
+* Students can use collective nouns correctly in their own writing
+
+Assessment Boundaries:
+* Assessment is limited to common collective nouns appropriate for grade 2 (e.g., team, family, class, group, herd, flock, bunch)
+* Students should recognize and use collective nouns in simple sentences only
+* Does not include subject-verb agreement complexities or irregular collective nouns
+
+Common Misconceptions:
+* Students may think collective nouns are plural because they refer to multiple individuals (e.g., writing 'the team are' instead of 'the team is')
+* Students might confuse collective nouns with regular plural nouns (e.g., using 'dogs' instead of 'pack of dogs')
+* Students may not recognize that a collective noun represents a single group (e.g., thinking 'class' means multiple classrooms)
+* Students might create incorrect collective nouns by adding '-s' (e.g., 'a groups of students' instead of 'a group of students')
+* Students may use the wrong collective noun for a specific group (e.g., 'a herd of fish' instead of 'a school of fish')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.1.B
+Standard Description: Form and use frequently occurring irregular plural nouns (e.g., feet, children, teeth, mice, fish).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify the correct irregular plural form of frequently occurring nouns
+* Students can form irregular plural nouns correctly in their own writing
+* Students can distinguish between regular plural nouns (adding -s or -es) and irregular plural nouns
+
+Assessment Boundaries:
+* Assessment is limited to frequently occurring irregular plural nouns appropriate for grade 2 (e.g., feet, children, teeth, mice, fish, men, women, geese)
+* Students should recognize and use these irregular plurals in simple sentences only
+* Does not include uncommon or advanced irregular plurals (e.g., oxen, criteria, alumni) or nouns with Latin or Greek roots
+
+Common Misconceptions:
+* Students may add -s or -es to irregular nouns (e.g., 'foots', 'childs', 'teeths', 'mouses')
+* Students may confuse singular and plural forms of irregular nouns that look similar (e.g., using 'fish' for both one fish and many fish)
+* Students may overgeneralize irregular plural patterns incorrectly (e.g., thinking 'goose/geese' means 'moose/meese')
+* Students may create double plurals by adding -s to already plural irregular nouns (e.g., 'childrens', 'mens', 'feets')
+* Students may not recognize that some irregular plurals require complete word changes (e.g., not connecting 'person' to 'people')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.1.B+1
+Standard Description: Form frequently occurring irregular plural nouns.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify the correct irregular plural form of frequently occurring nouns
+* Students can choose the correct irregular plural noun to complete a sentence
+* Students can explain why certain nouns do not follow regular plural rules
+
+Assessment Boundaries:
+* Assessment is limited to frequently occurring irregular plural nouns appropriate for grade 2 (e.g., men, women, children, feet, teeth, mice, geese, sheep, deer, fish)
+* Does not include rare or advanced irregular plurals (e.g., criteria, phenomena, curricula)
+* Students should recognize irregular plurals in simple sentences but are not expected to spell all irregular plurals correctly from memory
+
+Common Misconceptions:
+* Students often add '-s' or '-es' to irregular nouns (e.g., 'childs', 'foots', 'mans', 'mouses')
+* Students may think all irregular plurals change the vowel sound (missing that 'sheep' and 'deer' stay the same)
+* Students confuse which part of the word changes in compound irregular plurals (e.g., writing 'tooths' instead of 'teeth')
+* Students may incorrectly apply irregular plural patterns to regular nouns (e.g., 'doog' for 'dogs' by analogy to 'foot/feet')
+* Students think that if a word ends in a consonant, it must be irregular (e.g., expecting 'book' to have an irregular plural)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.1.B+2
+Standard Description: Use frequently occurring irregular plural nouns.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify frequently occurring irregular plural nouns in sentences
+* Students can choose the correct irregular plural form of a noun
+* Students can use irregular plural nouns correctly in their own writing
+
+Assessment Boundaries:
+* Assessment is limited to frequently occurring irregular plurals such as children, feet, teeth, mice, men, women, fish, sheep, deer, geese
+* Students should work with irregular plurals in simple sentences appropriate for grade 2
+* Does not include rare or complex irregular plurals like 'phenomena', 'criteria', or Latin-based plurals
+
+Common Misconceptions:
+* Students may add '-s' or '-es' to irregular nouns (e.g., 'childs', 'foots', 'tooths', 'mouses')
+* Students may confuse singular and plural forms of nouns that stay the same (e.g., thinking 'sheep' is only singular or only plural)
+* Students may overgeneralize irregular patterns (e.g., changing 'tooth' to 'teeth' but then incorrectly changing 'booth' to 'beeth')
+* Students may not recognize that some irregular plurals involve internal vowel changes rather than endings (e.g., 'man' to 'men', 'goose' to 'geese')
+* Students may create double plurals by adding '-s' to an already plural irregular form (e.g., 'childrens', 'mens', 'peoples')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.1.C
+Standard Description: Use reflexive pronouns (e.g., myself, ourselves).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify reflexive pronouns in sentences (myself, yourself, himself, herself, itself, ourselves, yourselves, themselves)
+* Students can use reflexive pronouns correctly when the subject and object of the sentence are the same person or thing
+* Students can choose the correct reflexive pronoun that matches the subject of the sentence
+
+Assessment Boundaries:
+* Assessment is limited to the eight basic reflexive pronouns: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves
+* Students should use reflexive pronouns in simple sentences where the subject performs an action on itself
+* Does not include intensive pronouns used for emphasis (e.g., 'I myself did it') or complex pronoun-antecedent agreement issues
+
+Common Misconceptions:
+* Students may use 'me' instead of 'myself' (e.g., 'I hurt me' instead of 'I hurt myself')
+* Students often use reflexive pronouns that don't match the subject (e.g., 'She bought himself a toy' instead of 'She bought herself a toy')
+* Students may incorrectly use reflexive pronouns as subjects (e.g., 'Myself went to the store' instead of 'I went to the store')
+* Students confuse 'hisself' or 'theirselves' as correct forms instead of 'himself' and 'themselves'
+* Students may overuse reflexive pronouns in places where regular pronouns are correct (e.g., 'Mom gave the book to myself' instead of 'Mom gave the book to me')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.1.C+1
+Standard Description: Use reflexive pronouns.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify reflexive pronouns (myself, yourself, himself, herself, itself, ourselves, yourselves, themselves) in sentences
+* Students can choose the correct reflexive pronoun to match the subject of a sentence
+* Students can use reflexive pronouns correctly when the subject and object refer to the same person or thing
+
+Assessment Boundaries:
+* Assessment is limited to basic reflexive pronouns: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves
+* Students should use reflexive pronouns in simple sentences where the subject performs an action on itself
+* Does not include intensive pronouns used for emphasis or complex sentence structures with multiple clauses
+
+Common Misconceptions:
+* Students may use reflexive pronouns incorrectly as subjects (e.g., 'Myself went to the store' instead of 'I went to the store')
+* Students often confuse reflexive pronouns with regular pronouns (e.g., 'He looked at him' when it should be 'He looked at himself')
+* Students may use the wrong reflexive pronoun that doesn't match the subject (e.g., 'She gave herself a hug' written as 'She gave himself a hug')
+* Students might add reflexive pronouns unnecessarily when a regular pronoun is correct (e.g., 'Mom gave myself a cookie' instead of 'Mom gave me a cookie')
+* Students may confuse 'themself' as a word instead of using the correct form 'themselves'
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.1.D
+Standard Description: Form and use the past tense of frequently occurring irregular verbs (e.g., sat, hid, told).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify the correct past tense form of frequently occurring irregular verbs
+* Students can use irregular past tense verbs correctly in sentences
+* Students can distinguish between correct and incorrect past tense forms of irregular verbs
+
+Assessment Boundaries:
+* Assessment is limited to frequently occurring irregular verbs appropriate for grade 2 (e.g., go/went, eat/ate, sit/sat, hide/hid, tell/told, run/ran, see/saw, come/came, make/made, take/took)
+* Students should work with simple past tense only, not past participles or progressive forms
+* Does not include rare or advanced irregular verbs or regular verb conjugation patterns
+
+Common Misconceptions:
+* Students may apply regular past tense rules to irregular verbs (e.g., 'goed' instead of 'went', 'eated' instead of 'ate')
+* Students may confuse past tense with past participle forms (e.g., using 'seen' instead of 'saw', 'done' instead of 'did')
+* Students may overgeneralize one irregular pattern to other verbs (e.g., 'bringed' like 'singed', or 'telled' like 'yelled')
+* Students may use the present tense form when past tense is required (e.g., 'Yesterday I go to the store' instead of 'went')
+* Students may create double past tense forms (e.g., 'wented' or 'sawed' by adding '-ed' to an already irregular past tense)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.1.D+1
+Standard Description: Form the past tense of frequently occurring irregular verbs.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify the correct past tense form of frequently occurring irregular verbs
+* Students can use irregular past tense verbs correctly in sentences
+* Students can distinguish between incorrect regular past tense forms and correct irregular past tense forms
+
+Assessment Boundaries:
+* Assessment is limited to frequently occurring irregular verbs appropriate for grade 2 (e.g., go/went, see/saw, eat/ate, run/ran, make/made, take/took, come/came, give/gave, say/said, have/had)
+* Students should form past tense in simple sentences only, not complex verb phrases or conditional tenses
+* Does not include less common irregular verbs or verbs with multiple acceptable past tense forms
+
+Common Misconceptions:
+* Students often add '-ed' to irregular verbs, creating forms like 'goed', 'eated', 'runned', or 'maked'
+* Students may confuse past tense with past participle forms (e.g., using 'seen' instead of 'saw', or 'done' instead of 'did')
+* Students might think that if one verb follows a pattern, similar verbs do too (e.g., 'bring/bringed' like 'sing/singed')
+* Students may use present tense verbs when past tense is needed because they focus on the meaning rather than the time frame
+* Students sometimes overgeneralize one irregular pattern to other verbs (e.g., 'think/thought' leading to 'bring/brought' is correct, but then applying it incorrectly to 'drink/drank' as 'drink/drinkt')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.1.D+2
+Standard Description: Use the past tense of frequently occurring irregular verbs.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify the correct past tense form of frequently occurring irregular verbs
+* Students can use irregular past tense verbs correctly in sentences
+* Students can distinguish between regular past tense verbs (with -ed) and irregular past tense verbs
+
+Assessment Boundaries:
+* Assessment is limited to frequently occurring irregular verbs appropriate for grade 2 (e.g., go/went, see/saw, eat/ate, run/ran, come/came, make/made, have/had, do/did, say/said, get/got)
+* Students should use irregular past tense verbs in simple sentences only
+* Does not include less common irregular verbs, past participles (e.g., have eaten), or past progressive forms (e.g., was running)
+
+Common Misconceptions:
+* Students often add -ed to irregular verbs (e.g., 'goed' instead of 'went', 'eated' instead of 'ate')
+* Students may confuse past tense with present tense irregular verbs (e.g., using 'run' instead of 'ran')
+* Students sometimes use the past participle instead of simple past tense (e.g., 'I seen' instead of 'I saw')
+* Students may overgeneralize one irregular pattern to other verbs (e.g., thinking 'bring/brang' follows 'sing/sang')
+* Students might not recognize that some irregular verbs don't change form in past tense (e.g., 'put', 'cut', 'hit')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.1.E
+Standard Description: Use adjectives and adverbs, and choose between them depending on what is to be modified.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify adjectives as words that describe nouns
+* Students can identify adverbs as words that describe verbs
+* Students can choose the correct adjective or adverb to complete a sentence based on what is being modified
+
+Assessment Boundaries:
+* Assessment is limited to basic adjectives that describe nouns and basic adverbs that describe verbs in simple sentences
+* Students should work with common adjectives (big, happy, red) and simple adverbs, especially those ending in -ly (quickly, slowly, carefully)
+* Does not include adverbs that modify adjectives or other adverbs, or comparative and superlative forms
+
+Common Misconceptions:
+* Students may use adjectives when adverbs are needed (e.g., 'The dog ran quick' instead of 'quickly')
+* Students often think any descriptive word is an adjective, not recognizing that adverbs describe actions
+* Students may place adverbs in incorrect positions in sentences (e.g., 'He careful walked' instead of 'He walked carefully')
+* Students might not recognize that adverbs answer questions like 'how,' 'when,' or 'where' about verbs
+* Students may assume all adverbs must end in -ly, missing simple adverbs like 'fast,' 'well,' or 'hard'
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.1.E+1
+Standard Description: Use adjectives.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify adjectives in sentences
+* Students can use adjectives to describe nouns in their writing
+* Students can choose appropriate adjectives to make sentences more descriptive
+
+Assessment Boundaries:
+* Assessment is limited to common descriptive adjectives (color, size, shape, number, feeling words)
+* Students should work with adjectives in simple sentences, typically placed before the noun they describe
+* Does not include comparative or superlative forms, articles as adjectives, or proper adjectives
+
+Common Misconceptions:
+* Students may think any word that describes something is an adjective (confusing adverbs that describe verbs)
+* Students often place adjectives after the noun instead of before it (e.g., 'dog big' instead of 'big dog')
+* Students may think verbs like 'ran' or 'jumped' are adjectives because they tell about the noun
+* Students might identify nouns as adjectives when both appear together (e.g., thinking 'cat' is an adjective in 'cat food')
+* Students may overuse the same basic adjectives (like 'good', 'bad', 'nice') without recognizing more specific descriptive words
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.1.E+2
+Standard Description: Use adverbs.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify adverbs in simple sentences
+* Students can use adverbs to describe verbs in their own sentences
+* Students can choose appropriate adverbs to answer how, when, or where an action happens
+
+Assessment Boundaries:
+* Assessment is limited to common adverbs that tell how (quickly, slowly, carefully), when (yesterday, today, later), or where (here, there, outside)
+* Students work with simple sentences containing one adverb modifying one verb
+* Does not include adverbs that modify adjectives or other adverbs, comparative/superlative forms, or irregular adverbs
+
+Common Misconceptions:
+* Students may confuse adjectives with adverbs (e.g., using 'quick' instead of 'quickly' to describe how someone runs)
+* Students often think all words ending in '-ly' are adverbs (e.g., 'friendly' is actually an adjective)
+* Students may place adverbs in incorrect positions in sentences (e.g., 'He walked to school slowly' vs 'He slowly walked to school')
+* Students might not recognize simple adverbs without '-ly' endings as adverbs (e.g., 'fast', 'hard', 'late')
+* Students may use adjectives to describe actions instead of adverbs (e.g., 'She sang beautiful' instead of 'She sang beautifully')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.1.E+3
+Standard Description: Choose between adjectives and adverbs depending on what is to be modified.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify whether a noun or verb needs to be described in a sentence
+* Students can choose the correct adjective to describe a noun
+* Students can choose the correct adverb to describe a verb
+* Students can explain why an adjective or adverb is the right choice for a particular word
+
+Assessment Boundaries:
+* Assessment is limited to simple adjectives and common adverbs, particularly those ending in -ly
+* Students should work with simple sentences with clear noun-verb structure
+* Does not include comparative or superlative forms, or adverbs that don't end in -ly
+
+Common Misconceptions:
+* Students may use adjectives to describe verbs (e.g., 'She ran quick' instead of 'She ran quickly')
+* Students may use adverbs to describe nouns (e.g., 'a slowly turtle' instead of 'a slow turtle')
+* Students often think any descriptive word can be used anywhere (not recognizing adjectives describe nouns and adverbs describe verbs)
+* Students may not recognize that adding -ly to an adjective usually creates an adverb (e.g., 'soft' becomes 'softly')
+* Students might choose words based on how they sound rather than what word is being modified
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.1.F
+Standard Description: Produce, expand, and rearrange complete simple and compound sentences (e.g., The boy watched the movie; The little boy watched the movie; The action movie was watched by the little boy).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can produce complete simple sentences with a subject and predicate
+* Students can expand simple sentences by adding descriptive words and details
+* Students can rearrange sentence parts to change word order while keeping the sentence complete and correct
+* Students can combine two simple sentences to form a compound sentence using a conjunction
+
+Assessment Boundaries:
+* Assessment is limited to simple sentences (one independent clause) and compound sentences (two independent clauses joined by a conjunction like 'and', 'but', 'or')
+* Sentence expansions should focus on adding adjectives, adverbs, and prepositional phrases appropriate for grade 2
+* Does not include complex sentences with dependent clauses, passive voice beyond simple examples, or advanced sentence structures
+
+Common Misconceptions:
+* Students may create sentence fragments by leaving out the subject or verb (e.g., 'Watched the movie' instead of 'The boy watched the movie')
+* Students may think adding more words always makes a sentence better, creating run-on sentences without proper punctuation
+* Students may incorrectly rearrange sentences, placing words in orders that don't make sense (e.g., 'The movie the boy watched' without proper structure)
+* Students may confuse compound sentences with run-ons, forgetting to use a comma and conjunction to join two sentences
+* Students may think expanded sentences must always be longer, not recognizing that word choice matters more than length
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.1.F+1
+Standard Description: Produce complete simple sentences.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify whether a sentence is complete or incomplete
+* Students can write complete simple sentences with a subject and predicate
+* Students can revise sentence fragments into complete simple sentences
+* Students can distinguish between complete sentences and run-on sentences
+
+Assessment Boundaries:
+* Assessment is limited to simple sentences with one independent clause (subject and predicate)
+* Students should work with grade-appropriate vocabulary and familiar topics
+* Does not include compound or complex sentences with multiple clauses or advanced punctuation
+
+Common Misconceptions:
+* Students may think a sentence is complete if it starts with a capital letter and ends with a period, even without a subject or verb
+* Students often write sentence fragments that are missing either a subject (e.g., 'Ran to the store.') or a predicate (e.g., 'The big dog.')
+* Students may believe that any group of words expressing an idea is a complete sentence (e.g., 'After lunch.' or 'In the park.')
+* Students might think longer sentences are always complete, even when they lack a subject or verb (e.g., 'The red ball and the blue toy and the yellow balloon.')
+* Students may confuse commands/imperative sentences as incomplete because the subject 'you' is implied rather than stated
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.1.F+2
+Standard Description: Expand complete simple sentences.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify complete simple sentences that can be expanded with additional details
+* Students can add descriptive words (adjectives and adverbs) to expand simple sentences
+* Students can add prepositional phrases to expand simple sentences with information about where, when, or how
+* Students can expand simple sentences while maintaining correct grammar and sentence structure
+
+Assessment Boundaries:
+* Assessment is limited to expanding simple sentences (one subject and one predicate) with descriptive words and prepositional phrases
+* Students should expand sentences using grade-appropriate vocabulary and basic adjectives, adverbs, and prepositional phrases only
+* Does not include combining sentences, creating compound or complex sentences, or using advanced clauses
+
+Common Misconceptions:
+* Students may add words that create sentence fragments instead of keeping the sentence complete (e.g., 'The dog barked' becomes 'The dog barked loudly and')
+* Students often add so many details that the sentence becomes a run-on sentence without proper punctuation
+* Students may add words that change the basic meaning of the original sentence rather than simply expanding it
+* Students might think any added words expand a sentence, even if they are redundant or don't add meaningful detail (e.g., 'The dog barked' becomes 'The dog barked a bark')
+* Students may add descriptive words in incorrect positions, breaking proper word order (e.g., 'The big dog brown' instead of 'The big brown dog')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.1.F+3
+Standard Description: Rearrange complete simple sentences.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can rearrange the words in a complete simple sentence to create a new sentence with the same meaning
+* Students can identify when a rearranged sentence is still complete and correct
+* Students can recognize that word order changes the meaning or correctness of a sentence
+
+Assessment Boundaries:
+* Assessment is limited to complete simple sentences with one subject and one predicate
+* Sentences should contain basic parts of speech appropriate for grade 2 (nouns, verbs, adjectives, adverbs, articles)
+* Does not include complex sentences, compound sentences, or sentences with multiple clauses
+
+Common Misconceptions:
+* Students may rearrange words without checking if the new sentence makes sense (e.g., 'runs dog the' instead of 'the dog runs')
+* Students may think any rearrangement is correct as long as all the words are included
+* Students may not recognize that some rearrangements change the meaning (e.g., 'The cat chased the mouse' vs 'The mouse chased the cat')
+* Students may forget to keep capital letters at the beginning and punctuation at the end when rearranging
+* Students may incorrectly split articles from their nouns (e.g., placing 'a' away from the noun it describes)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.1.F+4
+Standard Description: Produce complete compound sentences.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify two complete simple sentences that can be joined together
+* Students can choose the correct coordinating conjunction (and, but, or) to connect two related sentences
+* Students can produce compound sentences by combining two simple sentences with a comma and coordinating conjunction
+
+Assessment Boundaries:
+* Assessment is limited to compound sentences using the coordinating conjunctions 'and', 'but', and 'or' with a comma
+* Students should work with simple sentences containing basic subjects and predicates, not complex sentence structures
+* Does not include semicolons, other coordinating conjunctions (for, nor, yet, so), or complex sentences with dependent clauses
+
+Common Misconceptions:
+* Students may forget to include the comma before the coordinating conjunction in a compound sentence
+* Students often create run-on sentences by joining two sentences with a conjunction but no comma, or with just a comma and no conjunction
+* Students may use 'and' to connect unrelated ideas that don't logically belong together
+* Students might think any two short sentences can be combined, even when the ideas don't connect meaningfully
+* Students may confuse compound sentences with simple sentences that have compound subjects or predicates (e.g., 'The dog and cat played' is simple, not compound)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.1.F+5
+Standard Description: Expand complete compound sentences.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify the two complete thoughts in a compound sentence
+* Students can expand compound sentences by adding descriptive details to one or both parts
+* Students can combine two simple sentences into a compound sentence using coordinating conjunctions (and, but, or, so)
+* Students can revise compound sentences to make them more detailed and interesting
+
+Assessment Boundaries:
+* Assessment is limited to compound sentences using basic coordinating conjunctions (and, but, or, so)
+* Students should work with simple compound sentences appropriate for grade 2, not complex or compound-complex sentences
+* Expansion includes adding adjectives, adverbs, and simple prepositional phrases, not dependent clauses
+
+Common Misconceptions:
+* Students may think adding words to any part of a sentence makes it 'compound' without recognizing the need for two complete thoughts
+* Students often create run-on sentences by connecting multiple thoughts with 'and' repeatedly instead of using proper punctuation
+* Students may add details only to the first part of a compound sentence, leaving the second part bare
+* Students might think a sentence is compound just because it's long, missing that it needs two independent clauses joined by a conjunction
+* Students may forget the comma before the conjunction when expanding compound sentences (e.g., 'I ran fast and I won the race' instead of 'I ran fast, and I won the race')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.1.F+6
+Standard Description: Rearrange complete compound sentences.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify compound sentences that have two complete ideas joined by a conjunction
+* Students can rearrange the order of clauses in a compound sentence while maintaining correct meaning
+* Students can recognize that both parts of a compound sentence can stand alone as complete sentences
+
+Assessment Boundaries:
+* Assessment is limited to simple compound sentences with coordinating conjunctions (and, but, or, so)
+* Sentences should contain familiar vocabulary and simple subject-verb patterns appropriate for grade 2
+* Does not include complex sentences with dependent clauses or compound-complex sentences
+
+Common Misconceptions:
+* Students may rearrange sentences without keeping the conjunction, breaking the compound structure
+* Students may think any two sentences can be swapped in order without changing meaning (e.g., 'I fell down and I cried' vs 'I cried and I fell down')
+* Students may place the conjunction at the beginning or end of the sentence instead of between the two clauses
+* Students may think a compound sentence is just two sentences next to each other without a conjunction
+* Students may rearrange words within clauses instead of rearranging the complete clauses themselves
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.2.A
+Standard Description: Capitalize holidays, product names, and geographic names.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify holidays, product names, and geographic names that need capitalization
+* Students can capitalize holidays, product names, and geographic names correctly in sentences
+* Students can explain why specific words (holidays, products, geographic names) are capitalized
+
+Assessment Boundaries:
+* Assessment is limited to common holidays (Christmas, Thanksgiving, Halloween), recognizable product names (Cheerios, Crayola, iPad), and basic geographic names (states, cities, countries, oceans, mountains)
+* Students should work with simple sentences containing 1-2 proper nouns requiring capitalization
+* Does not include capitalization of historical events, organizations, or titles of works
+
+Common Misconceptions:
+* Students may capitalize common nouns that name categories (e.g., 'Mountain' instead of only 'Rocky Mountains')
+* Students often fail to capitalize all words in multi-word geographic names (e.g., 'New york' instead of 'New York')
+* Students may not recognize product names as proper nouns requiring capitalization (e.g., writing 'cheerios' instead of 'Cheerios')
+* Students might capitalize seasons when they should only capitalize actual holiday names (e.g., capitalizing 'summer' but not recognizing 'Memorial Day' needs capitals)
+* Students may capitalize directional words that are not part of geographic names (e.g., 'We drove South' instead of 'We drove south' vs. 'We visited South Carolina')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.2.A+1
+Standard Description: Capitalize holidays.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify holidays in sentences and texts
+* Students can capitalize the names of holidays correctly when writing
+* Students can distinguish between holiday names that need capitalization and common words that do not
+
+Assessment Boundaries:
+* Assessment is limited to common holidays students would encounter (e.g., Thanksgiving, Halloween, Valentine's Day, New Year's Day)
+* Students should recognize and capitalize holiday names in simple sentences only
+* Does not include complex religious holidays unfamiliar to grade 2 students or holidays from cultures not studied in the curriculum
+
+Common Misconceptions:
+* Students may capitalize common words related to holidays but not the holiday name itself (e.g., 'We ate Turkey on thanksgiving')
+* Students often fail to capitalize all words in multi-word holiday names (e.g., 'New year's Day' instead of 'New Year's Day')
+* Students may think seasons are holidays and capitalize them incorrectly (e.g., 'Spring' or 'Winter' when not part of a holiday name)
+* Students might not capitalize holidays when they appear in the middle of a sentence, thinking capitals are only for sentence beginnings
+* Students may lowercase holiday names when using informal abbreviations (e.g., 'xmas' instead of 'Christmas')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.2.A+2
+Standard Description: Capitalize product names.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify product names in sentences and texts
+* Students can capitalize product names correctly when writing
+* Students can distinguish between product names that need capitalization and common nouns that do not
+
+Assessment Boundaries:
+* Assessment focuses on recognizing and capitalizing familiar product names (e.g., brand names of toys, foods, stores) that students encounter in daily life
+* Students should work with product names in simple sentences, not complex multi-clause sentences
+* Does not include trademarked names with unusual spelling or capitalization patterns, or product names in other languages
+
+Common Misconceptions:
+* Students may capitalize all nouns related to products (e.g., writing 'I ate a Cookie' instead of 'I ate an Oreo cookie')
+* Students might not capitalize product names because they think only names of people and places need capitals
+* Students may fail to capitalize each word in multi-word product names (e.g., writing 'Lego blocks' instead of 'LEGO blocks')
+* Students often confuse generic product categories with specific brand names (e.g., capitalizing 'cereal' when they mean the general food, not a brand)
+* Students may overcorrect and capitalize common descriptive words that appear near product names (e.g., 'I love Red Apple Juice' when 'red' is just describing color, not part of the brand)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.2.A+3
+Standard Description: Capitalize geographic names.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify geographic names in sentences and texts
+* Students can capitalize geographic names correctly when writing
+* Students can distinguish between geographic names that require capitalization and common nouns that do not
+
+Assessment Boundaries:
+* Assessment includes continents, countries, states, cities, oceans, rivers, mountains, and other physical geographic features
+* Limited to commonly known geographic names appropriate for grade 2 (e.g., United States, Texas, Pacific Ocean)
+* Does not include complex cases like hyphenated place names or geographic names used as adjectives
+
+Common Misconceptions:
+* Students may capitalize directional words when they are not part of a place name (e.g., 'I went north' vs. 'North America')
+* Students might not capitalize all words in multi-word geographic names (e.g., writing 'Pacific ocean' instead of 'Pacific Ocean')
+* Students may capitalize common geographic nouns that are not specific place names (e.g., 'We went to the River' instead of 'We went to the river')
+* Students might fail to capitalize geographic names when they appear in the middle of a sentence
+* Students may confuse when to capitalize terms like 'state' or 'city' (capitalizing only when part of the specific name like 'New York City' but not in 'the city is big')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.2.B
+Standard Description: Use commas in greetings and closings of letters.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify where commas belong in letter greetings and closings
+* Students can write greetings and closings with commas in the correct position
+* Students can choose correctly punctuated greetings and closings from multiple options
+
+Assessment Boundaries:
+* Assessment is limited to commas in friendly letter greetings (e.g., 'Dear Maria,') and closings (e.g., 'Your friend,', 'Love,')
+* Students should work with simple, age-appropriate greetings and closings only
+* Does not include business letter formats, colons in greetings, or complex punctuation rules
+
+Common Misconceptions:
+* Students often omit the comma entirely in greetings (e.g., writing 'Dear Mom' instead of 'Dear Mom,')
+* Students may place the comma before the greeting word instead of after the name (e.g., 'Dear, Sam' instead of 'Dear Sam,')
+* Students sometimes add a comma after both words in a closing (e.g., 'Your, friend,' instead of 'Your friend,')
+* Students may use a period instead of a comma in closings (e.g., 'Sincerely.' instead of 'Sincerely,')
+* Students often forget that the comma comes after the closing phrase, not before it (e.g., ',Love' instead of 'Love,')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.2.C
+Standard Description: Use an apostrophe to form contractions and frequently occurring possessives.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify where apostrophes belong in common contractions (e.g., can't, don't, it's)
+* Students can use apostrophes correctly to show possession with singular nouns (e.g., dog's bone, Emma's book)
+* Students can distinguish between contractions and possessives when using apostrophes
+
+Assessment Boundaries:
+* Assessment is limited to common contractions (not, is, will, have, would) and frequently occurring possessives with singular nouns only
+* Does not include plural possessives (e.g., dogs' bones) or irregular possessives
+* Focus is on correct apostrophe placement in grade-appropriate words students encounter in reading and writing
+
+Common Misconceptions:
+* Students confuse 'its' (possessive) with 'it's' (contraction for 'it is'), often adding an apostrophe to the possessive form
+* Students place the apostrophe after the 's' in singular possessives (e.g., writing 'dogs' toy' instead of 'dog's toy')
+* Students omit the apostrophe entirely in contractions (e.g., writing 'dont' instead of 'don't')
+* Students add apostrophes to regular plural nouns (e.g., writing 'apple's' when they mean 'apples')
+* Students place apostrophes in the wrong position in contractions (e.g., writing 'do'nt' instead of 'don't')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.2.C+1
+Standard Description: Use an apostrophe to form contractions.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify where an apostrophe belongs when forming a contraction
+* Students can create contractions by combining two words using an apostrophe
+* Students can explain which letters are replaced by the apostrophe in a contraction
+
+Assessment Boundaries:
+* Assessment is limited to common contractions appropriate for grade 2 (e.g., can't, don't, isn't, I'm, we're, they're, it's, didn't, won't)
+* Students should form contractions from two words only, not identify contractions within complex sentences
+* Does not include possessive apostrophes or irregular contractions beyond 'won't' and 'can't'
+
+Common Misconceptions:
+* Students may place the apostrophe at the beginning or end of the contraction instead of where letters are removed (e.g., 'ca'nt' or 'cant'')
+* Students confuse contractions with possessives (e.g., thinking 'it's' shows ownership)
+* Students may forget to remove letters when forming contractions (e.g., writing 'can not' as 'can'not' instead of 'can't')
+* Students often place the apostrophe between the two original words rather than where letters are omitted (e.g., 'do'nt' instead of 'don't')
+* Students may create incorrect contractions by removing the wrong letters (e.g., 'do'nt' missing the 'o' but placing apostrophe incorrectly)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.2.C+2
+Standard Description: Use an apostrophe to form frequently occurring possessives.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify when an apostrophe is needed to show possession
+* Students can correctly place an apostrophe to form possessives with singular nouns
+* Students can use apostrophes correctly in simple possessive phrases in their writing
+
+Assessment Boundaries:
+* Assessment is limited to frequently occurring singular possessives (e.g., 'the dog's bone', 'Maria's book')
+* Does not include plural possessives, irregular possessives, or possessive pronouns (its, hers, theirs)
+* Focus is on common, grade-appropriate nouns that students encounter in everyday reading and writing
+
+Common Misconceptions:
+* Students add apostrophes to plural nouns that are not possessive (e.g., writing 'two dog's' instead of 'two dogs')
+* Students place the apostrophe after the 's' in singular possessives (e.g., 'cats' toy' instead of 'cat's toy')
+* Students confuse possessive pronouns with contractions (e.g., writing 'it's' when they mean 'its' for possession)
+* Students omit the apostrophe entirely in possessives (e.g., writing 'Toms hat' instead of 'Tom's hat')
+* Students add apostrophes before the 's' in plural words (e.g., 'apple's' when referring to multiple apples)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.2.D
+Standard Description: Generalize learned spelling patterns when writing words (e.g., cage   badge; boy   boil).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify spelling patterns in known words and apply them to spell new words
+* Students can generalize spelling rules from example words to write similar words correctly
+* Students can use knowledge of word families and patterns (e.g., -age, -oy, -oil) to spell unfamiliar words
+
+Assessment Boundaries:
+* Assessment focuses on common spelling patterns appropriate for grade 2 (e.g., short and long vowels, consonant blends, simple suffixes, common vowel teams)
+* Students should apply patterns within the same word family or with similar phonetic structures, not complex multisyllabic words
+* Does not include irregular spelling patterns, silent letters beyond common ones, or advanced prefixes and suffixes
+
+Common Misconceptions:
+* Students may overgeneralize patterns incorrectly (e.g., thinking all words with /oi/ sound use 'oy' spelling)
+* Students might apply patterns without considering word position rules (e.g., using 'oy' at the beginning or middle of words instead of only at the end)
+* Students may focus only on the sound and ignore visual patterns (e.g., spelling 'boj' instead of 'badge' because they sound similar)
+* Students often fail to recognize when a pattern does not apply to irregular words (e.g., trying to apply regular patterns to sight words)
+* Students may confuse similar patterns (e.g., using '-dge' for all /j/ sounds instead of recognizing when to use '-ge' after long vowels)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.2.E
+Standard Description: Consult reference materials, including beginning dictionaries, as needed to check and correct spellings.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify when they need to check the spelling of a word
+* Students can use a beginning dictionary or other reference materials to find the correct spelling of words
+* Students can correct their own spelling errors using reference materials
+
+Assessment Boundaries:
+* Assessment is limited to using age-appropriate reference materials such as beginning dictionaries, picture dictionaries, and word walls
+* Students should demonstrate the process of looking up words, not memorizing spellings
+* Does not include use of advanced reference materials like thesauruses or online spell-checkers
+
+Common Misconceptions:
+* Students may think they only need to check spelling for long or difficult words, not recognizing when common words are misspelled
+* Students often don't know how to find a word in a dictionary when they don't know the first few letters
+* Students may believe that if a word 'looks right' they don't need to check it in a reference material
+* Students might think dictionaries are only for finding definitions, not for checking spellings
+* Students may give up on finding a word after checking only one possible spelling instead of trying alternative letter combinations
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.B
+Cluster Name: Knowledge of Language
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.3.A
+Standard Description: Compare formal and informal uses of English.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify whether language is formal or informal in given examples
+* Students can explain when to use formal language versus informal language
+* Students can choose appropriate formal or informal words for different situations (talking to friends vs. talking to teachers or adults)
+
+Assessment Boundaries:
+* Assessment is limited to basic comparisons between formal and informal language in familiar contexts (classroom, playground, home, school events)
+* Students should recognize differences in simple greetings, requests, and common phrases only
+* Does not include technical terms like 'register' or 'diction', and does not assess professional or academic writing conventions
+
+Common Misconceptions:
+* Students may think formal language means using big or fancy words they don't understand, rather than polite and complete sentences
+* Students often believe they should always use formal language at school, not recognizing that informal language is appropriate with friends at recess
+* Students may confuse 'formal' with 'boring' and think informal language is more fun or creative
+* Students might think slang and incomplete sentences are acceptable in all informal situations, not recognizing some informal settings still require clarity
+* Students may not recognize that the same message can be said formally or informally (e.g., 'May I please have a pencil?' vs. 'Can I get a pencil?')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.B
+Cluster Name: Knowledge of Language
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.3.A+1
+Standard Description: Compare formal and informal uses of English.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify whether language is formal or informal in spoken and written examples
+* Students can explain the difference between formal and informal English
+* Students can choose appropriate formal or informal language based on the audience and situation
+
+Assessment Boundaries:
+* Assessment is limited to simple, clear examples of formal language (like talking to a teacher or principal) versus informal language (like talking to friends or family)
+* Students should recognize basic differences such as greetings, word choice, and tone, not complex grammatical structures
+* Does not include technical terms like 'register' or 'dialect', and does not assess slang or regional variations
+
+Common Misconceptions:
+* Students may think informal language is 'wrong' or 'bad English' rather than understanding it is appropriate in certain contexts
+* Students often believe that formal language only means using 'big words' instead of recognizing it involves respectful tone and complete sentences
+* Students may think contractions (like 'can't' or 'won't') are never acceptable, even in informal situations
+* Students might confuse polite language with formal language, not recognizing you can be polite in both formal and informal settings
+* Students may not understand that the same person uses different language styles in different situations (like a teacher talking to students versus talking to friends)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.4.A
+Standard Description: Use sentence-level context as a clue to the meaning of a word or phrase.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can use words and phrases around an unknown word to figure out its meaning
+* Students can identify context clues in a sentence that help explain what a word means
+* Students can choose the correct meaning of a word based on how it is used in a sentence
+
+Assessment Boundaries:
+* Assessment is limited to using context clues within a single sentence, not across multiple sentences or paragraphs
+* Students should work with grade-appropriate vocabulary in simple and compound sentences
+* Does not include complex context clue types like contrast, cause-effect, or inference across texts
+
+Common Misconceptions:
+* Students may focus only on the unknown word itself rather than reading the whole sentence for clues
+* Students often choose a meaning based on a word that looks or sounds similar rather than using context (e.g., thinking 'bark' means a dog sound when the sentence is about a tree)
+* Students may select the most common meaning of a word they know instead of using context to determine how it's used in that specific sentence
+* Students sometimes identify a word from the sentence as the definition rather than using surrounding words as clues to determine meaning
+* Students may think every sentence contains obvious context clues and give up when clues are subtle or require careful reading
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.4.A+1
+Standard Description: Use sentence-level context as a clue to the meaning of a word or phrase.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can use words and phrases around an unknown word to figure out its meaning
+* Students can identify context clues in a sentence that help explain what a word means
+* Students can choose the correct meaning of a word based on how it is used in a sentence
+
+Assessment Boundaries:
+* Assessment is limited to simple and compound sentences with clear context clues such as definitions, examples, or descriptions within the same sentence
+* Unknown words should be grade-appropriate vocabulary that can be reasonably inferred from sentence-level context only
+* Does not include context clues that require reading multiple sentences or paragraphs, or advanced clue types like contrast or cause-and-effect
+
+Common Misconceptions:
+* Students may focus only on the unknown word itself rather than reading the entire sentence for clues
+* Students often choose a meaning based on what the word sounds like rather than how it is used in the sentence
+* Students may select the first familiar word they see in the sentence as the meaning, ignoring actual context
+* Students might think a word has only one meaning and not consider how the sentence context shows which meaning applies
+* Students may rely on guessing or prior knowledge instead of using the context clues provided in the sentence
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.4.B
+Standard Description: Determine the meaning of the new word formed when a known prefix is added to a known word (e.g., happy/unhappy, tell/retell).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify common prefixes (un-, re-, pre-, mis-) in words
+* Students can determine the meaning of a base word they already know
+* Students can explain how adding a prefix changes the meaning of the base word
+* Students can use their knowledge of prefixes and base words to figure out the meaning of new words
+
+Assessment Boundaries:
+* Assessment is limited to common grade-appropriate prefixes: un-, re-, pre-, mis-, dis-
+* Base words should be known, high-frequency words appropriate for grade 2 (e.g., happy, like, tell, do, read)
+* Does not include words where the prefix changes spelling of the base word or words with multiple prefixes
+
+Common Misconceptions:
+* Students may think 'un-' always means 'not' without considering context (e.g., thinking 'uncover' means 'not cover')
+* Students might not recognize that the prefix changes the base word's meaning and instead try to sound out the whole word as if it were new
+* Students may confuse prefixes with the beginning letters of words that aren't actually prefixes (e.g., thinking 'un' in 'uncle' is a prefix)
+* Students often think 're-' only means 'again' and miss that it can mean 'back' (e.g., 'return' means go back)
+* Students may reverse the meaning relationship (e.g., thinking 'unhappy' means 'very happy' instead of 'not happy')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.4.B+1
+Standard Description: Determine the meaning of the new word formed when a known prefix is added to a known word.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify common prefixes in words (e.g., un-, re-, pre-)
+* Students can determine the meaning of a new word when a known prefix is added to a known base word
+* Students can explain how adding a prefix changes the meaning of a base word
+
+Assessment Boundaries:
+* Assessment is limited to common grade-appropriate prefixes such as un-, re-, pre-, mis-, dis-
+* Base words should be familiar, high-frequency words appropriate for grade 2
+* Does not include Greek or Latin roots, or multiple prefixes on one word
+
+Common Misconceptions:
+* Students may think the prefix is a separate word rather than a word part that changes meaning
+* Students often confuse the prefix 're-' meaning 'again' with 're-' as just the beginning letters of a word (e.g., 'read' does not mean 'do ad again')
+* Students may think 'un-' always means 'not' and apply it incorrectly to words like 'uncle' or 'under'
+* Students might add the meanings of prefix and base word separately rather than understanding how they combine (e.g., thinking 'unhappy' means 'not' plus 'happy' as two separate ideas)
+* Students may not recognize that removing a prefix should leave a real base word (e.g., thinking 'un-' can be removed from 'until')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.4.C
+Standard Description: Use a known root word as a clue to the meaning of an unknown word with the same root (e.g., addition, additional).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify the root word within an unknown word
+* Students can explain how a known root word helps determine the meaning of a related unknown word
+* Students can use their knowledge of a root word to figure out the meaning of words with the same root
+
+Assessment Boundaries:
+* Assessment is limited to simple, common root words that second graders are likely to know (e.g., add, teach, help, play)
+* Focus is on word families with transparent connections where the root meaning is clearly present in the derived word
+* Does not include Latin or Greek roots, complex prefixes/suffixes, or words where the root meaning has significantly changed
+
+Common Misconceptions:
+* Students may think any words that look similar share the same root (e.g., thinking 'car' and 'care' have the same root)
+* Students might focus only on the beginning of words rather than identifying the core root (e.g., seeing 'play' in 'player' but not in 'replay')
+* Students may believe that adding letters always keeps the exact same meaning rather than modifying it (e.g., thinking 'teacher' means the same as 'teach')
+* Students often confuse rhyming words with root word families (e.g., thinking 'bright' and 'light' share a root)
+* Students may not recognize a root word when its spelling changes slightly in the related word (e.g., not seeing 'sun' in 'sunny')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.4.C+1
+Standard Description: Use a known root word as a clue to the meaning of an unknown word with the same root.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify the root word in an unknown word
+* Students can explain how a known root word helps determine the meaning of an unknown word with the same root
+* Students can use the meaning of a known root word to figure out the meaning of a related unknown word
+
+Assessment Boundaries:
+* Assessment is limited to simple, common root words appropriate for grade 2 (e.g., 'play' in 'playing', 'replay'; 'help' in 'helper', 'helpful')
+* Focus is on root words with simple prefixes (re-, un-) and suffixes (-er, -ful, -less, -ing, -ed) only
+* Does not include Latin or Greek roots, compound words where both parts are unfamiliar, or complex multisyllabic words
+
+Common Misconceptions:
+* Students may think any part of a word is the root (e.g., thinking 'car' is the root in 'carpet' when these words are unrelated)
+* Students may believe the new word means exactly the same as the root word without considering how prefixes or suffixes change meaning
+* Students often confuse words that sound similar but have different roots (e.g., 'bear' and 'bare')
+* Students may think all words that start with the same letter or letters share the same root (e.g., 'run' and 'rung')
+* Students might identify only part of the root word (e.g., finding 'cat' in 'catch' when 'catch' is its own root)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.4.D
+Standard Description: Use knowledge of the meaning of individual words to predict the meaning of compound words (e.g., birdhouse, lighthouse, housefly; bookshelf, notebook, bookmark).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify the two smaller words that make up a compound word
+* Students can explain the meaning of each individual word in a compound word
+* Students can predict the meaning of a compound word by combining the meanings of its two parts
+* Students can use their understanding of compound words to determine meanings in context
+
+Assessment Boundaries:
+* Assessment is limited to common, concrete compound words appropriate for grade 2 (e.g., classroom, playground, rainbow, football, bedroom)
+* Compound words should be composed of two simple base words that students can reasonably know
+* Does not include compound words with prefixes or suffixes, hyphenated compounds, or abstract compound words with non-literal meanings (e.g., butterfly, understand)
+
+Common Misconceptions:
+* Students may think compound words are always spelled as one word (missing examples like 'ice cream' or 'high school')
+* Students may try to predict meanings of non-literal compound words by adding parts literally (e.g., thinking 'butterfly' is 'butter that flies')
+* Students may reverse the order of importance when combining meanings (e.g., thinking 'birdhouse' is 'a house shaped like a bird' instead of 'a house for birds')
+* Students may focus on only one part of the compound word and ignore the other part when predicting meaning (e.g., thinking 'housefly' is just any fly)
+* Students may incorrectly split words into parts that aren't real compound words (e.g., splitting 'carpet' into 'car' and 'pet')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.4.D+1
+Standard Description: Use knowledge of the meaning of individual words to predict the meaning of compound words.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify the two smaller words that make up a compound word
+* Students can explain the meaning of each individual word within a compound word
+* Students can predict the meaning of a compound word by combining the meanings of its parts
+* Students can use their understanding of compound words to determine the meaning of unfamiliar compound words
+
+Assessment Boundaries:
+* Assessment is limited to common, concrete compound words appropriate for grade 2 (e.g., sunshine, baseball, bedroom, cupcake)
+* Students should work with compound words where the combined meaning is predictable from the individual parts, not idiomatic compounds like 'butterfly' or 'hotdog'
+* Does not include hyphenated compounds or three-word compounds
+
+Common Misconceptions:
+* Students may think compound words are always related to both parts equally (e.g., thinking 'dragonfly' is a dragon that flies)
+* Students might identify any long word as a compound word, not recognizing that both parts must be real words (e.g., thinking 'button' is 'butt' + 'on')
+* Students may reverse the order of importance, focusing on the first word when the second word is usually the main noun (e.g., thinking 'doghouse' is a dog, not a house)
+* Students often guess at compound meanings without analyzing each individual word first (e.g., guessing 'seahorse' without thinking about 'sea' and 'horse' separately)
+* Students may not recognize that some compound words have meanings that aren't literal combinations (e.g., 'upset' doesn't mean 'up' + 'set')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.4.E
+Standard Description: Use glossaries and beginning dictionaries, both print and digital, to determine or clarify the meaning of words and phrases.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can locate words in glossaries and beginning dictionaries using alphabetical order
+* Students can use glossaries and dictionaries to find the meaning of unfamiliar words
+* Students can use both print and digital glossaries and dictionaries to clarify word meanings in context
+
+Assessment Boundaries:
+* Assessment is limited to age-appropriate glossaries and beginning dictionaries with simple definitions
+* Students should work with words that appear in grade-level texts and have clear, concrete meanings
+* Does not include multiple meanings beyond two simple definitions, etymology, or pronunciation keys beyond basic phonetic spelling
+
+Common Misconceptions:
+* Students may look up only the first letter of a word without understanding full alphabetical order (e.g., stopping after finding the 'b' section instead of 'br-' words)
+* Students often choose the first definition listed without reading all options or checking which fits the sentence context
+* Students may confuse a glossary with a table of contents or index, not understanding its specific purpose for defining terms
+* Students might think digital dictionaries work differently than print ones, not recognizing they contain the same type of information
+* Students may believe pictures in dictionaries are the definitions rather than using them as supports to understand the written definition
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.5.A
+Standard Description: Identify real-life connections between words and their use (e.g., describe foods that are spicy or juicy).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify real-life examples that match descriptive words
+* Students can explain how specific words apply to objects, foods, or experiences they know
+* Students can describe familiar items using vocabulary words appropriately
+
+Assessment Boundaries:
+* Assessment focuses on concrete, age-appropriate vocabulary that second graders encounter in daily life (foods, animals, weather, emotions, textures)
+* Students should connect words to real objects or experiences they can see, touch, taste, or feel, not abstract concepts
+* Does not include figurative language, idioms, or metaphorical uses of words
+
+Common Misconceptions:
+* Students may choose examples based on only one feature of a word (e.g., saying ice cream is spicy because it has flavors)
+* Students might confuse similar sensory words (e.g., thinking sour and spicy mean the same thing)
+* Students may pick examples they like rather than examples that actually match the word's meaning (e.g., saying their favorite food is spicy even when it's not)
+* Students often struggle to distinguish between literal and personal associations (e.g., calling something 'scary' because they personally fear it, not because it has scary qualities)
+* Students may overgeneralize a word to all similar items (e.g., thinking all fruits are juicy or all peppers are spicy)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.5.B
+Standard Description: Distinguish shades of meaning among closely related verbs (e.g., toss, throw, hurl) and closely related adjectives (e.g., thin, slender, skinny, scrawny).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify closely related verbs and adjectives that have similar but different meanings
+* Students can distinguish between shades of meaning among related verbs (e.g., walk, march, stomp)
+* Students can distinguish between shades of meaning among related adjectives (e.g., happy, glad, joyful)
+* Students can choose the verb or adjective that best matches a specific meaning or intensity
+
+Assessment Boundaries:
+* Assessment is limited to common, grade-appropriate verbs and adjectives that second graders encounter in texts and speech
+* Focus is on comparing 2-4 closely related words at a time, examining differences in intensity, formality, or connotation
+* Does not include advanced vocabulary, figurative language, or technical terms beyond grade level
+
+Common Misconceptions:
+* Students may think closely related words are exact synonyms with no difference in meaning (e.g., believing 'toss' and 'hurl' mean exactly the same thing)
+* Students often confuse intensity levels, not recognizing that some words are stronger or weaker than others (e.g., thinking 'whisper' and 'shout' are equally loud)
+* Students may focus only on positive or negative connotations without recognizing gradations (e.g., not seeing that 'slender' is more positive than 'skinny')
+* Students might select words based on familiarity rather than precision of meaning (e.g., always choosing 'throw' because they use it most often)
+* Students may not recognize that word choice affects the mental image or feeling created (e.g., not understanding that 'scrawny' creates a different picture than 'thin')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.5.B+1
+Standard Description: Distinguish shades of meaning among closely related verbs.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify differences in meaning among closely related verbs (e.g., look, peek, glance, stare)
+* Students can choose the verb that best matches a specific situation or intensity
+* Students can explain how closely related verbs differ in meaning or intensity
+
+Assessment Boundaries:
+* Assessment is limited to common, grade-appropriate verbs that students encounter in second-grade texts
+* Focus on verb sets that differ in intensity or manner (e.g., walk/march/stomp, talk/whisper/shout)
+* Does not include technical vocabulary, advanced synonyms, or verbs requiring complex context to distinguish
+
+Common Misconceptions:
+* Students may think closely related verbs are completely interchangeable (e.g., using 'walk' and 'sprint' as if they mean the same thing)
+* Students often focus only on whether verbs are similar rather than understanding their different intensities or nuances
+* Students may choose verbs based on familiarity rather than precise meaning (e.g., always choosing 'said' instead of 'whispered' or 'shouted')
+* Students might not recognize that some verbs show stronger or weaker actions than others (e.g., thinking 'nibble' and 'devour' are equally strong)
+* Students may confuse the manner of an action with the action itself (e.g., not understanding that 'tiptoe' describes how someone walks)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.2.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.2.6
+Standard Description: Use words and phrases acquired through conversations, reading and being read to, and responding to texts, including using adjectives and adverbs to describe (e.g., When other kids are happy that makes me happy).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can use new vocabulary words learned from conversations, reading, and texts in their own speaking and writing
+* Students can choose appropriate adjectives to describe nouns (e.g., happy kids, big dog)
+* Students can choose appropriate adverbs to describe verbs (e.g., run quickly, speak softly)
+* Students can apply descriptive words from texts they have read or heard to express their own ideas
+
+Assessment Boundaries:
+* Assessment focuses on common adjectives and adverbs appropriate for grade 2 reading level, not advanced or technical vocabulary
+* Students should use descriptive words in simple sentences and basic compound sentences only
+* Does not include comparative or superlative forms (-er, -est) or complex adverbial phrases
+
+Common Misconceptions:
+* Students may use adjectives when adverbs are needed (e.g., 'He ran slow' instead of 'He ran slowly')
+* Students often overuse basic adjectives like 'good', 'bad', 'nice' instead of more specific descriptive words they have learned
+* Students may place adjectives in the wrong position (e.g., 'a red big ball' instead of 'a big red ball')
+* Students might think any describing word can be used anywhere (not recognizing that adjectives describe nouns and adverbs describe verbs)
+* Students may confuse the meaning of new vocabulary words and use them in incorrect contexts
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.1.A
+Standard Description: Explain the function of conjunctions, prepositions, and interjections in general and their function in particular sentences.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify conjunctions, prepositions, and interjections in sentences
+* Students can explain the general function of conjunctions, prepositions, and interjections
+* Students can explain how a specific conjunction, preposition, or interjection functions in a particular sentence
+* Students can choose the appropriate conjunction, preposition, or interjection to complete or revise a sentence
+
+Assessment Boundaries:
+* Assessment is limited to coordinating conjunctions (and, but, or, so), subordinating conjunctions (because, since, although, if, when), common prepositions (in, on, at, by, with, from, to, etc.), and common interjections (wow, oh, ouch, hey)
+* Students should identify and explain these parts of speech in simple, compound, and complex sentences appropriate for grade 5
+* Does not include correlative conjunctions (either/or, neither/nor) or advanced prepositional phrases functioning as adjectives or adverbs
+
+Common Misconceptions:
+* Students may confuse prepositions with adverbs (e.g., thinking 'up' in 'look up' is a preposition when it's part of a phrasal verb)
+* Students often think conjunctions only connect words, missing that they also connect phrases and clauses
+* Students may confuse subordinating conjunctions with prepositions (e.g., 'after' can be both depending on usage)
+* Students might think interjections always require exclamation points (e.g., 'Well, I think so' uses a comma)
+* Students may not recognize that prepositions must have objects (e.g., confusing 'behind the door' where 'door' is the object of 'behind')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.1.A+1
+Standard Description: Explain the function of conjunctions in general.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify conjunctions in sentences
+* Students can explain how conjunctions connect words, phrases, or clauses
+* Students can distinguish between coordinating, subordinating, and correlative conjunctions and their different functions
+
+Assessment Boundaries:
+* Assessment includes coordinating conjunctions (and, but, or, nor, for, so, yet), common subordinating conjunctions (because, although, since, while, if, when), and basic correlative conjunctions (either/or, neither/nor, both/and)
+* Students should recognize how conjunctions create relationships between ideas (addition, contrast, cause/effect, time, condition)
+* Does not include advanced conjunction usage such as starting sentences with coordinating conjunctions for stylistic effect or obscure subordinating conjunctions
+
+Common Misconceptions:
+* Students may think all conjunctions work the same way (not recognizing that coordinating conjunctions join equal parts while subordinating conjunctions create dependent clauses)
+* Students often confuse conjunctions with prepositions (e.g., thinking 'after' or 'before' always function as conjunctions)
+* Students may believe conjunctions can only connect two items (missing that they can join multiple words, phrases, or clauses)
+* Students might think 'then' is a conjunction because it shows sequence (it is an adverb, not a conjunction)
+* Students may not recognize correlative conjunctions as working in pairs (using 'either' without 'or' or 'neither' without 'nor')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.1.A+2
+Standard Description: Explain the function of conjunctions in particular sentences.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify conjunctions in sentences and determine their type (coordinating, subordinating, or correlative)
+* Students can explain how conjunctions connect words, phrases, or clauses in specific sentences
+* Students can describe the relationship conjunctions create between sentence parts (contrast, addition, cause-effect, time, etc.)
+
+Assessment Boundaries:
+* Assessment includes coordinating conjunctions (FANBOYS), common subordinating conjunctions (because, although, since, while, if, when, etc.), and correlative conjunctions (either/or, neither/nor, both/and)
+* Students should identify and explain conjunctions in simple, compound, and complex sentences appropriate for grade 5
+* Does not include advanced conjunctions like conjunctive adverbs (however, therefore, moreover) or archaic forms
+
+Common Misconceptions:
+* Students may confuse prepositions with subordinating conjunctions (e.g., thinking 'after' is always a preposition rather than recognizing it can be a conjunction)
+* Students often think all conjunctions simply mean 'and' without recognizing the specific relationships they create (contrast with 'but', cause with 'because', choice with 'or')
+* Students may believe only coordinating conjunctions connect clauses, missing how subordinating conjunctions also join sentence parts
+* Students might identify any connecting word as a conjunction (e.g., confusing relative pronouns like 'who' or 'which' with conjunctions)
+* Students may not recognize correlative conjunctions as working in pairs (e.g., identifying 'either' but missing 'or' as part of the same conjunction)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.1.A+3
+Standard Description: Explain the function of prepositions in general.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify prepositions in sentences
+* Students can explain that prepositions show relationships between nouns or pronouns and other words in a sentence
+* Students can describe how prepositions indicate location, direction, time, or other relationships
+* Students can distinguish prepositions from other parts of speech in context
+
+Assessment Boundaries:
+* Assessment focuses on common prepositions showing spatial relationships (in, on, under, above), directional relationships (to, from, toward), and temporal relationships (before, after, during)
+* Students should recognize prepositions in simple, compound, and complex sentences appropriate for grade 5
+* Does not require students to identify prepositional phrases as objects of prepositions or to diagram sentences
+
+Common Misconceptions:
+* Students may confuse prepositions with adverbs when the same word can function as both (e.g., 'above' in 'the plane flew above' vs. 'above the clouds')
+* Students often think 'to' is always a preposition, not recognizing it as part of an infinitive verb (e.g., 'to run' vs. 'to the store')
+* Students may believe prepositions only show physical location, missing that they also express time and abstract relationships
+* Students might identify any short word as a preposition without checking if it shows a relationship (e.g., confusing articles or conjunctions with prepositions)
+* Students may not recognize that prepositions must have an object, thinking a word is a preposition even when used alone
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.1.A+4
+Standard Description: Explain the function of prepositions in particular sentences.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify prepositions in sentences
+* Students can explain how prepositions show relationships between words in a sentence
+* Students can describe the specific function of a preposition in a particular sentence (e.g., showing location, time, or direction)
+
+Assessment Boundaries:
+* Assessment focuses on common prepositions (e.g., in, on, at, by, with, from, to, above, below, during, after, before) and their functions in sentences
+* Students should explain prepositional relationships in simple, compound, and complex sentences appropriate for grade 5
+* Does not include advanced grammatical terminology like prepositional phrases as adjectives or adverbs, though students should recognize what the preposition connects
+
+Common Misconceptions:
+* Students may confuse prepositions with adverbs (e.g., thinking 'up' in 'she looked up' is always a preposition)
+* Students often identify the entire prepositional phrase as the preposition rather than just the preposition itself
+* Students may think prepositions only show physical location and miss those showing time relationships (e.g., during, after, before)
+* Students might confuse conjunctions like 'but' or 'and' with prepositions because both connect words
+* Students may not recognize that the same word can function as different parts of speech depending on context (e.g., 'before' as a preposition vs. conjunction)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.1.A+5
+Standard Description: Explain the function of interjections in general.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify interjections in sentences and dialogue
+* Students can explain that interjections express sudden or strong feelings or emotions
+* Students can distinguish interjections from other parts of speech based on their function in expressing emotion
+
+Assessment Boundaries:
+* Assessment is limited to common interjections (e.g., wow, oh, hey, ouch, hooray) and their function of expressing emotion or feeling
+* Students should recognize interjections in simple, compound, and complex sentences, often set off by punctuation
+* Does not include obscure interjections or require students to categorize interjections by emotion type
+
+Common Misconceptions:
+* Students may confuse interjections with exclamatory sentences (thinking any sentence with an exclamation mark contains an interjection)
+* Students might think interjections must always have exclamation marks (missing interjections followed by commas like 'Well, I think so')
+* Students may confuse interjections with onomatopoeia (e.g., thinking 'buzz' or 'crash' are interjections)
+* Students often believe interjections are complete sentences rather than understanding they are single words or short phrases expressing emotion
+* Students may think any word expressing emotion is an interjection (e.g., confusing emotional verbs like 'love' or adjectives like 'happy' with interjections)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.1.A+6
+Standard Description: Explain the function of interjections in particular sentences.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify interjections in sentences
+* Students can explain what an interjection expresses or shows in a particular sentence
+* Students can distinguish interjections from other parts of speech based on their function
+* Students can describe how interjections add emotion or emphasis to sentences
+
+Assessment Boundaries:
+* Assessment focuses on identifying common interjections and explaining their function in expressing emotion, surprise, or emphasis
+* Students should work with interjections in simple, compound, and complex sentences appropriate for grade 5
+* Does not require students to distinguish between mild and strong interjections or memorize exhaustive lists of interjections
+
+Common Misconceptions:
+* Students may confuse interjections with exclamatory sentences (thinking any sentence with excitement is an interjection)
+* Students might think interjections must always be followed by exclamation points (e.g., not recognizing 'Well, I think so' has an interjection)
+* Students may believe interjections are always single words (missing multi-word interjections like 'oh my' or 'good grief')
+* Students often confuse onomatopoeia with interjections (e.g., thinking 'buzz' or 'crash' are interjections when used as sound effects)
+* Students may think any word at the beginning of a sentence followed by a comma is an interjection (confusing introductory words like 'However' or 'Therefore' with interjections)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.1.B
+Standard Description: Form and use the perfect (e.g., I had walked; I have walked; I will have walked) verb tenses.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify the three perfect verb tenses (past perfect, present perfect, and future perfect) in sentences
+* Students can form correct perfect tense verbs using the appropriate helping verb (had, have, will have) with past participles
+* Students can choose the correct perfect tense verb to show the timing of actions in relation to other actions or time periods
+* Students can revise sentences to use perfect tenses when describing actions completed before other actions or time references
+
+Assessment Boundaries:
+* Assessment focuses on the three perfect tenses: past perfect (had + past participle), present perfect (have/has + past participle), and future perfect (will have + past participle)
+* Students should work with regular and common irregular past participles but are not required to know rare irregular forms
+* Does not include perfect progressive tenses (e.g., had been walking, have been walking) or subjunctive mood constructions
+
+Common Misconceptions:
+* Students may use the simple past tense instead of past perfect when showing that one action was completed before another (e.g., 'I ate breakfast before I went to school' instead of 'I had eaten breakfast before I went to school')
+* Students often confuse past participles with simple past forms, especially with irregular verbs (e.g., 'I have went' instead of 'I have gone' or 'She had ran' instead of 'She had run')
+* Students may incorrectly form perfect tenses by using the wrong helping verb (e.g., 'I has walked' instead of 'I have walked' or 'They have walked yesterday' instead of 'They had walked')
+* Students frequently think 'have' and 'has' are the main verbs rather than helping verbs in perfect tenses (missing that the past participle is the main verb)
+* Students may not recognize when perfect tenses are needed to show the relationship between two time periods (e.g., using 'By next week, I will finish' instead of 'By next week, I will have finished')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.1.B+1
+Standard Description: Form and use the perfect verb tenses.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify present perfect, past perfect, and future perfect verb tenses in sentences
+* Students can form correct perfect verb tenses using 'have', 'has', or 'had' with past participles
+* Students can choose the appropriate perfect tense to show the timing relationship between events
+* Students can revise sentences to use perfect verb tenses correctly
+
+Assessment Boundaries:
+* Assessment includes all three perfect tenses: present perfect (have/has + past participle), past perfect (had + past participle), and future perfect (will have + past participle)
+* Students should work with regular and common irregular past participles (e.g., walked, eaten, gone, seen)
+* Does not include perfect progressive tenses (e.g., have been walking) or passive voice constructions with perfect tenses
+
+Common Misconceptions:
+* Students often use simple past tense instead of present perfect when an action started in the past and continues to the present (e.g., 'I lived here for five years' instead of 'I have lived here for five years')
+* Students may incorrectly form past participles by adding '-ed' to irregular verbs (e.g., 'have goed' instead of 'have gone', 'has eated' instead of 'has eaten')
+* Students confuse past perfect with simple past, not understanding that past perfect shows which action happened first (e.g., 'When I arrived, they left' instead of 'When I arrived, they had left')
+* Students may use 'has' with plural subjects or 'have' with singular third-person subjects (e.g., 'They has finished' or 'She have completed')
+* Students sometimes omit the helping verb entirely, using only the past participle (e.g., 'I seen that movie' instead of 'I have seen that movie')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.1.C
+Standard Description: Use verb tense to convey various times, sequences, states, and conditions.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify and use verb tenses (past, present, future, perfect, and progressive) to show when actions occur
+* Students can choose the correct verb tense to show the sequence of events in complex sentences
+* Students can apply appropriate verb tenses to express different states and conditions (such as hypothetical or ongoing situations)
+* Students can revise sentences to correct verb tense errors and maintain consistency
+
+Assessment Boundaries:
+* Assessment includes simple tenses (past, present, future), progressive tenses (ongoing actions), and perfect tenses (completed actions). Students should demonstrate understanding in both single and complex sentences.
+* Focus is on correctly using verb tenses to convey time, sequence, and conditions, including conditional statements and maintaining tense consistency within paragraphs.
+* Does not include advanced mood distinctions (subjunctive mood), irregular verb forms beyond grade-level expectations, or archaic verb forms.
+
+Common Misconceptions:
+* Students may fail to maintain consistent verb tense throughout a passage (e.g., switching from past to present tense inappropriately)
+* Students often confuse past tense with past perfect tense (e.g., using 'went' instead of 'had gone' when showing an action completed before another past action)
+* Students may incorrectly use present tense when describing a sequence of past events (e.g., 'Yesterday I walk to school' instead of 'walked')
+* Students might not recognize when to use progressive tenses to show ongoing action (e.g., 'I walk' vs. 'I am walking' for current ongoing action)
+* Students may struggle with conditional statements, using incorrect tenses (e.g., 'If I will go' instead of 'If I go' or 'If I went')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.1.C+1
+Standard Description: Use verb tense to convey various times, sequences, states, and conditions.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify and use appropriate verb tenses to show when actions occur (past, present, future)
+* Students can use verb tenses to show the sequence of events in complex sentences
+* Students can choose verb tenses that accurately convey different states and conditions (habitual actions, ongoing situations, completed actions)
+* Students can revise sentences to correct inappropriate verb tense shifts
+
+Assessment Boundaries:
+* Assessment includes simple tenses (past, present, future), progressive tenses (ongoing actions), and perfect tenses (completed actions) appropriate for grade 5
+* Students should demonstrate understanding in multi-clause sentences and short paragraphs where tense consistency and shifts matter
+* Does not include advanced tense forms like future perfect progressive or highly complex conditional structures beyond grade-level expectations
+
+Common Misconceptions:
+* Students may inconsistently shift verb tenses within a sentence or paragraph without a logical reason (e.g., 'Yesterday I walk to the store and bought milk')
+* Students often confuse past tense with past participle forms (e.g., using 'seen' instead of 'saw' or 'done' instead of 'did')
+* Students may use present tense when past tense is needed in narrative writing because they are describing events as they imagine them
+* Students might not recognize that certain time words require specific tenses (e.g., using past tense with 'tomorrow' or future tense with 'yesterday')
+* Students may overuse simple past tense and fail to use perfect tenses to show that one action was completed before another (e.g., 'I ate dinner when mom came home' instead of 'I had eaten dinner when mom came home')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.1.D
+Standard Description: Recognize and correct inappropriate shifts in verb tense.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify when verb tenses shift inappropriately within a sentence or passage
+* Students can explain why a shift in verb tense is incorrect in a given context
+* Students can correct sentences by changing verbs to maintain consistent tense
+* Students can choose the correct verb tense to maintain consistency in writing
+
+Assessment Boundaries:
+* Assessment focuses on common tenses: simple past, present, and future, as well as progressive forms (past progressive, present progressive)
+* Students should recognize inappropriate shifts within single sentences and short passages of 2-4 sentences
+* Does not include perfect tenses (past perfect, future perfect) or complex conditional mood constructions
+
+Common Misconceptions:
+* Students may think that using different tenses in the same sentence is always wrong, even when describing events at different times (e.g., 'Yesterday I learned that the sun is a star')
+* Students often shift to present tense when narrating past events because they are visualizing the action as they write
+* Students may not recognize shifts in tense when the verb form looks similar (e.g., 'was running' to 'runs')
+* Students might overcorrect by changing verb tenses that should legitimately be different, such as in dialogue or when indicating habitual actions
+* Students may confuse subject-verb agreement errors with verb tense shift errors
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.1.D+1
+Standard Description: Recognize inappropriate shifts in verb tense.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify when verb tenses shift inappropriately within a sentence or paragraph
+* Students can explain why a shift in verb tense is incorrect or confusing
+* Students can revise sentences to correct inappropriate verb tense shifts
+* Students can distinguish between appropriate and inappropriate shifts in verb tense
+
+Assessment Boundaries:
+* Assessment focuses on simple past, present, and future tenses and common progressive forms (e.g., was running, is eating)
+* Students work with shifts within single sentences and across 2-3 related sentences in a paragraph
+* Does not include perfect tenses (past perfect, future perfect) or complex conditional tenses
+
+Common Misconceptions:
+* Students may think all verb tense shifts are incorrect, not recognizing that some shifts are appropriate when time actually changes
+* Students often fail to recognize shifts between past and present tense (e.g., 'Yesterday I walk to the store' seems correct to them)
+* Students may not notice shifts in the middle of a sentence (e.g., 'She runs to the park and played on the swings')
+* Students might think progressive tenses (e.g., 'was running') are a different tense than their base form and incorrectly flag appropriate usage
+* Students may incorrectly 'correct' dialogue or quoted speech that appropriately uses a different tense from the narrative
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.1.D+2
+Standard Description: Correct inappropriate shifts in verb tense.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify inappropriate shifts in verb tense within sentences and paragraphs
+* Students can explain why a shift in verb tense is incorrect or inappropriate in context
+* Students can revise sentences to correct inappropriate verb tense shifts
+* Students can maintain consistent verb tense when writing multiple related sentences
+
+Assessment Boundaries:
+* Assessment focuses on identifying and correcting shifts between present, past, and future tenses in simple and compound sentences
+* Students should recognize when tense shifts are appropriate (e.g., when time actually changes) versus when they are errors
+* Does not include complex tense forms like past perfect progressive or future perfect; limited to simple, progressive, and perfect tenses commonly used in grade 5
+
+Common Misconceptions:
+* Students may think all sentences in a paragraph must use the same tense, even when the time frame legitimately changes
+* Students often shift from past to present tense when retelling stories because they get caught up in the narrative (e.g., 'She walked to the store and buys milk')
+* Students may not recognize that helping verbs like 'was' and 'were' indicate past tense when combined with other verbs
+* Students might incorrectly change verb tenses to match dialogue within a past-tense narrative (e.g., changing 'He said he is hungry' to 'He said he was hungry' when the direct quote should stay present)
+* Students may fail to recognize progressive forms (is running, was running) as having tense, leading to inappropriate mixing with simple tenses
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.1.E
+Standard Description: Use correlative conjunctions (e.g., either/or, neither/nor).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify correlative conjunctions in sentences (either/or, neither/nor, both/and, not only/but also)
+* Students can choose the correct correlative conjunction pair to join words, phrases, or clauses
+* Students can revise sentences to correctly use correlative conjunctions
+* Students can explain how correlative conjunctions show relationships between two items or ideas
+
+Assessment Boundaries:
+* Assessment focuses on common correlative conjunction pairs: either/or, neither/nor, both/and, not only/but also, whether/or
+* Students should use correlative conjunctions in simple and compound sentences appropriate for grade 5
+* Does not include complex correlative structures or archaic pairs like 'as/so' or 'such/that'
+
+Common Misconceptions:
+* Students may mix correlative conjunction pairs incorrectly (e.g., 'either/nor' or 'neither/or' instead of keeping pairs together)
+* Students often use only one part of the correlative conjunction pair (e.g., 'Either we go to the park' without the 'or' clause)
+* Students may fail to maintain parallel structure after correlative conjunctions (e.g., 'Neither running nor to swim' instead of 'Neither running nor swimming')
+* Students confuse correlative conjunctions with coordinating conjunctions and use them interchangeably (e.g., using 'and' when 'both/and' is needed for emphasis)
+* Students may place correlative conjunctions incorrectly in the sentence, separating words that should be parallel (e.g., 'Either I want pizza or pasta' instead of 'I want either pizza or pasta')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.1.E+1
+Standard Description: Use correlative conjunctions.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify correlative conjunctions in sentences (such as either/or, neither/nor, both/and, not only/but also)
+* Students can use correlative conjunctions correctly to join words, phrases, or clauses in their writing
+* Students can choose the appropriate correlative conjunction pair to express a specific relationship between ideas
+
+Assessment Boundaries:
+* Assessment is limited to common correlative conjunction pairs: either/or, neither/nor, both/and, not only/but also, and whether/or
+* Students should demonstrate understanding in simple and compound sentences without requiring complex sentence analysis
+* Does not include advanced correlative pairs or extensive analysis of parallel structure beyond basic subject-verb agreement
+
+Common Misconceptions:
+* Students may mix up correlative conjunction pairs (e.g., using 'either/nor' or 'neither/or' instead of the correct pairs)
+* Students often use only one part of the correlative pair (e.g., 'Either you can come' without the 'or' clause)
+* Students may confuse correlative conjunctions with coordinating conjunctions like 'and' or 'or' used alone
+* Students frequently place correlative conjunctions in the wrong position, breaking parallel structure (e.g., 'I both like apples and oranges' instead of 'I like both apples and oranges')
+* Students may use incorrect verb agreement with correlative conjunctions (e.g., 'Either the dogs or the cat are' instead of 'Either the dogs or the cat is')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.2.A
+Standard Description: Use punctuation to separate items in a series.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify where commas are needed to separate items in a series of three or more elements
+* Students can correctly punctuate sentences containing series of words, phrases, or clauses
+* Students can revise sentences to add appropriate punctuation when items in a series are missing commas
+
+Assessment Boundaries:
+* Assessment focuses on using commas to separate items in a series of three or more words, phrases, or simple clauses
+* Students should demonstrate understanding of the Oxford comma (serial comma) based on standard convention
+* Does not include complex punctuation like semicolons in series with internal commas or series with multiple conjunctions
+
+Common Misconceptions:
+* Students may place a comma after the conjunction 'and' or 'or' instead of before it (e.g., 'apples, oranges, and, bananas')
+* Students often omit the comma before the final conjunction in a series (e.g., 'red, blue and green' instead of 'red, blue, and green')
+* Students may add unnecessary commas in a series of only two items (e.g., 'cats, and dogs' instead of 'cats and dogs')
+* Students might forget commas entirely in longer series, especially when the items are phrases rather than single words
+* Students may incorrectly place commas between an adjective and the noun it modifies when listing adjectives that build on each other (e.g., 'a big, red ball' when 'big red ball' is correct)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.2.A+1
+Standard Description: Use punctuation to separate items in a series.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify where commas are needed to separate three or more items in a series
+* Students can correctly punctuate sentences containing items in a series
+* Students can revise sentences to add or correct punctuation in a series
+
+Assessment Boundaries:
+* Assessment includes series of three or more items (words, phrases, or clauses) using commas
+* Students should handle both simple series (single words) and complex series (phrases)
+* Does not include semicolons to separate items in a series with internal commas
+
+Common Misconceptions:
+* Students may omit the comma before the conjunction (Oxford comma) in a series of three or more items
+* Students often add unnecessary commas when only two items are listed (e.g., 'I like pizza, and tacos')
+* Students may forget to use a comma after each item, placing commas only between some items
+* Students might use commas incorrectly with compound predicates, treating them as a series (e.g., 'She ran, and jumped')
+* Students may place a comma after the final conjunction in a series (e.g., 'cats, dogs, and, birds')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.2.B
+Standard Description: Use a comma to separate an introductory element from the rest of the sentence.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify introductory elements at the beginning of sentences
+* Students can explain why a comma is needed after an introductory element
+* Students can correctly place a comma to separate an introductory element from the rest of the sentence
+* Students can revise sentences by adding commas after introductory elements where needed
+
+Assessment Boundaries:
+* Assessment focuses on common introductory elements including introductory words (Yes, Well, However), introductory phrases (In the morning, After school), and introductory dependent clauses (When it rains, Because she was late)
+* Students should work with sentences containing clear introductory elements of 1-6 words, not complex multi-clause constructions
+* Does not include advanced comma rules such as commas in series, compound sentences, or appositives
+
+Common Misconceptions:
+* Students may place a comma after every first word in a sentence, even when there is no introductory element (e.g., 'The, dog ran home')
+* Students often forget to use a comma after longer introductory phrases or clauses while remembering it after single introductory words
+* Students may think the subject of the sentence is an introductory element and incorrectly place a comma after it (e.g., 'My friend, loves to read')
+* Students might add commas after short prepositional phrases that are not truly introductory (e.g., 'At noon, we eat' vs 'We eat at noon' where no comma is needed in the second)
+* Students may believe that any dependent clause requires a comma after it, even when it appears at the end of a sentence rather than as an introductory element
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.2.B+1
+Standard Description: Use a comma to separate an introductory element from the rest of the sentence.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify introductory elements at the beginning of sentences
+* Students can correctly place a comma after an introductory element to separate it from the rest of the sentence
+* Students can revise sentences to add missing commas after introductory elements
+* Students can explain why a comma is needed after an introductory element
+
+Assessment Boundaries:
+* Assessment includes common introductory elements such as introductory words (Yes, Well, However), introductory phrases (In the morning, After lunch), and introductory dependent clauses (When it rains, Because she was late)
+* Limited to sentences where the introductory element clearly precedes the main clause; does not include complex sentences with multiple embedded clauses
+* Does not assess other comma rules such as commas in series, commas with appositives, or commas in compound sentences
+
+Common Misconceptions:
+* Students may place a comma after every first word in a sentence, even when no introductory element exists (e.g., 'The dog, ran quickly')
+* Students often omit the comma after short introductory words like 'Yes', 'No', or 'Well' because they seem too brief to need punctuation
+* Students may not recognize introductory phrases as separate from the main clause (e.g., writing 'After school we played' without a comma)
+* Students might confuse introductory dependent clauses with the main clause and place the comma in the wrong position or omit it entirely
+* Students may think a comma is only needed after very long introductory elements, omitting it after shorter phrases like 'In May' or 'At noon'
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.2.C
+Standard Description: Use a comma to set off the words yes and no (e.g., Yes, thank you), to set off a tag question from the rest of the sentence (e.g., It s true, isn t it?), and to indicate direct address (e.g., Is that you, Steve?).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify where commas are needed to set off the words yes and no in sentences
+* Students can correctly place commas to set off tag questions from the rest of a sentence
+* Students can use commas to indicate direct address when speaking to someone by name or title
+* Students can revise sentences by adding commas in all three specified situations
+
+Assessment Boundaries:
+* Assessment is limited to three comma uses: setting off yes/no, setting off tag questions, and indicating direct address
+* Students should work with simple and compound sentences appropriate for grade 5
+* Does not include other comma uses such as items in a series, compound sentences with conjunctions, introductory phrases, or appositive phrases
+
+Common Misconceptions:
+* Students may place the comma after 'yes' or 'no' instead of after the word following it (e.g., 'Yes thank you,' instead of 'Yes, thank you')
+* Students often forget to use a comma before the tag question (e.g., writing 'It's true isn't it?' instead of 'It's true, isn't it?')
+* Students may place the comma after the name in direct address instead of before it (e.g., 'Is that you Steve?' instead of 'Is that you, Steve?')
+* Students might add unnecessary commas when someone's name appears in a sentence but is not being directly addressed (e.g., 'Steve, is my friend' when Steve is not being spoken to)
+* Students may confuse tag questions with regular questions and omit the comma (e.g., treating 'isn't it?' as a separate question rather than a tag)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.2.C+1
+Standard Description: Use a comma to set off the words yes and no.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify when the words 'yes' and 'no' require commas in sentences
+* Students can correctly place commas after 'yes' and 'no' when these words appear at the beginning of sentences or responses
+* Students can revise sentences to add missing commas that set off 'yes' and 'no'
+
+Assessment Boundaries:
+* Assessment is limited to the use of commas with the words 'yes' and 'no' at the beginning of sentences or as standalone responses in dialogue
+* Focuses on simple and compound sentences where 'yes' or 'no' appears as an introductory element
+* Does not include other introductory words or phrases beyond 'yes' and 'no'
+
+Common Misconceptions:
+* Students may think commas are not needed after 'yes' or 'no' because these are short words
+* Students might place commas before 'yes' or 'no' instead of after them (e.g., writing ', yes you can go')
+* Students may forget to use a comma when 'yes' or 'no' appears in dialogue or direct responses
+* Students might add unnecessary commas when 'yes' or 'no' appears in the middle or end of a sentence (e.g., 'I said yes, already')
+* Students may believe that only 'yes' requires a comma and that 'no' follows different rules
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.2.C+2
+Standard Description: Use a comma to set off a tag question from the rest of the sentence.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify tag questions at the end of sentences
+* Students can correctly place a comma before a tag question to separate it from the rest of the sentence
+* Students can explain why a comma is needed to set off a tag question
+* Students can revise sentences to add correct punctuation when tag questions are present
+
+Assessment Boundaries:
+* Assessment is limited to tag questions at the end of sentences (e.g., 'You're coming to the party, aren't you?')
+* Students should work with common tag question forms using auxiliary verbs like 'isn't it', 'doesn't she', 'can't we', 'will you'
+* Does not include complex embedded questions or rhetorical questions that are not true tag questions
+
+Common Misconceptions:
+* Students may omit the comma entirely before the tag question (e.g., writing 'You like pizza don't you?')
+* Students may confuse tag questions with regular questions and use a question mark in the middle of the sentence
+* Students may place the comma after the tag question instead of before it (e.g., 'You're ready aren't you,')
+* Students may think any question at the end of a sentence is a tag question, even when it's a separate sentence that should have a period or semicolon before it
+* Students may add unnecessary commas within the tag question itself (e.g., 'You know that, don't, you?')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.2.C+3
+Standard Description: Use a comma to indicate direct address.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify when a comma is needed to set off a noun of direct address in a sentence
+* Students can correctly place commas before, after, or around a name or title when directly addressing someone
+* Students can revise sentences to include appropriate commas when direct address is present
+
+Assessment Boundaries:
+* Assessment is limited to using commas with nouns of direct address (names, titles, or terms used to speak directly to someone)
+* Students should work with direct address appearing at the beginning, middle, or end of sentences
+* Does not include other comma rules such as commas in series, compound sentences, or introductory phrases unless combined with direct address
+
+Common Misconceptions:
+* Students may omit the comma when the name appears at the beginning of a sentence (e.g., writing 'Sarah can you help me' instead of 'Sarah, can you help me')
+* Students often fail to use two commas when the direct address appears in the middle of a sentence (e.g., writing 'I think Mom that we should go' instead of 'I think, Mom, that we should go')
+* Students may add unnecessary commas after names that are subjects rather than direct address (e.g., incorrectly writing 'Maria, went to the store' when Maria is the subject, not being addressed)
+* Students confuse direct address with possessive nouns and may omit the comma (e.g., writing 'Thanks Dad' instead of 'Thanks, Dad')
+* Students may not recognize titles or relationship words as direct address (e.g., writing 'Please listen class' instead of 'Please listen, class')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.2.D
+Standard Description: Use underlining, quotation marks, or italics to indicate titles of works.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify which titles should be underlined, italicized, or placed in quotation marks based on the type of work
+* Students can correctly apply underlining, quotation marks, or italics when writing titles of books, poems, songs, articles, and other works
+* Students can explain why different formatting is used for different types of titles
+
+Assessment Boundaries:
+* Assessment focuses on common title types: books, magazines, newspapers, movies, TV shows, songs, poems, short stories, articles, and chapters
+* Students should know that longer/major works use italics or underlining while shorter works use quotation marks
+* Does not include specialized formats for legal documents, sacred texts, or historical documents
+
+Common Misconceptions:
+* Students may use quotation marks for all titles regardless of work type
+* Students often confuse which works are considered 'major' (italics) versus 'minor' (quotation marks), such as putting article titles in italics
+* Students may capitalize every word in a title but forget to add underlining, italics, or quotation marks
+* Students might think poems always use italics, not recognizing that short poems use quotation marks while book-length poetry collections use italics
+* Students may use both underlining and quotation marks together on the same title, not understanding these are alternative formatting options
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.2.D+1
+Standard Description: Use underlining, quotation marks, or italics to indicate titles of works.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify which titles should be underlined, italicized, or placed in quotation marks
+* Students can correctly apply underlining, quotation marks, or italics to titles of different types of works in their writing
+* Students can distinguish between larger works (books, magazines, movies) that require italics/underlining and smaller works (articles, poems, short stories) that require quotation marks
+
+Assessment Boundaries:
+* Assessment focuses on common work types: books, magazines, newspapers, movies, TV shows, songs, poems, short stories, articles, and chapter titles
+* Students should know that underlining and italics serve the same purpose (italics preferred in typed work, underlining in handwritten work)
+* Does not include obscure work types like operas, art pieces, or legal documents
+
+Common Misconceptions:
+* Students often put book titles in quotation marks instead of italicizing or underlining them
+* Students may capitalize every word in a title but forget to add italics or quotation marks
+* Students confuse which formatting to use, putting short story or poem titles in italics instead of quotation marks
+* Students sometimes italicize or underline chapter titles within a book instead of using quotation marks
+* Students may think movie titles should be in quotation marks because they contain dialogue
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.2.E
+Standard Description: Spell grade-appropriate words correctly, consulting references as needed.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can spell grade-appropriate words correctly in their writing
+* Students can identify misspelled words and use reference materials (dictionaries, spell-check, glossaries) to find correct spellings
+* Students can apply spelling patterns and rules to spell unfamiliar grade-level words
+
+Assessment Boundaries:
+* Assessment focuses on fifth-grade high-frequency words, academic vocabulary, and words with common spelling patterns taught at this grade level
+* Students are expected to use references when uncertain, not memorize all spellings
+* Does not include specialized technical vocabulary beyond grade level or proper nouns from other languages
+
+Common Misconceptions:
+* Students may overgeneralize spelling rules (e.g., adding '-ed' to all past tense verbs, spelling 'stoped' instead of 'stopped')
+* Students often confuse homophones and spell words based on sound alone (e.g., 'their/there/they're', 'to/too/two')
+* Students may rely too heavily on phonetic spelling for irregular words (e.g., spelling 'because' as 'becuz' or 'said' as 'sed')
+* Students frequently forget to double consonants before adding suffixes (e.g., 'running' spelled as 'runing', 'biggest' as 'bigest')
+* Students may not recognize when to drop silent 'e' before adding suffixes (e.g., spelling 'having' as 'haveing' or 'making' as 'makeing')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.B
+Cluster Name: Knowledge of Language
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.3.A
+Standard Description: Expand, combine, and reduce sentences for meaning, reader/listener interest, and style.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can expand simple sentences by adding descriptive details, phrases, or clauses to enhance meaning
+* Students can combine two or more related sentences into one sentence using coordinating or subordinating conjunctions, appositives, or other combining techniques
+* Students can reduce wordy or repetitive sentences by eliminating unnecessary words while preserving meaning
+* Students can revise sentences to improve reader interest and writing style by varying sentence structure and length
+
+Assessment Boundaries:
+* Assessment focuses on expanding, combining, and reducing sentences at a fifth-grade complexity level, including compound and complex sentences with common conjunctions and relative clauses
+* Students should work with complete sentences that maintain grammatical correctness after revision
+* Does not include advanced sentence structures such as noun clauses used as subjects, conditional perfect tenses, or sophisticated rhetorical devices beyond grade-level expectations
+
+Common Misconceptions:
+* Students may create run-on sentences when combining, forgetting to use proper conjunctions or punctuation
+* Students often add unnecessary details when expanding sentences, making them wordy rather than more meaningful
+* Students may incorrectly reduce sentences by removing important information, changing the original meaning
+* Students might think longer sentences are always better, not recognizing that short sentences can be effective for emphasis or style
+* Students may combine unrelated sentences simply because they are close together, missing the need for logical connections
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.B
+Cluster Name: Knowledge of Language
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.3.A+1
+Standard Description: Expand, combine, and reduce sentences for meaning.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can expand simple sentences by adding descriptive details, phrases, or clauses while maintaining clear meaning
+* Students can combine two or more related sentences into one sentence using coordinating conjunctions, subordinating conjunctions, or other combining techniques
+* Students can reduce wordy or repetitive sentences to make them more concise without losing important meaning
+* Students can revise sentences to improve clarity and impact by choosing appropriate expansion, combination, or reduction strategies
+
+Assessment Boundaries:
+* Assessment includes expanding sentences with adjectives, adverbs, prepositional phrases, and dependent clauses; combining sentences with coordinating and subordinating conjunctions; and reducing unnecessary repetition or wordiness
+* Students work with simple, compound, and complex sentences appropriate for grade 5
+* Does not include advanced sentence structures like noun clauses, appositive phrases with multiple embeddings, or sophisticated rhetorical devices beyond grade level
+
+Common Misconceptions:
+* Students may add unnecessary or redundant information when expanding sentences, making them wordy rather than more meaningful
+* Students often create run-on sentences when combining, forgetting to use proper conjunctions or punctuation
+* Students may remove important information when reducing sentences, changing or losing the original meaning
+* Students sometimes think longer sentences are always better, not recognizing when concise sentences are more effective
+* Students may overuse the conjunction 'and' when combining sentences instead of choosing more precise connecting words like 'because', 'although', or 'while'
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.B
+Cluster Name: Knowledge of Language
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.3.A+2
+Standard Description: Expand, combine, and reduce sentences for reader/listener interest.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can expand simple sentences by adding descriptive details, phrases, or clauses to make them more interesting
+* Students can combine multiple short sentences into one compound or complex sentence to improve flow
+* Students can reduce wordy or repetitive sentences by removing unnecessary words while maintaining meaning
+* Students can revise sentences to vary sentence structure and length for better reader engagement
+
+Assessment Boundaries:
+* Assessment focuses on expanding sentences with adjectives, adverbs, prepositional phrases, and simple dependent clauses appropriate for grade 5
+* Sentence combining is limited to creating compound sentences with coordinating conjunctions and complex sentences with common subordinating conjunctions (because, when, if, although)
+* Does not require knowledge of advanced grammatical terminology like participial phrases, appositives, or noun clauses
+
+Common Misconceptions:
+* Students may think that longer sentences are always better, adding unnecessary words that make sentences wordy or confusing
+* Students often combine sentences with only 'and' repeatedly, not using other conjunctions or varying sentence structures
+* Students may believe that reducing sentences means making them as short as possible, losing important descriptive details
+* Students sometimes create run-on sentences when combining, forgetting proper punctuation or conjunctions
+* Students may not recognize that sentence variety (mixing short and long sentences) is more engaging than making all sentences the same length
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.B
+Cluster Name: Knowledge of Language
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.3.A+3
+Standard Description: Expand, combine, and reduce sentences for style.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can expand simple sentences by adding details, phrases, or clauses to improve style and clarity
+* Students can combine multiple short sentences into one longer, more sophisticated sentence
+* Students can reduce wordy or redundant sentences to make writing more concise
+* Students can revise sentences to achieve a specific stylistic effect or tone
+
+Assessment Boundaries:
+* Assessment focuses on expanding, combining, and reducing sentences for stylistic purposes, not just grammatical correctness
+* Students work with complete sentences and should maintain proper grammar when revising
+* Does not require knowledge of advanced grammatical terminology like subordinating conjunctions or participial phrases, though students may use these structures
+
+Common Misconceptions:
+* Students may think longer sentences are always better, failing to recognize when reduction improves clarity
+* Students often combine sentences using only 'and' or 'but', missing opportunities for more sophisticated combining techniques
+* Students may add unnecessary words when expanding, creating wordiness rather than enhancing style
+* Students might change the meaning of the original sentence when combining or reducing instead of preserving the core idea
+* Students may believe that reducing sentences means removing all descriptive details rather than eliminating redundancy
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.B
+Cluster Name: Knowledge of Language
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.3.B
+Standard Description: Compare and contrast the varieties of English (e.g., dialects, registers) used in stories, dramas, or poems.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify different varieties of English (dialects, registers) used by characters or narrators in literary texts
+* Students can explain how language varies based on context, audience, or setting within a text
+* Students can compare and contrast formal and informal language used in different parts of stories, dramas, or poems
+* Students can describe how different varieties of English contribute to character development or mood
+
+Assessment Boundaries:
+* Assessment focuses on recognizing differences between formal and informal language, regional dialects, and context-appropriate language within literary texts (stories, dramas, poems only)
+* Students should identify and compare language varieties within grade-appropriate literary texts, not analyze historical language evolution or complex linguistic terminology
+* Does not include technical linguistic terms like morphology, phonetics, or syntax analysis
+
+Common Misconceptions:
+* Students may think that informal language or dialect is 'incorrect' rather than recognizing it as a valid variety of English appropriate for certain contexts
+* Students often confuse dialect (regional/cultural language variety) with register (formality level based on context)
+* Students may believe all characters in a story should speak the same way, missing how language variation reveals character traits or social context
+* Students might think formal language is always better than informal language, rather than understanding each serves different purposes
+* Students may focus only on vocabulary differences while missing variations in sentence structure, grammar, or tone
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.4.A
+Standard Description: Use context (e.g., cause/effect relationships and comparisons in text) as a clue to the meaning of a word or phrase.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify context clues such as cause/effect relationships and comparisons within a text
+* Students can use context clues to determine the meaning of unfamiliar words or phrases
+* Students can explain how specific context clues help reveal word meaning
+* Students can distinguish between different types of context clues to select the most helpful one for determining meaning
+
+Assessment Boundaries:
+* Assessment focuses on cause/effect relationships and comparisons as primary context clue types, though may include other common clue types like examples, definitions, or restatements
+* Students should work with grade-level appropriate vocabulary in multi-sentence contexts, not isolated sentences
+* Does not require students to identify technical grammatical terms for context clue types or use dictionary definitions
+
+Common Misconceptions:
+* Students may focus only on words immediately before or after the unfamiliar word, missing context clues in surrounding sentences
+* Students often choose a word meaning based on a single familiar word nearby rather than analyzing the full cause/effect or comparison relationship
+* Students may confuse comparison context clues (like/unlike, similar to) with simple examples that don't show contrast or similarity
+* Students might assume an unfamiliar word means the opposite of a word it's compared to, without checking if the comparison shows similarity or difference
+* Students may substitute the first meaning they know for a multiple-meaning word without using context to determine which meaning fits
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.4.A+1
+Standard Description: Use context as a clue to the meaning of a word.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can use surrounding words and sentences to determine the meaning of unfamiliar words
+* Students can identify context clues such as definitions, examples, comparisons, and contrasts within a text
+* Students can explain how specific context clues helped them understand a word's meaning
+* Students can distinguish between different types of context clues to select the most accurate meaning
+
+Assessment Boundaries:
+* Assessment focuses on grade-appropriate vocabulary within connected text passages of at least 2-3 sentences
+* Context clues include definition/restatement, example, comparison/contrast, synonym, antonym, and cause/effect relationships
+* Does not include technical discipline-specific vocabulary beyond grade 5 level or archaic language
+
+Common Misconceptions:
+* Students may focus only on the sentence containing the unknown word, ignoring helpful clues in surrounding sentences
+* Students often choose a meaning based on a familiar word part or similar-looking word rather than using context (e.g., thinking 'content' means 'happy' when it means 'subject matter')
+* Students may select the first clue they notice rather than reading the full passage to confirm the meaning fits all contexts
+* Students sometimes confuse comparison context clues with contrast clues, leading to opposite meanings (e.g., missing the word 'unlike' or 'but')
+* Students may rely on a single meaning they know for a multiple-meaning word without checking if context suggests a different meaning
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.4.A+2
+Standard Description: Use context as a clue to the meaning of a phrase.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify context clues in a text that help determine the meaning of an unfamiliar phrase
+* Students can explain how surrounding words and sentences provide clues to a phrase's meaning
+* Students can use context to choose the correct meaning of a phrase from multiple options
+* Students can distinguish between literal and figurative meanings of phrases using context
+
+Assessment Boundaries:
+* Assessment focuses on determining the meaning of phrases (multi-word expressions), not single vocabulary words
+* Context clues may include definitions, examples, comparisons, or contrasts within the same paragraph or nearby sentences
+* Phrases may include idioms, figurative expressions, or specialized terms appropriate for grade 5 reading level
+
+Common Misconceptions:
+* Students may focus only on the literal meaning of individual words in a phrase rather than considering the phrase as a whole unit
+* Students often select the first meaning they think of without reading the surrounding sentences for context clues
+* Students may confuse the meaning of a phrase by focusing on one familiar word within it (e.g., thinking 'break the ice' involves actual ice)
+* Students might ignore contrast or comparison clues in context that signal the phrase means the opposite of what they initially assume
+* Students may rely solely on prior knowledge of a phrase instead of using the specific context provided in the passage
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.4.B
+Standard Description: Use common, grade-appropriate Greek and Latin affixes and roots as clues to the meaning of a word (e.g., photograph, photosynthesis).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify common Greek and Latin affixes (prefixes and suffixes) and roots in grade-appropriate words
+* Students can explain how Greek and Latin affixes and roots contribute to the meaning of a word
+* Students can use knowledge of Greek and Latin affixes and roots to determine the meaning of unfamiliar words
+
+Assessment Boundaries:
+* Assessment is limited to common, grade-appropriate Greek and Latin affixes and roots typically taught in grade 5 (e.g., photo-, graph-, bio-, -logy, tele-, auto-, micro-, -scope)
+* Students should work with multisyllabic words containing recognizable affixes and roots, not obscure medical or technical terms
+* Does not include etymology beyond Greek and Latin origins or require memorization of extensive affix/root lists
+
+Common Misconceptions:
+* Students may think that any word containing similar letter patterns contains a Greek or Latin root (e.g., thinking 'carpet' contains 'car' as a root)
+* Students often confuse the meanings of similar-looking roots (e.g., confusing 'bio-' meaning life with 'bi-' meaning two)
+* Students may believe that Greek and Latin roots can stand alone as complete English words without affixes
+* Students might incorrectly break words at any syllable boundary rather than at meaningful affix/root divisions (e.g., breaking 'photograph' as 'phot-ograph' instead of 'photo-graph')
+* Students may think all words with Greek or Latin roots have meanings that are direct literal translations of their parts (e.g., thinking 'December' means 'tenth month' in modern context)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.4.B+1
+Standard Description: Use common, grade-appropriate Greek and Latin affixes as clues to the meaning of a word.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify common Greek and Latin affixes (prefixes and suffixes) in grade-appropriate words
+* Students can explain how a Greek or Latin affix changes or contributes to the meaning of a word
+* Students can use knowledge of Greek and Latin affixes to determine the meaning of unfamiliar words
+
+Assessment Boundaries:
+* Assessment is limited to common Greek and Latin affixes appropriate for grade 5 (e.g., auto-, bio-, -graph, -logy, tele-, micro-, anti-, pre-, re-, -able, -tion, -ment)
+* Students should work with affixes in context of grade-appropriate vocabulary, not specialized academic or technical terms beyond grade level
+* Does not include etymology of whole Greek or Latin root words without affixes, or require students to identify whether an affix is Greek or Latin in origin
+
+Common Misconceptions:
+* Students may think an affix always has the same exact meaning in every word (e.g., thinking 're-' always means 'again' when in 'receive' it does not)
+* Students often confuse prefixes with suffixes or cannot distinguish affix from root word (e.g., thinking the 's' in 'cats' is part of the root)
+* Students may believe that any letter combination at the beginning or end of a word is an affix (e.g., treating 'un' in 'uncle' as the prefix meaning 'not')
+* Students might apply affix meanings too literally without considering context (e.g., defining 'television' as 'far sight' without understanding it means a device)
+* Students may not recognize that removing an affix should leave a recognizable root or base word (e.g., incorrectly breaking down 'together' as 'to-get-her')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.4.B+2
+Standard Description: Use common, grade-appropriate Greek and Latin roots as clues to the meaning of a word.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify common Greek and Latin roots within unfamiliar words
+* Students can use knowledge of Greek and Latin roots to determine the meaning of grade-appropriate words
+* Students can explain how a root contributes to the overall meaning of a word
+* Students can distinguish between words that share the same root and explain their related meanings
+
+Assessment Boundaries:
+* Assessment is limited to common Greek and Latin roots appropriate for grade 5 (e.g., struct, port, dict, graph, bio, geo, photo, tele, scope, meter)
+* Students should work with roots in the context of complete words, not in isolation
+* Does not include advanced etymological analysis or roots from other language families (Germanic, French, etc.)
+
+Common Misconceptions:
+* Students may confuse roots with prefixes or suffixes (e.g., thinking 'pre-' is a root rather than a prefix)
+* Students often think a root always has exactly the same meaning in every word (e.g., not recognizing that context shapes meaning)
+* Students may identify a root incorrectly by focusing on spelling patterns that look similar but are unrelated (e.g., thinking 'cat' is a root in 'catalog')
+* Students might believe that knowing the root gives the complete meaning of a word without considering prefixes, suffixes, or context
+* Students may mix up similar-looking roots from different origins (e.g., confusing 'port' meaning carry with 'port' meaning harbor)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.4.C
+Standard Description: Consult reference materials (e.g., dictionaries, glossaries, thesauruses), both print and digital, to find the pronunciation and determine or clarify the precise meaning of key words and phrases.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can select appropriate reference materials (dictionaries, glossaries, thesauruses) to find word meanings and pronunciations
+* Students can use reference materials to determine the precise meaning of key words and phrases in context
+* Students can identify and interpret pronunciation guides in dictionaries to determine how words are spoken
+* Students can use reference materials to clarify word meanings when a word has multiple definitions
+
+Assessment Boundaries:
+* Assessment includes using dictionaries, glossaries, and thesauruses in both print and digital formats to find pronunciation and meaning
+* Students should demonstrate ability to navigate reference materials and interpret common features like pronunciation keys, multiple definitions, and synonyms
+* Does not include advanced etymological research or understanding of specialized linguistic notation beyond standard pronunciation guides
+
+Common Misconceptions:
+* Students may think a thesaurus provides definitions rather than synonyms and antonyms
+* Students often select the first dictionary definition without reading all meanings to find the one that fits the context
+* Students may believe glossaries contain all words rather than understanding they are limited to key terms from a specific text
+* Students might think pronunciation symbols in dictionaries are random letters rather than a systematic guide to saying words
+* Students may not recognize that reference materials can help clarify shades of meaning between similar words (e.g., 'cold' vs 'frigid' vs 'chilly')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.5.A
+Standard Description: Interpret figurative language, including similes and metaphors, in context.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify similes and metaphors in sentences and passages
+* Students can explain what a simile or metaphor means by interpreting the comparison being made
+* Students can determine the literal meaning of figurative language based on context clues
+* Students can distinguish between literal and figurative language in text
+
+Assessment Boundaries:
+* Assessment is limited to similes and metaphors; does not include other figurative language like personification, idioms, or hyperbole
+* Students should interpret figurative language in grade-appropriate texts with clear context clues
+* Focus is on interpreting meaning in context, not on defining or creating figurative language
+
+Common Misconceptions:
+* Students may interpret figurative language literally (e.g., thinking 'time is money' means time costs money)
+* Students often confuse similes and metaphors, forgetting that similes use 'like' or 'as'
+* Students may identify the comparison but fail to explain what it means (e.g., recognizing 'her smile was sunshine' as a metaphor but not explaining she has a bright, warm smile)
+* Students might think any sentence with 'like' or 'as' is a simile, even in literal comparisons (e.g., 'She ran like her sister ran')
+* Students may focus only on individual words rather than understanding the full figurative expression in context
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.5.A+1
+Standard Description: Interpret figurative language in context.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify figurative language (similes, metaphors, idioms, personification) in written text
+* Students can explain the meaning of figurative language based on context clues
+* Students can distinguish between literal and figurative meanings of words and phrases
+
+Assessment Boundaries:
+* Assessment focuses on common figurative language types: similes, metaphors, idioms, personification, and hyperbole in grade-appropriate texts
+* Students interpret figurative language using context clues from surrounding sentences, not isolated phrases
+* Does not include advanced literary devices such as synecdoche, metonymy, or extended allegory
+
+Common Misconceptions:
+* Students may interpret figurative language literally (e.g., thinking 'it's raining cats and dogs' means animals are falling from the sky)
+* Students often confuse similes and metaphors (e.g., not recognizing that similes use 'like' or 'as' for comparison)
+* Students may think any comparison is figurative language (missing that some comparisons are literal, like 'taller than his brother')
+* Students might identify figurative language but fail to interpret its meaning in context (e.g., recognizing a metaphor but not explaining what it means)
+* Students may rely on memorized idiom meanings without using context clues (struggling with unfamiliar figurative expressions)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.5.B
+Standard Description: Recognize and explain the meaning of common idioms, adages, and proverbs.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify common idioms, adages, and proverbs in text and conversation
+* Students can explain the figurative meaning of idioms, adages, and proverbs
+* Students can distinguish between literal and figurative meanings of idiomatic expressions
+* Students can apply knowledge of idioms, adages, and proverbs to understand their use in context
+
+Assessment Boundaries:
+* Assessment is limited to common, grade-appropriate idioms (e.g., 'break the ice', 'piece of cake'), adages (e.g., 'practice makes perfect'), and proverbs (e.g., 'actions speak louder than words')
+* Students should recognize and explain meanings but are not required to identify whether an expression is specifically an idiom, adage, or proverb
+* Does not include obscure, archaic, or culturally specific expressions that students would not commonly encounter in grade 5 texts
+
+Common Misconceptions:
+* Students may interpret idioms literally (e.g., thinking 'it's raining cats and dogs' means actual animals are falling)
+* Students often confuse the meanings of similar-sounding idioms (e.g., 'break a leg' vs. 'pull someone's leg')
+* Students may think all figurative phrases are idioms, not recognizing the distinction that idioms cannot be understood from the individual words alone
+* Students might believe idioms, adages, and proverbs mean the same thing in all contexts, missing how context shapes specific applications
+* Students may reverse or mix up the meanings of proverbs (e.g., thinking 'look before you leap' means to act quickly without thinking)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.5.B+1
+Standard Description: Recognize the meaning of common idioms, adages, and proverbs.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify common idioms, adages, and proverbs in text and conversation
+* Students can explain the figurative meaning of common idioms, adages, and proverbs
+* Students can distinguish between the literal and figurative meanings of these expressions
+* Students can choose the correct meaning of an idiom, adage, or proverb in context
+
+Assessment Boundaries:
+* Assessment is limited to common, age-appropriate idioms, adages, and proverbs that fifth graders are likely to encounter in texts or everyday speech
+* Students should recognize and explain meanings but are not required to categorize expressions by type or origin
+* Does not include obscure, archaic, or culturally specific expressions unfamiliar to typical fifth-grade students
+
+Common Misconceptions:
+* Students often interpret idioms literally (e.g., thinking 'it's raining cats and dogs' means animals are falling from the sky)
+* Students may confuse idioms with adages or proverbs, not understanding that adages and proverbs teach lessons while idioms are just figurative expressions
+* Students might think all figurative language is an idiom (e.g., calling similes or metaphors idioms)
+* Students may struggle to use context clues and instead guess meanings based on individual words in the expression (e.g., thinking 'break a leg' is about injury)
+* Students often think that idioms have only one fixed meaning regardless of context (e.g., not recognizing slight variations in usage)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.5.B+2
+Standard Description: Explain the meaning of common idioms, adages, and proverbs.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify common idioms, adages, and proverbs in text and conversation
+* Students can explain the figurative meaning of idioms, adages, and proverbs
+* Students can distinguish between the literal and intended meaning of common idioms, adages, and proverbs
+* Students can apply knowledge of idioms, adages, and proverbs to understand their use in context
+
+Assessment Boundaries:
+* Assessment is limited to common, grade-appropriate idioms (e.g., 'break a leg', 'piece of cake'), adages (e.g., 'practice makes perfect'), and proverbs (e.g., 'a stitch in time saves nine')
+* Students should explain meanings but are not required to identify the origin or history of idioms, adages, and proverbs
+* Does not include obscure, archaic, or culturally-specific figurative language beyond common American English usage
+
+Common Misconceptions:
+* Students may interpret idioms literally (e.g., thinking 'it's raining cats and dogs' means animals are falling from the sky)
+* Students often confuse idioms with adages and proverbs, not recognizing that adages and proverbs teach lessons while idioms are just figurative expressions
+* Students may think all figurative language is an idiom (e.g., calling similes or metaphors idioms)
+* Students might believe idioms mean the same thing in all contexts (e.g., not recognizing that context affects interpretation)
+* Students may not recognize that proverbs give advice or wisdom, thinking they are just descriptive statements
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.5.C
+Standard Description: Use the relationship between particular words (e.g., synonyms, antonyms, homographs) to better understand each of the words.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify the relationships between words, including synonyms, antonyms, and homographs
+* Students can use word relationships to determine or clarify the meaning of unfamiliar words
+* Students can explain how understanding one word in a relationship helps them understand related words
+* Students can apply knowledge of word relationships to choose more precise words in their own writing
+
+Assessment Boundaries:
+* Assessment focuses on common word relationships: synonyms, antonyms, and homographs, with possible inclusion of homonyms and homophones
+* Students should work with grade-appropriate vocabulary and be able to explain how one word helps understand another
+* Does not include advanced relationships like analogies, etymology, or technical linguistic terminology beyond basic definitions
+
+Common Misconceptions:
+* Students may confuse homographs with homophones (e.g., thinking 'read' and 'red' are homographs when they're homophones)
+* Students often believe synonyms are always interchangeable in any context (e.g., using 'cheap' and 'inexpensive' without considering connotation)
+* Students may think antonyms must be exact opposites only (missing gradable antonyms like 'hot' and 'cool' vs. 'hot' and 'cold')
+* Students sometimes confuse homographs with words that just look similar (e.g., thinking 'though' and 'thought' are homographs)
+* Students may rely only on one word relationship type without considering how multiple relationships can deepen understanding of a word's meaning
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.5.C+1
+Standard Description: Use the relationship between particular words to better understand each of the words.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify relationships between words such as synonyms, antonyms, analogies, and cause/effect connections
+* Students can explain how understanding one word in a relationship helps clarify the meaning of related words
+* Students can apply knowledge of word relationships to determine the meaning of unfamiliar words in context
+* Students can choose words with specific relationships to enhance their understanding of vocabulary
+
+Assessment Boundaries:
+* Assessment includes common word relationships: synonyms, antonyms, analogies, homographs, cause/effect, part/whole, and item/category relationships
+* Students work with grade-appropriate vocabulary and should demonstrate understanding through multiple-choice, matching, or short written explanations
+* Does not include highly technical linguistic terminology or advanced semantic relationships beyond grade 5 level
+
+Common Misconceptions:
+* Students may assume all similar words are synonyms without recognizing subtle differences in meaning or connotation (e.g., 'thin' vs. 'scrawny')
+* Students often confuse antonyms with words that are simply different rather than opposite (e.g., thinking 'hot' and 'wet' are antonyms)
+* Students may struggle to complete analogies because they focus on superficial similarities rather than the type of relationship (e.g., choosing 'dog:puppy' for 'cat:kitten' based on animals rather than adult:baby relationship)
+* Students might think word relationships only help with definitions, missing how they reveal nuances, connotations, and precise usage
+* Students may not recognize that understanding word relationships works both directions (if 'gigantic' means very large, then 'large' must mean somewhat less than gigantic)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.6
+Standard Description: Acquire and use accurately grade-appropriate general academic and domain-specific words and phrases, including those that signal contrast, addition, and other logical relationships (e.g., however, although, nevertheless, similarly, moreover, in addition).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify and use grade-appropriate academic and domain-specific vocabulary words accurately in context
+* Students can select appropriate transition words and phrases that signal contrast, addition, and other logical relationships between ideas
+* Students can explain how transition words and phrases like 'however,' 'although,' 'nevertheless,' 'similarly,' 'moreover,' and 'in addition' connect ideas in sentences and paragraphs
+
+Assessment Boundaries:
+* Assessment focuses on grade-appropriate general academic vocabulary and domain-specific terms from grade 5 content areas (science, social studies, math)
+* Transition words and phrases are limited to those that signal contrast (however, although, nevertheless), addition (moreover, in addition, furthermore), and similarity (similarly, likewise)
+* Does not include advanced or technical vocabulary beyond grade 5 level or specialized transition words like 'conversely,' 'notwithstanding,' or 'consequently'
+
+Common Misconceptions:
+* Students may use 'however' at the beginning of a sentence without proper punctuation (missing comma after 'however')
+* Students often confuse contrast words with addition words (e.g., using 'moreover' when they mean to show contrast)
+* Students may think 'although' and 'however' are interchangeable in all contexts without understanding their different grammatical functions
+* Students might overuse simple transitions like 'and' or 'but' instead of more sophisticated options like 'moreover' or 'nevertheless'
+* Students may not recognize that some transition phrases require specific punctuation or sentence structures (e.g., 'in addition' needs a comma when starting a sentence)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.6+1
+Standard Description: Acquire accurately grade-appropriate general academic words and phrases.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify and use grade-appropriate general academic vocabulary words in their reading and writing
+* Students can accurately determine the meaning of academic words and phrases from context
+* Students can apply newly acquired academic vocabulary appropriately in speaking and writing across different subjects
+
+Assessment Boundaries:
+* Assessment focuses on general academic vocabulary common across subject areas (e.g., analyze, conclude, evidence, contrast), not domain-specific technical terms
+* Students should demonstrate understanding of grade 5-level academic words and phrases appropriate for informational and literary texts
+* Does not include specialized vocabulary limited to single content areas or words beyond grade 5 complexity
+
+Common Misconceptions:
+* Students may confuse academic words with similar-sounding everyday words (e.g., using 'affect' when they mean 'effect')
+* Students often use academic vocabulary incorrectly by applying conversational definitions instead of academic meanings (e.g., thinking 'analyze' just means 'read')
+* Students may overuse or misapply academic vocabulary in inappropriate contexts, making writing sound awkward or incorrect
+* Students might think all long or complicated words are academic vocabulary, when some are just complex conversational words
+* Students may recognize academic words in reading but fail to use them accurately in their own writing and speaking
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.6+2
+Standard Description: Use accurately grade-appropriate general academic words and phrases.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify grade-appropriate general academic vocabulary words in texts and discussions
+* Students can use general academic words and phrases accurately in their own writing and speaking
+* Students can choose appropriate academic vocabulary to express ideas more precisely than everyday language
+* Students can apply academic vocabulary correctly across different subject areas and contexts
+
+Assessment Boundaries:
+* Assessment focuses on general academic vocabulary (words used across subject areas like 'analyze', 'compare', 'evidence') rather than domain-specific technical terms
+* Students should demonstrate understanding of words at the fifth-grade level, including tier 2 vocabulary that appears frequently in academic texts
+* Does not include specialized vocabulary unique to specific content areas (e.g., 'photosynthesis', 'denominator') or advanced secondary-level academic terms
+
+Common Misconceptions:
+* Students may use academic words in the wrong context (e.g., using 'demonstrate' when 'show' would be incorrect, like 'demonstrate your pencil')
+* Students often confuse similar academic words with different meanings (e.g., 'effect' vs 'affect', 'infer' vs 'imply')
+* Students may overuse simple, everyday words when more precise academic vocabulary would be appropriate (e.g., 'big' instead of 'significant' or 'substantial')
+* Students sometimes use academic vocabulary with incorrect grammar or word forms (e.g., 'analysize' instead of 'analyze', or using 'conclusion' as a verb)
+* Students may understand academic words when reading but fail to use them appropriately in their own writing and speaking
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.6+3
+Standard Description: Acquire accurately grade-appropriate domain-specific words and phrases.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify domain-specific vocabulary words appropriate to grade 5 content areas (science, social studies, mathematics, arts)
+* Students can accurately use domain-specific terms and phrases in context when writing or speaking about academic topics
+* Students can choose the correct domain-specific word to convey precise meaning in academic discussions and writing
+
+Assessment Boundaries:
+* Assessment focuses on grade-appropriate domain-specific vocabulary from core content areas (science, social studies, mathematics, arts) typically taught in grade 5
+* Students should demonstrate understanding of words in context, not just provide memorized definitions
+* Does not include highly technical terminology beyond grade 5 curriculum or specialized jargon from advanced fields
+
+Common Misconceptions:
+* Students may use everyday words instead of more precise domain-specific terms (e.g., 'stuff' instead of 'matter' in science)
+* Students often confuse similar-sounding domain-specific words (e.g., 'evaporation' vs 'condensation', 'longitude' vs 'latitude')
+* Students may use domain-specific vocabulary incorrectly by applying terms from one subject area to another where they don't belong
+* Students might think general academic words are domain-specific (e.g., using 'big' when 'significant' is domain-appropriate)
+* Students may know a domain-specific word's definition but fail to recognize when to use it in appropriate contexts
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.6+4
+Standard Description: Use accurately grade-appropriate domain-specific words and phrases.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify and use domain-specific vocabulary appropriate to grade 5 content areas (science, social studies, mathematics, arts)
+* Students can choose precise domain-specific words when writing or speaking about academic topics
+* Students can demonstrate understanding of domain-specific terms by using them accurately in context
+
+Assessment Boundaries:
+* Assessment focuses on domain-specific vocabulary from grade 5 content areas including science (e.g., photosynthesis, ecosystem), social studies (e.g., colonization, amendment), and mathematics (e.g., denominator, perimeter)
+* Students should use terms accurately in sentences and short passages, not define them in isolation
+* Does not include highly technical terminology beyond grade 5 curriculum or specialized jargon from advanced fields
+
+Common Misconceptions:
+* Students may use general words instead of precise domain-specific terms (e.g., 'stuff' instead of 'matter' in science)
+* Students often confuse similar-sounding domain-specific words (e.g., 'climate' vs 'weather', 'fraction' vs 'factor')
+* Students may use domain-specific vocabulary incorrectly by applying everyday meanings (e.g., using 'cell' only as a phone, not a biological unit)
+* Students might overuse domain-specific words in inappropriate contexts where simpler language would be clearer
+* Students may misapply domain-specific terms from one subject area to another (e.g., using 'product' from math when discussing a manufactured item in social studies)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.6+5
+Standard Description: Acquire accurately grade-appropriate words and phrases that signal contrast, addition, and other logical relationships.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify words and phrases that signal contrast (however, on the other hand, although, yet, nevertheless)
+* Students can identify words and phrases that signal addition (furthermore, moreover, in addition, also, additionally)
+* Students can identify words and phrases that signal other logical relationships such as cause/effect (therefore, consequently, as a result) and sequence (first, next, finally)
+* Students can choose appropriate transition words and phrases to show the logical relationship between ideas in writing
+
+Assessment Boundaries:
+* Assessment focuses on grade-appropriate transition words and phrases including contrast (however, although, yet), addition (furthermore, moreover, also), cause/effect (therefore, consequently), and sequence (first, next, finally)
+* Students should recognize and use these transitions in simple, compound, and complex sentences
+* Does not include advanced transitions like 'notwithstanding' or 'albeit' or nuanced academic vocabulary beyond grade 5 level
+
+Common Misconceptions:
+* Students may confuse 'however' with 'how ever' or use it to start any sentence without showing contrast
+* Students often overuse simple transitions like 'and' and 'but' instead of more precise options like 'moreover' or 'nevertheless'
+* Students may think 'also' and 'although' are interchangeable because they look similar
+* Students might use cause/effect transitions like 'therefore' when they mean to show addition or sequence
+* Students may place transition words incorrectly in sentences, such as putting 'however' at the end instead of the beginning or after a comma
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.5.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.5.6+6
+Standard Description: Use accurately grade-appropriate words and phrases that signal contrast, addition, and other logical relationships.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify words and phrases that signal contrast (however, although, on the other hand)
+* Students can identify words and phrases that signal addition (furthermore, moreover, in addition)
+* Students can identify words and phrases that signal other logical relationships such as cause/effect and sequence
+* Students can choose appropriate transition words and phrases to show logical relationships between ideas in writing and speaking
+
+Assessment Boundaries:
+* Assessment includes grade-appropriate transitional words and phrases such as however, although, furthermore, therefore, consequently, meanwhile, and similarly
+* Focus is on recognizing and using transitions that show contrast, addition, cause/effect, sequence, and comparison
+* Does not include advanced or discipline-specific academic vocabulary beyond grade 5 level
+
+Common Misconceptions:
+* Students may use 'but' in all contrast situations instead of varying with words like 'however,' 'although,' or 'on the other hand'
+* Students often confuse 'then' (sequence) with 'than' (comparison)
+* Students may think 'also' and 'in addition' can be used interchangeably in all contexts without considering formality
+* Students might overuse basic transitions like 'and' or 'so' instead of more precise options like 'furthermore' or 'therefore'
+* Students may misuse 'however' by placing it at the beginning of a sentence without proper punctuation or by using it when addition, not contrast, is needed
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.1.A
+Standard Description: Ensure that pronouns are in the proper case (subjective, objective, possessive).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify whether a pronoun should be in subjective, objective, or possessive case based on its function in a sentence
+* Students can choose the correct pronoun case when writing or revising sentences
+* Students can explain why a particular pronoun case is correct or incorrect in a given sentence
+* Students can correct pronoun case errors in sentences
+
+Assessment Boundaries:
+* Assessment includes subjective pronouns (I, you, he, she, it, we, they), objective pronouns (me, you, him, her, it, us, them), and possessive pronouns (my, mine, your, yours, his, her, hers, its, our, ours, their, theirs)
+* Assessment focuses on pronoun case in simple, compound, and complex sentences, including pronouns in compound subjects and objects
+* Does not include archaic pronoun forms (thee, thou, thy) or intensive reflexive pronoun case distinctions beyond grade level
+
+Common Misconceptions:
+* Students often use objective case instead of subjective case in compound subjects (e.g., 'Me and John went' instead of 'John and I went')
+* Students frequently confuse possessive pronouns with contractions (e.g., using 'it's' instead of 'its' or 'your' instead of 'you're')
+* Students may incorrectly use subjective case after prepositions (e.g., 'between you and I' instead of 'between you and me')
+* Students sometimes use objective pronouns as subjects when the pronoun follows a linking verb (e.g., 'It was him' instead of 'It was he')
+* Students may overcorrect by using subjective case everywhere, even when objective case is needed (e.g., 'The teacher gave the book to she and I' instead of 'to her and me')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.1.A+1
+Standard Description: Ensure that pronouns are in the proper case.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify whether a pronoun should be in subjective, objective, or possessive case based on its function in a sentence
+* Students can choose the correct pronoun case in complex sentences including compound subjects and objects
+* Students can revise sentences to correct pronoun case errors
+
+Assessment Boundaries:
+* Assessment includes subjective case (I, he, she, we, they), objective case (me, him, her, us, them), and possessive case (my, his, her, our, their, mine, hers, ours, theirs)
+* Students should work with pronouns in simple, compound, and complex sentences, including after prepositions and in comparisons
+* Does not include reflexive pronouns or archaic pronoun forms like 'thee' and 'thou'
+
+Common Misconceptions:
+* Students often use objective case instead of subjective case in compound subjects (e.g., 'Me and him went to the store' instead of 'He and I went to the store')
+* Students may incorrectly use subjective case after prepositions (e.g., 'between you and I' instead of 'between you and me')
+* Students frequently misuse pronouns in comparisons by choosing the wrong case (e.g., 'She is taller than me' instead of 'She is taller than I')
+* Students confuse possessive pronouns with contractions (e.g., using 'it's' instead of 'its' or 'your' instead of 'you're')
+* Students may hypercorrect by always using subjective case when they are unsure (e.g., 'The teacher gave the books to she and I' instead of 'to her and me')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.1.B
+Standard Description: Use intensive pronouns (e.g., myself, ourselves).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify intensive pronouns in sentences
+* Students can explain that intensive pronouns emphasize a noun or pronoun by referring back to it
+* Students can use intensive pronouns correctly to add emphasis in their own writing
+* Students can distinguish between intensive pronouns and reflexive pronouns based on their function in sentences
+
+Assessment Boundaries:
+* Assessment focuses on the eight intensive pronouns: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves
+* Students should recognize that intensive pronouns can be removed from a sentence without changing its basic meaning
+* Does not include archaic forms like 'thyself' or nonstandard forms like 'theirself' or 'hisself'
+
+Common Misconceptions:
+* Students confuse intensive pronouns with reflexive pronouns, not recognizing that intensive pronouns add emphasis while reflexive pronouns are necessary objects
+* Students incorrectly use 'themself' or 'theirselves' instead of the standard 'themselves'
+* Students may place intensive pronouns in incorrect positions in the sentence, not understanding they should appear immediately after the noun or pronoun they emphasize or at the end of the clause
+* Students think intensive pronouns are always required for emphasis, not recognizing they are optional elements
+* Students may use intensive pronouns as subjects (e.g., 'Myself went to the store') instead of using them for emphasis only
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.1.B+1
+Standard Description: Use intensive pronouns.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify intensive pronouns (myself, yourself, himself, herself, itself, ourselves, yourselves, themselves) in sentences
+* Students can explain that intensive pronouns emphasize a noun or pronoun in a sentence
+* Students can use intensive pronouns correctly to add emphasis in their own writing
+
+Assessment Boundaries:
+* Assessment is limited to the eight intensive pronouns: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves
+* Students should recognize that intensive pronouns add emphasis and can be removed without changing sentence meaning
+* Does not include distinguishing between intensive and reflexive pronouns based on complex grammatical analysis
+
+Common Misconceptions:
+* Students confuse intensive pronouns with reflexive pronouns (e.g., not recognizing that 'I myself completed the project' uses an intensive pronoun while 'I hurt myself' uses a reflexive pronoun)
+* Students think intensive pronouns are required for a sentence to be grammatically correct (e.g., believing removing them makes the sentence incomplete)
+* Students incorrectly use 'hisself' or 'theirselves' instead of the correct forms 'himself' and 'themselves'
+* Students place intensive pronouns in awkward positions far from the noun they emphasize (e.g., 'The teacher myself asked a question' instead of 'The teacher herself asked a question')
+* Students overuse intensive pronouns in every sentence, not understanding they should only be used for emphasis
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.1.C
+Standard Description: Recognize and correct inappropriate shifts in pronoun number and person.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify inappropriate shifts in pronoun number (singular to plural or plural to singular) within sentences and paragraphs
+* Students can identify inappropriate shifts in pronoun person (first, second, or third person) within sentences and paragraphs
+* Students can correct sentences that contain inappropriate shifts in pronoun number and person
+* Students can explain why a pronoun shift is inappropriate in a given context
+
+Assessment Boundaries:
+* Assessment focuses on pronoun number shifts (singular/plural) and person shifts (first/second/third person) in single sentences and short paragraphs
+* Students should recognize and correct shifts with common pronouns (I/me/my, you/your, he/she/it/they, we/us/our, one)
+* Does not include complex pronoun cases like reflexive pronoun errors, pronoun-antecedent agreement in complex sentences with multiple clauses, or archaic pronoun forms
+
+Common Misconceptions:
+* Students may shift from singular to plural pronouns when referring to singular indefinite pronouns like 'everyone' or 'someone' (e.g., 'Everyone should bring their lunch' instead of 'his or her lunch')
+* Students may incorrectly shift from third person to second person in formal writing (e.g., 'Students should study hard. You need to review notes' instead of 'They need to review notes')
+* Students may shift from first person plural to first person singular inconsistently (e.g., 'We went to the store, and I bought snacks' when the entire group bought snacks)
+* Students may not recognize that shifting from 'one' to 'you' is a person shift (e.g., 'One should always do your best')
+* Students may think pronoun shifts are acceptable for variety or style, not recognizing them as grammatical errors
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.1.C+1
+Standard Description: Recognize inappropriate shifts in pronoun number and person.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify inappropriate shifts in pronoun number within and across sentences
+* Students can identify inappropriate shifts in pronoun person within and across sentences
+* Students can explain why a pronoun shift is incorrect based on number or person agreement
+* Students can revise sentences to correct inappropriate pronoun shifts
+
+Assessment Boundaries:
+* Assessment focuses on pronoun shifts in number (singular to plural or vice versa) and person (first, second, third person shifts) within sentences and short paragraphs
+* Limited to common pronouns appropriate for grade 6; does not include complex reflexive or intensive pronoun shifts
+* Does not assess pronoun-antecedent agreement with indefinite pronouns or collective nouns at advanced levels
+
+Common Misconceptions:
+* Students may not recognize shifts from singular to plural pronouns referring to the same antecedent (e.g., 'A student should turn in their homework' instead of 'his or her homework')
+* Students often fail to notice shifts in person, especially from third person to second person (e.g., 'When someone exercises, you feel better' instead of 'he or she feels better')
+* Students may think using 'they/their' with singular antecedents is always incorrect, not recognizing context-appropriate usage
+* Students confuse pronoun case errors with pronoun shift errors (mixing up subject/object forms with number/person consistency)
+* Students may not recognize subtle shifts across multiple sentences in a paragraph, only catching obvious shifts within a single sentence
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.1.C+2
+Standard Description: Correct inappropriate shifts in pronoun number and person.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify inappropriate shifts in pronoun number within a sentence or paragraph
+* Students can identify inappropriate shifts in pronoun person within a sentence or paragraph
+* Students can revise sentences to correct shifts in pronoun number and person
+* Students can explain why a pronoun shift is inappropriate in context
+
+Assessment Boundaries:
+* Assessment focuses on correcting shifts between singular/plural pronouns (number) and shifts between first/second/third person pronouns
+* Students work with pronouns in multi-clause sentences and short paragraphs where the antecedent is clear
+* Does not include complex pronoun cases, reflexive pronoun errors, or ambiguous antecedent problems
+
+Common Misconceptions:
+* Students may not recognize shifts from singular to plural as errors (e.g., 'A student should bring their book' instead of 'his or her book')
+* Students often shift from third person to second person inappropriately (e.g., 'When someone reads, you should focus' instead of 'he or she should focus')
+* Students may think using 'they/their' with singular antecedents is always correct to avoid gender-specific pronouns
+* Students may not notice shifts in person when the meaning is still clear (e.g., 'We went to the store, and you could see the sale signs')
+* Students confuse pronoun number shifts with subject-verb agreement errors
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.1.D
+Standard Description: Recognize and correct vague pronouns (i.e., ones with unclear or ambiguous antecedents).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify pronouns with unclear or ambiguous antecedents in sentences and paragraphs
+* Students can explain why a pronoun reference is vague or ambiguous
+* Students can revise sentences to correct vague pronoun references by clarifying antecedents or replacing pronouns with specific nouns
+
+Assessment Boundaries:
+* Assessment focuses on common pronouns (he, she, it, they, this, that, which) with unclear antecedents in multi-clause sentences and short paragraphs
+* Students should recognize ambiguity when two or more possible antecedents exist or when the antecedent is missing entirely
+* Does not include complex pronoun cases like indefinite pronouns as antecedents or pronoun shifts across multiple paragraphs
+
+Common Misconceptions:
+* Students may think a pronoun is clear if any noun appears before it, even when multiple nouns could be the antecedent
+* Students often believe 'this' or 'that' can refer to entire ideas or sentences without being vague
+* Students may not recognize vagueness when the antecedent is implied but not explicitly stated in the text
+* Students might think proximity alone determines the antecedent, assuming the pronoun always refers to the nearest noun
+* Students may fail to recognize ambiguity when the pronoun could logically refer to more than one noun, choosing their intended meaning without seeing the confusion
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.1.D+1
+Standard Description: Recognize pronouns with unclear or ambiguous antecedents.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify pronouns in sentences and determine their antecedents
+* Students can recognize when a pronoun's antecedent is unclear or ambiguous
+* Students can explain why a pronoun reference is confusing to readers
+* Students can revise sentences to clarify unclear or ambiguous pronoun references
+
+Assessment Boundaries:
+* Assessment focuses on common pronouns (he, she, it, they, them, this, that, which) and their antecedents in multi-clause sentences and short passages
+* Students should identify ambiguity caused by multiple possible antecedents or missing antecedents, not complex pronoun case issues
+* Does not include intensive or reflexive pronoun errors, or advanced concepts like pronoun shift in person or number
+
+Common Misconceptions:
+* Students may think a pronoun is clear if any noun appears before it, even when multiple nouns could be the antecedent (e.g., 'Maria told Jessica that she was late' - unclear which person was late)
+* Students often assume the closest noun is always the antecedent, missing that logic or context might indicate a different noun
+* Students may not recognize ambiguity with the pronoun 'it' when multiple singular nouns precede it
+* Students might think 'this' or 'that' at the start of a sentence always clearly refers to the previous sentence, missing vague references to ideas
+* Students may fail to identify missing antecedents, assuming the pronoun is clear because they infer meaning from context
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.1.D+2
+Standard Description: Correct pronouns with unclear or ambiguous antecedents.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify pronouns with unclear or ambiguous antecedents in sentences and paragraphs
+* Students can explain why a pronoun reference is unclear or could refer to multiple nouns
+* Students can revise sentences to correct unclear pronoun-antecedent relationships
+* Students can choose the best revision to eliminate ambiguous pronoun references
+
+Assessment Boundaries:
+* Assessment focuses on personal pronouns (he, she, it, they, etc.) and their antecedents in multi-clause sentences and short paragraphs
+* Students should recognize and correct cases where a pronoun could refer to two or more nouns, or where the antecedent is missing entirely
+* Does not include complex pronoun types like indefinite pronouns as antecedents or reflexive pronoun errors
+
+Common Misconceptions:
+* Students may think a pronoun is clear if any noun appears before it, even when multiple nouns could be the antecedent
+* Students often assume the closest noun is always the antecedent, missing that a pronoun could logically refer to an earlier noun
+* Students may not recognize that pronouns like 'it' or 'they' need clear antecedents and cannot refer to implied or unstated ideas
+* Students might think repeating a noun sounds wrong or repetitive, not understanding that clarity is more important than variety
+* Students may fail to recognize ambiguity when a pronoun could refer to either of two nouns of the same gender or number
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.1.E
+Standard Description: Recognize variations from standard English in their own and others' writing and speaking, and identify and use strategies to improve expression in conventional language.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify variations from standard English in writing and speaking, including slang, informal language, and nonstandard grammar
+* Students can distinguish between appropriate uses of informal language and situations requiring standard English
+* Students can revise their own writing and speaking to use conventional language appropriate for academic and formal contexts
+* Students can apply strategies to improve expression by replacing nonstandard usage with standard English conventions
+
+Assessment Boundaries:
+* Assessment focuses on recognizing common variations such as slang, informal expressions, double negatives, subject-verb disagreement, and incorrect pronoun usage appropriate for grade 6
+* Students should identify and correct nonstandard English in sentences and short passages, not extended essays or complex texts
+* Does not include highly technical grammar terminology or advanced dialectical analysis beyond recognition and correction
+
+Common Misconceptions:
+* Students may believe that informal language used in texting or social media is acceptable in all academic writing contexts
+* Students often think that how they speak at home or with friends is wrong rather than understanding it as a variation appropriate for different contexts
+* Students may not recognize double negatives as nonstandard (e.g., 'I didn't do nothing' instead of 'I didn't do anything')
+* Students may confuse regional dialects or culturally specific language patterns with errors rather than recognizing them as variations to be code-switched based on context
+* Students often fail to recognize subject-verb agreement errors in their own writing, especially with collective nouns or compound subjects
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.2.A
+Standard Description: Use punctuation (commas, parentheses, dashes) to set off nonrestrictive/parenthetical elements.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify nonrestrictive (parenthetical) elements in sentences
+* Students can choose the correct punctuation mark (comma, parentheses, or dash) to set off nonrestrictive elements
+* Students can distinguish between restrictive elements that should not be set off and nonrestrictive elements that require punctuation
+* Students can revise sentences by adding appropriate punctuation to set off nonrestrictive elements
+
+Assessment Boundaries:
+* Assessment focuses on using commas, parentheses, and dashes to set off nonrestrictive/parenthetical elements such as appositives, interrupting phrases, and extra information that can be removed without changing the sentence's core meaning
+* Students should recognize that nonrestrictive elements add extra information but are not essential to the sentence's meaning, while restrictive elements are essential
+* Does not include advanced punctuation uses such as semicolons, colons for lists, or complex punctuation in multi-clause sentences beyond basic nonrestrictive elements
+
+Common Misconceptions:
+* Students may add commas around restrictive elements that are essential to the sentence's meaning (e.g., incorrectly punctuating 'The boy who lives next door is tall')
+* Students often forget to use both commas when a nonrestrictive element appears in the middle of a sentence (e.g., writing 'My teacher Mrs. Smith, is kind' instead of 'My teacher, Mrs. Smith, is kind')
+* Students may think parentheses and dashes are interchangeable with commas in all situations, not recognizing that they indicate different levels of emphasis or separation
+* Students frequently confuse appositives with compound subjects or predicates and may incorrectly add commas to separate essential sentence elements
+* Students may not recognize that relative clauses beginning with 'which' are typically nonrestrictive while those with 'that' are restrictive, leading to incorrect punctuation choices
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.2.A+1
+Standard Description: Use punctuation to set off nonrestrictive/parenthetical elements.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify nonrestrictive (parenthetical) elements in sentences
+* Students can correctly use commas, dashes, or parentheses to set off nonrestrictive elements
+* Students can distinguish between restrictive elements (essential information) and nonrestrictive elements (additional information)
+* Students can revise sentences by adding or removing punctuation around nonrestrictive elements
+
+Assessment Boundaries:
+* Assessment focuses on using commas, dashes, and parentheses to set off nonrestrictive/parenthetical elements including appositives, participial phrases, and parenthetical expressions
+* Students should work with grade-appropriate sentence structures and not overly complex or technical writing
+* Does not include advanced punctuation uses such as semicolons with nonrestrictive elements or multiple embedded clauses
+
+Common Misconceptions:
+* Students may punctuate restrictive (essential) elements as if they were nonrestrictive, adding unnecessary commas around information needed to identify the noun
+* Students often use only one comma instead of a pair when setting off nonrestrictive elements in the middle of sentences
+* Students may think all appositives require commas, not recognizing that restrictive appositives do not need punctuation
+* Students frequently confuse when to use commas versus dashes or parentheses, not understanding that dashes emphasize while parentheses de-emphasize
+* Students may fail to recognize nonrestrictive elements entirely, treating all descriptive information as essential to the sentence meaning
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.A
+Cluster Name: Conventions of Standard English
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.2.B
+Standard Description: Spell correctly.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can spell grade-appropriate words correctly in their writing
+* Students can identify and correct misspelled words in text
+* Students can apply spelling patterns and rules to spell unfamiliar words
+* Students can use resources to verify correct spelling when uncertain
+
+Assessment Boundaries:
+* Assessment focuses on grade 6 level words including multisyllabic words, common prefixes and suffixes, homophones, and frequently misspelled words
+* Students should spell correctly in context (within sentences or passages), not just in isolation
+* Does not include highly technical vocabulary, proper nouns from other languages, or specialized jargon beyond grade level
+
+Common Misconceptions:
+* Students may confuse homophones with similar pronunciations (e.g., 'their/there/they're', 'to/too/two', 'affect/effect')
+* Students often misspell words when adding suffixes by not applying doubling or dropping-e rules (e.g., 'running' spelled as 'runing', 'hoping' as 'hopping')
+* Students may overgeneralize the 'i before e except after c' rule, misspelling words like 'weird' or 'height'
+* Students frequently misspell words with silent letters by spelling phonetically (e.g., 'knife' as 'nife', 'mortgage' as 'morgage')
+* Students may confuse spelling patterns for words that sound similar but have different meanings (e.g., 'desert/dessert', 'principal/principle')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.B
+Cluster Name: Knowledge of Language
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.3.A
+Standard Description: Vary sentence patterns for meaning, reader/listener interest, and style.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify different sentence patterns (simple, compound, complex, compound-complex) and their effects on meaning
+* Students can revise sentences by varying sentence structure to improve reader interest and style
+* Students can explain how different sentence patterns affect the tone, pace, and emphasis in writing
+* Students can choose appropriate sentence patterns to achieve specific purposes in their own writing
+
+Assessment Boundaries:
+* Assessment includes simple, compound, complex, and compound-complex sentences with coordinating and subordinating conjunctions
+* Students should vary sentence length, sentence beginnings, and sentence types (declarative, interrogative, imperative, exclamatory) for effect
+* Does not include advanced rhetorical devices like chiasmus or parallelism beyond basic repetition for effect
+
+Common Misconceptions:
+* Students may believe that longer, complex sentences are always better than shorter sentences, missing that short sentences can create emphasis and impact
+* Students often think sentence variety means randomly mixing different types without considering the effect on meaning or reader engagement
+* Students may confuse varying sentence patterns with simply changing sentence length, not recognizing structural differences
+* Students might assume that all simple sentences are choppy or immature, failing to see their value for clarity and emphasis
+* Students may overuse one sentence pattern (often compound sentences with 'and') believing they are creating variety when they are actually being repetitive
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.B
+Cluster Name: Knowledge of Language
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.3.B
+Standard Description: Maintain consistency in style and tone.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify inconsistencies in style and tone within a text
+* Students can revise sentences or paragraphs to maintain consistent style and tone
+* Students can explain how shifts in style or tone affect a piece of writing
+* Students can choose language that matches the established style and tone of a text
+
+Assessment Boundaries:
+* Assessment focuses on recognizing and correcting shifts between formal and informal language, between serious and humorous tone, and between academic and conversational style within a single text
+* Students work with grade-appropriate texts and writing situations such as narratives, essays, and letters
+* Does not include advanced rhetorical analysis or complex tone shifts like irony, sarcasm, or satire
+
+Common Misconceptions:
+* Students may think that varying sentence structure means inconsistent style (confusing sentence variety with style shifts)
+* Students often believe that using different words for the same concept creates inconsistency (not recognizing appropriate synonym use)
+* Students may not recognize tone shifts when vocabulary stays similar (missing changes in attitude or formality through sentence structure or word choice)
+* Students might think that dialogue must match the narrator's tone (not understanding that character voice can differ from narrative tone)
+* Students may confuse topic changes with tone or style changes (thinking a new paragraph topic means the tone has shifted)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.4.A
+Standard Description: Use context (e.g., the overall meaning of a sentence or paragraph; a word s position or function in a sentence) as a clue to the meaning of a word or phrase.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can use context clues from surrounding sentences and paragraphs to determine the meaning of unfamiliar words or phrases
+* Students can identify how a word's position or function in a sentence provides clues to its meaning
+* Students can explain which context clues helped them determine a word's meaning
+* Students can distinguish between multiple possible meanings of a word based on its context
+
+Assessment Boundaries:
+* Assessment focuses on using sentence-level and paragraph-level context clues, including syntax, surrounding details, and overall meaning
+* Words assessed should be grade-appropriate or slightly above grade level, not highly technical or archaic terms
+* Does not include use of reference materials like dictionaries or glossaries, which are covered in other standards
+
+Common Misconceptions:
+* Students may focus only on words immediately before or after an unfamiliar word, ignoring broader paragraph context
+* Students often assume a word has only one meaning and fail to consider how context determines which meaning applies
+* Students may rely on a word's sound or appearance rather than using context clues (e.g., guessing 'exceptional' means 'accepting' because it looks similar)
+* Students sometimes confuse a word's grammatical function with its meaning (e.g., knowing it's a verb but not what action it describes)
+* Students may select the most common meaning of a familiar word without checking if context suggests a different meaning
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.4.A+1
+Standard Description: Use context as a clue to the meaning of a word.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify context clues in a text that help determine the meaning of an unknown word
+* Students can explain how specific words or phrases in surrounding sentences provide clues to word meaning
+* Students can use context clues to infer the correct meaning of unfamiliar words in grade-level passages
+* Students can distinguish between different types of context clues (definition, example, contrast, inference)
+
+Assessment Boundaries:
+* Assessment focuses on using context clues within a sentence or paragraph to determine word meaning, not requiring prior knowledge of the word
+* Words assessed should be appropriate for grade 6 complexity, including academic and domain-specific vocabulary
+* Does not include etymology, word origins, or dictionary skills as the primary strategy
+
+Common Misconceptions:
+* Students may rely on only one word near the unknown word rather than reading the full sentence or paragraph for context
+* Students often choose a meaning based on how a word sounds or looks rather than using context clues
+* Students may select a familiar word that appears in the same sentence as the correct meaning, ignoring the actual context
+* Students sometimes confuse contrast clues (what the word is NOT) with definition clues (what the word IS)
+* Students may assume the first possible meaning they think of is correct without checking it against the full context
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.4.A+2
+Standard Description: Use context as a clue to the meaning of a phrase.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify context clues that help determine the meaning of a phrase in a passage
+* Students can explain how surrounding sentences or paragraphs clarify the meaning of an unfamiliar phrase
+* Students can use context to choose the correct interpretation of a phrase with multiple possible meanings
+
+Assessment Boundaries:
+* Assessment focuses on using context to determine phrase meaning, not individual word meanings
+* Includes common phrases, idioms, figurative expressions, and multi-word phrases appropriate for grade 6
+* Does not require prior knowledge of phrases; all clues needed for interpretation should be present in the text
+
+Common Misconceptions:
+* Students may interpret phrases literally rather than using context to understand figurative or idiomatic meanings (e.g., 'break the ice' meaning to actually break ice)
+* Students often focus on individual word meanings within the phrase instead of the phrase as a whole unit
+* Students may choose the most common meaning of a phrase without considering how context suggests a different interpretation
+* Students might rely solely on their personal experience rather than using clues from the surrounding text
+* Students may overlook contrast or comparison clues in nearby sentences that clarify phrase meaning
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.4.B
+Standard Description: Use common, grade-appropriate Greek or Latin affixes and roots as clues to the meaning of a word (e.g., audience, auditory, audible).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify common Greek and Latin roots, prefixes, and suffixes in grade-appropriate words
+* Students can use knowledge of affixes and roots to determine the meaning of unfamiliar words
+* Students can explain how a specific root or affix contributes to the overall meaning of a word
+
+Assessment Boundaries:
+* Assessment focuses on common Greek and Latin affixes and roots typically taught at grade 6 (e.g., aud, vis, dict, port, graph, bio, auto, pre-, sub-, -able, -ology)
+* Students should work with words containing one or two recognizable roots or affixes, not complex medical or scientific terms with multiple roots
+* Does not include obscure or archaic roots, or require students to identify the language of origin
+
+Common Misconceptions:
+* Students may think that all words with similar letter patterns share the same root (e.g., assuming 'carpet' contains the root 'carp' meaning seize)
+* Students often believe a root carries the exact same meaning in every word without considering context (e.g., thinking 'ped' always means foot, missing that it means child in 'pediatrician')
+* Students may confuse prefixes with roots or treat them as interchangeable (e.g., thinking 'pre-' is a root rather than a prefix)
+* Students sometimes ignore the suffix and focus only on the root, missing how the suffix changes word meaning or part of speech (e.g., not recognizing how '-able' changes 'audit' to 'audible')
+* Students may assume that breaking a word into any parts will reveal meaning, even when those parts are not actual morphemes (e.g., breaking 'together' into 'to-get-her')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.4.B+1
+Standard Description: Use common, grade-appropriate Greek or Latin affixes as clues to the meaning of a word.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify common Greek or Latin affixes (prefixes and suffixes) in grade-appropriate words
+* Students can explain how an affix changes the meaning of a base word or root
+* Students can use their knowledge of affixes to determine the meaning of unfamiliar words
+
+Assessment Boundaries:
+* Assessment focuses on common Greek and Latin affixes appropriate for grade 6 (e.g., anti-, bio-, -logy, -graph, pre-, post-, -able, -tion)
+* Students should work with affixes attached to recognizable base words or common roots, not obscure classical terms
+* Does not include etymology beyond recognizing that affixes come from Greek or Latin origins
+
+Common Misconceptions:
+* Students may think affixes always have exactly one meaning (e.g., not recognizing that 're-' can mean 'again' or 'back')
+* Students often confuse similar-looking affixes with different meanings (e.g., 'in-' meaning 'not' vs. 'in-' meaning 'into')
+* Students may incorrectly separate letter combinations that look like affixes but aren't (e.g., treating 'un' in 'uncle' as a prefix)
+* Students might apply affix meanings too literally without considering context (e.g., thinking 'inflammable' means 'not flammable')
+* Students may not recognize that the same affix can come from different origins with different meanings (e.g., '-er' as a Latin comparative vs. '-er' meaning 'one who')
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.4.B+2
+Standard Description: Use common, grade-appropriate Greek or Latin roots as clues to the meaning of a word.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can identify common Greek or Latin roots within unfamiliar words
+* Students can use knowledge of Greek or Latin roots to determine the meaning of grade-appropriate words
+* Students can explain how a root contributes to the overall meaning of a word
+
+Assessment Boundaries:
+* Assessment is limited to common Greek and Latin roots appropriate for grade 6 (e.g., 'port', 'dict', 'scrib', 'graph', 'bio', 'auto', 'tele', 'phon', 'geo')
+* Students should work with roots in the context of complete words, not isolation
+* Does not include obscure roots, Old English roots, or etymology beyond Greek and Latin origins
+
+Common Misconceptions:
+* Students may confuse roots with prefixes or suffixes (e.g., thinking '-tion' is a root rather than a suffix)
+* Students often assume a root always has the exact same meaning in every word (e.g., 'port' in 'portable' vs 'portfolio')
+* Students may identify letter patterns that look like roots but are not (e.g., 'graph' in 'paragraph' vs 'autograph')
+* Students might think knowing the root gives the complete meaning without considering prefixes, suffixes, or context
+* Students may reverse or confuse similar Greek and Latin roots (e.g., confusing 'aud' meaning hear with 'auto' meaning self)
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.4.C
+Standard Description: Consult reference materials (e.g., dictionaries, glossaries, thesauruses), both print and digital, to find the pronunciation of a word or determine or clarify its precise meaning or its part of speech.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students can select and use appropriate reference materials (dictionaries, glossaries, thesauruses) to find word pronunciations
+* Students can consult reference materials to determine or clarify the precise meaning of unfamiliar words
+* Students can use reference materials to identify the part of speech of a word in context
+* Students can navigate both print and digital reference materials effectively to gather information about words
+
+Assessment Boundaries:
+* Assessment includes using dictionaries, glossaries, and thesauruses in both print and digital formats to find pronunciation, meaning, and part of speech
+* Students should be able to interpret pronunciation guides, multiple definitions, and part of speech labels in reference materials
+* Does not include using highly specialized reference materials like etymological dictionaries or unabridged historical dictionaries
+
+Common Misconceptions:
+* Students may think a thesaurus provides definitions rather than synonyms and antonyms
+* Students often select the first dictionary definition without reading all meanings to find the one that fits the context
+* Students may believe words have only one part of speech (e.g., not recognizing that 'run' can be a noun or verb)
+* Students might think glossaries and dictionaries are identical, missing that glossaries are specific to a particular text
+* Students may struggle to interpret pronunciation guides, confusing symbols like schwa (ə) or stress marks
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.4.D
+Standard Description: Verify the preliminary determination of the meaning of a word or phrase (e.g., by checking the inferred meaning in context or in a dictionary).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will verify their initial understanding of unfamiliar words by checking the inferred meaning against the context in which the word appears.
+* Students will use dictionary resources (print and digital) to confirm or correct their preliminary determination of word meanings.
+* Students will compare their context-based interpretation of a word with its dictionary definition to determine accuracy and refine understanding.
+* Students will demonstrate the ability to adjust their understanding of a word's meaning when context clues and dictionary definitions provide different or more precise information.
+
+Assessment Boundaries:
+* Focus should be on grade-appropriate vocabulary found in sixth-grade texts across content areas, not highly technical or specialized terminology beyond grade level.
+* Assessment should emphasize the verification process itself rather than simply defining words, including the ability to recognize when initial inferences need correction.
+* Students should work with words that have context clues available and accessible dictionary entries, not archaic or obsolete terms without clear modern usage.
+
+Common Misconceptions:
+* Students may believe that their first guess about a word's meaning is always correct and skip the verification step.
+* Students may think that dictionary definitions always match exactly how a word is used in context, without recognizing that words can have multiple meanings or nuanced applications.
+* Students may rely solely on a dictionary without considering whether the definition makes sense in the specific context of the passage.
+* Students may assume that if a word 'sounds like' or resembles another word, it has a similar meaning without verifying through context or dictionary resources.
+* Students may believe that verification is only necessary for completely unfamiliar words, not recognizing that familiar words can have unfamiliar meanings in different contexts.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.4.D+1
+Standard Description: Verify the preliminary determination of the meaning of a word by using context clues, analyzing meaningful word parts, and consulting general and specialized reference materials, as appropriate.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will verify preliminary word meanings by cross-referencing context clues with dictionary definitions and multiple sources.
+* Students will analyze word parts (prefixes, suffixes, and roots) to confirm or revise initial understanding of unfamiliar words.
+* Students will appropriately select and use general reference materials (dictionaries, thesauruses) and specialized reference materials (glossaries, technical dictionaries) to verify word meanings in different contexts.
+* Students will explain their process of confirming word meanings by citing specific evidence from context, word analysis, and reference materials.
+
+Assessment Boundaries:
+* Students are not expected to use etymological dictionaries or trace historical language origins beyond basic Latin and Greek roots commonly taught at grade 6.
+* Assessment should focus on age-appropriate general and specialized reference materials, not advanced technical or professional resources beyond grade-level accessibility.
+* Students should verify meanings of words appropriate to grade 6 complexity; highly technical, archaic, or discipline-specific academic vocabulary beyond grade level should be limited.
+
+Common Misconceptions:
+* Students believe that the first dictionary definition listed is always the correct meaning, rather than selecting the definition that fits the specific context.
+* Students think context clues alone are sufficient to determine meaning and do not recognize the need to verify with reference materials.
+* Students assume that identifying a prefix or suffix automatically reveals the complete meaning of a word without considering how word parts combine or checking for multiple meanings.
+* Students believe that all reference materials provide the same information and do not recognize when specialized references (like a science glossary) may be more appropriate than general dictionaries.
+* Students think verification is only necessary when they are completely unsure of a word's meaning, rather than understanding that preliminary determinations should always be confirmed.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.4.D+2
+Standard Description: Verify the preliminary determination of the meaning of a phrase by using context clues, analyzing meaningful word parts, and consulting general and specialized reference materials, as appropriate.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will verify preliminary word and phrase meanings by cross-referencing multiple strategies including context clues, word part analysis, and reference materials.
+* Students will analyze meaningful word parts (prefixes, suffixes, roots) to confirm or revise initial determinations of phrase meanings.
+* Students will select and consult appropriate general reference materials (dictionaries, thesauruses) and specialized reference materials (glossaries, technical dictionaries) to verify phrase meanings.
+* Students will explain how verification through multiple sources strengthens their understanding of unfamiliar phrases in grade-level texts.
+
+Assessment Boundaries:
+* Students should work with phrases appropriate to grade 6 complexity; highly technical terminology from specialized fields beyond grade level should not be the primary focus.
+* Assessment should not require memorization of dictionary definitions but rather the application of verification strategies to determine accurate meanings in context.
+* Students are not expected to use reference materials in languages other than English or highly specialized academic reference works designed for advanced scholars.
+
+Common Misconceptions:
+* Students may believe that the first meaning they determine for a phrase is always correct and fail to verify it through additional sources or strategies.
+* Students often think that dictionary definitions alone are sufficient without considering how context affects phrase meaning in specific passages.
+* Students may assume that analyzing individual words in a phrase is the same as understanding the phrase as a whole, missing idiomatic or figurative meanings.
+* Students frequently overlook the importance of consulting specialized reference materials when encountering domain-specific phrases in content-area texts.
+* Students may believe that if they understand each word part separately, they automatically understand the complete phrase without needing verification.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.5.A
+Standard Description: Interpret figures of speech (e.g., personification) in context.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Identify various figures of speech including personification, simile, metaphor, hyperbole, and idioms in grade-level texts
+* Explain the literal versus figurative meaning of figures of speech within the context of a passage
+* Analyze how figures of speech contribute to the meaning and tone of a text
+* Apply understanding of figurative language to interpret author's purpose and enhance reading comprehension
+
+Assessment Boundaries:
+* Focus on common figures of speech appropriate for grade 6 (personification, simile, metaphor, hyperbole, idioms) rather than advanced or obscure figurative devices
+* Interpretation should be based on context clues within provided text rather than requiring extensive outside knowledge
+* Assess understanding of how figurative language functions in context rather than mere memorization of definitions
+
+Common Misconceptions:
+* Students may confuse different types of figurative language, particularly simile and metaphor or personification and anthropomorphism
+* Students may interpret figurative language too literally, missing the intended figurative meaning
+* Students may identify a figure of speech but struggle to explain what it means or why the author used it
+* Students may think all comparisons are similes or metaphors without recognizing literal comparisons
+* Students may believe figurative language is only found in poetry and not recognize it in prose, drama, or everyday speech
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.5.A+1
+Standard Description: Interpret figures of speech in context.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Identify common figures of speech (simile, metaphor, personification, hyperbole, idiom) in various texts and contexts
+* Explain the literal versus figurative meaning of figures of speech as they are used in specific passages
+* Analyze how figures of speech contribute to the overall meaning and tone of a text
+* Apply understanding of figures of speech to interpret unfamiliar figurative language using context clues
+
+Assessment Boundaries:
+* Students at grade 6 should focus on commonly used figures of speech rather than obscure or highly complex figurative language
+* Assessment should prioritize interpretation within clear context rather than identifying figures of speech in isolation
+* Students are not expected to analyze advanced literary devices such as synecdoche, metonymy, or oxymoron at this grade level
+
+Common Misconceptions:
+* Students may interpret all figurative language literally, missing the intended meaning entirely
+* Students may confuse different types of figures of speech, such as treating all comparisons as similes or all exaggerations as lies rather than hyperbole
+* Students may believe that figures of speech have only one correct interpretation rather than understanding that meaning can vary based on context
+* Students may think idioms can be understood by analyzing the individual words rather than recognizing them as fixed expressions with cultural meanings
+* Students may assume that figurative language is only found in poetry and not recognize it in everyday speech, prose, or informational texts
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.5.B
+Standard Description: Use the relationship between particular words (e.g., cause/effect, part/whole, item/category) to better understand each of the words.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Identify and explain cause/effect relationships between pairs or groups of words to deepen understanding of word meanings.
+* Analyze part/whole relationships between words (e.g., chapter/book, petal/flower) to clarify how components relate to larger concepts.
+* Categorize words by recognizing item/category relationships (e.g., oak/tree, triangle/polygon) and use these relationships to infer meaning.
+* Apply knowledge of word relationships to determine precise meanings of unfamiliar words in context.
+
+Assessment Boundaries:
+* Students at grade 6 should work with word relationships appropriate to their reading level and should not be expected to analyze highly technical or specialized vocabulary beyond grade-level complexity.
+* Assessment should focus on common word relationship types (cause/effect, part/whole, item/category, synonym/antonym) rather than obscure semantic relationships.
+* Students are not expected to use formal linguistic terminology but should demonstrate understanding of how words relate to one another conceptually.
+
+Common Misconceptions:
+* Students may confuse correlation with causation when identifying cause/effect relationships between words.
+* Students may incorrectly assume that any two related words have a part/whole relationship without considering other relationship types.
+* Students may struggle to distinguish between item/category relationships and synonym relationships, treating categorization as simple word matching.
+* Students may believe word relationships are always binary or one-dimensional, failing to recognize that words can have multiple relationship types with different words.
+* Students may rely solely on memorized word pairs rather than understanding the underlying conceptual relationship that connects the words.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.5.B+1
+Standard Description: Use the relationship between particular words to better understand each of the words.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Identify and explain the relationships between words, including synonyms, antonyms, analogies, and word families, to deepen understanding of word meanings
+* Use context clues and word relationships to determine the precise meaning of unknown or multiple-meaning words
+* Apply knowledge of word relationships to make inferences about nuanced differences in word meanings and appropriate usage
+* Demonstrate understanding of how words relate to each other in categories, hierarchies, and semantic fields to enhance vocabulary development
+
+Assessment Boundaries:
+* Students should not be expected to use highly technical linguistic terminology beyond grade-appropriate terms like synonym, antonym, and analogy
+* Assessment should focus on practical application of word relationships rather than memorization of dictionary definitions
+* Complex etymological analysis or foreign language cognates are beyond the scope of this standard at grade 6
+
+Common Misconceptions:
+* Students may believe that synonyms are always perfectly interchangeable in any context, not recognizing subtle connotation differences
+* Students may think antonyms are simply 'opposites' without understanding that some words have multiple antonyms depending on context or dimension of meaning
+* Students may confuse word associations (words that are related by topic) with true semantic relationships like synonymy or part-whole relationships
+* Students may assume that all word pairs in an analogy represent the same type of relationship, rather than recognizing that analogies can show various relationships (part-to-whole, cause-effect, category-example, etc.)
+* Students may rely solely on memorized word pairs rather than analyzing the nature of the relationship to understand new words in context
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.5.C
+Standard Description: Distinguish among the connotations (associations) of words with similar denotations (definitions) (e.g., stingy, scrimping, economical, unwasteful, thrifty).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will accurately identify the denotative (dictionary) meaning shared by groups of similar words.
+* Students will analyze and distinguish the connotative (emotional or associative) meanings of words with similar denotations.
+* Students will select words with appropriate connotations for specific contexts and audiences based on the nuances of meaning.
+* Students will explain how word choice and connotation affect the tone and meaning of a text.
+
+Assessment Boundaries:
+* Assessment should focus on common words appropriate for grade 6 reading level, not obscure or highly technical vocabulary beyond grade-level expectations.
+* Students are not expected to use formal linguistic terminology beyond 'connotation' and 'denotation' to explain their reasoning.
+* Assessment should prioritize practical application of connotative understanding in reading and writing contexts rather than memorization of word lists.
+
+Common Misconceptions:
+* Students may believe that synonyms are completely interchangeable in all contexts without considering emotional tone or connotation.
+* Students may confuse denotation and connotation, thinking they are the same thing or using the terms interchangeably.
+* Students may think connotation is about whether a word is 'formal' or 'informal' rather than about its positive, negative, or neutral associations.
+* Students may believe that all words have only one fixed connotation rather than understanding that connotations can vary by context and cultural background.
+* Students may focus only on whether a word is 'good' or 'bad' without recognizing subtle gradations of connotation among words in the same category.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.5.C+1
+Standard Description: Distinguish among the connotations of words with similar denotations.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Identify and explain the denotative (literal) meaning of words that have similar dictionary definitions
+* Analyze and distinguish the connotative (emotional or associative) meanings of words with similar denotations
+* Select words with appropriate connotations to convey specific tones, attitudes, or shades of meaning in writing and speaking
+* Evaluate how word choice affects meaning and tone in authentic texts by examining connotative differences
+
+Assessment Boundaries:
+* Focus on grade-appropriate vocabulary and commonly encountered word groups rather than obscure or highly technical terms
+* Connotation analysis should be limited to clear positive, negative, or neutral associations rather than complex cultural or contextual nuances beyond grade 6 scope
+* Students should work with word sets of 2-4 similar words rather than extensive synonym lists
+
+Common Misconceptions:
+* Students may confuse denotation with connotation, believing that words with similar dictionary definitions are always interchangeable in any context
+* Students may think connotation is the same as formality level, not recognizing that words can have the same formality but different emotional associations
+* Students may believe connotations are universal and fixed, rather than understanding that connotations can vary by context, audience, and purpose
+* Students may overlook subtle connotative differences and assume that synonyms always carry identical emotional weight or associations
+* Students may think that connotation only applies to adjectives, not recognizing that nouns, verbs, and adverbs also carry connotative meanings
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.6
+Standard Description: Acquire and use accurately grade-appropriate general academic and domain-specific words and phrases; gather vocabulary knowledge when considering a word or phrase important to comprehension or expression.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will acquire and accurately use grade-appropriate general academic vocabulary words (such as analyze, contrast, demonstrate) in speaking and writing across content areas.
+* Students will identify and use domain-specific vocabulary appropriately when reading, writing, and discussing topics in specific subject areas (e.g., scientific terms, mathematical language, historical terminology).
+* Students will employ context clues, word parts, and reference materials to determine the meaning of unfamiliar words and phrases encountered in grade-level texts.
+* Students will recognize when vocabulary knowledge is essential for comprehension or expression and actively gather information about those words through multiple strategies.
+
+Assessment Boundaries:
+* Assessments should focus on vocabulary that is appropriate for grade 6 reading levels and common academic contexts, not specialized terminology beyond grade-level expectations.
+* Students are not expected to memorize extensive lists of words in isolation, but rather demonstrate understanding through contextual application in reading, writing, speaking, and listening tasks.
+* Evaluation should emphasize students' ability to use vocabulary learning strategies and apply words meaningfully, rather than rote recall of definitions.
+
+Common Misconceptions:
+* Students may believe that learning vocabulary means only memorizing dictionary definitions rather than understanding how words function in different contexts.
+* Students often think that domain-specific vocabulary is only important in one subject area and fail to recognize that some academic terms cross multiple disciplines.
+* Students may assume that they should know all vocabulary words immediately and feel discouraged when encountering unfamiliar terms, rather than viewing this as an opportunity to expand their knowledge.
+* Students sometimes confuse similar-sounding words or use words incorrectly because they have not fully explored nuances of meaning, connotation, or appropriate usage contexts.
+* Students may rely exclusively on one strategy (such as looking up words in a dictionary) rather than using multiple approaches like context clues, word parts analysis, and consulting various resources to understand new vocabulary.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.6+1
+Standard Description: Acquire accurately grade-appropriate general academic words and phrases.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will accurately use grade-appropriate general academic vocabulary words in speaking and writing across multiple content areas.
+* Students will determine the meaning of unknown academic words and phrases using context clues, word parts, and reference materials.
+* Students will demonstrate understanding of word relationships and nuances in word meanings for academic vocabulary.
+* Students will independently build vocabulary knowledge through reading, discussion, and exposure to academic language in various contexts.
+
+Assessment Boundaries:
+* Assessments should focus on general academic vocabulary appropriate for grade 6, not highly specialized or technical terminology beyond grade level.
+* Students should be assessed on words and phrases they have had adequate opportunity to learn through instruction and exposure, not obscure vocabulary.
+* Vocabulary assessment should occur in meaningful contexts rather than isolated memorization of definitions.
+
+Common Misconceptions:
+* Students may believe that looking up words in a dictionary is sufficient for learning vocabulary, rather than understanding that multiple exposures and usage in context are necessary for retention.
+* Students may confuse academic vocabulary with everyday conversational language and fail to recognize when more precise, formal language is required.
+* Students may think that academic words have only one meaning, not recognizing that many words have different meanings in different content areas or contexts.
+* Students may rely solely on context clues without verifying meaning, leading to partially correct or incorrect understanding of academic terms.
+* Students may believe they should already know all grade-level vocabulary and feel reluctant to ask for clarification or use vocabulary resources.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.6+2
+Standard Description: Use accurately grade-appropriate general academic words and phrases.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will accurately use grade-appropriate general academic vocabulary words in both written and oral communication across content areas.
+* Students will demonstrate understanding of domain-specific and academic phrases by incorporating them appropriately into various contexts.
+* Students will select precise academic language to enhance clarity and sophistication in their writing and speaking.
+* Students will distinguish between informal conversational language and formal academic vocabulary, using each appropriately based on audience and purpose.
+
+Assessment Boundaries:
+* Assessment should focus on words and phrases typically encountered in grade 6 texts across subjects, not specialized technical jargon beyond grade level.
+* Students should be evaluated on appropriate usage in context rather than rote memorization of dictionary definitions.
+* Assessment should not include obscure academic terms rarely used in middle school academic discourse or archaic vocabulary.
+
+Common Misconceptions:
+* Students may believe that using longer or more complex words always makes writing better, leading to awkward or incorrect usage.
+* Students may confuse academic vocabulary with overly formal or pretentious language inappropriate for the context.
+* Students may think academic words are only for English class rather than understanding they apply across all content areas including math, science, and social studies.
+* Students may use academic vocabulary incorrectly by applying words they've heard without fully understanding their meanings or connotations.
+* Students may believe memorizing definitions is sufficient without practicing how to use the words naturally in sentences and various contexts.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: L
+Unit Name: Language
+Cluster ID: CCSS.ELA-LITERACY.L.6.C
+Cluster Name: Vocabulary Acquisition and Use
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.L.6.6+5
+Standard Description: Gather vocabulary knowledge when considering a word or phrase important to comprehension or expression.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will identify words and phrases that are essential to understanding a text's meaning and purpose.
+* Students will independently use multiple strategies (context clues, word parts, reference materials) to determine or clarify the meaning of unknown vocabulary.
+* Students will acquire and accurately use grade-appropriate general academic and domain-specific words and phrases in both oral and written communication.
+* Students will demonstrate the ability to gather and apply vocabulary knowledge to enhance comprehension and expression across content areas.
+
+Assessment Boundaries:
+* Vocabulary should be assessed within authentic reading contexts rather than isolated word lists.
+* Students are not expected to memorize dictionary definitions but should demonstrate understanding through application and use.
+* Assessment should focus on grade-appropriate academic and domain-specific vocabulary, not advanced technical terminology beyond grade 6 complexity.
+
+Common Misconceptions:
+* Students may believe that looking up every unknown word is necessary, rather than determining which words are critical to overall comprehension.
+* Students may think that a single dictionary definition is sufficient, without considering context-dependent meanings or nuanced uses of words.
+* Students may rely solely on context clues and avoid using reference materials when context is insufficient for accurate meaning.
+* Students may confuse recognizing a word with truly understanding its meaning and being able to use it appropriately in different contexts.
+* Students may believe that vocabulary learning is only relevant to English class rather than being essential across all content areas.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RF
+Unit Name: Reading: Foundational Skills
+Cluster ID: CCSS.ELA-LITERACY.RF.2.A
+Cluster Name: Phonics and Word Recognition
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RF.2.3.A
+Standard Description: Distinguish long and short vowels when reading regularly spelled one-syllable words.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will identify and distinguish between long vowel sounds (a, e, i, o, u say their name) and short vowel sounds in one-syllable words.
+* Students will accurately decode regularly spelled one-syllable words by recognizing vowel patterns that indicate long or short vowel sounds.
+* Students will apply knowledge of long and short vowels to read unfamiliar one-syllable words with regular spelling patterns.
+* Students will categorize one-syllable words based on whether they contain long or short vowel sounds.
+
+Assessment Boundaries:
+* Focus should be limited to regularly spelled one-syllable words with common vowel patterns (CVC for short vowels, CVCe and common vowel teams for long vowels).
+* Assessments should not include irregular spellings, vowel diphthongs, r-controlled vowels, or multi-syllable words at this level.
+* Students are not expected to explain complex phonics rules but should demonstrate ability to distinguish vowel sounds through reading.
+
+Common Misconceptions:
+* Students may confuse the vowel's letter name with its short sound (e.g., thinking the letter 'a' always says /ay/ instead of recognizing it can say /ă/ as in 'cat').
+* Students may not recognize that the silent 'e' at the end of words signals a long vowel sound in the middle (e.g., reading 'hope' as 'hop').
+* Students may overgeneralize the silent 'e' rule and try to apply it to words where it doesn't apply or where the 'e' is not silent.
+* Students may struggle to distinguish between similar sounding vowels, particularly short 'e' and short 'i' sounds (e.g., 'pen' vs 'pin').
+* Students may believe that vowel sounds are always consistent, not recognizing that context and spelling patterns determine whether a vowel is long or short.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: RF
+Unit Name: Reading: Foundational Skills
+Cluster ID: CCSS.ELA-LITERACY.RF.2.A
+Cluster Name: Phonics and Word Recognition
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RF.2.3.A+1
+Standard Description: Distinguish long and short vowels when reading regularly spelled one-syllable words.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will identify and distinguish between long vowel sounds (a, e, i, o, u say their names) and short vowel sounds in one-syllable words.
+* Students will decode regularly spelled one-syllable words by recognizing vowel patterns that indicate long vowels (such as CVCe, vowel teams) versus short vowels (CVC).
+* Students will accurately read aloud one-syllable words with both long and short vowel sounds with appropriate pronunciation.
+* Students will classify one-syllable words into categories based on whether they contain long or short vowel sounds.
+
+Assessment Boundaries:
+* Assessment should focus on regularly spelled one-syllable words only, not irregularly spelled sight words or multi-syllable words.
+* Students are not expected to explain advanced phonics rules or exceptions at this grade level, only to distinguish and read the vowel sounds correctly.
+* Assessment should not include vowel patterns with r-controlled vowels (ar, er, ir, or, ur) or advanced diphthongs beyond basic long vowel patterns.
+
+Common Misconceptions:
+* Students may confuse the term 'long vowel' with a vowel that is held longer in duration rather than understanding it as a vowel that 'says its name.'
+* Students may not recognize that the silent 'e' at the end of a word (CVCe pattern) makes the preceding vowel long, reading 'cape' as 'cap.'
+* Students may overgeneralize the CVC pattern and read all one-syllable words with short vowels, even when vowel teams (ee, ai, oa) are present.
+* Students may struggle to distinguish between similar sounding vowels such as short 'i' and short 'e' (pin/pen) or long 'a' and long 'e' (late/lete).
+* Students may believe that the length of the word determines whether a vowel is long or short, rather than the vowel pattern within the word.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RF
+Unit Name: Reading: Foundational Skills
+Cluster ID: CCSS.ELA-LITERACY.RF.2.A
+Cluster Name: Phonics and Word Recognition
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RF.2.3.B
+Standard Description: Know spelling-sound correspondences for additional common vowel teams.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will identify and pronounce common vowel teams including ai, ay, ee, ea, oa, ow, oo, ou, oi, oy, au, and aw in single-syllable and multi-syllable words.
+* Students will decode words containing vowel teams by applying knowledge of spelling-sound correspondences.
+* Students will distinguish between different vowel team patterns and their corresponding sounds in written text.
+* Students will read grade-level texts fluently by automatically recognizing words with common vowel teams.
+
+Assessment Boundaries:
+* Assessment should focus on common vowel teams appropriate for Grade 2 (ai, ay, ee, ea, oa, ow, oo, ou, oi, oy, au, aw) rather than advanced or rare vowel patterns.
+* Students are not expected to explain complex phonics rules or exceptions, but rather to recognize and apply vowel team patterns in reading.
+* Assessment should not include vowel teams combined with r-controlled vowels or advanced diphthongs beyond the scope of second grade.
+
+Common Misconceptions:
+* Students may confuse vowel teams that make similar sounds, such as 'ai' and 'ay', not recognizing that 'ay' typically appears at the end of words while 'ai' appears in the middle.
+* Students may believe that vowel teams always make one consistent sound, when some teams like 'oo' can make multiple sounds (as in 'book' vs. 'moon') and 'ea' can sound like long e or short e.
+* Students may try to sound out each vowel in a vowel team separately rather than recognizing that the two vowels work together to make one sound.
+* Students may overgeneralize vowel team rules and attempt to apply them to words where vowels appear adjacent but do not function as a team (such as in 'quiet' or 'create').
+* Students may confuse the vowel teams 'oi' and 'oy', not recognizing positional patterns, or mix up 'ou' and 'ow' which can represent similar sounds in different contexts.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: RF
+Unit Name: Reading: Foundational Skills
+Cluster ID: CCSS.ELA-LITERACY.RF.2.A
+Cluster Name: Phonics and Word Recognition
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RF.2.3.B+1
+Standard Description: Know spelling-sound correspondences for common vowel teams.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will identify and read common vowel teams (such as ai, ay, ea, ee, oa, ow, oo, ou) in single-syllable and multi-syllable words.
+* Students will apply knowledge of vowel team spelling-sound correspondences to decode unfamiliar words accurately.
+* Students will distinguish between different vowel teams that produce the same sound (such as ai/ay or ee/ea) and recognize their patterns in words.
+* Students will spell words containing common vowel teams by applying their understanding of spelling-sound correspondences.
+
+Assessment Boundaries:
+* Assessment should focus on common vowel teams appropriate for grade 2 (ai, ay, ea, ee, oa, ow, oo, ou, ie, ue) rather than rare or complex vowel combinations.
+* Students are not expected to master all spelling variations or explain etymological reasons for vowel team patterns at this grade level.
+* Assessment should emphasize reading and spelling accuracy rather than speed or advanced phonological analysis.
+
+Common Misconceptions:
+* Students may confuse vowel teams with consonant blends or digraphs, not recognizing that vowel teams represent vowel sounds.
+* Students often incorrectly assume that all vowel teams follow a single, consistent sound pattern (e.g., thinking 'ea' always makes the long 'e' sound as in 'read' rather than recognizing it can also sound like short 'e' as in 'bread').
+* Students may separate vowel teams and try to sound out each letter individually rather than recognizing them as a unit that makes one sound.
+* Students frequently overgeneralize patterns, applying one vowel team rule to all similar combinations (e.g., assuming all words ending in 'ow' sound like 'snow' rather than recognizing 'cow' has a different sound).
+* Students may struggle to differentiate between vowel teams that produce similar sounds, such as confusing when to use 'ai' versus 'ay' or 'ee' versus 'ea' in spelling.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RF
+Unit Name: Reading: Foundational Skills
+Cluster ID: CCSS.ELA-LITERACY.RF.2.A
+Cluster Name: Phonics and Word Recognition
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RF.2.3.C
+Standard Description: Decode regularly spelled two-syllable words with long vowels.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will decode two-syllable words containing long vowel patterns (CVCe, vowel teams, open syllables) with accuracy and automaticity.
+* Students will identify and apply syllable division patterns to break apart two-syllable words with long vowels for decoding.
+* Students will read two-syllable words with long vowels fluently in connected text at the second-grade level.
+
+Assessment Boundaries:
+* Focus should be on regularly spelled two-syllable words only; irregular spelling patterns and multisyllabic words beyond two syllables are not the focus of this standard.
+* Words should contain predictable long vowel patterns such as silent e, vowel teams (ai, ea, oa, etc.), and open syllables; complex vowel patterns and r-controlled vowels are beyond this standard.
+* Assessment should emphasize decoding accuracy rather than vocabulary knowledge or comprehension of word meanings.
+
+Common Misconceptions:
+* Students may treat two-syllable words as single-syllable words, failing to recognize syllable boundaries and reading them incorrectly (e.g., reading 'mistake' as 'mistayke').
+* Students may incorrectly apply short vowel sounds instead of long vowel sounds when they don't recognize the long vowel pattern (e.g., reading 'locate' with a short 'o' sound).
+* Students may struggle to identify which syllable is open (ends in a vowel with a long sound) versus closed (ends in a consonant with a short sound).
+* Students may decode each syllable correctly in isolation but struggle to blend the syllables together smoothly to form the complete word.
+* Students may confuse vowel team patterns across syllables, applying the wrong pattern or breaking the word at inappropriate points (e.g., splitting vowel teams like 'ea' or 'ai' across syllables).
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: RF
+Unit Name: Reading: Foundational Skills
+Cluster ID: CCSS.ELA-LITERACY.RF.2.A
+Cluster Name: Phonics and Word Recognition
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RF.2.3.C+1
+Standard Description: Decode regularly spelled two-syllable words with long vowels.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will decode two-syllable words containing long vowel patterns (CVCe, vowel teams, and open syllables) with at least 80% accuracy.
+* Students will identify and apply knowledge of long vowel spelling patterns when reading unfamiliar two-syllable words.
+* Students will segment two-syllable words with long vowels into individual syllables to support decoding.
+* Students will read two-syllable words with long vowels fluently in connected text.
+
+Assessment Boundaries:
+* Focus should be on regularly spelled words with common long vowel patterns (a_e, ai, ay, e_e, ea, ee, i_e, igh, o_e, oa, ow, u_e, ue, ew); irregular or exception words are beyond this standard.
+* Assessment should exclude words with three or more syllables and advanced vowel patterns such as diphthongs or r-controlled vowels unless previously taught.
+* Words should follow predictable syllable division patterns (VC/CV, V/CV, VC/V); complex multisyllabic words with unusual divisions are not expected at this level.
+
+Common Misconceptions:
+* Students may treat long vowel patterns as short vowels, reading 'make' as 'mak' or 'sweet' as 'swet' because they don't recognize the vowel pattern.
+* Students may struggle to identify syllable breaks and attempt to decode two-syllable words as single units, leading to confusion and incorrect pronunciation.
+* Students may overgeneralize the silent 'e' rule and expect all words ending in 'e' to have a long vowel in the first syllable.
+* Students may confuse vowel teams and read them as individual sounds rather than as a single long vowel sound (e.g., reading 'ea' in 'peanut' as two separate vowel sounds).
+* Students may reverse the order of letters in vowel teams, reading 'oa' as 'ao' or 'ai' as 'ia', particularly in unfamiliar words.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RF
+Unit Name: Reading: Foundational Skills
+Cluster ID: CCSS.ELA-LITERACY.RF.2.A
+Cluster Name: Phonics and Word Recognition
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RF.2.3.D
+Standard Description: Decode words with common prefixes and suffixes.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will identify common prefixes (un-, re-, pre-, dis-) and suffixes (-ful, -less, -er, -est, -ly, -ing, -ed, -s) in written words.
+* Students will decode multisyllabic words by recognizing and separating prefixes and suffixes from base words.
+* Students will apply knowledge of prefixes and suffixes to determine the pronunciation of unfamiliar words.
+* Students will demonstrate understanding that prefixes and suffixes change the meaning of base words while maintaining the base word's pronunciation pattern.
+
+Assessment Boundaries:
+* Limit prefixes to common grade-appropriate forms: un-, re-, pre-, dis-, mis-. Limit suffixes to: -s, -es, -ed, -ing, -er, -est, -ful, -less, -ly, -y.
+* Focus on decoding (pronunciation) rather than meaning of prefixes and suffixes at this level.
+* Base words should be previously mastered single-syllable words with regular spelling patterns appropriate for second grade.
+
+Common Misconceptions:
+* Students may believe that every word beginning with common letter patterns (un-, re-, pre-) contains a prefix, even when those letters are part of the base word (e.g., 'under' or 'uncle' do not contain the prefix 'un-').
+* Students may attempt to decode the prefix or suffix as a separate word rather than as an affix that modifies the base word.
+* Students may fail to recognize the base word when spelling changes occur with suffix addition (e.g., 'happy' becomes 'happiest' with the y changing to i).
+* Students may incorrectly divide words, separating letter combinations that look like affixes but are actually part of the base word or root.
+* Students may pronounce affixes in isolation correctly but struggle to blend them smoothly with the base word for fluent reading.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: RF
+Unit Name: Reading: Foundational Skills
+Cluster ID: CCSS.ELA-LITERACY.RF.2.A
+Cluster Name: Phonics and Word Recognition
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RF.2.3.D+1
+Standard Description: Decode words with common prefixes.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will identify common prefixes (un-, re-, pre-, mis-, dis-) in written words.
+* Students will decode words containing common prefixes by separating the prefix from the base word.
+* Students will demonstrate understanding that prefixes change the meaning of base words.
+* Students will accurately read multisyllabic words with common prefixes in connected text.
+
+Assessment Boundaries:
+* Focus should be limited to high-frequency prefixes appropriate for grade 2 (un-, re-, pre-, mis-, dis-) rather than advanced or less common prefixes.
+* Base words should be decodable at the second-grade level; avoid complex base words that students cannot yet decode independently.
+* Assessment should focus on decoding skills rather than deep vocabulary knowledge or multiple meanings of prefixes.
+
+Common Misconceptions:
+* Students may believe that any letters at the beginning of a word constitute a prefix (e.g., thinking 'un' in 'under' is a prefix when 'der' is not a base word).
+* Students may struggle to recognize that the prefix must be separated from a recognizable base word (e.g., incorrectly separating 'uncle' into 'un-cle').
+* Students may decode the prefix and base word separately but fail to blend them together smoothly to read the whole word.
+* Students may recognize prefixes in isolation but not apply this knowledge when encountering prefixed words in connected text.
+* Students may confuse the meanings of similar prefixes or apply incorrect meanings to base words (e.g., thinking 'unhappy' means 'happy again' instead of 'not happy').
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: RF
+Unit Name: Reading: Foundational Skills
+Cluster ID: CCSS.ELA-LITERACY.RF.2.A
+Cluster Name: Phonics and Word Recognition
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RF.2.3.D+2
+Standard Description: Decode words with common suffixes.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will accurately decode words containing common suffixes such as -ed, -ing, -er, -est, -y, -ly, -ful, -less, and -ness.
+* Students will identify the base word and suffix in multisyllabic words.
+* Students will apply knowledge of suffixes to read unfamiliar words in context.
+* Students will recognize how adding a suffix changes the meaning and/or function of a base word.
+
+Assessment Boundaries:
+* Students are not expected to decode words with multiple suffixes or complex suffix combinations at this grade level.
+* Focus should remain on high-frequency, common suffixes appropriate for grade 2; avoid advanced suffixes like -tion, -sion, or -ance.
+* Students should work with base words that follow regular spelling patterns; irregular base word changes (e.g., happy to happiest) may be introduced but should not be the primary focus of assessment.
+
+Common Misconceptions:
+* Students may not recognize that the base word sometimes changes spelling when a suffix is added (e.g., hop becomes hopping, happy becomes happier).
+* Students may try to decode each letter individually rather than recognizing the suffix as a meaningful chunk.
+* Students may confuse similar-looking suffixes such as -er (one who does) and -er (more), leading to meaning confusion.
+* Students may believe that every word ending matches a suffix pattern, attempting to separate non-suffix endings (e.g., treating 'her' as 'h' + 'er').
+* Students may struggle to identify where the base word ends and the suffix begins, especially when consonants are doubled or letters are dropped.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RF
+Unit Name: Reading: Foundational Skills
+Cluster ID: CCSS.ELA-LITERACY.RF.2.A
+Cluster Name: Phonics and Word Recognition
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RF.2.3.E
+Standard Description: Identify words with inconsistent but common spelling-sound correspondences.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will recognize and read words with common irregular spelling patterns such as words with silent letters (e.g., knee, write, comb).
+* Students will identify and decode words with vowel teams that have irregular pronunciations (e.g., said, bread, could).
+* Students will read words with common exception spellings including sight words with unusual spelling-sound relationships (e.g., they, was, love, have).
+* Students will distinguish between regular phonetic patterns and irregular spelling-sound correspondences in grade-level appropriate texts.
+
+Assessment Boundaries:
+* Focus should be limited to high-frequency irregular words appropriate for second grade, not advanced or rare exceptions.
+* Students are not expected to explain the historical or etymological reasons for irregular spellings, only to recognize and read them.
+* Assessment should emphasize reading/decoding rather than spelling mastery of irregular words at this grade level.
+
+Common Misconceptions:
+* Students may attempt to apply regular phonics rules to irregular words, pronouncing 'said' as 'sayed' or 'have' as 'hayv'.
+* Students may believe that all words can be sounded out using standard letter-sound relationships and become frustrated with exceptions.
+* Students may confuse similar-looking irregular words (e.g., 'was' and 'saw', 'of' and 'if') due to their high frequency and unusual patterns.
+* Students may over-generalize one irregular pattern to other words, such as thinking all '-ould' words sound like 'could', 'would', 'should'.
+* Students may not recognize that some letters in irregular words are silent and attempt to pronounce every letter they see (e.g., pronouncing the 'k' in 'knee' or 'w' in 'write').
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: RF
+Unit Name: Reading: Foundational Skills
+Cluster ID: CCSS.ELA-LITERACY.RF.2.A
+Cluster Name: Phonics and Word Recognition
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RF.2.3.E+1
+Standard Description: Identify words with inconsistent but common spelling-sound correspondences.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will recognize and read words with irregular spelling patterns such as said, was, are, and does.
+* Students will identify common words that do not follow typical phonics rules and decode them using sight word strategies.
+* Students will distinguish between words that follow regular phonics patterns and those with inconsistent spelling-sound correspondences.
+* Students will apply knowledge of common irregular spellings to read grade-level texts with accuracy and fluency.
+
+Assessment Boundaries:
+* Focus should be on high-frequency irregular words appropriate for grade 2, not advanced multi-syllabic words or rare exceptions.
+* Students are not expected to explain the historical or linguistic reasons why words have irregular spellings.
+* Assessment should focus on recognition and reading of irregular words rather than spelling production at this level.
+
+Common Misconceptions:
+* Students may attempt to sound out irregular words phonetically (e.g., reading 'said' as 'sayed' or 'was' as 'wass').
+* Students may believe all words can be decoded using standard phonics rules they have learned.
+* Students may confuse visually similar irregular words (e.g., 'was' and 'saw', 'are' and 'ear').
+* Students may overgeneralize patterns and expect all words with similar spellings to sound the same (e.g., expecting 'come' to rhyme with 'home').
+* Students may not recognize that some words need to be memorized as whole words rather than sounded out letter by letter.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RF
+Unit Name: Reading: Foundational Skills
+Cluster ID: CCSS.ELA-LITERACY.RF.2.A
+Cluster Name: Phonics and Word Recognition
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RF.2.3.F
+Standard Description: Recognize and read grade-appropriate irregularly spelled words.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will recognize and accurately read high-frequency irregularly spelled words commonly found in second-grade texts (e.g., could, should, would, said, through, come, some).
+* Students will demonstrate automatic word recognition of grade-appropriate sight words without relying on phonetic decoding strategies.
+* Students will read connected text fluently using knowledge of irregularly spelled words to support reading comprehension.
+* Students will distinguish between words that follow regular phonetic patterns and those that must be learned as whole words due to irregular spelling patterns.
+
+Assessment Boundaries:
+* Focus should be on common irregular words appropriate for second grade, not advanced or rare irregularly spelled words from higher grades.
+* Assessment should emphasize recognition and reading fluency rather than spelling or writing of irregular words at this stage.
+* Words should be assessed both in isolation and within context of grade-level appropriate sentences and passages.
+
+Common Misconceptions:
+* Students may attempt to sound out irregular words phonetically, leading to incorrect pronunciations (e.g., reading 'said' as 'sayed' or 'through' as 'threw-guh').
+* Students may confuse similar-looking irregular words with different pronunciations (e.g., 'though,' 'thought,' 'through,' and 'tough').
+* Students may believe that all words can be decoded using phonics rules and become frustrated when phonetic strategies do not work for irregular words.
+* Students may overgeneralize patterns from irregular words, applying irregular pronunciations to regularly spelled words (e.g., reading 'shout' like 'should').
+* Students may memorize irregular words in isolation but fail to recognize them quickly when encountered in connected text or different contexts.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: RF
+Unit Name: Reading: Foundational Skills
+Cluster ID: CCSS.ELA-LITERACY.RF.2.A
+Cluster Name: Phonics and Word Recognition
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RF.2.3.F+1
+Standard Description: Recognize and read grade-appropriate irregularly spelled words.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will accurately recognize and read high-frequency irregularly spelled words commonly found in second-grade texts, such as 'said', 'does', 'because', and 'friends'.
+* Students will decode irregularly spelled words automatically and fluently without relying on phonetic patterns.
+* Students will demonstrate mastery of grade-appropriate sight words through reading connected text with at least 90% accuracy.
+* Students will apply knowledge of irregularly spelled words to improve reading fluency and comprehension in authentic reading contexts.
+
+Assessment Boundaries:
+* Assessments should focus on irregularly spelled words appropriate for second grade and should not include words that are typically introduced in third grade or beyond.
+* Students are not expected to explain why words are spelled irregularly, only to recognize and read them accurately.
+* Assessment should emphasize automatic recognition rather than analysis of word parts or spelling rules for irregular words.
+
+Common Misconceptions:
+* Students may try to sound out irregularly spelled words phonetically, leading to incorrect pronunciations (e.g., reading 'said' as 'sade' or 'through' as 'throw-ugh').
+* Students may confuse irregularly spelled words that look similar, such as 'there', 'their', and 'they're' or 'were' and 'where'.
+* Students may believe all words follow regular phonetic patterns and become frustrated when decoding strategies do not work for irregular words.
+* Students may memorize words in isolation but fail to recognize them when encountered in context or different fonts.
+* Students may overgeneralize patterns from regular words to irregular words, expecting 'have' to rhyme with 'cave' or 'love' to rhyme with 'move'.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RF
+Unit Name: Reading: Foundational Skills
+Cluster ID: CCSS.ELA-LITERACY.RF.2.A
+Cluster Name: Phonics and Word Recognition
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RF.2.4.A
+Standard Description: Read grade-level text with purpose and understanding.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will read grade-level texts orally with accuracy, appropriate rate, and expression.
+* Students will demonstrate comprehension of grade-level texts by identifying main ideas and key details.
+* Students will self-monitor their reading and use context clues to maintain understanding of the text.
+* Students will read grade-level texts independently for different purposes such as for information, enjoyment, or to follow directions.
+
+Assessment Boundaries:
+* Texts should be within the 2nd grade complexity band (Lexile range 420L-650L) and should not include above-grade-level vocabulary or concepts without support.
+* Assessment should focus on comprehension and fluency of grade-appropriate texts rather than decoding skills in isolation.
+* Students are not expected to analyze literary devices or themes beyond basic understanding at this grade level.
+
+Common Misconceptions:
+* Students may believe that reading fast means reading well, without understanding that comprehension and accuracy are equally important.
+* Students may think that sounding out every word correctly means they understand the text, when they may not be constructing meaning.
+* Students may assume that if they can decode the words, they automatically understand the purpose and content of the text.
+* Students may not recognize when they lose comprehension and may continue reading without self-correcting or seeking clarification.
+* Students may believe that reading with expression is only for read-alouds and not necessary for understanding text independently.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: RF
+Unit Name: Reading: Foundational Skills
+Cluster ID: CCSS.ELA-LITERACY.RF.2.A
+Cluster Name: Phonics and Word Recognition
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RF.2.4.A+1
+Standard Description: Read grade-level text with purpose and understanding.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will read grade-level texts accurately with appropriate rate and expression to demonstrate comprehension.
+* Students will identify the purpose of a text (to inform, entertain, or persuade) before and during reading.
+* Students will answer questions about key details in a text to show understanding of what was read.
+* Students will self-monitor reading comprehension and use strategies to clarify meaning when understanding breaks down.
+
+Assessment Boundaries:
+* Texts should be within the grade 2 complexity band (Lexile range 420L-650L) and should not include advanced literary devices or vocabulary beyond grade level.
+* Assessment should focus on literal comprehension and basic inferential understanding, not on analysis of author's craft or complex theme identification.
+* Students are not expected to read texts fluently that contain specialized technical vocabulary or content significantly beyond their background knowledge without instructional support.
+
+Common Misconceptions:
+* Students may believe that reading quickly always means reading well, not understanding that purposeful reading includes adjusting pace based on text difficulty and purpose.
+* Students may think they understand a text if they can decode all the words, without recognizing that comprehension requires making meaning from those words.
+* Students may confuse reading aloud with expression as 'performing' rather than understanding it as a demonstration of comprehension.
+* Students may believe that all texts have the same purpose or may not recognize that identifying purpose helps guide their reading strategies.
+* Students may think that good readers never get confused, rather than understanding that skilled readers recognize when they don't understand and use fix-up strategies.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RF
+Unit Name: Reading: Foundational Skills
+Cluster ID: CCSS.ELA-LITERACY.RF.2.A
+Cluster Name: Phonics and Word Recognition
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RF.2.4.B
+Standard Description: Read grade-level text orally with accuracy, appropriate rate, and expression on successive readings.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Read grade-level texts aloud with 90% or greater accuracy, self-correcting errors that affect meaning
+* Read grade-level texts at an appropriate rate of approximately 60-90 words per minute by the end of grade 2
+* Use appropriate expression, phrasing, and intonation when reading grade-level texts aloud, including dialogue and punctuation cues
+* Demonstrate improved fluency through multiple readings of the same text, showing increased accuracy, rate, and prosody with each successive reading
+
+Assessment Boundaries:
+* Texts should be at grade 2 complexity level (Lexile range 420L-650L) and not exceed early grade 3 difficulty
+* Assessment should focus on oral reading fluency rather than silent reading comprehension, though basic comprehension may be checked to ensure reading with meaning
+* Students are not expected to read with performance-level dramatic interpretation, but should demonstrate basic expression that reflects understanding of the text
+
+Common Misconceptions:
+* Students may believe that reading faster always means reading better, prioritizing speed over accuracy and expression
+* Students may think that making any mistake requires starting over from the beginning rather than self-correcting and continuing
+* Students may read word-by-word in a choppy manner without appropriate phrasing or attention to punctuation marks
+* Students may believe that reading with expression means using an overly dramatic or unnatural voice rather than natural, meaningful inflection
+* Students may not understand that fluency improves with repeated readings of the same text and may resist rereading familiar passages
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RF
+Unit Name: Reading: Foundational Skills
+Cluster ID: CCSS.ELA-LITERACY.RF.2.A
+Cluster Name: Phonics and Word Recognition
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RF.2.4.C
+Standard Description: Use context to confirm or self-correct word recognition and understanding, rereading as necessary.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will use context clues from surrounding words and sentences to confirm whether a word they read makes sense in the passage.
+* Students will recognize when a word they have read does not make sense in context and reread to self-correct their error.
+* Students will apply fix-up strategies, including rereading sentences or passages, to improve word recognition and comprehension.
+* Students will monitor their own reading for meaning and accuracy, pausing to correct mistakes when text does not make sense.
+
+Assessment Boundaries:
+* Focus should be on grade-level appropriate texts and high-frequency words suitable for second grade readers.
+* Context clues should be evident within the same sentence or immediately surrounding sentences, not requiring complex inferencing across multiple paragraphs.
+* Self-correction should focus on word recognition and basic understanding rather than complex literary analysis or abstract comprehension.
+
+Common Misconceptions:
+* Students may believe that reading quickly without pausing to check for meaning is better than reading carefully and self-correcting.
+* Students may think that making mistakes while reading means they are poor readers, rather than understanding that self-correction is a sign of good reading habits.
+* Students may continue reading even when text does not make sense, failing to recognize that confusion is a signal to reread.
+* Students may rely solely on sounding out words without checking whether the decoded word makes sense in the sentence context.
+* Students may believe they should only reread when told to do so by a teacher, rather than developing the habit of self-monitoring independently.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: RF
+Unit Name: Reading: Foundational Skills
+Cluster ID: CCSS.ELA-LITERACY.RF.2.A
+Cluster Name: Phonics and Word Recognition
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RF.2.4.C+1
+Standard Description: Use context to confirm or self-correct word recognition and understanding, rereading as necessary.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will use context clues from sentences and surrounding text to confirm whether a word they read makes sense in the passage.
+* Students will identify when a word they read does not fit the context and independently reread to self-correct their error.
+* Students will apply multiple strategies including picture clues, sentence meaning, and prior knowledge to verify word recognition accuracy.
+* Students will demonstrate metacognitive awareness by monitoring their own comprehension and adjusting reading strategies when meaning breaks down.
+
+Assessment Boundaries:
+* Context clues should come from grade-level appropriate texts with familiar topics and vocabulary that second graders can reasonably understand.
+* Self-correction expectations should focus on words within second grade phonics patterns and high-frequency word lists, not advanced multisyllabic words beyond grade level.
+* Assessment should not require students to explain complex linguistic terminology but rather demonstrate the practical application of context-based self-correction during reading.
+
+Common Misconceptions:
+* Students may believe that reading faster is always better, not understanding that slowing down and rereading is a valuable strategy for skilled readers.
+* Students may think that making mistakes while reading means they are poor readers, rather than understanding that self-correction is a sign of active reading and comprehension monitoring.
+* Students may rely exclusively on sounding out words phonetically without checking whether the resulting word makes sense in context.
+* Students may substitute words that look similar or start with the same letter without verifying that the substituted word fits the meaning of the sentence.
+* Students may continue reading even when comprehension breaks down, not recognizing that confusion is a signal to stop and reread.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RF
+Unit Name: Reading: Foundational Skills
+Cluster ID: CCSS.ELA-LITERACY.RF.5.A
+Cluster Name: Phonics and Word Recognition
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RF.5.3.A
+Standard Description: Use combined knowledge of all letter-sound correspondences, syllabication patterns, and morphology (e.g., roots and affixes) to read accurately unfamiliar multisyllabic words in context and out of context.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will apply knowledge of letter-sound correspondences, syllabication patterns, and morphology to decode unfamiliar multisyllabic words with at least 80% accuracy.
+* Students will identify and use roots, prefixes, and suffixes to determine pronunciation and meaning of unfamiliar multisyllabic words in both isolated and contextual settings.
+* Students will segment multisyllabic words into syllables using appropriate syllabication patterns (closed, open, vowel-consonant-e, vowel team, r-controlled, and consonant-le) to aid in accurate reading.
+* Students will demonstrate fluent reading of grade-level text containing multisyllabic words by integrating decoding strategies automatically.
+
+Assessment Boundaries:
+* Focus should be on multisyllabic words appropriate for grade 5 level; avoid assessment with words containing highly irregular spelling patterns or obscure vocabulary beyond grade level expectations.
+* Assessment should include both in-context (within sentences and passages) and out-of-context (word lists) reading to evaluate comprehensive decoding skills.
+* Students are not expected to provide formal linguistic terminology for all syllable types or morphemes, but should demonstrate practical application of these concepts in decoding.
+
+Common Misconceptions:
+* Students may believe that every syllable must contain a consonant, not recognizing that syllables are built around vowel sounds and some syllables consist only of a vowel.
+* Students often struggle with vowel sounds in unstressed syllables, defaulting to short vowel sounds rather than recognizing the schwa sound in multisyllabic words.
+* Students may incorrectly divide words between double consonants in all cases, not recognizing exceptions based on root words and affixes (e.g., dividing 'runner' as 'runn-er' instead of 'run-ner').
+* Students frequently misapply syllabication rules when prefixes and suffixes are present, attempting to break within the affix rather than separating the affix as a unit from the root.
+* Students may rely too heavily on context clues and skip the actual decoding process, leading to inaccurate word reading and poor transfer to out-of-context situations.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RF
+Unit Name: Reading: Foundational Skills
+Cluster ID: CCSS.ELA-LITERACY.RF.5.B
+Cluster Name: Fluency
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RF.5.4.A
+Standard Description: Read grade-level text with purpose and understanding.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will read grade-level prose and poetry aloud with accuracy, appropriate rate, and expression to demonstrate comprehension.
+* Students will identify and articulate the purpose for reading a given text (e.g., to be entertained, to gain information, to learn a new procedure).
+* Students will demonstrate understanding of grade-level text by answering literal and inferential comprehension questions.
+* Students will self-monitor comprehension while reading and employ fix-up strategies when meaning breaks down.
+
+Assessment Boundaries:
+* Texts should be at grade 5 complexity level (Lexile range 740L-1010L) and should not require extensive background knowledge beyond grade-level expectations.
+* Assessments should focus on comprehension of the text rather than isolated decoding skills or vocabulary knowledge outside of context.
+* Reading tasks should include a clear purpose (informational, entertainment, problem-solving) rather than reading without context or objective.
+
+Common Misconceptions:
+* Students may believe that reading fluently (quickly and smoothly) is the same as reading with understanding, when fluency is only one component of comprehension.
+* Students may think that reading with purpose only applies to informational texts, not realizing that all reading should have an intentional goal including reading fiction for enjoyment or analysis.
+* Students may assume that if they can decode all the words in a text, they automatically understand it, without actively constructing meaning or making inferences.
+* Students may not recognize when their comprehension has broken down, continuing to read without employing fix-up strategies like rereading, slowing down, or using context clues.
+* Students may believe that understanding a text means remembering all details, rather than grasping main ideas, themes, and key supporting information relevant to their reading purpose.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RF
+Unit Name: Reading: Foundational Skills
+Cluster ID: CCSS.ELA-LITERACY.RF.5.B
+Cluster Name: Fluency
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RF.5.4.B
+Standard Description: Read grade-level prose and poetry orally with accuracy, appropriate rate, and expression on successive readings.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will read grade-level prose passages aloud with at least 95% accuracy, self-correcting errors when meaning is disrupted.
+* Students will read grade-level poetry aloud using appropriate pacing and rhythm that reflects understanding of the text's structure and meaning.
+* Students will demonstrate expressive reading by adjusting tone, volume, and emphasis to match the mood, dialogue, and punctuation in grade-level texts.
+* Students will show improvement in fluency across successive readings of the same text, demonstrating increased automaticity and prosody.
+
+Assessment Boundaries:
+* Assessment should focus on grade 5 appropriate texts (Lexile range 740L-1010L) and not require students to read texts significantly above or below grade level.
+* Assessment should measure observable oral reading behaviors (accuracy, rate, expression) and not conflate fluency with comprehension or written analysis.
+* Students should be given opportunities for practice readings before formal fluency assessment, as the standard explicitly references 'successive readings.'
+
+Common Misconceptions:
+* Students may believe that reading faster always equals better fluency, when appropriate rate means reading at a pace that supports comprehension and expression.
+* Students may think fluency only involves reading words correctly, overlooking the importance of prosody (expression, phrasing, and intonation).
+* Students may assume that fluent reading should sound the same every time, rather than understanding that expression should vary based on text type, purpose, and audience.
+* Students may believe that struggling readers should always read silently, when research shows that repeated oral reading with feedback improves overall reading proficiency.
+* Students may think that once they can read a text fluently, they no longer need to practice oral reading, missing opportunities to refine expression and interpretation.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RF
+Unit Name: Reading: Foundational Skills
+Cluster ID: CCSS.ELA-LITERACY.RF.5.B
+Cluster Name: Fluency
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RF.5.4.C
+Standard Description: Use context to confirm or self-correct word recognition and understanding, rereading as necessary.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will use context clues from surrounding sentences and paragraphs to confirm the meaning of unfamiliar words and verify their initial word recognition.
+* Students will self-monitor their reading comprehension and recognize when a word doesn't make sense in context, prompting them to reread and self-correct.
+* Students will apply multiple strategies including rereading, using syntax clues, and semantic clues to accurately decode and understand words in grade-level texts.
+* Students will demonstrate metacognitive awareness by pausing to verify word meaning and pronunciation when comprehension breaks down during independent reading.
+
+Assessment Boundaries:
+* Assessment should focus on students' ability to use context during actual reading tasks rather than isolated skill exercises removed from authentic text.
+* Students are not expected to know technical grammatical terminology to explain their self-correction process, but should be able to demonstrate the skill in practice.
+* At grade 5, students should work with grade-level complex texts; assessment should not rely solely on texts significantly below grade level.
+
+Common Misconceptions:
+* Students may believe that good readers never make mistakes, leading them to avoid self-correction or hide reading errors rather than viewing self-correction as a positive reading strategy.
+* Students may think context clues only come from the immediate sentence, rather than understanding that context can come from previous paragraphs or even general knowledge about the topic.
+* Students may assume that if they can pronounce a word, they understand it, failing to verify that their pronunciation and interpretation make sense in the given context.
+* Students may believe rereading is only for struggling readers, not recognizing that proficient readers regularly reread to confirm understanding and clarify meaning.
+* Students may rely too heavily on sounding out words phonetically without checking whether the decoded word makes sense in the context of the passage.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.2.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.2.1
+Standard Description: Ask and answer such questions as who, what, where, when, why, and how to demonstrate understanding of key details in a text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will ask and answer who, what, where, when, why, and how questions about key details in an informational text.
+* Students will locate and identify specific information in a text to answer comprehension questions.
+* Students will demonstrate understanding of main ideas and important details by formulating relevant questions about informational texts.
+* Students will use text evidence to support their answers to questions about informational texts.
+
+Assessment Boundaries:
+* Questions should focus on explicit key details directly stated in grade-level appropriate informational texts, not inferential or abstract concepts beyond second grade complexity.
+* Texts should be at or slightly below grade 2 reading level with clear organizational structure and age-appropriate content.
+* Assessment should not require students to synthesize information across multiple complex texts or make sophisticated inferences beyond basic comprehension.
+
+Common Misconceptions:
+* Students may confuse the different question words (who, what, where, when, why, how) and use them interchangeably without understanding their specific purposes.
+* Students may provide answers based on prior knowledge or personal experience rather than finding evidence directly in the text.
+* Students may focus only on interesting details rather than identifying the key details that are most important to understanding the text.
+* Students may think that any question about the text is acceptable, rather than understanding that questions should focus on important information and key details.
+* Students may answer questions with single words when complete sentence responses with text evidence are expected.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.2.D
+Cluster Name: Range of Reading and Level of Text Complexity
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.2.10
+Standard Description: By the end of year, read and comprehend informational texts, including history/social studies, science, and technical texts, in the grades 2 3 text complexity band proficiently, with scaffolding as needed at the high end of the range.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will independently read and understand informational texts at the second grade level with fluency and comprehension.
+* Students will apply comprehension strategies to access grade 2-3 informational texts in history/social studies, science, and technical subjects.
+* Students will use scaffolding supports (such as graphic organizers, text features, or teacher guidance) when reading more complex informational texts at the high end of the grade 2-3 band.
+* Students will demonstrate proficiency in extracting information and understanding main ideas from a variety of informational text types by the end of second grade.
+
+Assessment Boundaries:
+* Texts should fall within the Lexile range of 420L-650L or the grades 2-3 text complexity band; texts beyond this range are not appropriate for this standard.
+* Students are not expected to read grade 2-3 high-end texts completely independently without any support; scaffolding is acceptable and expected for more complex texts.
+* Assessment should focus on comprehension of informational content rather than advanced literary analysis or abstract interpretation beyond grade level expectations.
+
+Common Misconceptions:
+* Teachers may believe students must read all texts independently without support, when scaffolding is explicitly mentioned as appropriate for texts at the high end of the complexity band.
+* Students may think informational texts are only textbooks, not recognizing that magazines, websites, how-to guides, and biographies are also informational texts.
+* Teachers may assess only narrative or literary texts, overlooking the requirement to include history/social studies, science, and technical texts in reading assessments.
+* Students may struggle to differentiate between reading words accurately and actually comprehending the informational content, believing that decoding alone equals proficiency.
+* Educators may set expectations too low, keeping students only at grade 2 texts rather than gradually exposing them to grade 3 complexity with appropriate supports.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.2.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.2.2
+Standard Description: Identify the main topic of a multi-paragraph text as well as the focus of specific paragraphs within the text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will identify the main topic of a multi-paragraph informational text by analyzing title, headings, and key details.
+* Students will determine the focus of individual paragraphs within a multi-paragraph text by identifying what each paragraph is mostly about.
+* Students will distinguish between the overall main topic of a text and the specific focus of individual paragraphs.
+* Students will explain how individual paragraph topics connect to support the main topic of the entire text.
+
+Assessment Boundaries:
+* Texts should be grade-appropriate informational texts with 3-5 paragraphs and clear organizational structure with accessible vocabulary.
+* Students are not expected to write formal topic sentences or summarize lengthy, complex texts with multiple subtopics at this grade level.
+* Assessment should focus on identifying main topics rather than determining author's purpose or analyzing text structure in depth.
+
+Common Misconceptions:
+* Students may confuse the main topic with interesting details, focusing on a single exciting fact rather than what the whole text is about.
+* Students may believe that the first sentence of a paragraph is always the main focus, rather than understanding that the focus encompasses what the entire paragraph discusses.
+* Students may think each paragraph in a text has a completely different, unrelated topic rather than recognizing how paragraph topics connect to the overall main topic.
+* Students may state the main topic too broadly (e.g., 'animals') or too narrowly (e.g., 'polar bears have white fur') instead of at an appropriate level (e.g., 'how polar bears survive in the Arctic').
+* Students may confuse the main topic with the title of the text, not recognizing that while related, the title may not fully capture what the text is mainly about.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.2.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.2.3
+Standard Description: Describe the connection between a series of historical events, scientific ideas or concepts, or steps in technical procedures in a text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will identify and describe the connections between two or more historical events in an informational text using time-order words such as first, next, then, and last.
+* Students will explain how scientific ideas or concepts are related to each other in a text by identifying cause and effect or sequence relationships.
+* Students will describe the steps in a technical procedure and explain how each step connects to complete a process or task.
+* Students will use text features such as diagrams, timelines, and numbered lists to understand connections between events, ideas, or steps.
+
+Assessment Boundaries:
+* Texts should be grade-level appropriate with clear, explicit connections rather than requiring complex inferential thinking beyond second grade level.
+* Students are not expected to analyze multiple texts simultaneously or synthesize information across different sources at this grade level.
+* Technical procedures should involve familiar, concrete processes with 3-6 clearly defined steps rather than complex multi-step procedures with conditional branches.
+
+Common Misconceptions:
+* Students may simply retell events, ideas, or steps in order without explaining how they are connected or related to each other.
+* Students may confuse the sequence of events with cause and effect relationships, listing what happened without explaining why or how events influenced each other.
+* Students may focus only on the most interesting details rather than identifying the key connections that link events, concepts, or procedural steps.
+* Students may believe that connections only exist if explicitly stated with transition words, missing implicit relationships between ideas.
+* Students may treat each event, concept, or step as isolated information rather than understanding how they build upon or lead to one another to create a complete understanding.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.2.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.2.4
+Standard Description: Determine the meaning of words and phrases in a text relevant to a grade 2 topic or subject area.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will use context clues to determine the meaning of unknown words and phrases in grade-level informational texts.
+* Students will identify and use text features (glossaries, captions, illustrations) to understand the meaning of words related to a specific topic or subject area.
+* Students will demonstrate understanding of domain-specific vocabulary by explaining meanings in their own words.
+* Students will distinguish between literal and non-literal meanings of words and phrases in informational texts.
+
+Assessment Boundaries:
+* Words and phrases should be appropriate for grade 2 reading level and relate to topics typically covered in second grade curriculum (science, social studies, health).
+* Students are not expected to use formal dictionary definitions but should explain meanings using grade-appropriate language and examples.
+* Focus should be on vocabulary strategies rather than memorization of isolated word lists.
+
+Common Misconceptions:
+* Students may believe that every unknown word must be looked up in a dictionary rather than using context clues first.
+* Students may think that words have only one meaning and fail to recognize that meaning can change based on context or subject area.
+* Students may focus only on individual words rather than considering phrases or multi-word expressions as units of meaning.
+* Students may assume illustrations and text features are just decorative rather than tools to help determine word meaning.
+* Students may skip over unknown words entirely instead of attempting to use strategies to determine their meaning.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.2.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.2.5
+Standard Description: Know and use various text features (e.g., captions, bold print, subheadings, glossaries, indexes, electronic menus, icons) to locate key facts or information in a text efficiently.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will identify and name various text features including captions, bold print, subheadings, glossaries, indexes, electronic menus, and icons in informational texts.
+* Students will explain the purpose of different text features and how each feature helps readers find information.
+* Students will use text features strategically to locate specific facts or information in a text quickly and accurately.
+* Students will compare how different text features organize information in various types of informational texts.
+
+Assessment Boundaries:
+* At grade 2, students are not expected to use highly technical or specialized text features beyond those listed in the standard (e.g., advanced digital navigation tools, bibliographies, footnotes).
+* Students should work with age-appropriate informational texts; complex academic texts with sophisticated organizational structures are not appropriate for this grade level.
+* Assessment should focus on locating and using text features rather than analyzing the author's purpose for including specific features or evaluating their effectiveness.
+
+Common Misconceptions:
+* Students may believe that pictures and photographs are the same as captions, not understanding that captions are the text that explains the images.
+* Students may think they must read an entire text from beginning to end to find information, rather than using text features to navigate directly to relevant sections.
+* Students may confuse indexes with glossaries, not recognizing that indexes show page numbers where topics appear while glossaries define important vocabulary words.
+* Students may overlook text features entirely and rely only on the main body text, missing opportunities to access information more efficiently.
+* Students may assume that bold print is only for emphasis or decoration, not recognizing it often highlights important vocabulary or key concepts that can help locate information.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.2.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.2.6
+Standard Description: Identify the main purpose of a text, including what the author wants to answer, explain, or describe.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will identify whether a text is meant to answer a question, explain something, or describe something.
+* Students will determine the main purpose of an informational text by examining text features, key details, and the author's focus.
+* Students will distinguish between different author purposes (to answer, explain, or describe) in age-appropriate informational texts.
+* Students will articulate what the author wants readers to learn or understand from the text.
+
+Assessment Boundaries:
+* Texts should be grade-level appropriate with clear, straightforward purposes rather than multiple or complex purposes.
+* Students are not expected to analyze persuasive purposes or identify subtle underlying messages at this grade level.
+* Focus should remain on identifying one primary purpose rather than analyzing multiple purposes within a single text.
+
+Common Misconceptions:
+* Students may confuse the main purpose with the topic, thinking that naming what the text is about is the same as identifying why the author wrote it.
+* Students may believe that all informational texts have the same purpose or that purpose is interchangeable with the main idea.
+* Students may think a text can only describe if it uses descriptive words, not recognizing that explanation and description serve different purposes.
+* Students may assume the purpose is always stated explicitly in the text rather than inferred from the overall content and structure.
+* Students may confuse answering a question with explaining a concept, not recognizing that answering addresses a specific query while explaining provides understanding of how or why something works.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.2.C
+Cluster Name: Integration of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.2.7
+Standard Description: Explain how specific images (e.g., a diagram showing how a machine works) contribute to and clarify a text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will identify and describe specific images in informational texts such as diagrams, photographs, charts, and maps.
+* Students will explain how images help them better understand the written information in a text.
+* Students will make connections between specific details in images and related information in the text.
+* Students will use images to clarify confusing or complex concepts presented in informational texts.
+
+Assessment Boundaries:
+* Students are not expected to analyze highly technical or complex diagrams that require specialized knowledge beyond grade 2 content.
+* Students are not expected to create their own detailed diagrams or images, but rather interpret and explain existing ones.
+* Students are not expected to analyze multiple competing images or evaluate which image is most effective for a given purpose.
+
+Common Misconceptions:
+* Students may believe that images are only decorative and do not serve an educational purpose in informational texts.
+* Students may look at images without reading the captions or labels, missing important clarifying information.
+* Students may think that all the information they need is in the text and skip over examining the images carefully.
+* Students may describe what they see in an image without connecting it to the written text or explaining how it adds to their understanding.
+* Students may confuse describing an image with explaining how it clarifies or contributes to the text's meaning.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.2.C
+Cluster Name: Integration of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.2.8
+Standard Description: Describe how reasons support specific points the author makes in a text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will identify the main points an author makes in an informational text.
+* Students will locate and describe reasons or evidence the author provides to support each main point.
+* Students will explain how specific reasons connect to and support the author's points using simple connecting words like 'because' or 'so'.
+* Students will distinguish between a point (claim) and the reasons (evidence) that support it in grade-level appropriate texts.
+
+Assessment Boundaries:
+* Texts should be grade 2 appropriate in complexity with clear, explicit reasons that directly support stated points.
+* Students are not expected to evaluate the quality or sufficiency of the reasons provided, only to identify and describe how they support the author's points.
+* Students should work with texts where reasons are clearly connected to points, not texts requiring complex inference or understanding of implicit connections.
+
+Common Misconceptions:
+* Students may confuse the author's main point with supporting reasons or details, listing facts instead of identifying what the author is trying to prove or explain.
+* Students may identify reasons from the text but fail to connect them back to the specific point they support, treating all information as equally important.
+* Students may think that any detail or fact in the text counts as a reason, rather than understanding that reasons specifically explain 'why' a point is true or valid.
+* Students may believe the author's point and reasons are the same thing, not recognizing that reasons provide evidence or explanation for the point.
+* Students may retell the entire text sequentially rather than analyzing the relationship between specific points and their supporting reasons.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.2.C
+Cluster Name: Integration of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.2.9
+Standard Description: Compare and contrast the most important points presented by two texts on the same topic.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Identify the most important points in two informational texts about the same topic
+* Recognize similarities between key ideas presented in two texts on the same topic
+* Identify differences between key ideas presented in two texts on the same topic
+* Use comparison vocabulary (same, different, both, alike, unlike) to describe how two texts are similar and different
+
+Assessment Boundaries:
+* Texts should be grade-level appropriate with clear main ideas and supporting details that are explicitly stated
+* Comparisons should focus on 2-3 major points rather than extensive analysis of multiple complex ideas
+* Students are not expected to evaluate author credibility or synthesize information to form entirely new conclusions beyond what is stated in the texts
+
+Common Misconceptions:
+* Students may focus on minor details rather than identifying the most important points in each text
+* Students may simply list facts from each text separately without making actual comparisons between them
+* Students may believe that two texts on the same topic must present identical information, not recognizing that different authors can emphasize different aspects
+* Students may confuse comparing fiction stories with comparing informational texts, applying narrative comparison strategies inappropriately
+* Students may think that finding differences means one text is wrong or better, rather than understanding that texts can present complementary or different perspectives on the same topic
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.5.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.5.1
+Standard Description: Quote accurately from a text when explaining what the text says explicitly and when drawing inferences from the text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will accurately locate and quote relevant text evidence to support their understanding of explicit information in informational texts.
+* Students will draw logical inferences from informational texts and support those inferences with accurate quotations from the text.
+* Students will distinguish between explicit information stated directly in the text and implicit information that requires inference.
+* Students will use proper quotation marks and citation techniques when referencing text evidence to explain their understanding.
+
+Assessment Boundaries:
+* Texts should be appropriately complex for grade 5 readers, typically within the 740L-1010L Lexile range.
+* Students are expected to quote directly from texts rather than extensively paraphrase, though brief context may be provided.
+* Inferences should be clearly supported by text evidence rather than based primarily on personal opinion or outside knowledge.
+
+Common Misconceptions:
+* Students may believe that any sentence from the text counts as valid evidence, rather than selecting quotes that specifically support their claim or inference.
+* Students may confuse summarizing or paraphrasing with direct quotation, forgetting to use quotation marks or exact wording from the text.
+* Students may think inferences are the same as guesses or opinions, not understanding that valid inferences must be grounded in text evidence.
+* Students may only look for explicit statements and struggle to recognize that some information requires reading between the lines and combining multiple text clues.
+* Students may provide text evidence but fail to explain how the quote supports their inference or understanding of what the text says.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.5.D
+Cluster Name: Range of Reading and Complexity of Text
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.5.10
+Standard Description: By the end of the year, read and comprehend informational texts, including history/social studies, science, and technical texts, at the high end of the grades 4 5 text complexity band independently and proficiently.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will independently read and comprehend grade-level informational texts across multiple content areas (history/social studies, science, and technical texts) with proficiency.
+* Students will demonstrate understanding of complex informational texts at the high end of the grades 4-5 text complexity band through analysis, discussion, and written responses.
+* Students will apply reading comprehension strategies to navigate challenging vocabulary, text structures, and concepts in informational texts across disciplines.
+* Students will build reading stamina and independence to sustain comprehension of longer and more complex informational texts throughout the academic year.
+
+Assessment Boundaries:
+* Texts should fall within the Lexile range of 740L-1010L or equivalent complexity measures for grades 4-5, with focus on the higher end by year's end.
+* Assessment should not rely solely on reading speed or fluency, but rather on demonstrated comprehension through multiple means including written responses, discussions, and application of information.
+* Students are not expected to comprehend texts above grade 6 complexity independently, though they may access such texts with scaffolding and support.
+
+Common Misconceptions:
+* Students may believe that reading informational text means simply decoding words rather than actively constructing meaning and making connections across the text.
+* Students may think that comprehension only involves recalling facts rather than understanding main ideas, text structures, author's purpose, and relationships between concepts.
+* Students may assume that all informational texts are read the same way, not recognizing that different text types (technical, scientific, historical) require different reading approaches and strategies.
+* Students may believe they should understand everything on the first read and become discouraged, rather than recognizing that rereading and using comprehension strategies are normal parts of reading complex texts.
+* Students may confuse reading independence with never needing help, rather than understanding that proficient readers know when and how to seek clarification and use resources when needed.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.5.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.5.2
+Standard Description: Determine two or more main ideas of a text and explain how they are supported by key details; summarize the text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Identify two or more main ideas within an informational text by analyzing the central points the author is conveying.
+* Locate and explain specific key details that support each main idea, demonstrating how evidence strengthens the author's message.
+* Create an objective summary of an informational text that includes the main ideas and most important supporting details while excluding personal opinions.
+* Distinguish between main ideas and supporting details, recognizing the hierarchical relationship between them in text structure.
+
+Assessment Boundaries:
+* Texts should be appropriate for grade 5 complexity level with clear organizational structures; highly technical or abstract texts with implicit main ideas may be too advanced.
+* Students are not expected to analyze texts with more than 4-5 distinct main ideas or those requiring extensive prior content knowledge beyond grade level.
+* Assessment should focus on explicitly stated or reasonably inferred main ideas rather than themes requiring deep symbolic interpretation.
+
+Common Misconceptions:
+* Students may confuse the topic of a text with the main idea, stating what the text is about rather than what the author wants readers to understand about that topic.
+* Students may identify interesting details or facts as main ideas simply because they are memorable or attention-grabbing rather than central to the author's purpose.
+* Students may include personal opinions, reactions, or evaluations in their summaries instead of providing objective retellings of the text.
+* Students may believe a text can only have one main idea and fail to recognize that complex informational texts often develop multiple central concepts.
+* Students may list all details from the text in their summary rather than synthesizing information and selecting only the most important key details that support main ideas.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.5.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.5.3
+Standard Description: Explain the relationships or interactions between two or more individuals, events, ideas, or concepts in a historical, scientific, or technical text based on specific information in the text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Identify and describe the relationships between two or more individuals, events, ideas, or concepts in informational texts using specific textual evidence
+* Analyze cause-and-effect relationships, sequences of events, and problem-solution connections in historical, scientific, or technical texts
+* Explain how individuals, events, or ideas influence or interact with one another using explicit information from the text
+* Use academic language and text-based evidence to support explanations of relationships and interactions in informational texts
+
+Assessment Boundaries:
+* Texts should be appropriate for grade 5 reading complexity with clear, explicit relationships that can be identified through careful reading rather than requiring extensive background knowledge
+* Students should focus on relationships explicitly stated or strongly implied in the text rather than making inferences that require significant outside knowledge
+* Assessment should not require students to analyze literary elements like symbolism or theme, but rather focus on factual relationships in informational texts
+
+Common Misconceptions:
+* Students may confuse sequence (order of events) with cause-and-effect relationships, listing what happened without explaining why or how events influenced each other
+* Students may rely on prior knowledge or assumptions rather than using specific information from the text to explain relationships
+* Students may identify individuals, events, or concepts in isolation without explaining how they interact or relate to one another
+* Students may provide only surface-level connections without explaining the nature of the relationship (e.g., saying two events are 'connected' without specifying if one caused the other or how they influenced each other)
+* Students may struggle to distinguish between main relationships central to understanding the text and minor or tangential connections
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.5.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.5.4
+Standard Description: Determine the meaning of general academic and domain-specific words and phrases in a text relevant to a grade 5 topic or subject area.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will use context clues (definitions, examples, restatements, comparisons, and contrasts) to determine the meaning of unfamiliar general academic and domain-specific vocabulary in grade 5 informational texts.
+* Students will identify and interpret domain-specific words and phrases related to grade 5 topics in science, social studies, mathematics, and the arts within informational texts.
+* Students will use text features (glossaries, sidebars, captions, bold print) and word relationships (synonyms, antonyms, root words, affixes) to clarify the meaning of academic vocabulary.
+* Students will explain how specific word choices impact the meaning and tone of an informational text at the fifth-grade level.
+
+Assessment Boundaries:
+* Vocabulary should be appropriately complex for grade 5 and drawn from texts at the fifth-grade reading level (Lexile range 740L-1010L).
+* Students are not expected to memorize technical terminology beyond grade-level appropriate science, social studies, and mathematics content.
+* Focus should be on applying word-learning strategies rather than on isolated vocabulary recall outside of textual context.
+
+Common Misconceptions:
+* Students may believe they must know every word in a text before they can comprehend it, rather than using strategies to determine meaning while reading.
+* Students may confuse general academic vocabulary with domain-specific terms, not recognizing that some words have different meanings in different subject areas.
+* Students may rely too heavily on a single strategy (such as looking up every unknown word in a dictionary) rather than using multiple context clues and word analysis strategies.
+* Students may think that skipping unfamiliar words is acceptable, not understanding that key academic and domain-specific vocabulary is often essential to text comprehension.
+* Students may assume that domain-specific words only appear in textbooks, failing to recognize specialized vocabulary in articles, biographies, and other informational texts.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.5.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.5.5
+Standard Description: Compare and contrast the overall structure (e.g., chronology, comparison, cause/effect, problem/solution) of events, ideas, concepts, or information in two or more texts.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will identify and name the organizational structures used in informational texts, including chronology, comparison, cause/effect, and problem/solution.
+* Students will analyze how authors use different text structures to present information about similar topics in two or more texts.
+* Students will compare and contrast the organizational structures of two or more texts, explaining how each structure affects the presentation of events, ideas, concepts, or information.
+* Students will evaluate which text structure is most effective for a given purpose or topic by examining multiple texts on related subjects.
+
+Assessment Boundaries:
+* At grade 5, students should work with clearly identifiable text structures rather than texts with highly complex or mixed organizational patterns.
+* Students are not expected to analyze literary devices or author's style beyond how the overall structure organizes information.
+* Texts selected for comparison should share enough common content or topics to make meaningful structural comparisons possible.
+
+Common Misconceptions:
+* Students may confuse text structure with text features (headings, captions, diagrams), not recognizing that structure refers to how the entire text is organized.
+* Students may believe that all texts about the same topic must use the same organizational structure, failing to recognize that authors make deliberate structural choices.
+* Students may identify only surface-level similarities or differences between texts without examining how the organizational structure shapes the presentation of information.
+* Students may think chronological structure is only for historical texts, not recognizing it can be used for scientific processes, biographies, or procedural texts.
+* Students may misidentify cause/effect structure as problem/solution structure, or vice versa, because both involve relationships between events or ideas.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.5.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.5.6
+Standard Description: Analyze multiple accounts of the same event or topic, noting important similarities and differences in the point of view they represent.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Identify and compare multiple accounts (texts, articles, or sources) that describe the same event or topic.
+* Analyze how different authors present similar information from different points of view or perspectives.
+* Recognize and articulate important similarities and differences between multiple accounts of the same event or topic.
+* Evaluate how point of view influences the way events or topics are presented and interpreted.
+
+Assessment Boundaries:
+* Students are not expected to analyze highly complex philosophical or abstract perspectives beyond age-appropriate understanding.
+* Focus should remain on informational texts rather than extended literary analysis of fictional narratives.
+* Students should work with 2-3 accessible accounts rather than synthesizing information from extensive research databases.
+
+Common Misconceptions:
+* Students may believe that different accounts of the same event mean one account must be wrong or lying, rather than understanding that different perspectives can coexist.
+* Students may confuse 'point of view' (perspective/stance) with narrative point of view (first person, third person) used in fiction.
+* Students may focus only on surface-level differences in details rather than analyzing the underlying perspectives or biases that shape how information is presented.
+* Students may assume that all differences between accounts are equally important, rather than distinguishing between minor details and significant differences in interpretation or emphasis.
+* Students may believe that the longest or most detailed account is automatically the most accurate or reliable.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.5.C
+Cluster Name: Integration of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.5.7
+Standard Description: Draw on information from multiple print or digital sources, demonstrating the ability to locate an answer to a question quickly or to solve a problem efficiently.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will locate relevant information from multiple print and digital sources to answer specific questions accurately and efficiently.
+* Students will compare and contrast information presented in different sources (text, images, charts, graphs, videos) on the same topic.
+* Students will synthesize information from various sources to solve problems or deepen understanding of a topic.
+* Students will demonstrate efficient search strategies by using text features, keywords, and navigation tools to quickly find answers.
+
+Assessment Boundaries:
+* Sources should be grade-appropriate in complexity and reading level, typically at or slightly above fifth-grade level.
+* Students are not expected to evaluate the credibility or bias of sources at this level; focus is on locating and integrating information.
+* Digital sources should have age-appropriate navigation tools and interfaces that fifth graders can reasonably manage independently.
+
+Common Misconceptions:
+* Students may believe that using only one source is sufficient to answer a question, rather than consulting multiple sources for comprehensive understanding.
+* Students may think that reading every word of a text is necessary, rather than using skimming, scanning, and text features to locate information quickly.
+* Students may assume that all information from different sources will perfectly align, not recognizing that sources may present information differently or emphasize different aspects.
+* Students may believe that digital sources are always easier to navigate than print sources, not recognizing that each format has unique navigation tools and strategies.
+* Students may copy information directly from sources without synthesizing or integrating ideas, failing to demonstrate true comprehension and integration of multiple sources.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.5.C
+Cluster Name: Integration of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.5.8
+Standard Description: Explain how an author uses reasons and evidence to support particular points in a text, identifying which reasons and evidence support which point(s).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will identify the main points or claims an author makes in an informational text.
+* Students will locate and explain the specific reasons and evidence an author provides to support each point or claim.
+* Students will analyze the connection between particular reasons/evidence and the specific points they support.
+* Students will evaluate whether the reasons and evidence provided are relevant and sufficient to support the author's points.
+
+Assessment Boundaries:
+* At grade 5, students should work with grade-level appropriate informational texts and are not expected to evaluate highly technical or abstract arguments.
+* Students should focus on explicit reasons and evidence rather than implied or inferred support that requires advanced analytical skills.
+* Assessment should not require students to evaluate the credibility of sources or conduct outside research, which are skills developed in later grades.
+
+Common Misconceptions:
+* Students may confuse the author's main point with supporting details, treating evidence as if it were the claim itself.
+* Students may believe that any fact or detail in the text supports all of the author's points, rather than matching specific evidence to specific claims.
+* Students may think that reasons and evidence are the same thing, not recognizing that reasons explain 'why' while evidence provides factual support.
+* Students may assume that the amount of evidence determines its relevance, believing more details automatically make stronger support regardless of connection to the point.
+* Students may struggle to distinguish between the author's points and their own opinions about the topic, confusing personal reactions with textual analysis.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.5.C
+Cluster Name: Integration of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.5.9
+Standard Description: Integrate information from several texts on the same topic in order to write or speak about the subject knowledgeably.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will locate and extract relevant information from multiple texts on the same topic to build comprehensive knowledge.
+* Students will synthesize information from at least two or more sources to identify similarities, differences, and connections between texts.
+* Students will integrate information from several sources to write informative pieces or deliver oral presentations that demonstrate deep understanding of a topic.
+* Students will evaluate which information from multiple sources is most relevant and credible for supporting their writing or speaking about a topic.
+
+Assessment Boundaries:
+* At grade 5, students should work with 2-4 texts on the same topic rather than large numbers of sources that would be appropriate for higher grades.
+* Texts should be at grade-level complexity or slightly above, not requiring advanced analysis of highly technical or specialized content beyond fifth-grade scope.
+* Students are not expected to conduct formal research with citations in a specific format, but should acknowledge sources in a basic way appropriate to elementary level.
+
+Common Misconceptions:
+* Students may believe that integrating information means simply copying sentences from different texts and placing them together without synthesizing ideas.
+* Students may think all information found in texts is equally important and fail to discriminate between key details and minor supporting information.
+* Students may assume that information from multiple sources will always agree, not recognizing that different authors may present conflicting perspectives or facts on the same topic.
+* Students may believe that paraphrasing is optional and directly copying phrases from sources without putting ideas into their own words is acceptable.
+* Students may think that reading multiple texts means they should write about each text separately rather than weaving information together into a cohesive presentation of the topic.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.6.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.6.1
+Standard Description: Cite textual evidence to support analysis of what the text says explicitly as well as inferences drawn from the text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will locate and cite specific textual evidence that directly supports their analysis of explicit information in informational texts.
+* Students will make logical inferences based on details and evidence from informational texts and cite the textual evidence that supports those inferences.
+* Students will distinguish between explicit statements in a text and inferences that require combining textual evidence with background knowledge.
+* Students will use accurate citations (quotations, page numbers, or paragraph references) when referencing textual evidence in their analysis.
+
+Assessment Boundaries:
+* At grade 6, students should work with age-appropriate informational texts of moderate complexity; highly technical or abstract texts beyond grade level are not appropriate for assessment.
+* Students are not expected to use formal citation formats (MLA, APA) but should provide clear references to where evidence is found in the text.
+* Assessment should focus on citing evidence from the provided text rather than requiring extensive outside research or background knowledge beyond typical grade 6 experience.
+
+Common Misconceptions:
+* Students may confuse personal opinions or reactions with inferences drawn from textual evidence, failing to ground their conclusions in the text itself.
+* Students may believe that only direct quotations count as textual evidence, not recognizing that paraphrasing with proper attribution is also valid citation.
+* Students may think that explicit information is the same as inference, not understanding that inferences require them to read between the lines and draw conclusions beyond what is directly stated.
+* Students may cite evidence from the text but fail to explain how that evidence supports their analysis or inference, treating citation as sufficient without connection.
+* Students may provide evidence that is only loosely related to their claim rather than selecting the most relevant and specific textual support for their analysis.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.6.D
+Cluster Name: Range of Reading and Level of Text Complexity
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.6.10
+Standard Description: By the end of the year, read and comprehend literary nonfiction in the grades 6 8 text complexity band proficiently, with scaffolding as needed at the high end of the range.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will independently read and comprehend literary nonfiction texts at the 6th-8th grade complexity band with proficiency by the end of the year.
+* Students will apply comprehension strategies to navigate increasingly complex literary nonfiction texts, including memoirs, biographies, essays, and speeches.
+* Students will demonstrate understanding of literary nonfiction through accurate summarization, analysis of central ideas, and interpretation of author's purpose and craft.
+* Students will utilize appropriate scaffolding supports (graphic organizers, annotation strategies, text features) when reading texts at the higher end of the complexity range.
+
+Assessment Boundaries:
+* Assessment should focus on comprehension of grade-level literary nonfiction texts within the 6-8 complexity band, not texts significantly above 8th grade level without extensive support.
+* Students are not expected to read all literary nonfiction independently without any scaffolding, particularly for texts at the high end of the range.
+* Assessment should measure comprehension proficiency rather than reading speed or fluency alone.
+
+Common Misconceptions:
+* Students may believe that literary nonfiction is the same as informational text, not recognizing that literary nonfiction uses narrative techniques and literary elements while conveying factual information.
+* Students may think they should understand every word and detail on first reading, rather than using context clues and rereading strategies to build comprehension.
+* Students may assume that nonfiction texts are always organized chronologically or in a straightforward manner, missing complex text structures like flashbacks, thematic organization, or embedded narratives.
+* Students may believe that asking for help or using scaffolding supports means they are not reading proficiently, rather than understanding that strategic use of supports is part of proficient reading.
+* Students may focus only on surface-level facts rather than identifying deeper meanings, central ideas, and author's purpose in literary nonfiction.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.6.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.6.2
+Standard Description: Determine a central idea of a text and how it is conveyed through particular details; provide a summary of the text distinct from personal opinions or judgments.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Identify and articulate the central idea of an informational text by analyzing key details and their relationships
+* Explain how specific details, examples, and evidence in a text work together to support and convey the central idea
+* Write an objective summary of an informational text that includes the central idea and key supporting details without including personal opinions, judgments, or interpretations
+* Distinguish between essential information that supports the central idea and minor details that are less relevant to the main point
+
+Assessment Boundaries:
+* Texts should be appropriate for grade 6 complexity level, with clear organizational structures and identifiable central ideas
+* Students are not expected to analyze highly technical or discipline-specific texts requiring extensive background knowledge beyond grade level
+* Assessment should focus on single central ideas rather than multiple competing themes or highly abstract concepts that require advanced analytical skills
+
+Common Misconceptions:
+* Students confuse the topic of a text with the central idea, stating what the text is about rather than what the author is saying about that topic
+* Students believe a summary should include their personal reactions, opinions, or evaluations of the text rather than maintaining objectivity
+* Students think the central idea must be explicitly stated in the text, when it often must be inferred from multiple details
+* Students include too many minor details in summaries instead of focusing on information that directly supports the central idea
+* Students assume the central idea is always located in the introduction or conclusion rather than considering how it develops throughout the entire text
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.6.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.6.3
+Standard Description: Analyze in detail how a key individual, event, or idea is introduced, illustrated, and elaborated in a text (e.g., through examples or anecdotes).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will identify key individuals, events, or ideas in an informational text and explain their significance to the overall meaning.
+* Students will analyze how authors introduce key individuals, events, or ideas at the beginning of a text using various techniques such as definitions, descriptions, or context.
+* Students will examine how authors illustrate key individuals, events, or ideas throughout a text using examples, anecdotes, facts, or quotations.
+* Students will evaluate how authors elaborate on key individuals, events, or ideas by providing additional details, explanations, or connections to deepen reader understanding.
+
+Assessment Boundaries:
+* At grade 6, students should focus on analyzing clear and explicit examples of how individuals, events, or ideas are developed rather than subtle or implicit literary techniques more appropriate for higher grades.
+* Texts should be appropriately complex for grade 6 readers, with vocabulary and sentence structures that allow students to focus on analyzing content development rather than struggling with basic comprehension.
+* Students are expected to trace development within a single text rather than comparing how multiple texts develop similar individuals, events, or ideas.
+
+Common Misconceptions:
+* Students may confuse summarizing content with analyzing how that content is introduced, illustrated, and elaborated, focusing on what is said rather than how it is presented.
+* Students may believe that simply identifying an example or anecdote is sufficient analysis, rather than explaining how that example or anecdote develops understanding of the key individual, event, or idea.
+* Students may think that all details in a text are equally important, rather than distinguishing between key individuals, events, or ideas and supporting details.
+* Students may assume that introduction only happens at the beginning of a text, illustration only in the middle, and elaboration only at the end, rather than understanding these as techniques that can occur throughout.
+* Students may focus only on explicit statements about individuals, events, or ideas while overlooking how examples, anecdotes, and descriptions implicitly develop understanding.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.6.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.6.4
+Standard Description: Determine the meaning of words and phrases as they are used in a text, including figurative, connotative, and technical meanings.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will determine the literal, figurative, and connotative meanings of words and phrases in informational texts using context clues and text features.
+* Students will identify and explain technical vocabulary specific to a topic or subject area as used in informational texts.
+* Students will analyze how word choice, including figurative language and connotations, impacts the meaning and tone of an informational text.
+* Students will use multiple strategies (context clues, word parts, reference materials) to determine precise meanings of unfamiliar words in grade-level informational texts.
+
+Assessment Boundaries:
+* Focus on grade-appropriate informational texts across various subjects (science, social studies, technical texts) rather than highly specialized academic texts beyond grade level.
+* Assess understanding of common figurative language (metaphor, simile, personification, idioms) and connotations appropriate for middle school, not obscure literary devices or archaic language.
+* Limit technical vocabulary to terms that appear in grade 6 content area standards and texts, not advanced terminology from high school or college-level disciplines.
+
+Common Misconceptions:
+* Students may believe that all words in informational texts have only one literal meaning and fail to recognize figurative language or multiple meanings in non-fiction contexts.
+* Students may confuse denotation and connotation, thinking they are the same, or may not recognize that words carry emotional associations beyond their dictionary definitions.
+* Students may assume technical vocabulary is only found in science texts and not recognize that all content areas (history, arts, mathematics) have specialized terminology.
+* Students may rely solely on dictionary definitions without using context clues, leading to misunderstanding of how words function differently in various informational texts.
+* Students may think that figurative language only appears in literary texts and overlook metaphors, analogies, and symbolic language commonly used in informational writing to explain concepts.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.6.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.6.4+1
+Standard Description: Determine the figurative meaning of words and phrases as they are used in a text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Identify figurative language devices (metaphors, similes, personification, idioms, hyperbole) used in informational texts
+* Analyze how figurative expressions contribute to the meaning and tone of informational texts
+* Determine the intended meaning of figurative words and phrases by using context clues and background knowledge
+* Explain how authors use figurative language to enhance explanations, descriptions, or arguments in nonfiction texts
+
+Assessment Boundaries:
+* Focus should be on figurative language commonly found in informational texts rather than highly complex or archaic expressions beyond grade 6 exposure
+* Students are not expected to identify or analyze obscure literary devices such as synecdoche, metonymy, or oxymoron at this level
+* Assessment should prioritize interpretation of meaning over memorization of figurative language terminology
+
+Common Misconceptions:
+* Students may believe figurative language only appears in poetry and fiction, not recognizing its use in informational and persuasive texts
+* Students often interpret figurative phrases literally, missing the intended comparative or symbolic meaning
+* Students may confuse different types of figurative language, such as mistaking metaphors for similes or idioms for hyperbole
+* Students may think that figurative language always makes writing more effective, without recognizing when it might obscure meaning or be inappropriate for the purpose
+* Students may rely solely on definitions of individual words rather than using context clues to determine the figurative meaning of phrases
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.6.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.6.4+2
+Standard Description: Determine the connotative meaning of words and phrases as they are used in a text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Identify and explain the connotative meanings of words and phrases in informational texts, distinguishing them from denotative meanings
+* Analyze how an author's word choice creates specific emotional associations and influences the reader's interpretation of the text
+* Evaluate the impact of connotative language on the overall tone and message of an informational text
+* Compare words with similar denotations but different connotations to understand how word choice affects meaning
+
+Assessment Boundaries:
+* Students should work with grade-level appropriate informational texts and vocabulary, not overly complex literary or archaic language
+* Focus should remain on connotative meaning within context rather than requiring memorization of extensive lists of connotations outside of textual analysis
+* Assessment should not require advanced understanding of figurative language devices beyond the scope of connotation
+
+Common Misconceptions:
+* Students may confuse connotation with denotation, believing they are the same thing or using the terms interchangeably
+* Students may think that connotations are universal and fixed, rather than understanding that they can vary by context, culture, and personal experience
+* Students may believe that all words have strong connotations, when many words are relatively neutral
+* Students may struggle to recognize that the same word can have different connotations in different contexts or sentences
+* Students may think connotation only applies to adjectives, not recognizing that nouns, verbs, and other parts of speech also carry connotative meaning
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.6.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.6.5
+Standard Description: Analyze how a particular sentence, paragraph, chapter, or section fits into the overall structure of a text and contributes to the development of the ideas.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Identify and explain the organizational structure of an informational text (e.g., chronological, cause/effect, compare/contrast, problem/solution, description).
+* Analyze how a specific sentence, paragraph, chapter, or section connects to and supports the overall structure of a text.
+* Evaluate how individual text elements contribute to the development and progression of central ideas throughout an informational text.
+* Explain the author's purpose in organizing information in a particular way and how structural choices impact meaning.
+
+Assessment Boundaries:
+* Students at this level should analyze familiar organizational structures and their effects, but are not expected to identify highly sophisticated or mixed structural patterns that blend multiple organizational approaches.
+* Focus should be on explicit connections between text parts and ideas rather than inferring complex implicit relationships that require advanced analytical skills.
+* Students should work with grade-level appropriate informational texts; highly technical, discipline-specific texts with specialized structures may be beyond the scope of this standard.
+
+Common Misconceptions:
+* Students may believe that identifying the structure type (e.g., 'chronological') is sufficient without explaining how that structure develops the ideas.
+* Students often confuse the main idea with text structure, failing to recognize that structure is about how information is organized rather than what the information is about.
+* Students may think all paragraphs or sections serve the same purpose and fail to recognize that different parts of a text have different functions (introducing, supporting, transitioning, concluding).
+* Students may focus only on obvious transition words to identify structure rather than analyzing how the content itself is organized and how parts relate to the whole.
+* Students sometimes believe that a text can only have one organizational structure, when authors often use different structures within sections of the same text.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.6.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.6.6
+Standard Description: Determine an author s point of view or purpose in a text and explain how it is conveyed in the text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Identify and articulate the author's point of view or purpose in an informational text
+* Analyze specific word choices, phrases, and structural elements that reveal the author's perspective
+* Explain how the author uses rhetorical devices, tone, and text features to convey their point of view or purpose
+* Distinguish between the author's perspective and other perspectives presented in the text
+
+Assessment Boundaries:
+* Texts should be grade-level appropriate informational passages including articles, essays, speeches, and primary source documents
+* Students are not expected to analyze highly complex satirical or ironic texts where the author's purpose is deliberately obscured
+* Focus should be on explicit and reasonably inferable author perspectives rather than deeply implicit or abstract authorial intent
+
+Common Misconceptions:
+* Students may confuse the author's point of view with the topic of the text rather than the author's perspective on that topic
+* Students may believe that identifying the author's purpose is simply choosing between 'to inform, persuade, or entertain' without explaining how it is conveyed
+* Students may think the author's point of view is the same as a character's or subject's point of view mentioned in the text
+* Students may assume all informational texts are objective and fail to recognize that authors have perspectives even in factual writing
+* Students may identify evidence of the author's perspective but fail to explain how specific textual elements convey that perspective
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.6.C
+Cluster Name: Integration of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.6.7
+Standard Description: Integrate information presented in different media or formats (e.g., visually, quantitatively) as well as in words to develop a coherent understanding of a topic or issue.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will compare and contrast information presented in different formats (text, images, charts, graphs, videos) on the same topic to identify key similarities and differences.
+* Students will synthesize information from multiple sources and formats to create a comprehensive understanding of a topic or issue.
+* Students will evaluate how different media formats contribute unique information or perspectives to their understanding of a subject.
+* Students will use evidence from various media sources to support conclusions and demonstrate integrated understanding of a topic.
+
+Assessment Boundaries:
+* Students are not expected to analyze highly technical or specialized media formats beyond grade-level complexity (e.g., advanced statistical models, professional data visualization software).
+* Focus should remain on integration and synthesis rather than technical creation of media formats.
+* Sources should be appropriate for 6th grade reading levels and content knowledge.
+
+Common Misconceptions:
+* Students may believe that simply viewing or reading multiple sources is the same as integrating information, without actively synthesizing or connecting ideas across formats.
+* Students may think that one format (usually text) is inherently more valuable or credible than visual or quantitative formats, rather than recognizing how different formats serve different purposes.
+* Students may struggle to recognize that the same topic can be presented differently across formats and may see contradictions rather than complementary perspectives.
+* Students may assume that integration means finding identical information in each source rather than building a more complete picture by combining different types of information.
+* Students may focus on superficial features of different media (colors, layout, design) rather than the content and how it contributes to understanding the topic.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.6.C
+Cluster Name: Integration of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.6.8
+Standard Description: Trace and evaluate the argument and specific claims in a text, distinguishing claims that are supported by reasons and evidence from claims that are not.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Identify the main argument and specific claims made by an author in an informational text
+* Analyze and trace the logical progression of an argument throughout a text
+* Evaluate the quality and sufficiency of reasons and evidence used to support each claim
+* Distinguish between claims that are adequately supported by evidence and those that lack sufficient support
+
+Assessment Boundaries:
+* At grade 6, students should work with age-appropriate informational texts with clearly identifiable arguments and claims, not highly technical or specialized texts requiring advanced content knowledge
+* Students are not expected to evaluate the credibility of sources or conduct independent research to verify claims at this level, but rather work with evidence presented within the text itself
+* Focus should be on explicit arguments and evidence rather than highly implicit or nuanced argumentative structures that require advanced inferential reasoning
+
+Common Misconceptions:
+* Students may confuse the author's main argument with supporting claims or believe every statement in the text is a claim requiring evaluation
+* Students may think that any statement followed by an example or detail is automatically well-supported, without evaluating whether the evidence is relevant, sufficient, or logical
+* Students may believe that longer explanations or more examples always indicate better support, rather than considering the quality and relevance of the evidence
+* Students may struggle to distinguish between facts used as evidence and opinions presented as claims, treating all statements as equally valid
+* Students may accept claims as supported simply because they agree with them personally, rather than objectively evaluating the evidence provided in the text
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: RI
+Unit Name: Reading: Informational Text
+Cluster ID: CCSS.ELA-LITERACY.RI.6.C
+Cluster Name: Integration of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RI.6.9
+Standard Description: Compare and contrast one author s presentation of events with that of another (e.g., a memoir written by and a biography on the same person).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Identify and analyze how different authors present the same events, people, or topics through different perspectives and formats (e.g., memoir vs. biography, primary vs. secondary source)
+* Compare and contrast the key details, emphasis, and interpretations between two texts about the same subject
+* Evaluate how an author's point of view, purpose, and relationship to the subject influences their presentation of events
+* Synthesize information from multiple accounts to develop a more complete understanding of events or people
+
+Assessment Boundaries:
+* Students are not expected to analyze texts written for audiences above grade 6-8 complexity level
+* Students should focus on comparing two texts at a time rather than analyzing three or more simultaneous accounts
+* Technical literary analysis of advanced rhetorical devices is not required at this grade level
+
+Common Misconceptions:
+* Students may believe that if two accounts differ, one must be wrong rather than understanding that perspective and purpose shape presentation
+* Students may focus only on finding differences without recognizing important similarities between accounts
+* Students may think memoirs are less accurate than biographies without understanding that both genres involve selection and interpretation of events
+* Students may not recognize that the author's relationship to events (participant vs. observer) significantly affects the presentation
+* Students may struggle to distinguish between factual discrepancies and differences in emphasis, tone, or interpretation
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.2.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.2.1
+Standard Description: Ask and answer such questions as who, what, where, when, why, and how to demonstrate understanding of key details in a text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will ask and answer who, what, where, when, why, and how questions about key details in a literary text.
+* Students will locate and identify specific details in a text that answer comprehension questions.
+* Students will demonstrate understanding of a story by providing text-based evidence when answering questions.
+* Students will distinguish between key details and minor details in a text to support comprehension.
+
+Assessment Boundaries:
+* Questions should focus on explicit information found directly in the text rather than requiring complex inferences beyond grade level.
+* Texts should be appropriate for second-grade reading levels with familiar vocabulary and clear story structures.
+* Students are not expected to analyze literary devices or themes, but rather focus on literal comprehension of story elements.
+
+Common Misconceptions:
+* Students may confuse the order of events or sequence when answering 'when' questions.
+* Students may provide opinions or personal connections instead of text-based answers with evidence from the story.
+* Students may focus on minor or interesting details rather than identifying the key details that are central to understanding the text.
+* Students may answer with incomplete information, such as identifying only the character without explaining what the character did.
+* Students may struggle to differentiate between 'why' questions (requiring cause/effect reasoning) and 'what happened' questions (requiring recall of events).
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.2.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.2.1+1
+Standard Description: Ask such questions as who, what, where, when, why, and how to demonstrate understanding of key details in a text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will ask and answer who, what, where, when, why, and how questions about key details in a literary text.
+* Students will identify and locate key details in a story to support their understanding of characters, setting, and events.
+* Students will demonstrate comprehension by formulating relevant questions about a text and providing text-based answers.
+* Students will distinguish between important details and minor details in a story.
+
+Assessment Boundaries:
+* At grade 2, students should work with age-appropriate literary texts at guided reading levels J-M. Complex inferential questions requiring synthesis across multiple texts are beyond this standard.
+* Students are not expected to analyze author's purpose or make sophisticated thematic connections, but should focus on literal and simple inferential comprehension of key details.
+* Questions should relate directly to explicit information and clearly supported inferences within a single text, not requiring outside knowledge or abstract thinking.
+
+Common Misconceptions:
+* Students may confuse asking questions with simply retelling the story without forming them as actual questions.
+* Students may focus on minor or interesting details rather than identifying key details that are essential to understanding the story.
+* Students may believe that all questions are equally important, rather than recognizing that some questions help unlock deeper understanding of the text.
+* Students may think answers must use the exact words from the text rather than understanding they can paraphrase while staying true to the text's meaning.
+* Students may struggle to differentiate between the question words (who, what, where, when, why, how) and may use them interchangeably without understanding their distinct purposes.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.2.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.2.1+2
+Standard Description: Answer such questions as who, what, where, when, why, and how to demonstrate understanding of key details in a text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+* Students will ask and answer who, what, where, when, why, and how questions to demonstrate understanding of key details in a literary text.
+* Students will identify and locate explicit information from a text to support their answers to comprehension questions.
+* Students will distinguish between important details and minor details in a story to show comprehension of the main events and characters.
+* Students will use text evidence to justify their responses to questions about characters, settings, and plot events.
+
+Assessment Boundaries:
+* Questions should focus on explicit details directly stated in the text rather than complex inferences or abstract themes beyond grade 2 level.
+* Texts should be appropriate for second grade reading levels with familiar vocabulary, clear story structures, and straightforward character motivations.
+* Assessment should not require students to analyze literary devices, author's purpose, or make sophisticated interpretive connections beyond basic cause and effect.
+
+Common Misconceptions:
+* Students may confuse their own experiences or prior knowledge with what is actually stated in the text, leading to answers based on assumptions rather than text evidence.
+* Students may focus on interesting but minor details rather than identifying key details that are essential to understanding the story.
+* Students may believe that any detail mentioned in the text is equally important, rather than recognizing that some details are more central to the plot or character development.
+* Students may think a one-word answer is sufficient without providing supporting details from the text to explain their reasoning.
+* Students may mix up the sequence of events when answering 'when' questions, especially in stories with flashbacks or non-linear timelines.
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.2.D
+Cluster Name: Range of Reading and Level of Text Complexity
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.2.10
+Standard Description: By the end of the year, read and comprehend literature, including stories and poetry, in the grades 2 3 text complexity band proficiently, with scaffolding as needed at the high end of the range.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.2.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.2.2
+Standard Description: Recount stories, including fables and folktales from diverse cultures, and determine their central message, lesson, or moral.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.2.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.2.2+2
+Standard Description: Determine the central message, lesson, or moral of stories, including fables, folktales, and myths from diverse cultures.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.2.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.2.3
+Standard Description: Describe how characters in a story respond to major events and challenges.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.2.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.2.3+1
+Standard Description: Describe how characters in a story respond to major events and challenges.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.2.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.2.4
+Standard Description: Describe how words and phrases (e.g., regular beats, alliteration, rhymes, repeated lines) supply rhythm and meaning in a story, poem, or song.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.2.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.2.4+1
+Standard Description: Describe how words and phrases supply rhythm in a story, poem, or song.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.2.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.2.4+2
+Standard Description: Describe how words and phrases supply meaning in a story, poem, or song.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.2.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.2.5
+Standard Description: Describe the overall structure of a story, including describing how the beginning introduces the story and the ending concludes the action.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.2.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.2.5+1
+Standard Description: Describe the overall structure of a story.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.2.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.2.5+2
+Standard Description: Describe how the beginning of a story introduces the story.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.2.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.2.5+3
+Standard Description: Describe how the ending of a story concludes the action.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.2.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.2.6
+Standard Description: Acknowledge differences in the points of view of characters, including by speaking in a different voice for each character when reading dialogue aloud.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 2nd Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.2.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.2.6+1
+Standard Description: Acknowledge differences in the points of view of characters.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.2.C
+Cluster Name: Integration of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.2.7
+Standard Description: Use information gained from the illustrations and words in a print or digital text to demonstrate understanding of its characters, setting, or plot.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.2.C
+Cluster Name: Integration of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.2.9
+Standard Description: Compare and contrast two or more versions of the same story (e.g., Cinderella stories) by different authors or from different cultures.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.1
+Standard Description: Quote accurately from a text when explaining what the text says explicitly and when drawing inferences from the text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.1+1
+Standard Description: Quote accurately from a text when explaining what the text says explicitly.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.1+2
+Standard Description: Quote accurately from a text when drawing inferences from the text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.D
+Cluster Name: Range of Reading and Complexity of Text
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.10
+Standard Description: By the end of the year, read and comprehend literature, including stories, dramas, and poetry, at the high end of the grades 4 5 text complexity band independently and proficiently.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.2
+Standard Description: Determine a theme of a story, drama, or poem from details in the text, including how characters in a story or drama respond to challenges or how the speaker in a poem reflects upon a topic; summarize the text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.2+1
+Standard Description: Determine a theme of a story from details in the text, including how characters in the story respond to challenges.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.2+2
+Standard Description: Determine a theme of a drama from details in the text, including how characters in the drama respond to challenges.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.2+3
+Standard Description: Determine a theme of a poem from details in the text, including how the speaker in a poem reflects upon a topic.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.3
+Standard Description: Compare and contrast two or more characters, settings, or events in a story or drama, drawing on specific details in the text (e.g., how characters interact).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.3+1
+Standard Description: Compare and contrast two or more characters in a story or drama, drawing on specific details in the text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.3+2
+Standard Description: Compare and contrast two or more settings in a story or drama, drawing on specific details in the text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.3+3
+Standard Description: Compare and contrast two or more events in a story or drama, drawing on specific details in the text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.4
+Standard Description: Determine the meaning of words and phrases as they are used in a text, including figurative language such as metaphors and similes.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.4+1
+Standard Description: Determine the meaning of words and phrases as they are used in a text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.4+2
+Standard Description: Determine the meaning of figurative language as it is used in a text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.5
+Standard Description: Explain how a series of chapters, scenes, or stanzas fits together to provide the overall structure of a particular story, drama, or poem.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.5+1
+Standard Description: Explain how a series of chapters fits together to provide the overall structure of a particular story.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.5+2
+Standard Description: Explain how a series of scenes fits together to provide the overall structure of a particular drama.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.5+3
+Standard Description: Explain how a series of stanzas fits together to provide the overall structure of a poem.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.6
+Standard Description: Describe how a narrator s or speaker s point of view influences how events are described.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.6+1
+Standard Description: Describe how a narrator s or speaker s point of view influences how events are described.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.C
+Cluster Name: Integration of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.7
+Standard Description: Analyze how visual and multimedia elements contribute to the meaning, tone, or beauty of a text (e.g., graphic novel, multimedia presentation of fiction, folktale, myth, poem).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.C
+Cluster Name: Integration of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.9
+Standard Description: Compare and contrast stories in the same genre (e.g., mysteries and adventure stories) on their approaches to similar themes and topics.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 5th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.5.C
+Cluster Name: Integration of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.5.9+1
+Standard Description: Compare and contrast stories in the same genre on their approaches to similar themes and topics.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.1
+Standard Description: Cite textual evidence to support analysis of what the text says explicitly as well as inferences drawn from the text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.1+1
+Standard Description: Cite textual evidence to support analysis of what the text says explicitly.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.1+2
+Standard Description: Cite textual evidence to support analysis of inferences drawn from the text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.D
+Cluster Name: Range of Reading and Level of Text Complexity
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.10
+Standard Description: By the end of the year, read and comprehend literature, including stories, dramas, and poems, in the grades 6 8 text complexity band proficiently, with scaffolding as needed at the high end of the range.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.2
+Standard Description: Determine a theme or central idea of a text and how it is conveyed through particular details; provide a summary of the text distinct from personal opinions or judgments.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.2+1
+Standard Description: Determine a theme or central idea of a text and how it is conveyed through particular details.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.2+2
+Standard Description: Provide a summary of the text distinct from personal opinions or judgments.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.3
+Standard Description: Describe how a particular story s or drama s plot unfolds in a series of episodes as well as how the characters respond or change as the plot moves toward a resolution.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.3+1
+Standard Description: Describe how a particular story s plot unfolds in a series of episodes as the plot moves toward a resolution.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.3+2
+Standard Description: Describe how a particular drama s plot unfolds in a series of episodes as the plot moves toward a resolution.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.3+3
+Standard Description: Describe how a particular story s characters respond or change as the plot moves toward a resolution.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.A
+Cluster Name: Key Ideas and Details
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.3+4
+Standard Description: Describe how a particular drama s characters respond or change as the plot moves toward a resolution.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.4
+Standard Description: Determine the meaning of words and phrases as they are used in a text, including figurative and connotative meanings; analyze the impact of a specific word choice on meaning and tone.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.4+1
+Standard Description: Determine the literal meaning of words as they are used in a text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.4+2
+Standard Description: Determine the literal meaning of phrases as they are used in a text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.4+3
+Standard Description: Determine the figurative and connotative meanings of words as they are used in a text
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.4+4
+Standard Description: Determine the figurative and connotative meanings of phrases as they are used in a text
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.4+5
+Standard Description: Analyze the impact of a specific word choice on meaning.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.4+6
+Standard Description: Analyze the impact of a specific word choice on tone.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.5
+Standard Description: Analyze how a particular sentence, chapter, scene, or stanza fits into the overall structure of a text and contributes to the development of the theme, setting, or plot.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.5+2
+Standard Description: Analyze how a particular paragraph fits into the overall structure of a text and contributes to the development of the theme, setting, or plot.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.5+3
+Standard Description: Analyze how a particular chapter fits into the overall structure of a text and contributes to the development of the theme, setting, or plot.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.5+4
+Standard Description: Analyze how a particular section fits into the overall structure of a text and contributes to the development of the theme, setting, or plot.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.6
+Standard Description: Explain how an author develops the point of view of the narrator or speaker in a text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.B
+Cluster Name: Craft and Structure
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.6+1
+Standard Description: Explain how an author develops the point of view of the narrator or speaker in a text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.C
+Cluster Name: Integration of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.7
+Standard Description: Compare and contrast the experience of reading a story, drama, or poem to listening to or viewing an audio, video, or live version of the text, including contrasting what they  see  and  hear  when reading the text to what they perceive when they listen or watch.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.C
+Cluster Name: Integration of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.9
+Standard Description: Compare and contrast texts in different forms or genres (e.g., stories and poems; historical novels and fantasy stories) in terms of their approaches to similar themes and topics.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Reading
+Course: 6th Grade
+Unit ID: RL
+Unit Name: Reading: Literature
+Cluster ID: CCSS.ELA-LITERACY.RL.6.C
+Cluster Name: Integration of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.RL.6.9+1
+Standard Description: Compare and contrast texts in different forms or genres in terms of their approaches to similar themes and topics.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.2.A
+Cluster Name: Comprehension and Collaboration
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.2.1.A
+Standard Description: Follow agreed-upon rules for discussions (e.g., gaining the floor in respectful ways, listening to others with care, speaking one at a time about the topics and texts under discussion).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.2.A
+Cluster Name: Comprehension and Collaboration
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.2.1.B
+Standard Description: Build on others  talk in conversations by linking their comments to the remarks of others.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.2.A
+Cluster Name: Comprehension and Collaboration
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.2.1.C
+Standard Description: Ask for clarification and further explanation as needed about the topics and texts under discussion.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.2.A
+Cluster Name: Comprehension and Collaboration
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.2.2
+Standard Description: Recount or describe key ideas or details from a text read aloud or information presented orally or through other media.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.2.A
+Cluster Name: Comprehension and Collaboration
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.2.3
+Standard Description: Ask and answer questions about what a speaker says in order to clarify comprehension, gather additional information, or deepen understanding of a topic or issue.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.2.B
+Cluster Name: Presentation of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.2.4
+Standard Description: Tell a story or recount an experience with appropriate facts and relevant, descriptive details, speaking audibly in coherent sentences.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.2.B
+Cluster Name: Presentation of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.2.5
+Standard Description: Create audio recordings of stories or poems; add drawings or other visual displays to stories or recounts of experiences when appropriate to clarify ideas, thoughts, and feelings.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.2.B
+Cluster Name: Presentation of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.2.6
+Standard Description: Produce complete sentences when appropriate to task and situation in order to provide requested detail or clarification. (See grade 2 Language standards 1 and 3 for specific expectations.)
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.5.A
+Cluster Name: Comprehension and Collaboration
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.5.1.A
+Standard Description: Come to discussions prepared, having read or studied required material; explicitly draw on that preparation and other information known about the topic to explore ideas under discussion.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.5.A
+Cluster Name: Comprehension and Collaboration
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.5.1.B
+Standard Description: Follow agreed-upon rules for discussions and carry out assigned roles.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.5.A
+Cluster Name: Comprehension and Collaboration
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.5.1.C
+Standard Description: Pose and respond to specific questions by making comments that contribute to the discussion and elaborate on the remarks of others.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.5.A
+Cluster Name: Comprehension and Collaboration
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.5.1.D
+Standard Description: Review the key ideas expressed and draw conclusions in light of information and knowledge gained from the discussions.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.5.A
+Cluster Name: Comprehension and Collaboration
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.5.2
+Standard Description: Summarize a written text read aloud or information presented in diverse media and formats, including visually, quantitatively, and orally.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.5.A
+Cluster Name: Comprehension and Collaboration
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.5.3
+Standard Description: Summarize the points a speaker makes and explain how each claim is supported by reasons and evidence.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.5.B
+Cluster Name: Presentation of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.5.4
+Standard Description: Report on a topic or text or present an opinion, sequencing ideas logically and using appropriate facts and relevant, descriptive details to support main ideas or themes; speak clearly at an understandable pace.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.5.B
+Cluster Name: Presentation of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.5.5
+Standard Description: Include multimedia components (e.g., graphics, sound) and visual displays in presentations when appropriate to enhance the development of main ideas or themes.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.5.B
+Cluster Name: Presentation of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.5.6
+Standard Description: Adapt speech to a variety of contexts and tasks, using formal English when appropriate to task and situation. (See grade 5 Language standards 1 and 3 for specific expectations.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.6.A
+Cluster Name: Comprehension and Collaboration
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.6.1.A
+Standard Description: Come to discussions prepared, having read or studied required material; explicitly draw on that preparation by referring to evidence on the topic, text, or issue to probe and reflect on ideas under discussion.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.6.A
+Cluster Name: Comprehension and Collaboration
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.6.1.B
+Standard Description: Follow rules for collegial discussions, set specific goals and deadlines, and define individual roles as needed.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.6.A
+Cluster Name: Comprehension and Collaboration
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.6.1.C
+Standard Description: Pose and respond to specific questions with elaboration and detail by making comments that contribute to the topic, text, or issue under discussion.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.6.A
+Cluster Name: Comprehension and Collaboration
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.6.1.D
+Standard Description: Review the key ideas expressed and demonstrate understanding of multiple perspectives through reflection and paraphrasing.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.6.A
+Cluster Name: Comprehension and Collaboration
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.6.2
+Standard Description: Interpret information presented in diverse media and formats (e.g., visually, quantitatively, orally) and explain how it contributes to a topic, text, or issue under study.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.6.A
+Cluster Name: Comprehension and Collaboration
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.6.3
+Standard Description: Delineate a speaker s argument and specific claims, distinguishing claims that are supported by reasons and evidence from claims that are not.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.6.B
+Cluster Name: Presentation of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.6.4
+Standard Description: Present claims and findings, sequencing ideas logically and using pertinent descriptions, facts, and details to accentuate main ideas or themes; use appropriate eye contact, adequate volume, and clear pronunciation.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.6.B
+Cluster Name: Presentation of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.6.5
+Standard Description: Include multimedia components (e.g., graphics, images, music, sound) and visual displays in presentations to clarify information.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: SL
+Unit Name: Speaking & Listening
+Cluster ID: CCSS.ELA-LITERACY.SL.6.B
+Cluster Name: Presentation of Knowledge and Ideas
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.SL.6.6
+Standard Description: Adapt speech to a variety of contexts and tasks, demonstrating command of formal English when indicated or appropriate. (See grade 6 Language standards 1 and 3 for specific expectations.)
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.2.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.2.1
+Standard Description: Write opinion pieces in which they introduce the topic or book they are writing about, state an opinion, supply reasons that support the opinion, use linking words (e.g., because, and, also) to connect opinion and reasons, and provide a concluding statement or section.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.2.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.2.2
+Standard Description: Write informative/explanatory texts in which they introduce a topic, use facts and definitions to develop points, and provide a concluding statement or section.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.2.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.2.3
+Standard Description: Write narratives in which they recount a well-elaborated event or short sequence of events, include details to describe actions, thoughts, and feelings, use temporal words to signal event order, and provide a sense of closure.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.2.B
+Cluster Name: Production and Distribution of Writing
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.2.5
+Standard Description: With guidance and support from adults and peers, focus on a topic and strengthen writing as needed by revising and editing.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.2.B
+Cluster Name: Production and Distribution of Writing
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.2.6
+Standard Description: With guidance and support from adults, use a variety of digital tools to produce and publish writing, including in collaboration with peers.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.2.C
+Cluster Name: Research to Build and Present Knowledge
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.2.7
+Standard Description: Participate in shared research and writing projects (e.g., read a number of books on a single topic to produce a report; record science observations).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 2nd Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.2.C
+Cluster Name: Research to Build and Present Knowledge
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.2.8
+Standard Description: Recall information from experiences or gather information from provided sources to answer a question.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.5.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.5.1.A
+Standard Description: Introduce a topic or text clearly, state an opinion, and create an organizational structure in which ideas are logically grouped to support the writer s purpose.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.5.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.5.1.B
+Standard Description: Provide logically ordered reasons that are supported by facts and details.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.5.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.5.1.C
+Standard Description: Link opinion and reasons using words, phrases, and clauses (e.g., consequently, specifically).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.5.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.5.1.D
+Standard Description: Provide a concluding statement or section related to the opinion presented.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.5.D
+Cluster Name: Range of Writing
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.5.10
+Standard Description: Write routinely over extended time frames (time for research, reflection, and revision) and shorter time frames (a single sitting or a day or two) for a range of discipline-specific tasks, purposes, and audiences.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.5.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.5.2.A
+Standard Description: Introduce a topic clearly, provide a general observation and focus, and group related information logically; include formatting (e.g., headings), illustrations, and multimedia when useful to aiding comprehension.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.5.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.5.2.B
+Standard Description: Develop the topic with facts, definitions, concrete details, quotations, or other information and examples related to the topic.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.5.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.5.2.C
+Standard Description: Link ideas within and across categories of information using words, phrases, and clauses (e.g., in contrast, especially).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.5.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.5.2.D
+Standard Description: Use precise language and domain-specific vocabulary to inform about or explain the topic.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.5.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.5.2.E
+Standard Description: Provide a concluding statement or section related to the information or explanation presented.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.5.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.5.3.A
+Standard Description: Orient the reader by establishing a situation and introducing a narrator and/or characters; organize an event sequence that unfolds naturally.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.5.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.5.3.B
+Standard Description: Use narrative techniques, such as dialogue, description, and pacing, to develop experiences and events or show the responses of characters to situations.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.5.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.5.3.C
+Standard Description: Use a variety of transitional words, phrases, and clauses to manage the sequence of events.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.5.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.5.3.D
+Standard Description: Use concrete words and phrases and sensory details to convey experiences and events precisely.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.5.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.5.3.E
+Standard Description: Provide a conclusion that follows from the narrated experiences or events.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.5.B
+Cluster Name: Production and Distribution of Writing
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.5.4
+Standard Description: Produce clear and coherent writing in which the development and organization are appropriate to task, purpose, and audience. (Grade-specific expectations for writing types are defined in standards 1 3 above.)
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.5.B
+Cluster Name: Production and Distribution of Writing
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.5.5
+Standard Description: With guidance and support from peers and adults, develop and strengthen writing as needed by planning, revising, editing, rewriting, or trying a new approach. (Editing for conventions should demonstrate command of Language standards 1 3 up to and including grade 5.)
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.5.B
+Cluster Name: Production and Distribution of Writing
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.5.6
+Standard Description: With some guidance and support from adults, use technology, including the Internet, to produce and publish writing as well as to interact and collaborate with others; demonstrate sufficient command of keyboarding skills to type a minimum of two pages in a single sitting.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.5.C
+Cluster Name: Research to Build and Present Knowledge
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.5.7
+Standard Description: Conduct short research projects that use several sources to build knowledge through investigation of different aspects of a topic.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.5.C
+Cluster Name: Research to Build and Present Knowledge
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.5.8
+Standard Description: Recall relevant information from experiences or gather relevant information from print and digital sources; summarize or paraphrase information in notes and finished work, and provide a list of sources.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.5.C
+Cluster Name: Research to Build and Present Knowledge
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.5.9.A
+Standard Description: Apply grade 5 Reading standards to literature (e.g.,  Compare and contrast two or more characters, settings, or events in a story or a drama, drawing on specific details in the text [e.g., how characters interact] ).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 5th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.5.C
+Cluster Name: Research to Build and Present Knowledge
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.5.9.B
+Standard Description: Apply grade 5 Reading standards to informational texts (e.g.,  Explain how an author uses reasons and evidence to support particular points in a text, identifying which reasons and evidence support which point[s] ).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.1.A
+Standard Description: Introduce claim(s) and organize the reasons and evidence clearly.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.1.B
+Standard Description: Support claim(s) with clear reasons and relevant evidence, using credible sources and demonstrating an understanding of the topic or text.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.1.C
+Standard Description: Use words, phrases, and clauses to clarify the relationships among claim(s) and reasons.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.1.D
+Standard Description: Establish and maintain a formal style.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.1.E
+Standard Description: Provide a concluding statement or section that follows from the argument presented.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.D
+Cluster Name: Range of Writing
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.10
+Standard Description: Write routinely over extended time frames (time for research, reflection, and revision) and shorter time frames (a single sitting or a day or two) for a range of discipline-specific tasks, purposes, and audiences.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.2.A
+Standard Description: Introduce a topic; organize ideas, concepts, and information, using strategies such as definition, classification, comparison/contrast, and cause/effect; include formatting (e.g., headings), graphics (e.g., charts, tables), and multimedia when useful to aiding comprehension.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.2.B
+Standard Description: Develop the topic with relevant facts, definitions, concrete details, quotations, or other information and examples.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.2.C
+Standard Description: Use appropriate transitions to clarify the relationships among ideas and concepts.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.2.D
+Standard Description: Use precise language and domain-specific vocabulary to inform about or explain the topic.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.2.E
+Standard Description: Establish and maintain a formal style.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.2.F
+Standard Description: Provide a concluding statement or section that follows from the information or explanation presented.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.3.A
+Standard Description: Engage and orient the reader by establishing a context and introducing a narrator and/or characters; organize an event sequence that unfolds naturally and logically.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.3.B
+Standard Description: Use narrative techniques, such as dialogue, pacing, and description, to develop experiences, events, and/or characters.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.3.C
+Standard Description: Use a variety of transition words, phrases, and clauses to convey sequence and signal shifts from one time frame or setting to another.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.3.D
+Standard Description: Use precise words and phrases, relevant descriptive details, and sensory language to convey experiences and events.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.A
+Cluster Name: Text Types and Purposes
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.3.E
+Standard Description: Provide a conclusion that follows from the narrated experiences or events.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.B
+Cluster Name: Production and Distribution of Writing
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.4
+Standard Description: Produce clear and coherent writing in which the development, organization, and style are appropriate to task, purpose, and audience. (Grade-specific expectations for writing types are defined in standards 1 3 above.)
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.B
+Cluster Name: Production and Distribution of Writing
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.5
+Standard Description: With some guidance and support from peers and adults, develop and strengthen writing as needed by planning, revising, editing, rewriting, or trying a new approach. (Editing for conventions should demonstrate command of Language standards 1 3 up to and including grade 6.).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.B
+Cluster Name: Production and Distribution of Writing
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.6
+Standard Description: Use technology, including the Internet, to produce and publish writing as well as to interact and collaborate with others; demonstrate sufficient command of keyboarding skills to type a minimum of three pages in a single sitting.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.C
+Cluster Name: Research to Build and Present Knowledge
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.7
+Standard Description: Conduct short research projects to answer a question, drawing on several sources and refocusing the inquiry when appropriate.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.C
+Cluster Name: Research to Build and Present Knowledge
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.8
+Standard Description: Gather relevant information from multiple print and digital sources; assess the credibility of each source; and quote or paraphrase the data and conclusions of others while avoiding plagiarism and providing basic bibliographic information for sources.
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.C
+Cluster Name: Research to Build and Present Knowledge
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.9.A
+Standard Description: Apply grade 6 Reading standards to literature (e.g.,  Compare and contrast texts in different forms or genres [e.g., stories and poems; historical novels and fantasy stories] in terms of their approaches to similar themes and topics ).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+
+
+Subject: Language
+Course: 6th Grade
+Unit ID: W
+Unit Name: Writing
+Cluster ID: CCSS.ELA-LITERACY.W.6.C
+Cluster Name: Research to Build and Present Knowledge
+Lesson Name: *None specified*
+Lesson Order: *None specified*
+Standard ID: CCSS.ELA-LITERACY.W.6.9.B
+Standard Description: Apply grade 6 Reading standards to literary nonfiction (e.g.,  Trace and evaluate the argument and specific claims in a text, distinguishing claims that are supported by reasons and evidence from claims that are not ).
+
+Key Concepts:
+*None specified*
+
+Learning Objectives:
+*None specified*
+
+Assessment Boundaries:
+*None specified*
+
+Common Misconceptions:
+*None specified*
+
+Difficulty Definitions:
+* Easy:
+  <unspecified>
+* Medium:
+  <unspecified>
+* Hard:
+  <unspecified>
+
+---
+

@@ -80,6 +80,52 @@ User Request → SDK → Claude (discovers & invokes skill) → JSON Response
 
 ## Workflows
 
+### Curriculum Preparation (Pre-requisite)
+
+Before running question generation, ensure `curriculum.md` has complete data for all standards. This is a **one-time setup** or run whenever new standards are added.
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    CURRICULUM PREPARATION WORKFLOW                          │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  STEP 1: Append Missing Standards                                          │
+│  ─────────────────────────────────                                          │
+│    Script: scripts/append_missing_curriculum.py                            │
+│    Purpose: Extract standard blocks from source curriculum and append       │
+│             to curriculum.md (structure only, fields are *None specified*) │
+│                                                                             │
+│    $ python scripts/append_missing_curriculum.py --dry-run                 │
+│    $ python scripts/append_missing_curriculum.py                           │
+│                              ↓                                              │
+│  STEP 2: Populate Empty Fields                                             │
+│  ─────────────────────────────                                              │
+│    Script: scripts/populate_curriculum_direct.py                           │
+│    Purpose: Fill *None specified* sections with AI-generated content       │
+│             - Learning Objectives                                           │
+│             - Assessment Boundaries                                         │
+│             - Common Misconceptions                                         │
+│                                                                             │
+│    $ python scripts/populate_curriculum_direct.py --dry-run                │
+│    $ python scripts/populate_curriculum_direct.py                          │
+│                              ↓                                              │
+│  RESULT: curriculum.md is complete and ready for question generation       │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+**Alternative: Skill-Based Populate (via SDK)**
+
+```bash
+# Uses prepare-curriculum-batch skill - Claude detects and populates autonomously
+python scripts/prepare_curriculum_skill.py --limit 10
+```
+
+| Script | Approach | Best For |
+|--------|----------|----------|
+| `populate_curriculum_direct.py` | Direct Anthropic API | Large batches (300+), reliability |
+| `prepare_curriculum_skill.py` | SDK + Skill | Small batches, seeing Claude's reasoning |
+
 ### Question Generation Flow
 
 ```
@@ -231,20 +277,29 @@ def lookup_curriculum(standard_id: str) -> str | None:
 ## Quick Start
 
 ```bash
-# Install
+# 1. Install
 pip install -r requirements.txt
 
-# Configure
+# 2. Configure
 cp .env.example .env
 # Add your ANTHROPIC_API_KEY
 
-# (Optional but recommended) Populate curriculum.md locally before deploying
-python src/main.py --populate-curriculum '{"standard_id":"CCSS.ELA-LITERACY.L.3.1.A","standard_description":"...","grade":"3"}'
+# 3. Prepare Curriculum (one-time setup)
+# Step 3a: Append any missing standard blocks from source
+python scripts/append_missing_curriculum.py --dry-run
+python scripts/append_missing_curriculum.py
 
-# Test
+# Step 3b: Populate empty fields (Learning Objectives, etc.)
+python scripts/populate_curriculum_direct.py --dry-run
+python scripts/populate_curriculum_direct.py
+
+# 4. Test question generation
 python src/main.py --test-generate '{"substandard_id": "CCSS.ELA-LITERACY.L.3.1.A"}'
 
-# Server
+# 5. Test on random sample from benchmarks
+python scripts/test_random_sample.py --sample-size 10 --seed 42
+
+# 6. Start API server
 python src/main.py --serve
 ```
 
@@ -252,16 +307,30 @@ python src/main.py --serve
 
 ```
 agent_sdk_v2/
-├── .claude/skills/                  # Skills (SDK discovers these)
-│   ├── ela-question-generation/     # Main skill - question generation
+├── .claude/skills/                      # Skills (SDK discovers these)
+│   ├── ela-question-generation/         # Main skill - question generation
+│   │   ├── SKILL.md
+│   │   └── reference/
+│   │       ├── curriculum.md            # Curriculum data (pre-populated)
+│   │       └── fill-in-examples.md      # Fill-in question examples
+│   ├── generate-passage/                # Passage generation for RL/RI
 │   │   └── SKILL.md
-│   ├── generate-passage/            # Passage generation for RL/RI
-│   │   └── SKILL.md
-│   └── populate-curriculum/         # Curriculum data generation
+│   └── prepare-curriculum-batch/        # Curriculum prep (optional, skill-based)
 │       └── SKILL.md
+├── scripts/                             # Utility scripts
+│   ├── append_missing_curriculum.py     # Step 1: Append standard blocks
+│   ├── populate_curriculum_direct.py    # Step 2: Fill empty fields (Direct API)
+│   ├── prepare_curriculum_skill.py      # Step 2 alt: Fill via SDK skill
+│   ├── test_random_sample.py            # Test pipeline on random samples
+│   └── generate_batch.py                # Batch question generation
 ├── src/
-│   ├── agentic_pipeline_sdk.py      # SDK implementation
-│   └── main.py                      # API + CLI
+│   ├── agentic_pipeline_sdk.py          # SDK implementation
+│   └── main.py                          # API + CLI
+├── data/                                # Benchmark files
+│   ├── grade-2-ela-benchmark.jsonl
+│   ├── grade-5-ela-benchmark.jsonl
+│   ├── grade-6-ela-benchmark.jsonl
+│   └── grade-8-ela-benchmark.jsonl
 └── requirements.txt
 ```
 
@@ -309,11 +378,149 @@ python src/main.py --list-skills
 
 ## Skills
 
+### Generation Skills (Runtime)
+
+These are the **only 2 skills** used during question generation:
+
 | Skill | Description | Triggered When |
 |-------|-------------|----------------|
-| `ela-question-generation` | Generates MCQ, MSQ, Fill-in questions | ELA question request |
-| `generate-passage` | Creates reading passages | RL.* or RI.* standard |
-| `populate-curriculum` | Generates learning objectives | Curriculum data request |
+| `ela-question-generation` | Generates MCQ, MSQ, Fill-in questions | Every ELA question request |
+| `generate-passage` | Creates reading passages | RL.* or RI.* standards only |
+
+**Note:** Curriculum data is **NOT** fetched via a skill at runtime. It is **pre-fetched by Python** from `curriculum.md` and included in the prompt to reduce token usage.
+
+### Preparation Skills (One-time Setup)
+
+| Skill | Description | When Used |
+|-------|-------------|-----------|
+| `prepare-curriculum-batch` | Scans curriculum.md, detects `*None specified*`, populates | Run via `prepare_curriculum_skill.py` |
+
+### How Claude Discovers and Chooses Skills
+
+**We don't explicitly specify which skill to use in code.** Claude decides autonomously.
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    HOW SKILL SELECTION WORKS                                │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  CODE (agentic_pipeline_sdk.py):                                           │
+│                                                                             │
+│    options = ClaudeAgentOptions(                                           │
+│        cwd=str(ROOT),                        # Points to agent_sdk_v2/     │
+│        setting_sources=["user", "project"], # Discovers ALL skills        │
+│        allowed_tools=["Skill", "Read"],     # Enables skill invocation    │
+│    )                                                                        │
+│                                                                             │
+│  SDK STARTUP:                                                               │
+│    1. Scans: agent_sdk_v2/.claude/skills/*/SKILL.md                        │
+│    2. Extracts ALL skill descriptions from YAML frontmatter                │
+│    3. Passes skill list to Claude                                          │
+│                                                                             │
+│  CLAUDE RECEIVES:                                                           │
+│    - Prompt: "Generate an ELA MCQ for L.3.1.A..."                          │
+│    - Available skills:                                                      │
+│        • ela-question-generation: "Generate K-12 ELA assessment..."        │
+│        • generate-passage: "Generate grade-appropriate passages..."        │
+│        • prepare-curriculum-batch: "Scan curriculum.md for missing..."     │
+│                                                                             │
+│  CLAUDE DECIDES:                                                            │
+│    "ela-question-generation matches this request" ← Based on description   │
+│                                                                             │
+│  WHY OTHER SKILLS AREN'T USED:                                              │
+│    • prepare-curriculum-batch → description doesn't match "generate MCQ"   │
+│    • Claude only invokes skills whose descriptions match the prompt        │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### Skill Usage by Phase
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                           SKILL USAGE BY PHASE                              │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  PREPARATION PHASE (one-time, before deployment):                          │
+│  ───────────────────────────────────────────────                            │
+│    Option A: Direct API (recommended for large batches)                    │
+│      $ python scripts/populate_curriculum_direct.py                        │
+│      → No skills involved, direct Anthropic API calls                      │
+│                                                                             │
+│    Option B: Skill-based                                                    │
+│      $ python scripts/prepare_curriculum_skill.py                          │
+│      → Uses: prepare-curriculum-batch skill                                │
+│                                                                             │
+│    Output: curriculum.md with complete Learning Objectives,                 │
+│            Assessment Boundaries, Common Misconceptions                     │
+│                                                                             │
+│  ─────────────────────────────────────────────────────────────────────────  │
+│                                                                             │
+│  GENERATION PHASE (runtime, every request):                                 │
+│  ──────────────────────────────────────────                                 │
+│    Skills used (Claude chooses based on prompt):                           │
+│      • ela-question-generation   → generates MCQ/MSQ/Fill-in               │
+│      • generate-passage          → generates passage (RL.*/RI.* only)      │
+│                                                                             │
+│    Curriculum: PRE-FETCHED by Python (not a skill call!)                   │
+│      → lookup_curriculum() extracts ~30 lines from curriculum.md           │
+│      → Included directly in prompt sent to SDK                              │
+│      → Claude never reads curriculum.md during generation                   │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### Why Curriculum is Pre-fetched (Not a Skill)
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    WHY PRE-FETCH CURRICULUM DATA?                           │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  curriculum.md = 20,000+ lines (500+ standards)                            │
+│                                                                             │
+│  ✗ BAD: Claude reads entire file via skill → ~200K tokens → expensive      │
+│  ✓ GOOD: Python extracts ~30 lines → ~500 tokens → 99% savings             │
+│                                                                             │
+│  The lookup happens BEFORE calling the SDK:                                 │
+│                                                                             │
+│    curriculum_context = lookup_curriculum(substandard_id)  # Python        │
+│    prompt = f"...{curriculum_context}..."                  # Include in prompt
+│    query(prompt=prompt, options=options)                   # Send to SDK    │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+## Scripts
+
+### Curriculum Preparation Scripts
+
+| Script | Purpose | Usage |
+|--------|---------|-------|
+| `append_missing_curriculum.py` | Append standard blocks from source curriculum | `python scripts/append_missing_curriculum.py` |
+| `populate_curriculum_direct.py` | Fill `*None specified*` fields via direct API | `python scripts/populate_curriculum_direct.py` |
+| `prepare_curriculum_skill.py` | Fill fields via SDK skill (Claude decides) | `python scripts/prepare_curriculum_skill.py` |
+
+### Testing & Generation Scripts
+
+| Script | Purpose | Usage |
+|--------|---------|-------|
+| `test_random_sample.py` | Test pipeline on random N samples from benchmarks | `python scripts/test_random_sample.py -n 200 --seed 42` |
+| `generate_batch.py` | Batch generate from benchmark file | `python scripts/generate_batch.py --limit 10` |
+
+### Script Options
+
+```bash
+# Curriculum Preparation
+python scripts/append_missing_curriculum.py --dry-run          # Preview what would be appended
+python scripts/populate_curriculum_direct.py --limit 10        # Populate first 10 only
+python scripts/populate_curriculum_direct.py --delay 1.0       # 1s delay between API calls
+
+# Testing
+python scripts/test_random_sample.py --dry-run                 # Show sample composition only
+python scripts/test_random_sample.py --sample-size 50 --seed 42  # Reproducible 50 samples
+python scripts/test_random_sample.py --save-sample data/sample.jsonl  # Save sample for reuse
+```
 
 ## Reference
 

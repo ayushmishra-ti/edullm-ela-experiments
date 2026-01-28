@@ -96,21 +96,30 @@ Use the request context:
 {
   "id": "l_3_1_d_fillin_easy_001",
   "content": {
-    "answer": "ran",
-    "question": "Read this sentence: 'Yesterday, I ______ to the store.' Write the correct past tense form of the verb 'run'.",
+    "answer": "went",
+    "question": "Complete the sentence with the correct past tense form of 'go':\n\nYesterday, Maria ______ to the library to return her books.",
     "image_url": [],
     "additional_details": "CCSS.ELA-LITERACY.L.3.1.D",
-    "answer_explanation": "The sentence says 'Yesterday,' which means the action happened in the past. 'Ran' is the past tense form of 'run.'"
+    "answer_explanation": "The word 'Yesterday' tells us the action happened in the past. The verb 'go' has an irregular past tense form. Instead of adding -ed, we change 'go' to 'went' to show past tense."
   }
 }
 ```
 
 **IMPORTANT for Fill-in:**
 - NO `answer_options` field
-- `answer` is the expected text
+- `answer` is the expected text (single word or short phrase)
 - Question must have a clear blank (______)
 - Include `additional_details` with standard ID
 - Explanation MUST NOT reference option letters (A/B/C/D)
+- Explanation should teach the underlying rule, not just state the answer
+
+**For high-quality Fill-in questions, see:** `reference/fill-in-examples.md`
+
+This file contains grade-specific examples (Grades 3, 5, 6, 8) demonstrating:
+- Proper context and signal words (e.g., "Yesterday" for past tense)
+- Clear blank placement within natural sentence flow
+- Educational explanations that teach the grammar rule
+- Appropriate difficulty scaling by grade level
 
 ## ID Generation
 
@@ -139,6 +148,43 @@ Examples:
 - **Easy**: Recall, one concept, familiar words
 - **Medium**: Apply a rule, compare options
 - **Hard**: Multiple concepts, subtle wording
+
+## Fill-in Question Best Practices
+
+Fill-in questions have the lowest pass rates. Follow these guidelines strictly:
+
+### Question Design
+1. **Use clear context sentences** - Include signal words that help identify the correct form:
+   - Time markers: "Yesterday," "Last week," "By next Friday"
+   - Comparison indicators: "than the other," "of all the"
+   - Subject clues: "The team" (singular) vs "The players" (plural)
+
+2. **Place blanks naturally** - The blank should fit where the word naturally appears
+   - Good: "Maria ______ to the library yesterday."
+   - Bad: "______ Maria to the library yesterday went."
+
+3. **Provide word bank or base form when helpful**:
+   - "(go / went / going)" for clarity
+   - "Write the correct form of 'swim'" when testing conjugation
+
+### Answer Specifications
+- Answer must be **exactly one word or short phrase**
+- Avoid answers with multiple acceptable spellings unless all are listed
+- Test ONE specific skill per question (don't combine verb tense + spelling)
+
+### Explanation Requirements
+- **Teach the rule**, don't just state the answer
+- Explain WHY incorrect alternatives would be wrong
+- Connect to the grammar concept being tested
+- NEVER mention option letters (A, B, C, D) - fill-ins have no options
+
+### Grade-Specific Focus
+| Grade | Focus Areas |
+|-------|-------------|
+| 3 | Irregular verbs, comparative/superlative adjectives, subject-verb agreement |
+| 5 | Perfect tenses (present/past/future), verb tense consistency |
+| 6 | Pronouns (intensive, reflexive, case), pronoun-antecedent agreement |
+| 8 | Verbals (gerunds, infinitives, participles), active/passive voice, subjunctive mood |
 
 ## Quality Checklist
 
