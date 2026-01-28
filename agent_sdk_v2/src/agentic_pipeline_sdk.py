@@ -185,6 +185,7 @@ Return the question as a JSON object with "id" and "content" fields."""
     try:
         result_content = None
         session_id = None
+        tool_calls = []  # Track all tool calls
         
         # query() is an async generator that yields messages
         # The prompt goes here ↓
@@ -194,19 +195,55 @@ Return the question as a JSON object with "id" and "content" fields."""
                 session_id = message.session_id
             
             if verbose:
-                # Log what Claude is doing
+                # Log message type
+                msg_type = type(message).__name__
+                logger.info(f"[SDK] Message type: {msg_type}")
+                
+                # Log all attributes for debugging
+                if hasattr(message, "__dict__"):
+                    for key in message.__dict__:
+                        if key.startswith("_"):
+                            continue
+                        val = getattr(message, key, None)
+                        if val is not None:
+                            val_str = str(val)[:200] if len(str(val)) > 200 else str(val)
+                            logger.info(f"[SDK]   {key}: {val_str}")
+                
+                # Log tool calls from content blocks
                 if hasattr(message, "content"):
                     content = message.content
                     if hasattr(content, "__iter__"):
                         for block in content:
                             if hasattr(block, "type"):
-                                if block.type == "tool_use" and getattr(block, "name", "") == "Skill":
-                                    skill_input = getattr(block, "input", {})
-                                    logger.info(f"[SDK] Claude invoking skill: {skill_input}")
-                                elif block.type == "text":
+                                block_type = getattr(block, "type", "")
+                                
+                                if block_type == "tool_use":
+                                    tool_name = getattr(block, "name", "unknown")
+                                    tool_id = getattr(block, "id", "")
+                                    tool_input = getattr(block, "input", {})
+                                    tool_calls.append({
+                                        "tool": tool_name,
+                                        "id": tool_id,
+                                        "input": tool_input
+                                    })
+                                    logger.info(f"[SDK] ┌─ TOOL CALL: {tool_name}")
+                                    logger.info(f"[SDK] │  ID: {tool_id}")
+                                    logger.info(f"[SDK] │  Input: {json.dumps(tool_input, indent=2)[:300]}")
+                                    logger.info(f"[SDK] └─────────────────────────")
+                                    
+                                elif block_type == "tool_result":
+                                    tool_id = getattr(block, "tool_use_id", "")
+                                    result = getattr(block, "content", "")
+                                    result_str = str(result)[:300] if len(str(result)) > 300 else str(result)
+                                    logger.info(f"[SDK] ┌─ TOOL RESULT (ID: {tool_id})")
+                                    logger.info(f"[SDK] │  {result_str}")
+                                    logger.info(f"[SDK] └─────────────────────────")
+                                    
+                                elif block_type == "text":
                                     text = getattr(block, "text", "")
                                     if text:
-                                        logger.debug(f"[SDK] Claude: {text[:100]}...")
+                                        text_preview = text[:150] + "..." if len(text) > 150 else text
+                                        logger.info(f"[SDK] Claude text: {text_preview}")
             
             # Capture the final result
             if hasattr(message, "result"):
@@ -218,6 +255,9 @@ Return the question as a JSON object with "id" and "content" fields."""
         
         if verbose:
             logger.info(f"[SDK] Agent completed")
+            logger.info(f"[SDK] Total tool calls: {len(tool_calls)}")
+            for tc in tool_calls:
+                logger.info(f"[SDK]   - {tc['tool']}")
         
         if not result_content:
             return {

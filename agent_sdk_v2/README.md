@@ -12,6 +12,72 @@ User Request → SDK → Claude (discovers & invokes skill) → JSON Response
 2. **SDK** discovers skills automatically when `setting_sources=["user", "project"]`
 3. **Claude** reads the prompt, picks the relevant skill, and generates output
 
+## Who Decides What? (Decision Flow)
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                           DECISION FLOW                                      │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  OUR CODE (agentic_pipeline_sdk.py):                                        │
+│    ✗ Does NOT decide which skill to use                                     │
+│    ✗ Does NOT load SKILL.md manually                                        │
+│    ✓ Only configures: cwd, setting_sources, allowed_tools                   │
+│    ✓ Only sends the prompt                                                  │
+│                                                                             │
+│  SDK:                                                                       │
+│    ✓ Discovers skills in .claude/skills/                                    │
+│    ✓ Extracts skill descriptions (from YAML frontmatter)                    │
+│    ✓ Passes skill list to Claude                                            │
+│    ✓ Executes tool calls that Claude requests                               │
+│    ✗ Does NOT decide which skill to use                                     │
+│                                                                             │
+│  CLAUDE (the AI model):                                                     │
+│    ✓ Reads the prompt                                                       │
+│    ✓ Sees available skills and their descriptions                           │
+│    ✓ DECIDES: "ela-question-generation matches this request"                │
+│    ✓ DECIDES: "This is RL.*, I need generate-passage first"                 │
+│    ✓ Calls tools (Skill, Read) as needed                                    │
+│    ✓ Generates the final output                                             │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+**Key Point:** Claude (the AI model) makes all decisions - which skill to use, when to call another skill, and how to generate output. This is called **"Model-invoked"** behavior.
+
+## Claude's Decision Process (Example)
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    EXAMPLE: Claude's Internal Decision Process               │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  Claude receives:                                                           │
+│    - Prompt: "Generate an ELA MCQ for CCSS.ELA-LITERACY.RL.3.1"            │
+│    - Available skills:                                                      │
+│        • ela-question-generation: "Generate K-12 ELA assessment questions." │
+│        • generate-passage: "Generate grade-appropriate reading passages."   │
+│        • populate-curriculum: "Generate curriculum data..."                 │
+│                                                                             │
+│  Claude thinks:                                                             │
+│    1. "This is about ELA questions → ela-question-generation matches"       │
+│    2. Invokes Skill tool → reads ela-question-generation/SKILL.md          │
+│    3. Reads SKILL.md: "RL.* requires passage = YES"                        │
+│    4. "I need a passage first → generate-passage matches"                   │
+│    5. Invokes Skill tool → reads generate-passage/SKILL.md                 │
+│    6. Generates passage following instructions                              │
+│    7. Returns to question generation with the passage                       │
+│    8. Outputs final JSON                                                    │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+| Old Approach | SDK Skills Approach |
+|--------------|---------------------|
+| Python code decides flow | **Claude decides flow** |
+| Hardcoded if/else logic | Claude reads instructions |
+| Change code to change behavior | Change SKILL.md to change behavior |
+
 ## Workflows
 
 ### Question Generation Flow
