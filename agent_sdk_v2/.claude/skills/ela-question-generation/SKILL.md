@@ -1,6 +1,6 @@
 ---
 name: ela-question-generation
-description: Generate K-12 ELA assessment questions (MCQ, MSQ, Fill-in) aligned to Common Core standards. Use when asked to create ELA questions, assessment items, or Common Core aligned questions. For RL.*/RI.* standards, this skill MUST first invoke the generate-passage skill.
+description: Generate K-12 ELA assessment questions (MCQ, MSQ, Fill-in) as JSON. For RL.*/RI.* standards, read passage guidelines from .claude/skills/generate-passage/SKILL.md first, then output complete JSON with passage field. ALWAYS return valid JSON as final output.
 ---
 
 # ELA Question Generation
@@ -30,14 +30,15 @@ Generate K-12 ELA assessment questions (MCQ, MSQ, Fill-in) aligned to Common Cor
 
 ### CRITICAL: For RL.* and RI.* Standards
 
-**YOU MUST invoke the `generate-passage` skill BEFORE generating the question.**
+**For passage generation, read the instructions at:** `.claude/skills/generate-passage/SKILL.md`
 
-1. First, use the `generate-passage` skill with the standard ID and grade
-2. The `generate-passage` skill will return plain passage text
-3. Store that passage text
-4. Then proceed to Step 2, including the passage in the `passage` field of your JSON output
-
-**DO NOT generate the passage yourself. ALWAYS use the `generate-passage` skill for RL.*/RI.* standards.**
+**Workflow for RL.*/RI.* standards:**
+1. Read the passage generation guidelines from `.claude/skills/generate-passage/SKILL.md`
+2. Generate a passage following those guidelines (narrative for RL.*, informational for RI.*)
+3. **IMPORTANT: Do NOT stop after generating the passage!**
+4. Continue to Step 2 to generate the question JSON
+5. Include the passage in the `passage` field of your final JSON output
+6. **Your final output MUST be a valid JSON object, not passage text**
 
 ### Step 2: Generate the Question
 
@@ -227,9 +228,11 @@ Before returning a question, verify:
 ## Critical
 
 - `image_url` is ALWAYS `[]`
-- Return ONLY the JSON object, no markdown, no explanations
+- **FINAL OUTPUT MUST BE VALID JSON** - no markdown, no explanations, no passage-only text
 - For RL.*/RI.* standards: 
-  1. FIRST invoke the `generate-passage` skill to get the passage
-  2. Include the passage in the `passage` field of your JSON output
-  3. Create a question that references the passage
-- **ALWAYS use the `generate-passage` skill for RL.*/RI.* - do NOT generate passages yourself**
+  1. Read passage guidelines from `.claude/skills/generate-passage/SKILL.md`
+  2. Generate a passage following those guidelines
+  3. **DO NOT STOP after passage generation - continue to create the question!**
+  4. Include the passage in the `passage` field of your JSON
+  5. Create a question that references the passage
+- **Your response must end with a complete JSON object like the examples above**
