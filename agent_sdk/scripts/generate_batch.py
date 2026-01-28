@@ -132,11 +132,18 @@ async def run_batch_generation(
 
 def main():
     parser = argparse.ArgumentParser(description="Batch generate ELA questions (AGENTIC)")
+    default_input = ROOT / "data" / "grade-3-ela-benchmark.jsonl"
     parser.add_argument(
         "--input", "-i",
         type=Path,
-        default=ROOT / "data" / "grade-3-ela-benchmark.jsonl",
+        default=default_input,
         help="Input benchmark JSONL file",
+    )
+    parser.add_argument(
+        "--grade", "-g",
+        type=str,
+        default=None,
+        help="Convenience flag: uses data/grade-<grade>-ela-benchmark.jsonl when --input is not set",
     )
     parser.add_argument(
         "--output", "-o",
@@ -162,6 +169,10 @@ def main():
         help="Show detailed Claude tool calls and reasoning",
     )
     args = parser.parse_args()
+
+    # If caller provided --grade and didn't override --input, select grade-specific benchmark.
+    if args.grade and args.input == default_input:
+        args.input = ROOT / "data" / f"grade-{args.grade}-ela-benchmark.jsonl"
     
     print("=" * 60)
     print("AGENTIC ELA Question Generation")

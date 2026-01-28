@@ -22,6 +22,7 @@ def parse_curriculum_entry(text: str) -> dict:
     result = {
         "standard_id": None,
         "standard_description": None,
+        "learning_objectives": None,
         "assessment_boundaries": None,
         "common_misconceptions": None,
     }
@@ -35,6 +36,19 @@ def parse_curriculum_entry(text: str) -> dict:
     std_desc_match = re.search(r"^Standard Description:\s*(.+)$", text, re.MULTILINE)
     if std_desc_match:
         result["standard_description"] = std_desc_match.group(1).strip()
+
+    # Extract Learning Objectives
+    lo_match = re.search(
+        r"^Learning Objectives:\s*(.*?)(?=^Assessment Boundaries:|\Z)",
+        text,
+        re.MULTILINE | re.DOTALL,
+    )
+    if lo_match:
+        lo_text = lo_match.group(1).strip()
+        lo_text = re.sub(r"^\*\s*None specified\s*\*$", "", lo_text, flags=re.MULTILINE)
+        lo_text = lo_text.strip()
+        if lo_text:
+            result["learning_objectives"] = lo_text
     
     # Extract Assessment Boundaries
     ab_match = re.search(
@@ -113,9 +127,11 @@ def lookup_curriculum(substandard_id: str) -> dict:
                 "found": True,
                 "standard_id": parsed["standard_id"],
                 "standard_description": parsed["standard_description"],
+                "learning_objectives": parsed["learning_objectives"],
                 "assessment_boundaries": parsed["assessment_boundaries"],
                 "common_misconceptions": parsed["common_misconceptions"],
                 # Boolean flags for Claude to check if data needs to be populated
+                "has_objectives": bool(parsed["learning_objectives"]),
                 "has_boundaries": bool(parsed["assessment_boundaries"]),
                 "has_misconceptions": bool(parsed["common_misconceptions"]),
             }

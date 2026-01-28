@@ -19,12 +19,22 @@ Generate K-12 ELA assessment questions (MCQ, MSQ, Fill-in) aligned to Common Cor
 ### Step 1: Parse the Request
 Extract from the request: `grade`, `type` (mcq/msq/fill-in), `difficulty`, `substandard_id`, `substandard_description`
 
+**Topic fidelity (non-negotiable):**
+- `skills.substandard_description` is the authoritative scope. The generated question MUST directly assess this topic and MUST NOT drift to nearby skills.
+- Every part of the item (prompt, correct answer, distractors, and explanation) must strictly reflect the `substandard_description`.
+- If the `substandard_description` is broad, pick ONE clear micro-skill within it and keep the question narrowly focused (still aligned).
+
 ### Step 2: Determine What's Needed
 
-**Check if passage is required:**
-- `RL.*` (Reading Literature) → needs narrative passage
-- `RI.*` (Reading Informational) → needs informational passage  
-- `L.*` or `W.*` (Language/Writing) → no passage needed
+**Route by standard family (drives format):**
+- `RL.*` (Reading Literature) → **requires a narrative passage**; question must reference evidence from the passage.
+- `RI.*` (Reading Informational) → **requires an informational passage**; question must reference evidence from the passage.
+- `RF.*` (Reading: Foundational Skills) → typically **word/phonics/fluency tasks**; no long passage unless explicitly needed.
+- `W.*` (Writing) → typically **editing/revision or writing task**; include a short excerpt/draft when needed (acts like a “passage”).
+- `SL.*` (Speaking & Listening) → typically **discussion/presentation/listening skills**; use a short dialogue/transcript/situation prompt when needed.
+- `L.*` (Language) → grammar/usage/vocabulary; usually **no passage** (unless the standard explicitly requires text context).
+
+**If the standard requires a passage/transcript/excerpt, generate it first**, then generate the question(s) anchored to that text.
 
 **Always get curriculum context** - every question needs it.
 
@@ -36,7 +46,7 @@ You have these scripts. **Decide which to run:**
 ```bash
 python scripts/lookup_curriculum.py "<standard_id>"
 ```
-- Returns: Assessment boundaries and common misconceptions
+- Returns: Learning objectives, assessment boundaries, and common misconceptions
 - **Always run this first** for every question
 
 **Populate Curriculum** (`scripts/populate_curriculum.py`):
@@ -44,7 +54,7 @@ python scripts/lookup_curriculum.py "<standard_id>"
 python scripts/populate_curriculum.py "<standard_id>" "<standard_description>"
 ```
 - Use when: Curriculum lookup returns missing/empty data
-- Generates and saves curriculum info to `curriculum.md`
+- Generates and saves learning objectives, assessment boundaries, and misconceptions to `curriculum.md`
 
 **Generate Passage** (`scripts/generate_passage.py`):
 ```bash
@@ -56,6 +66,8 @@ python scripts/generate_passage.py "<standard_id>" "<grade>" "<style>"
 ### Step 4: Generate the Question
 
 Use all gathered context:
+- `substandard_description` (governing topic/scope)
+- Learning objectives (what mastery looks like for this standard)
 - Curriculum boundaries (stay in scope)
 - Common misconceptions (design distractors)
 - Passage (if RL.*/RI.* standards)
@@ -141,6 +153,10 @@ The output format depends on the question type in the request:
 - `answer` is the expected text (case-insensitive matching)
 - Question should have a clear blank (______)
 - Include `additional_details` with the standard ID
+- **answer_explanation MUST NOT reference option letters** (no “Option A/B/C/D”) because Fill-in has no choices; explain in terms of the correct answer and why other common responses are wrong.
+- **Because there are NO options, the question text must include all required constraints** so there is exactly ONE reasonable correct answer. Avoid open-ended blanks.
+- **Always anchor the target** by explicitly naming the base word / form being tested (examples: “Write the plural of ‘tooth’”, “Use the past tense of ‘run’”, “Choose the correct pronoun to replace ‘Sarah’”).
+- **Reject ambiguous contexts** (e.g., “The dentist checked all of the _____ in my mouth.”) because multiple answers could fit. Instead: “Use the plural of ‘tooth’: The dentist checked all of my _____.”
 
 ---
 
@@ -158,7 +174,7 @@ The output format depends on the question type in the request:
 
 - **Parts of speech questions**: Always provide a context sentence
 - **Verb tense questions**: Include time markers (yesterday, today, tomorrow)
-- **Fill-in questions**: NO answer_options — user types the answer; use clear blank (______); answer should be a single word or short phrase
+- **Fill-in questions**: NO answer_options — user types the answer; use clear blank (______); answer should be a single word or short phrase; **question must include the base word / constraint so the answer is uniquely determined**
 - **MSQ questions**: Must say "Select all that apply" or "Select all correct answers"
 
 ---
@@ -356,18 +372,27 @@ The output format depends on the question type in the request:
 
 ## ID Generation
 
+IDs MUST be derived from `substandard_id` (NOT from a hardcoded grade):
+
 From `CCSS.ELA-LITERACY.L.3.1.A`:
 1. Take part after `CCSS.ELA-LITERACY.` → `L.3.1.A`
 2. Lowercase and replace `.` with `_` → `l_3_1_a`
 3. Append `_<type>_<difficulty>_001` where `<type>` is:
    - `mcq` for multiple choice
    - `msq` for multiple select
-   - `fillin` or `fill-in` for fill-in-the-blank
+   - `fillin` (preferred) or `fill-in` for fill-in-the-blank
+
+More examples:
+- `CCSS.ELA-LITERACY.RI.5.2` → `ri_5_2`
+- `CCSS.ELA-LITERACY.RL.6.1` → `rl_6_1`
+- `CCSS.ELA-LITERACY.L.10.1.A` → `l_10_1_a`
 
 Examples:
 - `l_3_1_a_mcq_easy_001`
 - `l_3_1_a_msq_medium_001`
 - `l_3_1_d_fillin_easy_001`
+ - `ri_5_2_mcq_easy_001`
+ - `rl_6_1_msq_hard_001`
 
 ## Quality Checklist
 

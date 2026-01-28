@@ -8,7 +8,7 @@ Usage:
 Example:
     python scripts/populate_curriculum.py "CCSS.ELA-LITERACY.L.3.1.A" "Explain the function of nouns..."
 
-Generates assessment boundaries and common misconceptions using Claude API, saves to curriculum.md.
+Generates learning objectives, assessment boundaries, and common misconceptions using Claude API, saves to curriculum.md.
 """
 
 import json
@@ -49,29 +49,36 @@ def generate_curriculum_content(standard_id: str, standard_description: str) -> 
     except ImportError:
         return {"success": False, "error": "anthropic package not installed"}
     
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    # NOTE: Cloud secrets sometimes include trailing newlines; strip whitespace
+    api_key = (os.environ.get("ANTHROPIC_API_KEY") or "").strip()
     if not api_key:
         return {"success": False, "error": "ANTHROPIC_API_KEY not set"}
     
-    prompt = f"""Generate Assessment Boundaries and Common Misconceptions for this ELA standard:
+    prompt = f"""Generate Learning Objectives, Assessment Boundaries, and Common Misconceptions for this ELA standard:
 
 Standard ID: {standard_id}
 Standard Description: {standard_description}
 
 Generate:
 
-1. **Assessment Boundaries**: 1-3 concise bullet points specifying what IS and is NOT assessed.
+1. **Learning Objectives**: 2-4 concise bullet points describing what a student should be able to do to demonstrate mastery of THIS standard description.
+   - Each bullet starts with "* " (asterisk + space)
+   - Use student-facing, measurable verbs (identify, explain, choose, revise, etc.)
+   - MUST reflect the Standard Description; no drift to adjacent standards
+
+2. **Assessment Boundaries**: 1-3 concise bullet points specifying what IS and is NOT assessed.
    - Each bullet starts with "* " (asterisk + space)
    - Keep each bullet to 1-2 sentences max
    - Focus on grade-appropriate scope
 
-2. **Common Misconceptions**: 3-5 bullet points of typical student errors.
+3. **Common Misconceptions**: 3-5 bullet points of typical student errors.
    - Each bullet starts with "* " (asterisk + space)
    - One specific misconception per bullet
    - These will be used to create effective MCQ distractors
 
 Return ONLY a JSON object (no markdown fences):
 {{
+  "learning_objectives": "* Students can...\\n* Students can...",
   "assessment_boundaries": "* Assessment is limited to...\\n* Students should...",
   "common_misconceptions": [
     "Students may confuse...",
@@ -98,7 +105,10 @@ Return ONLY a JSON object (no markdown fences):
         
         # Parse JSON from response
         # Try to find JSON object
-        json_match = re.search(r'\{[\s\S]*"assessment_boundaries"[\s\S]*"common_misconceptions"[\s\S]*\}', text)
+        json_match = re.search(
+            r'\{[\s\S]*"learning_objectives"[\s\S]*"assessment_boundaries"[\s\S]*"common_misconceptions"[\s\S]*\}',
+            text,
+        )
         if json_match:
             generated_data = json.loads(json_match.group(0))
         else:
@@ -107,6 +117,7 @@ Return ONLY a JSON object (no markdown fences):
         
         return {
             "success": True,
+            "learning_objectives": generated_data.get("learning_objectives", ""),
             "assessment_boundaries": generated_data.get("assessment_boundaries", ""),
             "common_misconceptions": generated_data.get("common_misconceptions", []),
         }
@@ -120,6 +131,7 @@ Return ONLY a JSON object (no markdown fences):
 def update_curriculum_file(
     curriculum_path: Path,
     standard_id: str,
+    learning_objectives: str,
     assessment_boundaries: str,
     common_misconceptions: list,
 ) -> bool:
@@ -140,6 +152,13 @@ def update_curriculum_file(
     for i, entry in enumerate(parts):
         if f"Standard ID: {standard_id}" in entry:
             original_entry = entry
+
+            # Update Learning Objectives
+            if learning_objectives:
+                lo_pattern = r"(Learning Objectives:\s*)(?:\*None specified\*|.*?)(?=\n\nAssessment Boundaries:)"
+                objectives_text = learning_objectives.strip()
+                replacement = f"\\1{objectives_text}\n"
+                entry = re.sub(lo_pattern, replacement, entry, flags=re.DOTALL)
             
             # Update Assessment Boundaries
             if assessment_boundaries:
@@ -196,6 +215,7 @@ def main():
     file_updated = update_curriculum_file(
         curriculum_path,
         standard_id,
+        result.get("learning_objectives", ""),
         result.get("assessment_boundaries", ""),
         result.get("common_misconceptions", []),
     )
@@ -203,6 +223,7 @@ def main():
     output = {
         "success": True,
         "standard_id": standard_id,
+        "learning_objectives": result.get("learning_objectives"),
         "assessment_boundaries": result.get("assessment_boundaries"),
         "common_misconceptions": result.get("common_misconceptions"),
         "file_updated": file_updated,

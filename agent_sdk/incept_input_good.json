@@ -1,0 +1,47 @@
+{
+  "generated_content": [
+    {
+      "id": "l_3_1_a_msq_easy_001",
+      "request": {
+        "type": "msq",
+        "grade": "3",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.L.3.1.A",
+          "substandard_description": "Explain the function of nouns, pronouns, verbs, adjectives, and adverbs in general and their functions in particular sentences."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "easy",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": [
+          "B"
+        ],
+        "question": "Read this sentence:\n\n\"The fluffy cat sleeps peacefully.\"\n\nWhich word is an adjective, and what does it do in this sentence?",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "The word 'peacefully' is an adjective because it describes how the cat sleeps."
+          },
+          {
+            "key": "B",
+            "text": "The word 'fluffy' is an adjective because it describes the cat."
+          },
+          {
+            "key": "C",
+            "text": "The word 'cat' is an adjective because it tells what kind of animal."
+          },
+          {
+            "key": "D",
+            "text": "The word 'sleeps' is an adjective because it tells what the cat does."
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "The correct answer is B. 'Fluffy' is an adjective because adjectives describe nouns, and 'fluffy' describes the noun 'cat' by telling what kind of cat it is. Option A is incorrect because 'peacefully' is an adverb that describes the verb 'sleeps.' Option C is incorrect because 'cat' is a noun that names an animal. Option D is incorrect because 'sleeps' is a verb that shows the action the cat is doing."
+      }
+    }
+  ]
+}

@@ -96,6 +96,28 @@ def _parsed_to_item(parsed: dict, request: dict, normalize: bool = True) -> dict
         "request": request,
     }
 
+def _id_prefix_from_standard_id(substandard_id: str) -> str:
+    """
+    Convert a CCSS standard id into an item id prefix.
+
+    Example:
+      CCSS.ELA-LITERACY.L.3.1.A -> l_3_1_a
+      CCSS.ELA-LITERACY.RI.5.2 -> ri_5_2
+    """
+    s = (substandard_id or "").strip()
+    if not s:
+        return "item"
+
+    # Strip common prefix if present
+    s = re.sub(r"^CCSS\.ELA-LITERACY\.", "", s, flags=re.IGNORECASE).strip()
+
+    # Lowercase and normalize separators
+    s = s.lower()
+    s = s.replace("-", "_").replace(".", "_")
+    s = re.sub(r"[^a-z0-9_]", "_", s)
+    s = re.sub(r"_+", "_", s).strip("_")
+    return s or "item"
+
 
 # ============================================================================
 # Tool Definitions (Anthropic Native Format)
@@ -256,7 +278,8 @@ async def generate_one_agentic(
             "generation_mode": "agentic",
         }
     
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    # NOTE: Cloud secrets sometimes include trailing newlines; strip whitespace
+    api_key = (os.environ.get("ANTHROPIC_API_KEY") or "").strip()
     if not api_key:
         return {
             "error": "ANTHROPIC_API_KEY not set",
@@ -283,7 +306,71 @@ async def generate_one_agentic(
     difficulty = request.get("difficulty", "easy")
     grade = request.get("grade", "3")
     qtype = request.get("type", "mcq")
+    id_prefix = _id_prefix_from_standard_id(substandard_id)
     
+    q = (qtype or "").strip().lower()
+    if q in {"fill-in", "fill_in", "fillin", "fill"}:
+        qtype_requirements = f"""   - Creates a single unambiguous blank (______) with exactly ONE reasonable answer
+   - Does NOT include answer_options (fill-in questions have no options)
+   - Sets content.additional_details to the standard id: "{substandard_id}"
+   - Uses curriculum misconceptions to anticipate common wrong responses (in the explanation), without using option letters
+   - CRITICAL: The answer_explanation MUST NOT reference nonexistent multiple-choice options like "Option A/B/C/D"
+"""
+        schema_example = f"""{{
+  "id": "{id_prefix}_{qtype}_{difficulty}_001",
+  "content": {{
+    "answer": "...",
+    "question": "... ______ ...",
+    "image_url": [],
+    "additional_details": "{substandard_id}",
+    "answer_explanation": "..."
+  }}
+}}"""
+    elif q in {"msq", "multi-select", "multi_select", "multiselect"}:
+        qtype_requirements = """   - Includes answer_options with keys A-D
+   - Uses curriculum misconceptions to create strong distractors
+   - The question MUST say "Select all that apply" (or equivalent)
+   - content.answer MUST be an array of keys, e.g. ["A","C"]
+"""
+        schema_example = f"""{{
+  "id": "{id_prefix}_{qtype}_{difficulty}_001",
+  "content": {{
+    "answer": ["A", "C"],
+    "question": "...",
+    "image_url": [],
+    "answer_options": [
+      {{"key": "A", "text": "..."}},
+      {{"key": "B", "text": "..."}},
+      {{"key": "C", "text": "..."}},
+      {{"key": "D", "text": "..."}}
+    ],
+    "additional_details": "",
+    "answer_explanation": "..."
+  }}
+}}"""
+    else:
+        # Default to MCQ schema
+        qtype_requirements = """   - Includes answer_options with keys A-D
+   - Uses curriculum misconceptions to create strong distractors
+   - content.answer MUST be a single key like "B"
+"""
+        schema_example = f"""{{
+  "id": "{id_prefix}_{qtype}_{difficulty}_001",
+  "content": {{
+    "answer": "B",
+    "question": "...",
+    "image_url": [],
+    "answer_options": [
+      {{"key": "A", "text": "..."}},
+      {{"key": "B", "text": "..."}},
+      {{"key": "C", "text": "..."}},
+      {{"key": "D", "text": "..."}}
+    ],
+    "additional_details": "",
+    "answer_explanation": "..."
+  }}
+}}"""
+
     # Build the initial prompt
     user_prompt = f"""Generate a Grade {grade} ELA {qtype.upper()} question for this request:
 
@@ -303,30 +390,16 @@ MANDATORY WORKFLOW (YOU MUST FOLLOW THIS SEQUENCE):
 
 3. FINALLY: Generate a {qtype.upper()} that:
    - Stays within the assessment boundaries from the curriculum data
-   - Uses common misconceptions to create effective distractors
    - Matches the difficulty level: {difficulty}
    - Follows the output schema for {qtype.upper()} type
+   - Uses an item id derived from the standard id: "{id_prefix}"
+{qtype_requirements}
 
 CRITICAL: Do not generate the question until you have curriculum context from the tools.
 Start by calling lookup_curriculum NOW.
 
 Return ONLY a valid JSON object matching this schema:
-{{
-  "id": "l_3_1_a_{qtype}_{difficulty}_001",
-  "content": {{
-    "answer": "B",
-    "question": "...",
-    "image_url": [],
-    "answer_options": [
-      {{"key": "A", "text": "..."}},
-      {{"key": "B", "text": "..."}},
-      {{"key": "C", "text": "..."}},
-      {{"key": "D", "text": "..."}}
-    ],
-    "additional_details": "",
-    "answer_explanation": "..."
-  }}
-}}
+{schema_example}
 
 No markdown code fences in your final answer, just the JSON object."""
 

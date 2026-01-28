@@ -3,10 +3,13 @@
 Evaluate generated questions using InceptBench (parallel execution).
 
 Usage:
-  python scripts/evaluate_batch.py [--input PATH] [--output-dir PATH] [--concurrency N] [--verbose]
+  python scripts/evaluate_batch.py [--input PATH] [--output-dir PATH] [--concurrency N] [--show-eval] [--debug]
 
 Example:
-  python scripts/evaluate_batch.py --concurrency 20 --verbose
+  python scripts/evaluate_batch.py --concurrency 20
+  python scripts/evaluate_batch.py -i outputs/cloud_endpoint_samples.json
+  python scripts/evaluate_batch.py --show-eval  # Show full evaluation JSON for each item
+  python scripts/evaluate_batch.py --debug      # Show inceptbench logs
 """
 
 from __future__ import annotations
@@ -42,7 +45,7 @@ def to_inceptbench_format(item: dict) -> dict:
     }
 
 
-async def evaluate_item_async(item: dict, verbose: bool = False) -> dict | None:
+async def evaluate_item_async(item: dict, debug: bool = False) -> dict | None:
     """Evaluate one item with InceptBench CLI (async)."""
     incept_item = to_inceptbench_format(item)
     payload = {"generated_content": [incept_item]}
@@ -52,8 +55,9 @@ async def evaluate_item_async(item: dict, verbose: bool = False) -> dict | None:
         out_path = Path(td) / "out.json"
         in_path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
         
+        # Don't pass --verbose to suppress INFO logs by default
         cmd = [sys.executable, "-m", "inceptbench", "evaluate", str(in_path), "-o", str(out_path)]
-        if verbose:
+        if debug:
             cmd.append("--verbose")
         
         try:
@@ -64,21 +68,21 @@ async def evaluate_item_async(item: dict, verbose: bool = False) -> dict | None:
             )
             try:
                 stdout, stderr = await asyncio.wait_for(proc.communicate(), timeout=120)
-                # Print verbose output if available
-                if verbose and stdout:
+                # Only print output in debug mode
+                if debug and stdout:
                     print(stdout.decode("utf-8", errors="ignore"))
-                if verbose and stderr:
+                if debug and stderr:
                     print(stderr.decode("utf-8", errors="ignore"))
             except asyncio.TimeoutError:
                 proc.kill()
                 return None
             
             if proc.returncode != 0:
-                if verbose and stderr:
+                if debug and stderr:
                     print(f"    Error: {stderr.decode('utf-8', errors='ignore')}")
                 return None
         except Exception as e:
-            if verbose:
+            if debug:
                 print(f"    Exception: {e}")
             return None
         
@@ -110,17 +114,18 @@ async def evaluate_with_semaphore(
     index: int,
     total: int,
     semaphore: asyncio.Semaphore,
-    verbose: bool = False,
+    show_eval: bool = False,
+    debug: bool = False,
 ) -> tuple[int, dict, dict | None]:
     """Evaluate one item with semaphore-controlled concurrency."""
     async with semaphore:
         item_id = item.get("id", "")
-        print(f"  [{index+1}/{total}] Evaluating {item_id}...")
+        print(f"  [{index+1}/{total}] {item_id}...", end=" ", flush=True)
         
-        ev = await evaluate_item_async(item, verbose)
+        ev = await evaluate_item_async(item, debug)
         
         if ev is None:
-            print(f"    ✗ Failed: {item_id}")
+            print("FAIL")
         else:
             overall = ev.get("overall") or {}
             score_100 = overall.get("score_100")
@@ -129,10 +134,21 @@ async def evaluate_with_semaphore(
                 score_100 = round(score * 100, 2) if score is not None else None
             
             if score_100 is not None:
-                status = "✓" if score_100 >= 85 else "⚠ LOW"
-                print(f"    {status} {item_id}: {score_100}%")
+                status = "OK" if score_100 >= 85 else "WARN"
+                print(f"{status} {score_100}%")
             else:
-                print(f"    ⚠ {item_id}: No score")
+                print("WARN No score")
+            
+            # Show full evaluation JSON if requested
+            if show_eval and ev:
+                eval_output = {
+                    "error": None,
+                    "score": overall.get("score"),
+                    "passed": score_100 >= 85 if score_100 else False,
+                    "timestamp": datetime.now().isoformat(),
+                    "evaluation": ev,
+                }
+                print(json.dumps(eval_output, indent=2))
         
         return (index, item, ev)
 
@@ -140,13 +156,14 @@ async def evaluate_with_semaphore(
 async def run_evaluation(
     items: list[dict],
     concurrency: int,
-    verbose: bool,
+    show_eval: bool = False,
+    debug: bool = False,
 ) -> list[tuple[int, dict, dict | None]]:
     """Run all evaluations in parallel with concurrency limit."""
     semaphore = asyncio.Semaphore(concurrency)
     
     tasks = [
-        evaluate_with_semaphore(item, i, len(items), semaphore, verbose)
+        evaluate_with_semaphore(item, i, len(items), semaphore, show_eval, debug)
         for i, item in enumerate(items)
     ]
     
@@ -156,7 +173,7 @@ async def run_evaluation(
     valid_results = []
     for r in results:
         if isinstance(r, Exception):
-            print(f"  ✗ Task failed with exception: {r}")
+            print(f"  FAIL Task failed with exception: {r}")
         else:
             valid_results.append(r)
     
@@ -169,13 +186,13 @@ def main():
         "--input", "-i",
         type=Path,
         default=ROOT / "outputs" / "batch_generated.json",
-        help="Input batch_generated.json file",
+        help="Input JSON file containing {'generated_content': [...]} (default: outputs/batch_generated.json)",
     )
     parser.add_argument(
         "--output-dir", "-o",
         type=Path,
         default=ROOT / "outputs",
-        help="Output directory for results",
+        help="Output directory for results (writes eval_results.csv and eval_results_summary.json)",
     )
     parser.add_argument(
         "--concurrency", "-c",
@@ -184,11 +201,26 @@ def main():
         help="Number of parallel evaluations (default: 10)",
     )
     parser.add_argument(
-        "--verbose", "-v",
+        "--show-eval", "-e",
         action="store_true",
-        help="Pass --verbose to inceptbench",
+        help="Show full evaluation JSON for each item",
+    )
+    parser.add_argument(
+        "--debug",
+        action="store_true",
+        help="Show inceptbench INFO logs (verbose mode)",
     )
     args = parser.parse_args()
+
+    # Common footgun: passing a file path to --output-dir (e.g. "-o outputs/some.json").
+    # If it looks like a file path, treat its parent as the output directory.
+    if args.output_dir.suffix:
+        print(
+            f"Warning: --output-dir expects a directory, but got a file path: {args.output_dir}\n"
+            f"         Using parent directory instead: {args.output_dir.parent}",
+            file=sys.stderr,
+        )
+        args.output_dir = args.output_dir.parent
     
     if not args.input.exists():
         print(f"Error: Input file not found: {args.input}", file=sys.stderr)
@@ -204,12 +236,10 @@ def main():
     
     print(f"Found {len(items)} items to evaluate")
     print(f"Concurrency: {args.concurrency} parallel evaluations")
-    if args.verbose:
-        print("Verbose mode: ON (passing --verbose to inceptbench)")
     print()
     
     # Run parallel evaluation
-    results = asyncio.run(run_evaluation(items, args.concurrency, args.verbose))
+    results = asyncio.run(run_evaluation(items, args.concurrency, args.show_eval, args.debug))
     
     # Process results and build CSV rows
     csv_rows = []

@@ -1,0 +1,903 @@
+{
+  "generated_content": [
+    {
+      "id": "l_8_5_b_mcq_hard_001_v2",
+      "request": {
+        "type": "mcq",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.L.8.5.B",
+          "substandard_description": "Use the relationship between particular words to better understand each of the words."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "hard",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": "B",
+        "question": "A student is analyzing word relationships in a complex text about social movements. The student identifies that 'architect' relates to 'building' in a specific way: an architect designs or creates a building. To practice understanding analogous relationships, the student must find which word completes this analogy with the same type of relationship: architect : building :: composer : _____",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "musician, because a composer and a musician both work with music"
+          },
+          {
+            "key": "B",
+            "text": "symphony, because a composer creates a symphony just as an architect creates a building"
+          },
+          {
+            "key": "C",
+            "text": "instrument, because a composer uses an instrument just as an architect uses tools"
+          },
+          {
+            "key": "D",
+            "text": "orchestra, because an orchestra performs what a composer writes, just as construction workers build what an architect designs"
+          }
+        ],
+        "additional_details": "CCSS.ELA-LITERACY.L.8.5.B",
+        "answer_explanation": "The correct answer is B. The relationship between 'architect' and 'building' is creator-to-creation: an architect designs and creates a building. To maintain a parallel analogy, we need a word that represents what a composer creates. A composer creates a symphony, making this the correct completion of the analogy. Option A incorrectly identifies a category relationship (both are types of music professionals) rather than maintaining the creator-to-creation structure. Option C confuses the tool-use relationship with the creator-to-creation relationship. Option D introduces a performer-to-performance relationship and compares it to builders rather than maintaining focus on the creator's relationship to their original creation."
+      }
+    },
+    {
+      "id": "rl_8_7_mcq_medium_001",
+      "request": {
+        "type": "mcq",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.RL.8.7",
+          "substandard_description": "Analyze the extent to which a filmed or live production of a story or drama stays faithful to or departs from the text or script, evaluating the choices made by the director or actors."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "medium",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": "C",
+        "question": "A director adapts a novel into a film and changes the setting from a rural farm in the 1930s to a modern urban apartment. The director explains that this choice helps contemporary audiences better connect with the characters' struggles with poverty and isolation. What does this example best demonstrate about film adaptations?",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "The director made a mistake because faithful adaptations must keep all details from the original text exactly the same."
+          },
+          {
+            "key": "B",
+            "text": "The change shows the director did not understand the novel since setting is always the most important element of a story."
+          },
+          {
+            "key": "C",
+            "text": "The director made an intentional choice to depart from the text in order to achieve a specific artistic or thematic purpose."
+          },
+          {
+            "key": "D",
+            "text": "The adaptation is automatically inferior to the novel because any changes to the original text weaken the story."
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "Option C is correct because it recognizes that directors make deliberate, purposeful choices when adapting texts, even when those choices involve significant departures from the original. The director's explanation shows this was an intentional decision to help the audience connect with the themes. Option A reflects the misconception that faithfulness requires exact replication. Option B incorrectly assumes setting is always paramount and that changes indicate misunderstanding. Option D reflects the misconception that any difference from the text is automatically a flaw, rather than recognizing that adaptations can be effective while making changes."
+      }
+    },
+    {
+      "id": "l_8_3_a_fill-in_medium_001",
+      "request": {
+        "type": "fill-in",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.L.8.3.A",
+          "substandard_description": "Use verbs in the active and passive voice and in the conditional and subjunctive mood to achieve particular effects (e.g., emphasizing the actor or the action; expressing uncertainty or describing a state contrary to fact)."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "medium",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": "passive",
+        "question": "In the sentence 'The novel was written by Maya Angelou in 1969,' the verb phrase 'was written' is in the ______ voice, which emphasizes the action and the work rather than the author.",
+        "image_url": [],
+        "additional_details": "CCSS.ELA-LITERACY.L.8.3.A",
+        "answer_explanation": "The correct answer is 'passive.' In passive voice, the subject of the sentence receives the action rather than performing it. Here, 'the novel' is the subject, but it doesn't perform the action of writing\u2014it receives the action. The passive construction 'was written' (be + past participle) shifts emphasis to the novel and the action of writing, while the actor (Maya Angelou) appears in a prepositional phrase. This demonstrates passive voice's rhetorical effect of emphasizing what was done rather than who did it. Students sometimes confuse passive voice with past tense, but the sentence is passive because of its structure (subject receives action), not because it describes past events. The passive voice is appropriate here when the focus should be on the literary work itself."
+      }
+    },
+    {
+      "id": "sl_8_1_b_msq_hard_001",
+      "request": {
+        "type": "msq",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.SL.8.1.B",
+          "substandard_description": "Follow rules for collegial discussions and decision-making, track progress toward specific goals and deadlines, and define individual roles as needed."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "hard",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": [
+          "B",
+          "D"
+        ],
+        "question": "A group of students is working on a collaborative research project with a two-week deadline. They need to demonstrate effective collegial discussion practices. Which of the following actions best reflect following rules for collegial discussions, tracking progress, and defining roles? Select all that apply.",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "The group decides that to avoid conflict, they will only make decisions when everyone agrees completely on every detail, postponing any choices until full consensus is reached."
+          },
+          {
+            "key": "B",
+            "text": "The group creates a shared document where they record completed tasks, identify which goals still need work, and adjust their timeline when they realize one section requires more research than originally planned."
+          },
+          {
+            "key": "C",
+            "text": "One student stays quiet during most discussions to be respectful and polite, only speaking when directly asked a question by other group members."
+          },
+          {
+            "key": "D",
+            "text": "After two days, the group realizes their initial role assignments aren't working efficiently, so they collaboratively redistribute responsibilities, with the researcher becoming the organizer and the note-taker taking on research duties."
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "Options B and D are correct. Option B demonstrates effective progress tracking by monitoring ongoing advancement toward goals, documenting progress, and adjusting strategies as needed\u2014not just checking if tasks are complete. Option D shows understanding that roles can be redefined collaboratively as group needs change, rather than remaining fixed once assigned. Option A is incorrect because it reflects the misconception that collegial discussions require unanimous agreement; effective decision-making can involve compromise or consensus-building while respecting different views. Option C is incorrect because it confuses following discussion rules with simply being quiet or polite; true collegial discussion includes active participation and building on others' ideas."
+      }
+    },
+    {
+      "id": "rl_8_4_msq_easy_001_v2",
+      "request": {
+        "type": "msq",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.RL.8.4",
+          "substandard_description": "Determine the meaning of words and phrases as they are used in a text, including figurative and connotative meanings; analyze the impact of specific word choices on meaning and tone, including analogies or allusions to other texts."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "easy",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": [
+          "B",
+          "D"
+        ],
+        "question": "Read the sentence from a short story:\n\n\"The old house stood like a silent guardian, watching over the empty street with tired, weathered eyes.\"\n\nWhich statements correctly describe the impact of the author's word choices in this sentence? Select all that apply.",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "The phrase 'silent guardian' uses literal language to describe the house's function in the neighborhood."
+          },
+          {
+            "key": "B",
+            "text": "The words 'tired' and 'weathered' have connotations that suggest the house is old and has endured hardship over time."
+          },
+          {
+            "key": "C",
+            "text": "The word 'guardian' has a negative connotation that creates a threatening tone in the passage."
+          },
+          {
+            "key": "D",
+            "text": "The figurative language personifying the house as having 'eyes' that watch creates a protective and caring tone."
+          }
+        ],
+        "additional_details": "CCSS.ELA-LITERACY.RL.8.4",
+        "answer_explanation": "B and D are correct. Option B correctly identifies that 'tired' and 'weathered' carry connotations beyond their dictionary definitions, suggesting endurance and the passage of time, which impacts the overall meaning and creates a sympathetic tone. Option D correctly recognizes the personification (a type of figurative language) where the house is given human characteristics ('eyes' that 'watch'), and accurately explains how this creates a protective, caring tone. Option A is incorrect because 'silent guardian' is figurative language (a metaphor), not literal language\u2014the house is not actually a guardian but is being compared to one. Option C is incorrect because 'guardian' has a positive connotation of protection and care, not a negative or threatening one."
+      }
+    },
+    {
+      "id": "w_8_2_f_msq_easy_001",
+      "request": {
+        "type": "msq",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.W.8.2.F",
+          "substandard_description": "Provide a concluding statement or section that follows from and supports the information or explanation presented."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "easy",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": [
+          "B",
+          "D"
+        ],
+        "question": "A student wrote an informative essay about how honeybees communicate through dance patterns. Which of the following would be effective concluding statements that follow from and support the information presented? Select all that apply.",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "Honeybees are fascinating creatures, and we should all work to protect them from extinction by planting more flowers in our gardens."
+          },
+          {
+            "key": "B",
+            "text": "Through their complex dance patterns, honeybees have developed a remarkable system that allows the colony to work together efficiently."
+          },
+          {
+            "key": "C",
+            "text": "As I mentioned in my introduction, honeybees use dance patterns to communicate with each other."
+          },
+          {
+            "key": "D",
+            "text": "These communication methods demonstrate how honeybees' survival depends on their ability to share information about food sources."
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "Options B and D are correct because they provide concluding statements that follow from and support the information about honeybee communication. Both synthesize the main ideas without introducing entirely new topics. Option A is incorrect because it shifts to persuasive language and introduces a new topic (protecting bees) rather than concluding the informative explanation. Option C is incorrect because it simply restates the introduction rather than providing a conclusion that synthesizes or reinforces the information presented."
+      }
+    },
+    {
+      "id": "w_8_2_c_mcq_easy_001",
+      "request": {
+        "type": "mcq",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.W.8.2.C",
+          "substandard_description": "Use appropriate and varied transitions to create cohesion and clarify the relationships among ideas and concepts."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "easy",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": "C",
+        "question": "Read the following two sentences from an informative essay:\n\n\"Scientists have discovered that regular exercise improves brain function. _____, studies show that physical activity increases memory and concentration.\"\n\nWhich transition word or phrase best connects these two sentences?",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "However"
+          },
+          {
+            "key": "B",
+            "text": "On the other hand"
+          },
+          {
+            "key": "C",
+            "text": "For example"
+          },
+          {
+            "key": "D",
+            "text": "And"
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "The correct answer is 'For example' because the second sentence provides a specific example that supports the general statement in the first sentence. Option A ('However') and Option B ('On the other hand') incorrectly suggest contrast when the ideas actually support each other. Option D ('And') is a simple conjunction that doesn't clearly show the relationship between the general claim and the specific supporting evidence."
+      }
+    },
+    {
+      "id": "rl_8_4_fill-in_medium_001",
+      "request": {
+        "type": "fill-in",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.RL.8.4",
+          "substandard_description": "Determine the meaning of words and phrases as they are used in a text, including figurative and connotative meanings; analyze the impact of specific word choices on meaning and tone, including analogies or allusions to other texts."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "medium",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": "connotative",
+        "question": "Read the following passage:\n\n\"The old house loomed over the street, its windows like hollow eyes staring down at passersby. The warped wooden shutters creaked in the wind, and the gate hung limply from rusted hinges.\"\n\nThe author's word choices such as 'loomed,' 'hollow,' and 'limply' create meaning beyond their literal definitions. These words carry ______ meanings that contribute to the passage's ominous and unsettling tone.",
+        "image_url": [],
+        "additional_details": "CCSS.ELA-LITERACY.RL.8.4",
+        "answer_explanation": "The correct answer is 'connotative.' Connotative meanings are the emotional associations and implied meanings that words carry beyond their literal dictionary definitions (denotations). In this passage, words like 'loomed' suggest something threatening or imposing, 'hollow' implies emptiness and lifelessness, and 'limply' conveys weakness or decay. These word choices work together to create an ominous, eerie tone. Students sometimes confuse denotation with connotation, focusing only on the literal dictionary meaning rather than recognizing how words carry emotional weight that shapes the reader's interpretation. The connotative meanings of the author's diction are essential to understanding how the passage creates its unsettling atmosphere through specific word choices rather than explicit statements about fear or danger."
+      }
+    },
+    {
+      "id": "w_8_2_a_msq_medium_001",
+      "request": {
+        "type": "msq",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.W.8.2.A",
+          "substandard_description": "Introduce a topic clearly, previewing what is to follow; organize ideas, concepts, and information into broader categories; include formatting (e.g., headings), graphics (e.g., charts, tables), and multimedia when useful to aiding comprehension."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "medium",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": [
+          "B",
+          "D"
+        ],
+        "question": "A student is writing an informative essay about renewable energy sources. Which of the following strategies effectively introduce the topic and organize the information? Select all that apply.",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "Begin with 'This essay is about renewable energy' and then list solar, wind, and hydroelectric power without explaining how they relate to each other."
+          },
+          {
+            "key": "B",
+            "text": "Open with a statement that renewable energy is transforming power production, preview three main categories (solar, wind, and water-based sources), and use headings for each category to guide readers through the essay."
+          },
+          {
+            "key": "C",
+            "text": "Include multiple colorful images of solar panels throughout the essay to make it more visually appealing, even though they don't help explain specific concepts."
+          },
+          {
+            "key": "D",
+            "text": "Introduce the topic by stating that renewable energy offers sustainable alternatives to fossil fuels, then preview how the essay will examine different types organized by their energy source, and include a comparison chart showing efficiency rates of each type."
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "Options B and D are correct because they both introduce the topic clearly AND preview what is to follow in an organized way. Option B effectively states the topic, previews the three main categories, and uses headings as functional formatting to help readers navigate the structure. Option D introduces the topic with context, previews the organizational approach (types organized by energy source), and includes a chart that aids comprehension of specific content (efficiency rates). Option A is incorrect because simply stating the topic and listing subtopics without showing their relationships or previewing the organizational structure is insufficient. Option C is incorrect because adding graphics without considering whether they aid comprehension of specific content does not meet the standard\u2014visuals must be purposeful, not merely decorative."
+      }
+    },
+    {
+      "id": "rl_8_10_mcq_easy_001_v2",
+      "request": {
+        "type": "mcq",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.RL.8.10",
+          "substandard_description": "By the end of the year, read and comprehend literature, including stories, dramas, and poems, at the high end of grades 6\u20138 text complexity band independently and proficiently."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "easy",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": "B",
+        "question": "James is in 8th grade. His teacher assigns him to read \"The Outsiders\" by S.E. Hinton, which is written at a 7th grade complexity level. James reads and understands the book easily on his own. Next, his teacher assigns \"To Kill a Mockingbird\" by Harper Lee, which is written at a 9th-10th grade complexity level. James struggles to follow the plot and understand the themes without help. According to the 8th grade reading standard, what does this tell us about James's reading proficiency?",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "James is reading proficiently for 8th grade because he successfully read \"The Outsiders\" independently."
+          },
+          {
+            "key": "B",
+            "text": "James is not yet reading proficiently for 8th grade because he struggles with texts at the high end of the 6th-8th grade complexity band."
+          },
+          {
+            "key": "C",
+            "text": "James is reading proficiently for 8th grade because \"To Kill a Mockingbird\" is above his grade level."
+          },
+          {
+            "key": "D",
+            "text": "James is reading proficiently for 8th grade as long as he can read most books assigned in his English class."
+          }
+        ],
+        "additional_details": "CCSS.ELA-LITERACY.RL.8.10",
+        "answer_explanation": "The correct answer is B. The standard requires 8th graders to read and comprehend literature at the HIGH END of the grades 6-8 text complexity band independently and proficiently. \"The Outsiders\" at 7th grade level is in the middle of this band, while texts at the high end (like 8th grade level literature) should be accessible. \"To Kill a Mockingbird\" at 9th-10th grade level is above the band, so struggling with it doesn't indicate lack of proficiency. However, the scenario implies James can only handle mid-range complexity, not the high end required. Option A is incorrect because success with a mid-range text doesn't demonstrate proficiency at the high end. Option C reflects the misconception that the standard only requires reading at your exact grade level, not the high end of the band. Option D reflects the misconception that proficiency means reading 'most' rather than texts at the specified complexity level."
+      }
+    },
+    {
+      "id": "l_8_4_d_fill-in_medium_001",
+      "request": {
+        "type": "fill-in",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.L.8.4.D",
+          "substandard_description": "Verify the preliminary determination of the meaning of a word or phrase (e.g., by checking the inferred meaning in context or in a dictionary)."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "medium",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": "dictionary",
+        "question": "After reading the sentence 'The politician's vacillating position on the issue frustrated voters who wanted clarity,' Marcus inferred that 'vacillating' meant 'changing frequently.' To verify his preliminary determination of the word's meaning, Marcus should consult a ______ to confirm whether his inferred meaning is accurate.",
+        "image_url": [],
+        "additional_details": "CCSS.ELA-LITERACY.L.8.4.D",
+        "answer_explanation": "The correct answer is 'dictionary.' This question assesses the verification step of determining word meaning. According to CCSS.ELA-LITERACY.L.8.4.D, students must verify their preliminary determinations by checking the inferred meaning against authoritative sources like a dictionary. While Marcus correctly used context clues to infer that 'vacillating' means 'changing frequently,' he needs to verify this preliminary determination by consulting a dictionary to confirm the definition matches his inference. Many students mistakenly believe that context clues alone are sufficient for determining meaning, or that dictionaries are only necessary when they have no initial understanding of a word. However, the verification process requires cross-checking the inferred meaning against the actual definition to ensure accuracy, even when the initial inference seems reasonable based on context."
+      }
+    },
+    {
+      "id": "rl_8_10_fill-in_medium_001",
+      "request": {
+        "type": "fill-in",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.RL.8.10",
+          "substandard_description": "By the end of the year, read and comprehend literature, including stories, dramas, and poems, at the high end of grades 6\u20138 text complexity band independently and proficiently."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "medium",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": "independently",
+        "question": "According to the Common Core State Standards for Grade 8, students should be able to read and comprehend literature at the high end of grades 6-8 text complexity band ______ and proficiently by the end of the year.",
+        "image_url": [],
+        "additional_details": "CCSS.ELA-LITERACY.RL.8.10",
+        "answer_explanation": "The correct answer is 'independently.' This standard emphasizes that eighth-grade students should be able to read and comprehend complex literary texts without relying on teacher prompts, graphic organizers, or other scaffolding supports. Independent reading comprehension means students can understand the meaning, context, and connections within stories, dramas, and poems on their own. Students sometimes mistakenly believe that simply reading the words demonstrates comprehension, or that reading with heavy teacher support counts as independent reading. True independence in reading means successfully comprehending challenging texts through self-directed use of reading strategies and without significant assistance."
+      }
+    },
+    {
+      "id": "w_8_1_d_msq_medium_001",
+      "request": {
+        "type": "msq",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.W.8.1.D",
+          "substandard_description": "Establish and maintain a formal style."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "medium",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": [
+          "B",
+          "D"
+        ],
+        "question": "A student is revising an argumentative essay about school uniforms to maintain a formal style. Which of the following revisions would help establish and maintain formal style? Select all that apply.",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "Change 'Many students believe uniforms limit self-expression' to 'A multitude of scholarly pupils presently postulate that the implementation of standardized institutional attire configurations systematically restricts individualistic expression manifestations.'"
+          },
+          {
+            "key": "B",
+            "text": "Change 'Kids don't wanna wear the same boring clothes every day' to 'Students prefer to express their individuality through varied clothing choices.'"
+          },
+          {
+            "key": "C",
+            "text": "Change 'Research demonstrates that uniforms reduce distractions' to 'Research demonstrates that uniforms reduce distractions, which is totally awesome for learning.'"
+          },
+          {
+            "key": "D",
+            "text": "Change 'I think uniforms aren't cool because they're super expensive' to 'School uniforms present a financial burden for many families.'"
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "Options B and D are correct because they successfully revise informal language to maintain formal style. Option B removes slang ('Kids,' 'don't wanna') and casual phrasing ('boring') while using precise, standard language. Option D eliminates informal expressions ('aren't cool,' 'super expensive') and first-person casual tone, replacing them with objective, formal vocabulary. Option A is incorrect because it uses unnecessarily complex and verbose language that goes beyond appropriate formal style\u2014formal writing should be clear and precise, not overly complicated. Option C is incorrect because while the first part is formal, adding 'totally awesome' introduces slang that breaks the formal style, demonstrating a failure to maintain consistency throughout."
+      }
+    },
+    {
+      "id": "ri_8_1_msq_hard_001",
+      "request": {
+        "type": "msq",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.RI.8.1",
+          "substandard_description": "Cite the textual evidence that most strongly supports an analysis of what the text says explicitly as well as inferences drawn from the text."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "hard",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": [
+          "B",
+          "D"
+        ],
+        "question": "Read the following passage from an article about urban wildlife adaptation:\n\n\"Over the past two decades, coyotes have increasingly established territories in major metropolitan areas. Unlike their rural counterparts, urban coyotes have demonstrated remarkable behavioral flexibility. They typically hunt at night to avoid human contact, and researchers have documented them using crosswalks and waiting for traffic lights. Dr. Elena Martinez, who has studied Chicago's coyote population since 2005, notes that 'these animals have learned to exploit anthropogenic food sources while maintaining their natural wariness of humans.' Despite occasional conflicts, urban coyotes primarily subsist on rodents and help control pest populations, with human-provided food making up less than 2% of their diet according to scat analysis.\"\n\nA student claims: \"Urban coyotes have successfully adapted to city life by modifying their behavior and maintaining a cautious relationship with humans.\"\n\nWhich pieces of textual evidence MOST STRONGLY support this claim? Select all that apply.",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "\"Over the past two decades, coyotes have increasingly established territories in major metropolitan areas.\""
+          },
+          {
+            "key": "B",
+            "text": "\"They typically hunt at night to avoid human contact, and researchers have documented them using crosswalks and waiting for traffic lights.\""
+          },
+          {
+            "key": "C",
+            "text": "\"Dr. Elena Martinez, who has studied Chicago's coyote population since 2005...\""
+          },
+          {
+            "key": "D",
+            "text": "\"These animals have learned to exploit anthropogenic food sources while maintaining their natural wariness of humans.\""
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "The correct answers are B and D. Option B provides the strongest evidence for behavioral modification by citing specific examples of adapted behaviors (nocturnal hunting to avoid humans, using crosswalks, waiting for traffic lights). Option D directly supports both parts of the claim: it explicitly states coyotes have adapted (\"learned to exploit anthropogenic food sources\") while maintaining caution (\"maintaining their natural wariness of humans\"). Option A is tangentially related but only establishes that coyotes are present in cities, not that they've successfully adapted through behavioral changes. Option C identifies a researcher's credentials but provides no evidence to support the specific claim about adaptation and human relationships. This question requires students to distinguish between the strongest, most direct evidence and information that is merely related to the topic."
+      }
+    },
+    {
+      "id": "w_8_1_d_mcq_hard_001",
+      "request": {
+        "type": "mcq",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.W.8.1.D",
+          "substandard_description": "Establish and maintain a formal style."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "hard",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": "C",
+        "question": "A student is revising the following paragraph from an argumentative essay about school uniforms:\n\n\"In my opinion, school uniforms are totally a bad idea. Kids should be able to rock their own style and show who they really are. Yeah, some people say uniforms make things equal, but that's just not how it works in real life. Students aren't gonna feel better about themselves just because everyone's wearing the same boring outfit.\"\n\nWhich revision BEST establishes and maintains a formal style throughout the entire paragraph?",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "School uniforms are undeniably and unequivocally a disadvantageous and detrimental concept. Adolescents should possess the capability to demonstrate their individualistic characteristics. Proponents articulate that uniforms establish equality; however, this theoretical proposition lacks practical implementation. Students will not experience enhanced self-perception merely due to identical attire."
+          },
+          {
+            "key": "B",
+            "text": "School uniforms are a bad idea. Students should be able to express their own style and show who they really are. Some people say uniforms make things equal, but that's not how it works in real life. Students won't feel better about themselves just because everyone is wearing the same outfit."
+          },
+          {
+            "key": "C",
+            "text": "School uniforms represent a problematic policy for several reasons. Students should have the opportunity to express their individual identities through personal style choices. While proponents argue that uniforms promote equality, this claim does not reflect actual student experiences. Students are unlikely to develop greater self-confidence simply because they wear identical clothing."
+          },
+          {
+            "key": "D",
+            "text": "School uniforms are a bad idea. Students should be able to express their own style and show who they really are. Although some people say uniforms make things equal, that is not how it works in real life. Students will not feel better about themselves just because everyone is wearing the same outfit."
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "Option C is correct because it successfully establishes and maintains a formal style throughout by using objective tone, precise academic vocabulary (\"problematic policy,\" \"proponents argue,\" \"actual student experiences\"), and standard grammatical conventions without slang or conversational language. Option A incorrectly assumes formal style requires unnecessarily complex and verbose language (\"undeniably and unequivocally,\" \"adolescents,\" \"theoretical proposition\"), which is overly stiff and unnatural. Option B only removes contractions (\"totally,\" \"gonna\") but retains informal elements like \"that's\" and casual phrasing. Option D also focuses mainly on eliminating contractions but keeps informal expressions like \"that is not how it works\" and fails to elevate the vocabulary and tone to an appropriately formal level."
+      }
+    },
+    {
+      "id": "l_8_2_b_msq_medium_001_v2",
+      "request": {
+        "type": "msq",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.L.8.2.B",
+          "substandard_description": "Use an ellipsis to indicate an omission."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "medium",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": [
+          "B",
+          "C"
+        ],
+        "question": "A student is quoting from the following original source in a research paper:\n\n\"The Amazon rainforest, often called the lungs of the Earth, contains approximately 390 billion individual trees representing over 16,000 species. This incredible biodiversity makes it one of the most important ecosystems on our planet.\"\n\nWhich of the following quotations correctly use an ellipsis to indicate an omission from this source? Select all that apply.",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "\"The Amazon rainforest ... contains approximately 390 billion individual trees representing over 16,000 species.\""
+          },
+          {
+            "key": "B",
+            "text": "\"The Amazon rainforest ... contains approximately 390 billion individual trees....\""
+          },
+          {
+            "key": "C",
+            "text": "\"The Amazon rainforest, often called the lungs of the Earth, contains approximately 390 billion individual trees ... This incredible biodiversity makes it one of the most important ecosystems on our planet.\""
+          },
+          {
+            "key": "D",
+            "text": "\"The Amazon rainforest, often called the lungs of the Earth ... contains approximately 390 billion individual trees representing over 16,000 species ... \""
+          }
+        ],
+        "additional_details": "CCSS.ELA-LITERACY.L.8.2.B",
+        "answer_explanation": "Options B and C are correct. Option B properly uses an ellipsis (three dots with spaces before and after) to indicate that words from the middle of the sentence were omitted ('often called the lungs of the Earth'). It also correctly uses four dots (a period plus an ellipsis) at the end to show that the remainder of the original sentence was omitted. Option C correctly uses an ellipsis to show that a portion of text in the middle of the quotation was omitted ('representing over 16,000 species'). Option A is incorrect because no words from the original source have actually been omitted between 'rainforest' and 'contains'\u2014the comma and phrase 'often called the lungs of the Earth' appear in that location in the original. Option D is incorrect because it places an ellipsis with a trailing space at the very end of the quotation, which is improper formatting; ellipses at the end should be four dots (period plus ellipsis) with no trailing space, or the quotation should end with proper punctuation."
+      }
+    },
+    {
+      "id": "sl_8_1_c_fill-in_easy_001",
+      "request": {
+        "type": "fill-in",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.SL.8.1.C",
+          "substandard_description": "Pose questions that connect the ideas of several speakers and respond to others\u2019 questions and comments with relevant evidence, observations, and ideas."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "easy",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": "connect",
+        "question": "During a group discussion about climate change, Maria suggests that renewable energy is expensive, while Jason argues that it creates jobs. To follow the discussion standard, you should ask a question that ______ the ideas of both speakers rather than simply asking one speaker to clarify their point.",
+        "image_url": [],
+        "additional_details": "CCSS.ELA-LITERACY.SL.8.1.C",
+        "answer_explanation": "The correct answer is 'connect' (or acceptable variations like 'connects' or 'links'). This standard requires students to pose questions that connect the ideas of several speakers, not just ask clarifying questions to individual speakers. A connecting question would explore the relationship between Maria's point about cost and Jason's point about job creation, such as 'Could the jobs created by renewable energy help offset the initial costs Maria mentioned?' Students sometimes mistakenly believe that simply mentioning both speakers by name is enough, but the question must actually synthesize or explore relationships between their different ideas to meet this standard."
+      }
+    },
+    {
+      "id": "w_8_2_c_fill-in_hard_001",
+      "request": {
+        "type": "fill-in",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.W.8.2.C",
+          "substandard_description": "Use appropriate and varied transitions to create cohesion and clarify the relationships among ideas and concepts."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "hard",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": "Nevertheless",
+        "question": "Read the following passage and identify the most appropriate transition word to fill in the blank.\n\nClimate scientists have documented extensive evidence of global temperature increases over the past century. Data from ice cores, ocean measurements, and atmospheric sensors all confirm this warming trend. ______, some regions may experience temporary cooling patterns due to local weather variations and ocean current fluctuations. These short-term anomalies do not contradict the overall global warming trajectory but rather illustrate the complexity of Earth's climate systems.",
+        "image_url": [],
+        "additional_details": "CCSS.ELA-LITERACY.W.8.2.C",
+        "answer_explanation": "The correct answer is 'Nevertheless' (or acceptable alternatives like 'However' or 'Despite this'). This transition is appropriate because it signals a contrasting relationship between two ideas: the documented evidence of global warming versus the occurrence of temporary regional cooling. The transition clarifies that while the second idea seems to contradict the first, both concepts coexist. Students might incorrectly fill in the blank with transitions that don't match the logical relationship, such as 'Furthermore' or 'For example,' which would suggest addition or illustration rather than contrast. Others might choose 'Therefore' or 'As a result,' which indicate causation when the relationship is actually concession. The key is recognizing that the passage presents evidence of warming, then acknowledges an apparent contradiction (cooling in some regions), requiring a contrastive or concessive transition to maintain cohesion and accurately reflect how these ideas relate to each other."
+      }
+    },
+    {
+      "id": "rl_8_9_mcq_hard_001",
+      "request": {
+        "type": "mcq",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.RL.8.9",
+          "substandard_description": "Analyze how a modern work of fiction draws on themes, patterns of events, or character types from myths, traditional stories, or religious works such as the Bible, including describing how the material is rendered new."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "hard",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": "C",
+        "question": "A contemporary novel tells the story of Maya, a teenage girl who discovers she has the power to control technology with her mind. She uses this gift to fight against a corporation exploiting workers, eventually sacrificing her powers to free them. The author states in an interview that the story was inspired by the myth of Prometheus, who stole fire from the gods to give to humanity and was punished eternally for his transgression.\n\nWhich statement BEST analyzes how the modern work transforms the source material to render it new?",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "Both stories feature a protagonist who gives a valuable resource to others, which shows the author successfully identified the Prometheus myth as the source material."
+          },
+          {
+            "key": "B",
+            "text": "The modern work borrows the theme of sacrifice from the Prometheus myth, proving that the author used the exact same plot structure as the original source."
+          },
+          {
+            "key": "C",
+            "text": "The author reinterprets Prometheus's gift of fire as technological power in a modern corporate setting, while transforming the eternal punishment into a voluntary sacrifice that achieves liberation rather than suffering."
+          },
+          {
+            "key": "D",
+            "text": "Since both stories involve a character helping others and facing consequences, the similarities demonstrate universal human patterns rather than specific borrowing from the Prometheus myth."
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "Option C is correct because it demonstrates sophisticated analysis of both how the modern work draws on the source material AND how it renders that material new. It identifies specific borrowed elements (the gift that benefits humanity, the consequence faced by the protagonist) and explains the transformations: fire becomes technological power, the setting shifts to corporate exploitation, and most importantly, the eternal punishment becomes a voluntary sacrifice with a liberating outcome. This analysis addresses both parts of the standard's requirement.\n\nOption A is incorrect because it only identifies the connection to source material without analyzing how the modern work transforms or renders it new\u2014a common misconception where students think identification alone is sufficient.\n\nOption B is incorrect because it assumes the modern work must follow the source material exactly, failing to recognize that adaptation involves creative transformation. The plots are actually quite different despite sharing thematic elements.\n\nOption D is incorrect because it confuses universal patterns and archetypes with specific, deliberate borrowing from an identifiable source. The author explicitly stated the Prometheus connection, making this a case of intentional adaptation rather than coincidental similarity."
+      }
+    },
+    {
+      "id": "w_8_7_msq_hard_001",
+      "request": {
+        "type": "msq",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.W.8.7",
+          "substandard_description": "Conduct short research projects to answer a question (including a self-generated question), drawing on several sources and generating additional related, focused questions that allow for multiple avenues of exploration."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "hard",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": [
+          "B",
+          "D"
+        ],
+        "question": "Marcus is conducting a short research project on the question: \"How did the Industrial Revolution impact urban life in England?\" After reading three sources, he discovers information about child labor practices and generates a new question: \"What laws were eventually passed to protect child workers?\" Which statements accurately reflect effective research practices for this type of project? Select all that apply.",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "Marcus should avoid the new question about child labor laws because it indicates he failed to fully answer his original question about urban life."
+          },
+          {
+            "key": "B",
+            "text": "Marcus demonstrates good research practice by generating a related, focused question that emerged from his initial research and allows for further exploration."
+          },
+          {
+            "key": "C",
+            "text": "Since Marcus has already read three sources, he has consulted enough materials and should now focus solely on writing his final report without seeking additional information."
+          },
+          {
+            "key": "D",
+            "text": "Marcus should continue drawing on multiple sources to explore both his original question and the new related question about child labor laws."
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "Options B and D are correct. Option B correctly identifies that generating additional related, focused questions during research indicates deeper engagement with the topic and is an essential part of the research process described in this standard. Option D reflects the expectation that students draw on several sources and continue to explore multiple avenues of their research question. Option A is incorrect because it reflects the misconception that generating new questions means failure rather than productive inquiry. Option C is incorrect because it suggests that meeting a minimum number of sources is the goal, rather than understanding that students should continue using multiple sources to explore both original and emerging questions throughout the short research project."
+      }
+    },
+    {
+      "id": "w_8_6_fill-in_hard_001_v2",
+      "request": {
+        "type": "fill-in",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.W.8.6",
+          "substandard_description": "Use technology, including the Internet, to produce and publish writing and present the relationships between information and ideas efficiently as well as to interact and collaborate with others."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "hard",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": "interactive table of contents with embedded links",
+        "question": "Marcus is writing a 15-page research paper comparing three different renewable energy sources. He wants readers to quickly access specific sections comparing cost, efficiency, and environmental impact across all three energy types without scrolling through the entire document. To meet the W.8.6 standard's emphasis on presenting information relationships efficiently, Marcus should create ______.",
+        "image_url": [],
+        "additional_details": "CCSS.ELA-LITERACY.W.8.6",
+        "answer_explanation": "An interactive table of contents with embedded links best demonstrates using technology to 'present the relationships between information and ideas efficiently.' This solution requires students to understand that efficiency means more than just adding links\u2014it means creating a organizational structure that shows how information relates across the document. The scenario requires understanding that comparing three energy sources across multiple criteria creates a complex information structure that readers need help navigating. While simple hyperlinks would work, they don't address the organizational challenge of presenting multi-dimensional comparisons efficiently. A basic table of contents without links wouldn't use technology effectively. Simply adding images or videos wouldn't help readers navigate the comparison structure. This answer requires students to think beyond single features and consider how technology can reveal information architecture, not just connect pages."
+      }
+    },
+    {
+      "id": "rl_8_6_msq_medium_001",
+      "request": {
+        "type": "msq",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.RL.8.6",
+          "substandard_description": "Analyze how differences in the points of view of the characters and the audience or reader (e.g., created through the use of dramatic irony) create such effects as suspense or humor."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "medium",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": [
+          "B",
+          "D"
+        ],
+        "question": "Read the following passage:\n\nSarah walked into the surprise party, completely unaware that all her friends were hiding behind the furniture. As she reached for the light switch, the floorboard beneath her creaked loudly. The hidden guests held their breath, hoping she wouldn't notice them. Sarah paused, looked around the dark room, shrugged, and continued toward the switch.\n\nHow does the difference between what Sarah knows and what the reader knows create effects in this passage? Select all that apply.",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "It creates humor because the passage is written in third-person point of view"
+          },
+          {
+            "key": "B",
+            "text": "It creates suspense as the reader wonders whether Sarah will discover the hidden guests before they can surprise her"
+          },
+          {
+            "key": "C",
+            "text": "It creates humor because any time a reader knows something a character doesn't, the situation is automatically funny"
+          },
+          {
+            "key": "D",
+            "text": "It creates tension as the reader knows the guests are trying to remain hidden while Sarah unknowingly moves closer to revealing them"
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "The correct answers are B and D. The dramatic irony in this passage\u2014where the reader knows about the hidden guests but Sarah doesn't\u2014creates both suspense and tension. The reader wonders if Sarah will turn on the light before discovering them (suspense) and feels the tension of the guests trying to stay hidden while Sarah unknowingly comes closer to exposing them. Option A is incorrect because it confuses narrative point of view (third person) with the effects created by dramatic irony. Option C is incorrect because dramatic irony doesn't automatically create humor; the specific effect depends on the context and how the author uses the technique. In this case, the passage creates suspense and tension rather than humor."
+      }
+    },
+    {
+      "id": "sl_8_1_b_mcq_easy_001",
+      "request": {
+        "type": "mcq",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.SL.8.1.B",
+          "substandard_description": "Follow rules for collegial discussions and decision-making, track progress toward specific goals and deadlines, and define individual roles as needed."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "easy",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": "C",
+        "question": "Your class is working in small groups to complete a research project with a deadline in two weeks. Which action best demonstrates following rules for collegial discussions and tracking progress toward goals?",
+        "image_url": [],
+        "answer_options": [
+          {
+            "key": "A",
+            "text": "Stay quiet during the discussion and let others talk to show respect for their ideas."
+          },
+          {
+            "key": "B",
+            "text": "Wait for the teacher to assign each person a specific role before starting the project."
+          },
+          {
+            "key": "C",
+            "text": "Create a timeline with checkpoints, assign roles like note-taker and researcher, and review progress at each meeting."
+          },
+          {
+            "key": "D",
+            "text": "Make sure everyone agrees on every decision before moving forward with any part of the project."
+          }
+        ],
+        "additional_details": "",
+        "answer_explanation": "Option C is correct because it demonstrates multiple aspects of the standard: tracking progress toward goals and deadlines (creating a timeline with checkpoints), defining individual roles (assigning roles like note-taker and researcher), and following rules for collegial discussions (reviewing progress at meetings). Option A reflects a misconception that following discussion rules means being quiet rather than actively participating. Option B reflects the misconception that teachers must assign roles rather than groups defining them collaboratively. Option D reflects the misconception that collegial discussions require unanimous agreement on everything rather than allowing for compromise and decision-making processes."
+      }
+    },
+    {
+      "id": "sl_8_6_fill-in_easy_001_v2",
+      "request": {
+        "type": "fill-in",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.SL.8.6",
+          "substandard_description": "Adapt speech to a variety of contexts and tasks, demonstrating command of formal English when indicated or appropriate. (See grade 8 Language standards 1 and 3 for specific expectations.)"
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "easy",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": "informal",
+        "question": "During a brainstorming session with your group members to plan a school fundraiser, you should use ______ English to encourage open discussion and creative collaboration.",
+        "image_url": [],
+        "additional_details": "CCSS.ELA-LITERACY.SL.8.6",
+        "answer_explanation": "The correct answer is 'informal' because collaborative brainstorming with peers is a casual, creative context where relaxed language helps encourage participation and idea-sharing. Students at this level need to recognize that formal English isn't always appropriate\u2014informal language is better suited for peer collaboration, friendly discussions, and creative work sessions. The key skill is adapting speech to match the context: informal language for peer work, formal language for presentations to authorities or official settings. This demonstrates command of choosing the appropriate register based on audience and purpose."
+      }
+    },
+    {
+      "id": "w_8_2_c_fill-in_medium_001_v2",
+      "request": {
+        "type": "fill-in",
+        "grade": "8",
+        "skills": {
+          "lesson_title": "",
+          "substandard_id": "CCSS.ELA-LITERACY.W.8.2.C",
+          "substandard_description": "Use appropriate and varied transitions to create cohesion and clarify the relationships among ideas and concepts."
+        },
+        "subject": "ela",
+        "curriculum": "common core",
+        "difficulty": "medium",
+        "locale": "en-US"
+      },
+      "content": {
+        "answer": "On the other hand",
+        "question": "Read the following sentences from an informative essay about urban planning:\n\n\"Mixed-use development projects integrate residential, commercial, and recreational spaces within the same area, which can reduce traffic congestion by allowing people to live near where they work and shop. ______, single-use zoning separates these functions into distinct districts, often requiring residents to commute longer distances and increasing dependence on automobiles.\"\n\nFill in the blank with the transitional phrase that best clarifies the relationship between these two urban planning approaches.",
+        "image_url": [],
+        "additional_details": "CCSS.ELA-LITERACY.W.8.2.C",
+        "answer_explanation": "The correct answer is 'On the other hand' (or acceptable alternatives like 'In contrast' or 'Conversely'). This transition is necessary because the passage presents two opposing urban planning strategies with contrasting outcomes. The first sentence describes mixed-use development and its benefit of reducing traffic, while the second sentence describes single-use zoning and its drawback of increasing traffic and automobile dependence. The relationship here is one of contrast between two different approaches and their opposite effects. Students may struggle with this because both sentences discuss urban planning concepts, which might make additive transitions like 'Additionally' seem appropriate. However, the key is recognizing that these aren't two examples supporting the same point, but rather two contrasting approaches with different consequences. The subtlety lies in understanding that discussing the same general topic (urban planning) doesn't mean the ideas are being added together\u2014they're being compared to show their differences."
+      }
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "endpoint": "https://inceptagentic-skill-mcq-413562643011.us-central1.run.app/generate",
+    "input": "data\\grade-8-ela-benchmark.jsonl",
+    "requested": 25,
+    "generated_items": 25,
+    "errors": 0,
+    "timestamp": "2026-01-28T00:38:23.777868+00:00"
+  }
+}
