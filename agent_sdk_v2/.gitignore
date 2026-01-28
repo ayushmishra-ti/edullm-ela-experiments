@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs (keep structure, ignore content)
+outputs/*.json
+outputs/*.csv
+!outputs/.gitkeep
+
+# Passage cache (keep structure, ignore content)
+data/passages/*.json
+!data/passages/.gitkeep
+
+# Logs
+*.log
+
+# Distribution
+dist/
+build/
+*.egg-info/
