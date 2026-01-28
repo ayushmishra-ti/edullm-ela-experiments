@@ -22410,13 +22410,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will produce writing that demonstrates clear organization with an introduction, body, and conclusion appropriate to the writing task.
+* Students will adjust their writing style, tone, and vocabulary to match the intended purpose (to inform, persuade, or entertain) and audience (peers, teachers, or general readers).
+* Students will develop ideas coherently using relevant details, examples, and evidence that support the main topic or claim.
+* Students will apply grade-appropriate conventions of standard English grammar, usage, and mechanics to produce polished writing.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on age-appropriate writing tasks and should not expect mastery of advanced rhetorical devices or sophisticated organizational structures beyond grade 6 level.
+* Students are not expected to produce publication-ready writing without teacher guidance and support, though they should demonstrate understanding of revision and editing processes.
+* Evaluation should consider the writing types explicitly taught in standards W.6.1-3 (argumentative, informative/explanatory, and narrative) rather than specialized or technical writing formats.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that longer writing is always better writing, rather than focusing on clarity and coherence of ideas.
+* Students may think that formal academic language is always appropriate, failing to adjust style and tone for different audiences and purposes.
+* Students may confuse organization with simply having a beginning, middle, and end, without understanding how ideas should flow logically and connect throughout the piece.
+* Students may believe that first-draft writing is sufficient and may not recognize the importance of revision for clarity, coherence, and appropriateness to task.
+* Students may assume that writing for different purposes only requires changing the topic rather than adjusting organizational structure, style, and development of ideas.
 
 Difficulty Definitions:
 * Easy:
@@ -22444,13 +22453,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Apply the writing process with guidance by planning, drafting, revising, and editing written work to strengthen clarity, organization, and style
+* Revise writing based on constructive feedback from peers and adults to improve content, word choice, and sentence structure
+* Edit writing for conventions including correct grammar, capitalization, punctuation, and spelling as outlined in grade 6 Language standards 1-3
+* Demonstrate flexibility in the writing process by rewriting or trying a new approach when the initial attempt does not effectively communicate the intended message
 
 Assessment Boundaries:
-*None specified*
+* Students should receive guidance and support from peers and adults rather than working completely independently throughout the writing process
+* Editing expectations should align specifically with grade 6 Language standards 1-3 and not exceed grade-level conventions
+* Assessment should focus on the process of developing and strengthening writing rather than solely on the final product
 
 Common Misconceptions:
-*None specified*
+* Students may believe that good writers produce perfect first drafts and that revision indicates weakness rather than being an essential part of the writing process
+* Students may confuse revising (making changes to content, organization, and style) with editing (correcting conventions like grammar and spelling)
+* Students may think revision means only fixing obvious errors rather than reconsidering larger elements like organization, clarity, and effectiveness of ideas
+* Students may believe that peer feedback is less valuable than teacher feedback and may dismiss constructive criticism from classmates
+* Students may view rewriting or trying a new approach as starting over from failure rather than as a strategic choice to improve their work
 
 Difficulty Definitions:
 * Easy:
@@ -22478,13 +22496,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Students will use word processing software and online platforms to compose, edit, and publish written work of at least three pages in a single sitting.
+* Students will utilize digital tools and internet resources to collaborate with peers on writing projects, including shared documents and online communication platforms.
+* Students will demonstrate proper keyboarding technique and typing fluency to efficiently produce multi-page documents.
+* Students will apply appropriate digital citizenship practices when interacting and sharing work with others online.
 
 Assessment Boundaries:
-*None specified*
+* Assessment should focus on the student's ability to use technology as a tool for writing rather than advanced technical skills or programming knowledge.
+* Keyboarding assessment should measure functional typing ability for academic writing purposes, not professional-level speed requirements.
+* Collaboration assessment should focus on meaningful content contribution and interaction rather than mastery of all features of collaborative platforms.
 
 Common Misconceptions:
-*None specified*
+* Students may believe that typing speed alone demonstrates sufficient keyboarding skills, rather than understanding that accuracy, proper technique, and sustained endurance are equally important.
+* Students may think that simply using a computer to type fulfills the standard, without recognizing the importance of using appropriate formatting, editing tools, and publication features.
+* Students may assume that collaboration means only sharing a final document, rather than engaging in ongoing interactive writing processes with peers.
+* Students may believe that three pages means three pages of any content, rather than understanding it refers to substantive academic writing.
+* Students may think that publishing writing only means printing a document, rather than understanding digital publishing options such as blogs, websites, or online portfolios.
 
 Difficulty Definitions:
 * Easy:
@@ -22512,13 +22539,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Formulate focused research questions appropriate for short research projects
+* Locate and evaluate multiple credible sources to gather relevant information on a research topic
+* Synthesize information from several sources to answer a research question
+* Demonstrate flexibility by refocusing or refining research questions when initial inquiry does not yield sufficient or appropriate information
 
 Assessment Boundaries:
-*None specified*
+* Research projects should be short in duration and scope, not requiring extended multi-week investigations or formal research papers
+* Students are not expected to use advanced citation formats like MLA or APA, but should acknowledge sources in a basic way
+* The focus is on the research process and using multiple sources rather than producing lengthy written products
 
 Common Misconceptions:
-*None specified*
+* Students may believe that using only one or two sources is sufficient for research projects
+* Students often think their initial research question must remain unchanged throughout the research process
+* Students may assume that all internet sources are equally credible and reliable
+* Students frequently believe research means copying information directly from sources rather than synthesizing information in their own words
+* Students may think that refocusing their inquiry indicates failure rather than understanding it as a natural part of the research process
 
 Difficulty Definitions:
 * Easy:
@@ -22546,13 +22582,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Locate and gather relevant information from at least three different print and digital sources on a given topic
+* Evaluate the credibility and reliability of sources by examining author credentials, publication date, purpose, and bias
+* Accurately quote and paraphrase information from sources while maintaining the original meaning and avoiding plagiarism
+* Create basic bibliographic citations for print and digital sources following a standard format
 
 Assessment Boundaries:
-*None specified*
+* Students are expected to use basic citation formats (such as simplified MLA or APA) but are not required to master complex citation rules for unusual source types
+* Credibility assessments should focus on observable factors like author expertise, publication type, and obvious bias rather than advanced critical analysis techniques
+* Students should work with age-appropriate sources and are not expected to navigate highly technical academic databases or scholarly journals
 
 Common Misconceptions:
-*None specified*
+* Students often believe that changing a few words in a sentence constitutes proper paraphrasing, when effective paraphrasing requires restating ideas in completely new sentence structures
+* Many students think all published or online information is equally credible and fail to distinguish between peer-reviewed sources, personal blogs, and commercial websites
+* Students frequently assume that adding a bibliography prevents plagiarism, not understanding that in-text citations or attribution within the paper itself is also necessary
+* Some students believe that paraphrasing does not require citation because they put the information in their own words, when both quotes and paraphrases need source attribution
+* Students may think that newer sources are always more credible than older ones, without considering that publication date relevance depends on the research topic
 
 Difficulty Definitions:
 * Easy:
@@ -22580,13 +22625,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Compare and contrast how different literary forms (stories, poems, dramas) approach similar themes such as courage, friendship, or coming-of-age
+* Analyze how different genres (realistic fiction, fantasy, historical fiction, science fiction) handle similar topics using genre-specific conventions and techniques
+* Write comparative analyses that cite textual evidence from multiple literary texts to support observations about theme and topic treatment
+* Identify and explain the similarities and differences in authors' approaches to universal themes across various literary forms and genres
 
 Assessment Boundaries:
-*None specified*
+* Comparisons should be limited to texts that are appropriately complex for grade 6 reading levels and that share clear thematic or topical connections
+* Students are not expected to analyze highly technical literary devices beyond those introduced in grade 6 reading standards (such as advanced symbolism or complex narrative structures)
+* Focus should remain on accessible comparisons between 2-3 texts rather than complex multi-text analyses involving more than 4 texts
 
 Common Misconceptions:
-*None specified*
+* Students may believe that comparing texts means only identifying surface-level similarities in plot rather than examining deeper thematic approaches
+* Students may confuse genre characteristics with theme, thinking that fantasy and realistic fiction cannot share similar themes
+* Students may think that poems and stories cannot be meaningfully compared because of their different structures and lengths
+* Students may assume that comparison writing requires equal focus on similarities and differences rather than analyzing what is most significant
+* Students may believe that their personal preference for one text over another constitutes analysis of how themes are approached differently
 
 Difficulty Definitions:
 * Easy:
@@ -22614,13 +22668,22 @@ Key Concepts:
 *None specified*
 
 Learning Objectives:
-*None specified*
+* Identify and trace the main argument and specific claims presented in literary nonfiction texts
+* Evaluate whether claims in literary nonfiction are supported by relevant reasons and sufficient evidence
+* Distinguish between well-supported claims and unsupported claims in literary nonfiction texts
+* Apply reading comprehension strategies to analyze the effectiveness of arguments in literary nonfiction writing
 
 Assessment Boundaries:
-*None specified*
+* Texts should be at grade 6 complexity level with clear argument structures appropriate for developing analytical skills
+* Students are not expected to evaluate highly technical or specialized evidence beyond grade-level content knowledge
+* Focus should remain on literary nonfiction genres rather than technical or purely informational texts
 
 Common Misconceptions:
-*None specified*
+* Students may confuse opinions with claims, believing any stated opinion constitutes a valid claim regardless of supporting evidence
+* Students may think that any evidence mentioned in a text automatically supports the author's claim, without evaluating relevance or sufficiency
+* Students may believe that longer texts or texts with more details always have better-supported arguments
+* Students may assume that an author's credentials or reputation alone make their claims valid without examining the actual evidence provided
+* Students may struggle to differentiate between literary nonfiction and fiction, applying narrative analysis instead of argument analysis
 
 Difficulty Definitions:
 * Easy:

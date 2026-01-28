@@ -207,7 +207,6 @@ def main():
             print("\nError: ANTHROPIC_API_KEY not set in environment or .env file")
             print("Set it in agent_sdk_v2/.env or export ANTHROPIC_API_KEY=...")
             sys.exit(1)
-        print(f"\nAPI Key: {'*' * 10}...{api_key[-4:]}")
     
     # Load all benchmarks
     data_dir = ROOT / "data"
