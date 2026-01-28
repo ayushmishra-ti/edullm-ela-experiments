@@ -1,6 +1,6 @@
 ---
 name: generate-passage
-description: Generate grade-appropriate reading passages for RL.* and RI.* standards. The SDK reads this file to generate passages.
+description: Generate grade-appropriate reading passages for Reading Literature (RL.*) and Reading Informational (RI.*) standards. Use when a passage is needed for comprehension questions or reading assessments.
 ---
 
 # Generate Passage

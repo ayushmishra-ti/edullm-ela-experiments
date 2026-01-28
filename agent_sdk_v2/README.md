@@ -1,641 +1,206 @@
-# ELA Question Generation SDK v2
+# ELA Question Generation - Claude Agent SDK (Skills)
 
-Generate K-12 ELA assessment questions using **Claude Agent SDK** with automatic skill discovery.
+Generate ELA questions using the Claude Agent SDK with Skills.
 
-## Architecture
+## How It Works
 
-The Claude Agent SDK **automatically discovers** skills in `.claude/skills/` - you don't manually load them.
-
-```mermaid
-sequenceDiagram
-    participant User
-    participant SDK as Claude Agent SDK
-    participant Agent as Claude Agent
-    participant Skills as .claude/skills/
-    participant Bash as Bash Tool
-
-    User->>SDK: query(prompt, options)
-    SDK->>Skills: Discovers SKILL.md files at startup
-    SDK->>Agent: Agent initialized with skill access
-    
-    Agent->>Agent: Reads prompt, decides approach
-    Agent->>Skills: Uses "Skill" tool to invoke ela-question-generation
-    Skills-->>Agent: SKILL.md instructions
-    
-    Note over Agent: Reads SKILL.md, sees scripts available
-    
-    Agent->>Bash: python scripts/lookup_curriculum.py "L.3.1.A"
-    Bash-->>Agent: Curriculum JSON
-    
-    Note over Agent: "This is RL.* - needs passage"
-    Agent->>Bash: python scripts/generate_passage.py "RL.3.1" "3" "narrative"
-    Bash-->>Agent: Passage text
-    
-    Agent->>Agent: Generates question with context
-    Agent-->>User: Final JSON result
+```
+User Request → SDK → Claude (discovers & invokes skill) → JSON Response
 ```
 
-## Usage
+1. **Skills** are defined in `.claude/skills/` as `SKILL.md` files
+2. **SDK** discovers skills automatically when `setting_sources=["user", "project"]`
+3. **Claude** reads the prompt, picks the relevant skill, and generates output
+
+## Workflows
+
+### Question Generation Flow
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        QUESTION GENERATION WORKFLOW                          │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  1. USER sends request                                                      │
+│     POST /generate {"substandard_id": "CCSS.ELA-LITERACY.L.3.1.A"}         │
+│                              ↓                                              │
+│  2. SDK receives request, builds prompt                                     │
+│     "Generate an ELA MCQ for L.3.1.A..."                                   │
+│                              ↓                                              │
+│  3. SDK calls: query(prompt=..., options=ClaudeAgentOptions(...))          │
+│     - cwd: project directory                                                │
+│     - setting_sources: ["user", "project"]  ← Discovers skills              │
+│     - allowed_tools: ["Skill", "Read"]      ← Enables skill invocation      │
+│                              ↓                                              │
+│  4. CLAUDE receives prompt + discovered skills                              │
+│     - Sees skill descriptions from .claude/skills/*/SKILL.md               │
+│     - Decides: "ela-question-generation matches this request"              │
+│     - Invokes the skill                                                     │
+│                              ↓                                              │
+│  5. CLAUDE reads ela-question-generation/SKILL.md                          │
+│     - Follows instructions for MCQ format                                   │
+│     - Checks if passage needed (L.* = NO)                                  │
+│     - Generates question JSON                                               │
+│                              ↓                                              │
+│  6. SDK returns response to user                                            │
+│     {"id": "l_3_1_a_mcq_medium_001", "content": {...}}                     │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### RL/RI Standards (Passage Required)
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│              WORKFLOW FOR READING STANDARDS (RL.* / RI.*)                    │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  Request: "Generate MCQ for CCSS.ELA-LITERACY.RL.3.1"                      │
+│                              ↓                                              │
+│  CLAUDE reads ela-question-generation/SKILL.md                             │
+│     - Sees: "RL.* requires passage = YES, style = narrative"               │
+│     - Invokes generate-passage skill first                                  │
+│                              ↓                                              │
+│  CLAUDE reads generate-passage/SKILL.md                                    │
+│     - Generates grade-appropriate narrative passage                         │
+│                              ↓                                              │
+│  CLAUDE returns to ela-question-generation                                  │
+│     - Creates passage-based comprehension question                          │
+│     - Returns JSON with question anchored to passage                        │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### Skill Discovery Flow
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         SKILL DISCOVERY FLOW                                 │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  SDK Startup (when query() is called):                                      │
+│                                                                             │
+│  1. SDK reads setting_sources=["user", "project"]                          │
+│                              ↓                                              │
+│  2. SDK scans directories:                                                  │
+│     - Project: {cwd}/.claude/skills/*/SKILL.md                             │
+│     - User: ~/.claude/skills/*/SKILL.md                                    │
+│                              ↓                                              │
+│  3. SDK extracts skill metadata (name, description)                        │
+│     ┌─────────────────────────────────────────────────────────────┐        │
+│     │ ela-question-generation:                                     │        │
+│     │   "Generate K-12 ELA assessment questions..."               │        │
+│     │                                                              │        │
+│     │ generate-passage:                                            │        │
+│     │   "Generate grade-appropriate reading passages..."          │        │
+│     │                                                              │        │
+│     │ populate-curriculum:                                         │        │
+│     │   "Generate curriculum data..."                             │        │
+│     └─────────────────────────────────────────────────────────────┘        │
+│                              ↓                                              │
+│  4. Claude receives prompt + skill list                                     │
+│     - Claude matches prompt to skill description                            │
+│     - Invokes relevant skill autonomously                                   │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+## Allowed Tools Explained
 
 ```python
-import asyncio
-from claude_agent_sdk import query, ClaudeAgentOptions
-
-async def main():
-    options = ClaudeAgentOptions(
-        cwd="/path/to/project",              # Project with .claude/skills/
-        setting_sources=["user", "project"], # Load Skills from filesystem
-        allowed_tools=["Skill", "Read", "Write", "Bash"]  # Enable tools
-    )
-    
-    async for message in query(
-        prompt="Generate an ELA MCQ for CCSS.ELA-LITERACY.L.3.1.A",
-        options=options
-    ):
-        print(message)
-
-asyncio.run(main())
+allowed_tools=["Skill", "Read"]
 ```
 
-## Key Concepts (from [Official Docs](https://platform.claude.com/docs/en/agent-sdk/skills))
+| Tool | Why Needed |
+|------|-----------|
+| `Skill` | **Required** - Enables Claude to invoke skills from `.claude/skills/` |
+| `Read` | Allows Claude to read files (e.g., `curriculum.md` for context) |
 
-### Skills are Filesystem Artifacts
-
-- **Defined as filesystem artifacts**: Created as `SKILL.md` files in `.claude/skills/`
-- **Loaded from filesystem**: Must specify `setting_sources=["user", "project"]`
-- **Automatically discovered**: Skill metadata discovered at startup
-- **Model-invoked**: Claude autonomously chooses when to use them
-- **NO programmatic API**: You can't register skills in code, only via filesystem
-
-### Required Configuration
-
-```python
-options = ClaudeAgentOptions(
-    cwd="/path/to/project",              # MUST contain .claude/skills/
-    setting_sources=["user", "project"], # REQUIRED to load skills!
-    allowed_tools=["Skill", "Read", "Write", "Bash"]  # Enable Skill tool
-)
-```
-
-**Common mistake**: Forgetting `setting_sources` - skills won't be loaded without it!
-
-### Skills Available
-
-| Skill | Path | Purpose |
-|-------|------|---------|
-| `ela-question-generation` | `.claude/skills/ela-question-generation/SKILL.md` | Question generation |
-| `generate-passage` | `.claude/skills/generate-passage/SKILL.md` | Passage for RL/RI standards |
-| `populate-curriculum` | `.claude/skills/populate-curriculum/SKILL.md` | Curriculum data |
-
-### How Skills Work
-
-1. SDK discovers skills from `.claude/skills/` at startup
-2. Claude receives prompt from user
-3. Claude decides which skill is relevant based on `description` in SKILL.md frontmatter
-4. Claude invokes skill via built-in `Skill` tool
-5. Claude reads SKILL.md instructions
-6. Claude uses `Bash` tool to run scripts defined in SKILL.md
-7. Claude returns final result
-
-## Architecture (Detailed)
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                           SDK v2 ARCHITECTURE                                │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│  SINGLE SOURCE OF TRUTH: .claude/skills/*/SKILL.md                          │
-│                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │  ela-question-generation/SKILL.md                                   │   │
-│  │    - Question generation instructions                               │   │
-│  │    - Output formats (MCQ, MSQ, Fill-in)                            │   │
-│  │    - Quality checklist                                              │   │
-│  │    - Loaded as SYSTEM PROMPT by SDK                                 │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
-│                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │  generate-passage/SKILL.md                                          │   │
-│  │    - Passage generation instructions                                │   │
-│  │    - Grade-level guidelines                                         │   │
-│  │    - Used by generate_passage TOOL via SDK                          │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-## Key Differences from v1
-
-| Aspect | v1 | v2 (This) |
-|--------|-----|-----------|
-| Instructions | Hardcoded in Python | SKILL.md files |
-| Curriculum tools | Inline during generation | Separate endpoint (pre-populate) |
-| Passage generation | Python script + API | Sub-agent reads SKILL.md |
-| Single source of truth | No (duplicated) | Yes (SKILL.md) |
-| Deployment | Single endpoint | Multiple endpoints |
-
-## Skills
-
-| Skill | SKILL.md | Used By | Purpose |
-|-------|----------|---------|---------|
-| `ela-question-generation` | System prompt for main agent | `/generate` | Question generation instructions |
-| `generate-passage` | System prompt for sub-agent | `generate_passage` tool | Passage generation for RL/RI |
-| `populate-curriculum` | System prompt for sub-agent | `/populate-curriculum` | Curriculum data generation |
-
-### How Skills Work
-
-1. **Python loads SKILL.md** as system prompt
-2. **Claude reads the skill** and follows its instructions
-3. **No hardcoded prompts** in Python code
-4. **Update SKILL.md** to change behavior (single source of truth)
-
-## Detailed Workflow
-
-### What Happens After SKILL.md is Loaded
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                         FULL GENERATION FLOW                                 │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│  1. USER runs: python scripts/generate_batch.py                             │
-│                              ↓                                              │
-│  2. SDK loads ela-question-generation/SKILL.md as SYSTEM PROMPT             │
-│                              ↓                                              │
-│  3. SDK sends request to Claude via Anthropic API                           │
-│     - System: SKILL.md content                                              │
-│     - User: Request JSON (standard, grade, type, difficulty)                │
-│     - Tools: [generate_passage]                                             │
-│                              ↓                                              │
-│  4. CLAUDE reads SKILL.md instructions and decides:                         │
-│                                                                             │
-│     ┌─────────────────────────────────────────────────────────────────┐    │
-│     │ Is this RL.* or RI.* standard?                                  │    │
-│     │   YES → Call generate_passage tool                              │    │
-│     │   NO  → Skip to question generation                             │    │
-│     └─────────────────────────────────────────────────────────────────┘    │
-│                              ↓                                              │
-│  5. IF generate_passage tool called:                                        │
-│     ┌─────────────────────────────────────────────────────────────────┐    │
-│     │ SDK executes generate_passage:                                  │    │
-│     │   a. Check cache (data/passages/{standard}.json)                │    │
-│     │   b. If cached → return cached passage                          │    │
-│     │   c. If not cached:                                             │    │
-│     │      - Load generate-passage/SKILL.md as system prompt          │    │
-│     │      - Call Anthropic SDK to generate passage                   │    │
-│     │      - Save to cache                                            │    │
-│     │      - Return passage text to Claude                            │    │
-│     └─────────────────────────────────────────────────────────────────┘    │
-│                              ↓                                              │
-│  6. CLAUDE generates question:                                              │
-│     - Uses SKILL.md output format                                           │
-│     - Anchors to passage (if RL/RI)                                         │
-│     - Returns JSON                                                          │
-│                              ↓                                              │
-│  7. SDK extracts JSON and saves to outputs/                                 │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-### File Responsibilities
-
-| File | What It Does |
-|------|--------------|
-| `.claude/skills/ela-question-generation/SKILL.md` | Instructions for Claude on how to generate questions. Loaded as system prompt. |
-| `.claude/skills/generate-passage/SKILL.md` | Instructions for passage generation. Used by `generate_passage` tool. |
-| `src/agentic_pipeline.py` | SDK orchestration: loads skills, defines tools, calls Anthropic API. |
-| `scripts/generate_batch.py` | CLI entry point for batch generation. |
-| `data/passages/` | Cache for generated passages (JSON files). |
-| `data/benchmark.jsonl` | Input requests for batch generation. |
-| `outputs/` | Generated questions output. |
-
-### Tool Execution: Sub-Agent Architecture
-
-**Key principle**: No hardcoded prompts in Python. Tools spawn **sub-agents** that read their own SKILL.md.
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                      generate_passage TOOL = SUB-AGENT                       │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│  MAIN AGENT (ela-question-generation/SKILL.md)                              │
-│    │                                                                        │
-│    │ Claude reads SKILL.md, decides: "This is RL.3.1, I need a passage"     │
-│    │                                                                        │
-│    ▼                                                                        │
-│  Claude calls: generate_passage(standard_id, grade, style)                  │
-│                              ↓                                              │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ TOOL EXECUTION (spawns SUB-AGENT)                                   │   │
-│  │                                                                     │   │
-│  │   1. Check cache: data/passages/{standard_id}.json                  │   │
-│  │      → If exists: return cached passage (no sub-agent needed)       │   │
-│  │                                                                     │   │
-│  │   2. SPAWN SUB-AGENT:                                               │   │
-│  │      ┌───────────────────────────────────────────────────────────┐ │   │
-│  │      │ SUB-AGENT (generate-passage/SKILL.md)                     │ │   │
-│  │      │                                                           │ │   │
-│  │      │  System: generate-passage/SKILL.md  ← Claude reads this   │ │   │
-│  │      │  User: {"standard_id": "...", "grade": "3", "style": "..."} │ │   │
-│  │      │                                                           │ │   │
-│  │      │  Claude (sub-agent) follows SKILL.md instructions:        │ │   │
-│  │      │    - Reads grade-level guidelines                         │ │   │
-│  │      │    - Generates appropriate passage                        │ │   │
-│  │      │    - Returns passage text                                 │ │   │
-│  │      └───────────────────────────────────────────────────────────┘ │   │
-│  │                                                                     │   │
-│  │   3. Cache the passage                                              │   │
-│  │   4. Return passage_text to MAIN AGENT                              │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
-│                              ↓                                              │
-│  MAIN AGENT receives passage → creates passage-based question               │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-### Why Sub-Agents?
-
-| Approach | Problem |
-|----------|---------|
-| Python hardcodes prompt | Duplicates SKILL.md, drifts over time |
-| **Sub-agent reads SKILL.md** | Single source of truth, Claude decides everything |
-
-The Python code only:
-1. Checks cache
-2. Spawns sub-agent with SKILL.md as system prompt
-3. Passes minimal request context
-4. Caches and returns result
-
-**Claude (sub-agent) does all the reasoning** based on SKILL.md.
-
-### Passage Generation Flow (Detailed)
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                        PASSAGE GENERATION FLOW                               │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│  1. MAIN AGENT starts                                                       │
-│     System: ela-question-generation/SKILL.md                                │
-│     User: "Generate question for RL.3.1..."                                 │
-│                              ↓                                              │
-│  2. CLAUDE reads SKILL.md and decides:                                      │
-│     "This is RL.* standard → I need a passage first"                        │
-│                              ↓                                              │
-│  3. CLAUDE calls tool: generate_passage(standard_id, grade, style)          │
-│                              ↓                                              │
-│  4. TOOL HANDLER executes:                                                  │
-│     ┌─────────────────────────────────────────────────────────────────┐    │
-│     │ async def generate_passage_handler(inputs, agent):              │    │
-│     │                                                                 │    │
-│     │   a. Check cache: PassageCache().get(standard_id)               │    │
-│     │      → If found: return cached passage immediately              │    │
-│     │                                                                 │    │
-│     │   b. Load skill: load_skill("generate-passage")                 │    │
-│     │      → Reads .claude/skills/generate-passage/SKILL.md           │    │
-│     │                                                                 │    │
-│     │   c. SPAWN SUB-AGENT (simple call, no tools):                   │    │
-│     │      passage_text = await agent.simple_call(skill, user_msg)    │    │
-│     │                                                                 │    │
-│     │   d. Cache result: cache.set(standard_id, passage_text)         │    │
-│     │      → Saves to data/passages/{standard_id}.json                │    │
-│     │                                                                 │    │
-│     │   e. Return: {"success": True, "passage_text": "..."}           │    │
-│     └─────────────────────────────────────────────────────────────────┘    │
-│                              ↓                                              │
-│  5. MAIN AGENT receives passage → creates question based on it              │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-| Step | Who | What |
-|------|-----|------|
-| 1 | Main Agent | Reads `ela-question-generation/SKILL.md`, decides passage needed |
-| 2 | Main Agent | Calls `generate_passage` tool |
-| 3 | Tool Handler | Checks cache first |
-| 4 | Tool Handler | Loads `generate-passage/SKILL.md` |
-| 5 | **Sub-Agent** | Claude reads SKILL.md, generates passage |
-| 6 | Tool Handler | Caches passage, returns to Main Agent |
-| 7 | Main Agent | Uses passage to create question |
-
-## Directory Structure
-
-```
-agent_sdk_v2/
-├── .claude/
-│   └── skills/
-│       ├── ela-question-generation/
-│       │   └── SKILL.md              # Question generation instructions
-│       ├── generate-passage/
-│       │   └── SKILL.md              # Passage generation instructions
-│       └── populate-curriculum/
-│           └── SKILL.md              # Curriculum population instructions
-├── src/
-│   ├── __init__.py
-│   ├── agentic_pipeline.py           # Python orchestrator (traditional)
-│   ├── agentic_pipeline_v3.py        # Clean SDK pattern (refactored)
-│   ├── agentic_pipeline_orchestrator.py  # ⭐ Claude as orchestrator (recommended)
-│   ├── curriculum_pipeline.py        # Curriculum population pipeline
-│   └── main.py                       # FastAPI with all endpoints
-├── scripts/
-│   ├── generate_batch.py             # CLI for batch generation
-│   └── deploy.sh                     # Cloud Run deployment
-├── data/
-│   ├── benchmark.jsonl               # Input requests
-│   ├── curriculum.md                 # Curriculum data (populated)
-│   └── passages/                     # Passage cache
-├── outputs/                          # Generated questions
-├── Dockerfile
-├── cloudbuild.yaml
-├── requirements.txt
-├── .env.example
-└── README.md
-```
-
-### Pipeline Files Comparison
-
-| File | Architecture | Who Orchestrates | Use Case |
-|------|--------------|------------------|----------|
-| `agentic_pipeline.py` | Traditional loop | Python | Original implementation |
-| `agentic_pipeline_v3.py` | Clean classes | Python | Refactored, modular |
-| `agentic_pipeline_orchestrator.py` | Meta-tools | **Claude** | Recommended, flexible |
+**Note:** `Bash` is optional. Only add it if your SKILL.md files need to execute scripts.
 
 ## Quick Start
 
 ```bash
-# 1. Setup
-cd agent_sdk_v2
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+# Install
 pip install -r requirements.txt
 
-# 2. Configure
+# Configure
 cp .env.example .env
-# Edit .env and add your ANTHROPIC_API_KEY
+# Add your ANTHROPIC_API_KEY
 
-# 3. Start server
+# Test
+python src/main.py --test-generate '{"substandard_id": "CCSS.ELA-LITERACY.L.3.1.A"}'
+
+# Server
 python src/main.py --serve
+```
 
-# 4. Test endpoints (in another terminal)
-curl http://localhost:8080/
+## Project Structure
 
-# Generate question
-curl -X POST http://localhost:8080/generate \
-  -H "Content-Type: application/json" \
-  -d '{"skills": {"substandard_id": "CCSS.ELA-LITERACY.L.3.1.A"}}'
+```
+agent_sdk_v2/
+├── .claude/skills/                  # Skills (SDK discovers these)
+│   ├── ela-question-generation/     # Main skill - question generation
+│   │   └── SKILL.md
+│   ├── generate-passage/            # Passage generation for RL/RI
+│   │   └── SKILL.md
+│   └── populate-curriculum/         # Curriculum data generation
+│       └── SKILL.md
+├── src/
+│   ├── agentic_pipeline_sdk.py      # SDK implementation
+│   └── main.py                      # API + CLI
+└── requirements.txt
+```
 
-# Populate curriculum
-curl -X POST http://localhost:8080/populate-curriculum \
-  -H "Content-Type: application/json" \
-  -d '{"standard_id": "CCSS.ELA-LITERACY.L.3.1.A", "standard_description": "Explain the function of nouns..."}'
+## Core Code
+
+```python
+from claude_agent_sdk import query, ClaudeAgentOptions
+
+options = ClaudeAgentOptions(
+    cwd="/path/to/project",              # Contains .claude/skills/
+    setting_sources=["user", "project"], # REQUIRED: Enables skill discovery
+    allowed_tools=["Skill", "Read"]      # REQUIRED: Skill tool + Read for files
+)
+
+async for message in query(prompt="Generate an ELA MCQ...", options=options):
+    print(message)
 ```
 
 ## API Endpoints
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
-| `/` | GET | Health check |
 | `/generate` | POST | Generate ELA question |
-| `/populate-curriculum` | POST | Populate curriculum for a standard |
-| `/populate-curriculum/batch` | POST | Populate curriculum for multiple standards |
+| `/populate-curriculum` | POST | Generate curriculum data |
+| `/skills` | GET | List available skills |
+| `/` | GET | Health check |
 
-### POST /generate
-
-Generate an ELA question (MCQ, MSQ, Fill-in).
-
-```json
-{
-  "grade": "3",
-  "type": "mcq",
-  "difficulty": "medium",
-  "skills": {
-    "substandard_id": "CCSS.ELA-LITERACY.L.3.1.A",
-    "substandard_description": "Explain the function of nouns..."
-  }
-}
-```
-
-### POST /populate-curriculum
-
-Pre-populate curriculum data before question generation.
-
-```json
-{
-  "standard_id": "CCSS.ELA-LITERACY.L.3.1.A",
-  "standard_description": "Explain the function of nouns, pronouns, verbs...",
-  "grade": "3",
-  "force": false
-}
-```
-
-Response:
-```json
-{
-  "success": true,
-  "standard_id": "CCSS.ELA-LITERACY.L.3.1.A",
-  "source": "generated_by_subagent",
-  "curriculum_data": {
-    "learning_objectives": [...],
-    "assessment_boundaries": [...],
-    "common_misconceptions": [...]
-  },
-  "saved_to_file": true
-}
-```
-
-## Input Format
-
-Create `data/benchmark.jsonl` with one request per line:
-
-```jsonl
-{"type": "mcq", "grade": "3", "difficulty": "easy", "skills": {"substandard_id": "CCSS.ELA-LITERACY.L.3.1.A", "substandard_description": "Explain the function of nouns..."}}
-{"type": "mcq", "grade": "3", "difficulty": "medium", "skills": {"substandard_id": "CCSS.ELA-LITERACY.RL.3.1", "substandard_description": "Ask and answer questions..."}}
-```
-
-## Output Format
-
-```json
-{
-  "generated_content": [
-    {
-      "id": "l_3_1_a_mcq_easy_001",
-      "content": {
-        "answer": "B",
-        "question": "Which word is a noun?",
-        "image_url": [],
-        "answer_options": [...],
-        "answer_explanation": "..."
-      },
-      "request": {...}
-    }
-  ],
-  "metadata": {
-    "total": 5,
-    "success": 5,
-    "tool_calls": {"generate_passage": 2}
-  }
-}
-```
-
-## Deployment
-
-### Local
-
-```bash
-python src/main.py --serve --port 8080
-```
-
-### Docker
-
-```bash
-docker build -t ela-sdk-v2 .
-docker run -p 8080:8080 -e ANTHROPIC_API_KEY=sk-... ela-sdk-v2
-```
-
-### Google Cloud Run
-
-```bash
-# Make deploy script executable
-chmod +x scripts/deploy.sh
-
-# Deploy (requires gcloud CLI configured)
-./scripts/deploy.sh
-```
-
-The deploy script will:
-1. Build Docker image using Cloud Build
-2. Deploy to Cloud Run with secrets configured
-3. Output the service URL
-
-## CLI Testing
+## CLI Commands
 
 ```bash
 # Test question generation
 python src/main.py --test-generate '{"substandard_id": "CCSS.ELA-LITERACY.L.3.1.A"}'
 
-# Test curriculum population
-python src/main.py --test-curriculum '{"standard_id": "CCSS.ELA-LITERACY.L.3.1.A", "standard_description": "Explain the function of nouns..."}'
+# Test with RL standard (will generate passage first)
+python src/main.py --test-generate '{"substandard_id": "CCSS.ELA-LITERACY.RL.3.1"}'
 
-# Batch generation (CLI script)
-python scripts/generate_batch.py --limit 5
+# Start API server
+python src/main.py --serve
+
+# List available skills
+python src/main.py --list-skills
 ```
 
-## Why This Architecture?
+## Skills
 
-1. **Single Source of Truth**: Update SKILL.md → SDK behavior changes automatically
-2. **No Duplication**: Instructions exist in one place only
-3. **Clean Separation**: Skills define *what*, SDK handles *how*
-4. **Easy to Extend**: Add new skills by creating new SKILL.md files
-5. **Testable**: Skills can be tested independently
-6. **Separate Pipelines**: Curriculum population is a separate endpoint (pre-generation step)
+| Skill | Description | Triggered When |
+|-------|-------------|----------------|
+| `ela-question-generation` | Generates MCQ, MSQ, Fill-in questions | ELA question request |
+| `generate-passage` | Creates reading passages | RL.* or RI.* standard |
+| `populate-curriculum` | Generates learning objectives | Curriculum data request |
 
-## Using Claude as Orchestrator
+## Reference
 
-### Quick Start
-
-```python
-from agentic_pipeline_orchestrator import generate_one_agentic
-
-# Same interface as other pipelines
-result = await generate_one_agentic(request, verbose=True)
-```
-
-### What Happens (with verbose=True)
-
-```
-[Orchestrator] Iteration 1
-[Orchestrator] Tool: read_skill({"skill_name": "ela-question-generation"})
-[Orchestrator] Result: {success: true, content: "# ELA Question Generation..."}
-
-[Orchestrator] Iteration 2
-[Orchestrator] Tool: cache_get({"key": "CCSS.ELA-LITERACY.RL.3.1", "cache_type": "passage"})
-[Orchestrator] Result: {success: true, found: false}
-
-[Orchestrator] Iteration 3
-[Orchestrator] Tool: spawn_agent({"skill_name": "generate-passage", "message": "..."})
-[Orchestrator] Result: {success: true, response: "The Little Fox\n\nOnce upon a time..."}
-
-[Orchestrator] Iteration 4
-[Orchestrator] Tool: cache_set({"key": "CCSS.ELA-LITERACY.RL.3.1", "cache_type": "passage", "value": "..."})
-[Orchestrator] Result: {success: true, cached: true}
-
-[Orchestrator] Iteration 5
-[Orchestrator] Tool: complete({"success": true, "result": {"id": "rl_3_1_mcq_easy_001", "content": {...}}})
-```
-
-### Orchestrator Flow Diagram
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                        CLAUDE ORCHESTRATOR FLOW                              │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│  REQUEST: Generate question for RL.3.1                                      │
-│                              ↓                                              │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ CLAUDE (Orchestrator)                                               │   │
-│  │                                                                     │   │
-│  │   "I need to understand how to generate questions"                  │   │
-│  │   → read_skill("ela-question-generation")                           │   │
-│  │                                                                     │   │
-│  │   "This is RL.* standard, I need a passage first"                   │   │
-│  │   → cache_get("RL.3.1", "passage")                                  │   │
-│  │                                                                     │   │
-│  │   "Not cached, I'll spawn a sub-agent to generate it"               │   │
-│  │   → spawn_agent("generate-passage", {...})                          │   │
-│  │                                                                     │   │
-│  │   "Got the passage, let me cache it for later"                      │   │
-│  │   → cache_set("RL.3.1", "passage", "The Little Fox...")             │   │
-│  │                                                                     │   │
-│  │   "Now I can generate the question based on the skill instructions" │   │
-│  │   [Claude generates question JSON following SKILL.md]               │   │
-│  │                                                                     │   │
-│  │   "Done! Here's the result"                                         │   │
-│  │   → complete({success: true, result: {id: "...", content: {...}}})  │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
-│                              ↓                                              │
-│  RESULT: {id: "rl_3_1_mcq_easy_001", content: {...}}                       │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-### Switching to Orchestrator Mode
-
-To use Claude as orchestrator in `main.py`, update the import:
-
-```python
-# Before (Python orchestrates)
-from agentic_pipeline import generate_one_agentic
-
-# After (Claude orchestrates)
-from agentic_pipeline_orchestrator import generate_one_agentic
-```
-
-The API interface remains the same - it's a drop-in replacement.
-
-### Comparison: Python vs Claude Orchestration
-
-| Aspect | Python Orchestrates | Claude Orchestrates |
-|--------|---------------------|---------------------|
-| **Flow control** | Hardcoded in Python | Claude decides |
-| **Skill loading** | Python loads at start | Claude calls `read_skill()` |
-| **Sub-agents** | Python spawns | Claude calls `spawn_agent()` |
-| **Caching** | Python manages | Claude calls `cache_get/set()` |
-| **Completion** | Python checks `end_turn` | Claude calls `complete()` |
-| **Flexibility** | Low (fixed flow) | High (adaptive) |
-| **Token usage** | Lower | Higher (Claude reasons) |
-| **Debugging** | Easier (predictable) | Harder (dynamic) |
-
-### When to Use Each Mode
-
-**Use Python Orchestrator (`agentic_pipeline.py`) when:**
-- Production systems with predictable flows
-- Cost-sensitive applications
-- Need strict control over behavior
-- Debugging/development
-
-**Use Claude Orchestrator (`agentic_pipeline_orchestrator.py`) when:**
-- Want Claude to reason about workflow
-- Complex, dynamic workflows
-- Experimenting with new approaches
-- Need maximum flexibility
+- [Agent Skills in the SDK](https://platform.claude.com/docs/en/agent-sdk/skills)
+- [Agent Skills Best Practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)

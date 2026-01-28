@@ -1,5 +1,6 @@
 # ELA Question Generation SDK v2
 anthropic>=0.18.0
+claude-agent-sdk>=0.1.0
 python-dotenv>=1.0.0
 fastapi>=0.109.0
 uvicorn>=0.27.0

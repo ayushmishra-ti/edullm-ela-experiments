@@ -1,6 +1,6 @@
 ---
 name: ela-question-generation
-description: Generate K-12 ELA assessment questions (MCQ, MSQ, Fill-in) aligned to Common Core standards. The SDK reads this file as the system prompt.
+description: Generate K-12 ELA assessment questions (MCQ, MSQ, Fill-in) aligned to Common Core standards. Use when asked to create ELA questions, assessment items, or Common Core aligned questions.
 ---
 
 # ELA Question Generation
