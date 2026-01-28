@@ -6,14 +6,14 @@ Endpoints:
 - POST /populate-curriculum - Pre-populate curriculum data for standards
 - GET  /                  - Health check
 
-Architecture Modes:
-- ORCHESTRATOR_MODE=claude (default): Claude orchestrates the workflow
-- ORCHESTRATOR_MODE=python: Python orchestrates the workflow
+Architecture:
+- Uses Claude Agent SDK with automatic skill discovery
+- Skills are in .claude/skills/ and discovered automatically
+- Set USE_SDK=true to use claude_agent_sdk (requires pip install claude-agent-sdk)
+- Set USE_SDK=false to use fallback Anthropic API (default for now)
 
 CLI Testing:
   python src/main.py --serve
-  python src/main.py --serve --orchestrator claude  # Claude orchestrates (recommended)
-  python src/main.py --serve --orchestrator python  # Python orchestrates
   python src/main.py --test-generate '{"substandard_id": "CCSS.ELA-LITERACY.L.3.1.A"}'
   python src/main.py --test-curriculum '{"standard_id": "CCSS.ELA-LITERACY.L.3.1.A"}'
 """
@@ -46,16 +46,21 @@ import sys
 if str(ROOT / "src") not in sys.path:
     sys.path.insert(0, str(ROOT / "src"))
 
-# Select orchestrator mode based on environment variable
-# Options: "claude" (recommended) or "python"
-ORCHESTRATOR_MODE = os.getenv("ORCHESTRATOR_MODE", "claude").lower()
+# Select SDK mode
+# USE_SDK=true: Use claude_agent_sdk (recommended, requires pip install claude-agent-sdk)
+# USE_SDK=false: Use fallback Anthropic API
+USE_SDK = os.getenv("USE_SDK", "false").lower() == "true"
 
-if ORCHESTRATOR_MODE == "claude":
-    # Claude as orchestrator (recommended)
-    from agentic_pipeline_orchestrator import generate_one_agentic
+if USE_SDK:
+    try:
+        from agentic_pipeline_sdk import generate_one_agentic
+        SDK_MODE = "claude_agent_sdk"
+    except ImportError:
+        from agentic_pipeline import generate_one_agentic
+        SDK_MODE = "fallback_anthropic"
 else:
-    # Python orchestrator (traditional)
     from agentic_pipeline import generate_one_agentic
+    SDK_MODE = "anthropic_api"
 
 from curriculum_pipeline import populate_curriculum_for_standard, populate_curriculum_batch
 
@@ -66,11 +71,11 @@ logger = logging.getLogger(__name__)
 ANTHROPIC_API_KEY = (os.getenv("ANTHROPIC_API_KEY") or "").strip()
 ANTHROPIC_MODEL = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-5-20250929")
 
-logger.info(f"Orchestrator mode: {ORCHESTRATOR_MODE.upper()}")
+logger.info(f"SDK mode: {SDK_MODE}")
 
 app = FastAPI(
     title="ELA SDK API",
-    description=f"Generate ELA questions using SKILL.md. Orchestrator: {ORCHESTRATOR_MODE.upper()}",
+    description=f"Generate ELA questions using Claude Agent SDK. Mode: {SDK_MODE}",
     version="2.0.0",
 )
 
@@ -163,9 +168,15 @@ async def health_check() -> dict:
         "status": "ok",
         "service": "ela-sdk",
         "version": "2.0.0",
+        "sdk_mode": SDK_MODE,
+        "sdk_description": {
+            "claude_agent_sdk": "Using Claude Agent SDK with automatic skill discovery",
+            "anthropic_api": "Using Anthropic API directly (fallback)",
+            "fallback_anthropic": "claude_agent_sdk not installed, using Anthropic API",
+        }.get(SDK_MODE, SDK_MODE),
         "endpoints": {
-            "/generate": "POST - Generate ELA questions (backward compatible)",
-            "/v2/generate": "POST - Generate ELA questions (v2 with SKILL.md)",
+            "/generate": "POST - Generate ELA questions",
+            "/v2/generate": "POST - Generate ELA questions (v2)",
             "/populate-curriculum": "POST - Populate curriculum for a standard",
             "/populate-curriculum/batch": "POST - Populate curriculum for multiple standards",
         },
@@ -408,7 +419,18 @@ if __name__ == "__main__":
     parser.add_argument("--test-generate", type=str, help="Test question generation")
     parser.add_argument("--test-curriculum", type=str, help="Test curriculum population")
     parser.add_argument("--port", "-p", type=int, default=int(os.environ.get("PORT", 8080)))
+    parser.add_argument("--use-sdk", action="store_true", help="Use claude_agent_sdk (requires pip install)")
     args = parser.parse_args()
+    
+    # Override SDK mode if specified via CLI
+    if args.use_sdk:
+        os.environ["USE_SDK"] = "true"
+        try:
+            from agentic_pipeline_sdk import generate_one_agentic as gen_func
+            globals()["generate_one_agentic"] = gen_func
+            print("Using claude_agent_sdk")
+        except ImportError:
+            print("Warning: claude_agent_sdk not installed, using fallback")
     
     if args.test_generate:
         asyncio.run(cli_test_generate(args.test_generate))
@@ -416,10 +438,19 @@ if __name__ == "__main__":
         asyncio.run(cli_test_curriculum(args.test_curriculum))
     elif args.serve:
         import uvicorn
+        print(f"\nStarting server with SDK mode: {SDK_MODE}")
+        print("To use Claude Agent SDK: set USE_SDK=true (requires pip install claude-agent-sdk)\n")
         uvicorn.run(app, host="0.0.0.0", port=args.port)
     else:
         parser.print_help()
-        print("\nExamples:")
-        print('  python src/main.py --serve')
+        print("\n" + "=" * 60)
+        print("SDK MODES")
+        print("=" * 60)
+        print("  USE_SDK=true  : Use claude_agent_sdk (automatic skill discovery)")
+        print("  USE_SDK=false : Use Anthropic API directly (default)")
+        print()
+        print("Examples:")
+        print('  python src/main.py --serve                    # Default mode')
+        print('  python src/main.py --serve --use-sdk          # Use claude_agent_sdk')
         print('  python src/main.py --test-generate \'{"substandard_id": "CCSS.ELA-LITERACY.L.3.1.A"}\'')
-        print('  python src/main.py --test-curriculum \'{"standard_id": "CCSS.ELA-LITERACY.L.3.1.A", "standard_description": "Explain the function of nouns..."}\'')
+        print('  python src/main.py --test-curriculum \'{"standard_id": "CCSS.ELA-LITERACY.L.3.1.A", "standard_description": "..."}\'')

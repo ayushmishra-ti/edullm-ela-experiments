@@ -1,89 +1,101 @@
 # ELA Question Generation SDK v2
 
-Generate K-12 ELA assessment questions using **SKILL.md files as the single source of truth**.
+Generate K-12 ELA assessment questions using **Claude Agent SDK** with automatic skill discovery.
 
-## Architecture Modes
+## Architecture
 
-This SDK supports **two architecture modes**:
-
-| Mode | File | Who Orchestrates | Best For |
-|------|------|------------------|----------|
-| **Python Orchestrator** | `agentic_pipeline.py` | Python controls flow | Production, predictable |
-| **Claude Orchestrator** | `agentic_pipeline_orchestrator.py` | Claude controls flow | Flexible, adaptive |
-
-### Recommended: Claude as Orchestrator
-
-The **Claude Orchestrator** mode gives Claude full control over the workflow. Claude decides what skills to read, when to spawn sub-agents, and when the task is complete.
+The Claude Agent SDK **automatically discovers** skills in `.claude/skills/` - you don't manually load them.
 
 ```mermaid
 sequenceDiagram
     participant User
-    participant Claude as Claude (Orchestrator)
-    participant Runtime as Python Runtime
-    participant SubAgent as Claude (Sub-Agent)
+    participant SDK as Claude Agent SDK
+    participant Agent as Claude Agent
+    participant Skills as .claude/skills/
+    participant Bash as Bash Tool
 
-    User->>Claude: Generate question for RL.3.1
+    User->>SDK: query(prompt, options)
+    SDK->>Skills: Discovers SKILL.md files at startup
+    SDK->>Agent: Agent initialized with skill access
     
-    Note over Claude: "I need to understand the task"
-    Claude->>Runtime: read_skill("ela-question-generation")
-    Runtime-->>Claude: SKILL.md content
+    Agent->>Agent: Reads prompt, decides approach
+    Agent->>Skills: Uses "Skill" tool to invoke ela-question-generation
+    Skills-->>Agent: SKILL.md instructions
     
-    Note over Claude: "This is RL.* - needs passage"
-    Claude->>Runtime: cache_get("RL.3.1", "passage")
-    Runtime-->>Claude: {found: false}
+    Note over Agent: Reads SKILL.md, sees scripts available
     
-    Note over Claude: "Not cached, spawn sub-agent"
-    Claude->>Runtime: spawn_agent("generate-passage", {...})
-    Runtime->>SubAgent: Generate passage
-    SubAgent-->>Runtime: Passage text
-    Runtime-->>Claude: {response: "The little fox..."}
+    Agent->>Bash: python scripts/lookup_curriculum.py "L.3.1.A"
+    Bash-->>Agent: Curriculum JSON
     
-    Note over Claude: "Save for later"
-    Claude->>Runtime: cache_set("RL.3.1", "passage", "...")
-    Runtime-->>Claude: {cached: true}
+    Note over Agent: "This is RL.* - needs passage"
+    Agent->>Bash: python scripts/generate_passage.py "RL.3.1" "3" "narrative"
+    Bash-->>Agent: Passage text
     
-    Note over Claude: "Now generate question"
-    Note over Claude: Claude generates question JSON
-    
-    Claude->>Runtime: complete({id: "...", content: {...}})
-    Runtime-->>User: Final result
+    Agent->>Agent: Generates question with context
+    Agent-->>User: Final JSON result
 ```
 
-### Meta-Tools (Claude's Capabilities)
+## Usage
 
-When Claude is the orchestrator, Python provides these **meta-tools**:
+```python
+import asyncio
+from claude_agent_sdk import query, ClaudeAgentOptions
 
-| Tool | Purpose | Example |
-|------|---------|---------|
-| `read_skill(name)` | Load a SKILL.md file | `read_skill("ela-question-generation")` |
-| `spawn_agent(skill, msg)` | Spawn a sub-agent | `spawn_agent("generate-passage", {...})` |
-| `cache_get(key, type)` | Check cache | `cache_get("RL.3.1", "passage")` |
-| `cache_set(key, type, val)` | Save to cache | `cache_set("RL.3.1", "passage", "...")` |
-| `complete(result)` | Finish and return | `complete({id: "...", content: {...}})` |
+async def main():
+    options = ClaudeAgentOptions(
+        cwd="/path/to/project",              # Project with .claude/skills/
+        setting_sources=["user", "project"], # Load Skills from filesystem
+        allowed_tools=["Skill", "Read", "Write", "Bash"]  # Enable tools
+    )
+    
+    async for message in query(
+        prompt="Generate an ELA MCQ for CCSS.ELA-LITERACY.L.3.1.A",
+        options=options
+    ):
+        print(message)
 
-### Why Claude as Orchestrator?
-
+asyncio.run(main())
 ```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                     CLAUDE AS ORCHESTRATOR                                   │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│  Traditional (Python orchestrates):                                         │
-│    Python Loop ──► Claude Turn ──► Python executes ──► Claude Turn          │
-│    (Python decides when to loop, what tools to call)                        │
-│                                                                             │
-│  New (Claude orchestrates):                                                 │
-│    Claude ──► read_skill() ──► spawn_agent() ──► cache_set() ──► complete() │
-│    (Claude decides everything, Python just provides capabilities)           │
-│                                                                             │
-│  Benefits:                                                                  │
-│    ✓ Claude has full control over workflow                                  │
-│    ✓ More flexible and adaptive                                             │
-│    ✓ Claude can reason about what to do next                                │
-│    ✓ Easy to add new capabilities as tools                                  │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
+
+## Key Concepts (from [Official Docs](https://platform.claude.com/docs/en/agent-sdk/skills))
+
+### Skills are Filesystem Artifacts
+
+- **Defined as filesystem artifacts**: Created as `SKILL.md` files in `.claude/skills/`
+- **Loaded from filesystem**: Must specify `setting_sources=["user", "project"]`
+- **Automatically discovered**: Skill metadata discovered at startup
+- **Model-invoked**: Claude autonomously chooses when to use them
+- **NO programmatic API**: You can't register skills in code, only via filesystem
+
+### Required Configuration
+
+```python
+options = ClaudeAgentOptions(
+    cwd="/path/to/project",              # MUST contain .claude/skills/
+    setting_sources=["user", "project"], # REQUIRED to load skills!
+    allowed_tools=["Skill", "Read", "Write", "Bash"]  # Enable Skill tool
+)
 ```
+
+**Common mistake**: Forgetting `setting_sources` - skills won't be loaded without it!
+
+### Skills Available
+
+| Skill | Path | Purpose |
+|-------|------|---------|
+| `ela-question-generation` | `.claude/skills/ela-question-generation/SKILL.md` | Question generation |
+| `generate-passage` | `.claude/skills/generate-passage/SKILL.md` | Passage for RL/RI standards |
+| `populate-curriculum` | `.claude/skills/populate-curriculum/SKILL.md` | Curriculum data |
+
+### How Skills Work
+
+1. SDK discovers skills from `.claude/skills/` at startup
+2. Claude receives prompt from user
+3. Claude decides which skill is relevant based on `description` in SKILL.md frontmatter
+4. Claude invokes skill via built-in `Skill` tool
+5. Claude reads SKILL.md instructions
+6. Claude uses `Bash` tool to run scripts defined in SKILL.md
+7. Claude returns final result
 
 ## Architecture (Detailed)
 
