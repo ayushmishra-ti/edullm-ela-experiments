@@ -170,15 +170,39 @@ python scripts/prepare_curriculum_skill.py --limit 10
 │  Request: "Generate MCQ for CCSS.ELA-LITERACY.RL.3.1"                      │
 │                              ↓                                              │
 │  CLAUDE reads ela-question-generation/SKILL.md                             │
-│     - Sees: "RL.* requires passage = YES, style = narrative"               │
-│     - Invokes generate-passage skill first                                  │
+│     - Sees: "RL.* requires passage = YES"                                  │
+│     - Reads reference/passage-guidelines.md (NOT a separate skill)         │
 │                              ↓                                              │
-│  CLAUDE reads generate-passage/SKILL.md                                    │
-│     - Generates grade-appropriate narrative passage                         │
+│  CLAUDE generates passage inline                                            │
+│     - RL.* → narrative style (story, fable)                                │
+│     - RI.* → informational style (article, explanatory)                    │
 │                              ↓                                              │
-│  CLAUDE returns to ela-question-generation                                  │
+│  CLAUDE continues to generate question                                      │
 │     - Creates passage-based comprehension question                          │
-│     - Returns JSON with question anchored to passage                        │
+│     - Returns JSON with passage + question                                  │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### W.* Standards (Scenario-Based)
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│              WORKFLOW FOR WRITING STANDARDS (W.*)                            │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  IMPORTANT: W.* standards are performance-based                             │
+│                                                                             │
+│  ✗ BAD:  "Writing helps you build your _______." (vocabulary recall)       │
+│  ✓ GOOD: "Read this draft. Which revision improves...?" (scenario-based)   │
+│                                                                             │
+│  For MCQ/MSQ:                                                               │
+│    - Provide a writing scenario or student draft                            │
+│    - Ask about revisions, organization, transitions, etc.                   │
+│                                                                             │
+│  For Fill-in:                                                               │
+│    - MUST be scenario-based with word bank                                  │
+│    - Example: "Which transition connects these ideas? (choices: ...)"      │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -312,16 +336,16 @@ agent_sdk_v2/
 │   │   ├── SKILL.md
 │   │   └── reference/
 │   │       ├── curriculum.md            # Curriculum data (pre-populated)
-│   │       └── fill-in-examples.md      # Fill-in question examples
-│   ├── generate-passage/                # Passage generation for RL/RI
-│   │   └── SKILL.md
-│   └── prepare-curriculum-batch/        # Curriculum prep (optional, skill-based)
+│   │       ├── fill-in-examples.md      # Fill-in question examples
+│   │       └── passage-guidelines.md    # Passage generation guidelines (for RL/RI)
+│   └── prepare-curriculum-batch/        # Orchestrator: detect + populate
 │       └── SKILL.md
 ├── scripts/                             # Utility scripts
 │   ├── append_missing_curriculum.py     # Step 1: Append standard blocks
 │   ├── populate_curriculum_direct.py    # Step 2: Fill empty fields (Direct API)
 │   ├── prepare_curriculum_skill.py      # Step 2 alt: Fill via SDK skill
 │   ├── test_random_sample.py            # Test pipeline on random samples
+│   ├── evaluate_batch.py                # Evaluate generated questions
 │   └── generate_batch.py                # Batch question generation
 ├── src/
 │   ├── agentic_pipeline_sdk.py          # SDK implementation
@@ -353,10 +377,9 @@ async for message in query(prompt="Generate an ELA MCQ...", options=options):
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
-| `/generate` | POST | Generate ELA question (SDK Skills) |
+| `/generate` | POST | Generate ELA question |
+| `/skills` | GET | List available skills |
 | `/` | GET | Health check |
-
-**Note:** This deploys as a NEW separate service (`inceptagentic-skill-mcq-v2`). The existing service (`inceptagentic-skill-mcq`) remains untouched.
 
 ## CLI Commands
 
@@ -364,72 +387,43 @@ async for message in query(prompt="Generate an ELA MCQ...", options=options):
 # Test question generation
 python src/main.py --test-generate '{"substandard_id": "CCSS.ELA-LITERACY.L.3.1.A"}'
 
+# Populate curriculum.md locally (pre-deploy step)
+python src/main.py --populate-curriculum '{"standard_id":"CCSS.ELA-LITERACY.L.3.1.A","standard_description":"...","grade":"3"}'
+
 # Test with RL standard (will generate passage first)
 python src/main.py --test-generate '{"substandard_id": "CCSS.ELA-LITERACY.RL.3.1"}'
 
 # Start API server
 python src/main.py --serve
+
+# List available skills
+python src/main.py --list-skills
 ```
 
 ## Skills
 
 ### Generation Skills (Runtime)
 
-These are the **only 2 skills** used during question generation:
+There is **only 1 skill** used during question generation:
 
 | Skill | Description | Triggered When |
 |-------|-------------|----------------|
 | `ela-question-generation` | Generates MCQ, MSQ, Fill-in questions | Every ELA question request |
-| `generate-passage` | Creates reading passages | RL.* or RI.* standards only |
 
-**Note:** Curriculum data is **NOT** fetched via a skill at runtime. It is **pre-fetched by Python** from `curriculum.md` and included in the prompt to reduce token usage.
+**Note:** 
+- Curriculum data is **pre-fetched by Python** from `curriculum.md` (not a skill call)
+- Passage guidelines are a **reference file** (`reference/passage-guidelines.md`), not a separate skill
 
 ### Preparation Skills (One-time Setup)
 
+These skills are used **only during curriculum preparation**, not during question generation:
+
 | Skill | Description | When Used |
 |-------|-------------|-----------|
-| `prepare-curriculum-batch` | Scans curriculum.md, detects `*None specified*`, populates | Run via `prepare_curriculum_skill.py` |
+| `populate-curriculum` | Instructions for HOW to generate curriculum data | Referenced by prepare-curriculum-batch |
+| `prepare-curriculum-batch` | Orchestrator: scans curriculum.md, detects `*None specified*`, populates | Run via `prepare_curriculum_skill.py` |
 
-### How Claude Discovers and Chooses Skills
-
-**We don't explicitly specify which skill to use in code.** Claude decides autonomously.
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                    HOW SKILL SELECTION WORKS                                │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│  CODE (agentic_pipeline_sdk.py):                                           │
-│                                                                             │
-│    options = ClaudeAgentOptions(                                           │
-│        cwd=str(ROOT),                        # Points to agent_sdk_v2/     │
-│        setting_sources=["user", "project"], # Discovers ALL skills        │
-│        allowed_tools=["Skill", "Read"],     # Enables skill invocation    │
-│    )                                                                        │
-│                                                                             │
-│  SDK STARTUP:                                                               │
-│    1. Scans: agent_sdk_v2/.claude/skills/*/SKILL.md                        │
-│    2. Extracts ALL skill descriptions from YAML frontmatter                │
-│    3. Passes skill list to Claude                                          │
-│                                                                             │
-│  CLAUDE RECEIVES:                                                           │
-│    - Prompt: "Generate an ELA MCQ for L.3.1.A..."                          │
-│    - Available skills:                                                      │
-│        • ela-question-generation: "Generate K-12 ELA assessment..."        │
-│        • generate-passage: "Generate grade-appropriate passages..."        │
-│        • prepare-curriculum-batch: "Scan curriculum.md for missing..."     │
-│                                                                             │
-│  CLAUDE DECIDES:                                                            │
-│    "ela-question-generation matches this request" ← Based on description   │
-│                                                                             │
-│  WHY OTHER SKILLS AREN'T USED:                                              │
-│    • prepare-curriculum-batch → description doesn't match "generate MCQ"   │
-│    • Claude only invokes skills whose descriptions match the prompt        │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-### Skill Usage by Phase
+### Skill Usage Diagram
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -438,13 +432,8 @@ These are the **only 2 skills** used during question generation:
 │                                                                             │
 │  PREPARATION PHASE (one-time, before deployment):                          │
 │  ───────────────────────────────────────────────                            │
-│    Option A: Direct API (recommended for large batches)                    │
-│      $ python scripts/populate_curriculum_direct.py                        │
-│      → No skills involved, direct Anthropic API calls                      │
-│                                                                             │
-│    Option B: Skill-based                                                    │
-│      $ python scripts/prepare_curriculum_skill.py                          │
-│      → Uses: prepare-curriculum-batch skill                                │
+│    Skills used:                                                             │
+│      • prepare-curriculum-batch  → detects + fills *None specified*        │
 │                                                                             │
 │    Output: curriculum.md with complete Learning Objectives,                 │
 │            Assessment Boundaries, Common Misconceptions                     │
@@ -453,14 +442,16 @@ These are the **only 2 skills** used during question generation:
 │                                                                             │
 │  GENERATION PHASE (runtime, every request):                                 │
 │  ──────────────────────────────────────────                                 │
-│    Skills used (Claude chooses based on prompt):                           │
+│    Skills used:                                                             │
 │      • ela-question-generation   → generates MCQ/MSQ/Fill-in               │
-│      • generate-passage          → generates passage (RL.*/RI.* only)      │
+│                                                                             │
+│    Reference files (NOT separate skills):                                   │
+│      • reference/passage-guidelines.md → RL/RI passage generation          │
+│      • reference/fill-in-examples.md   → Fill-in question examples         │
 │                                                                             │
 │    Curriculum: PRE-FETCHED by Python (not a skill call!)                   │
 │      → lookup_curriculum() extracts ~30 lines from curriculum.md           │
 │      → Included directly in prompt sent to SDK                              │
-│      → Claude never reads curriculum.md during generation                   │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -500,7 +491,8 @@ These are the **only 2 skills** used during question generation:
 
 | Script | Purpose | Usage |
 |--------|---------|-------|
-| `test_random_sample.py` | Test pipeline on random N samples from benchmarks | `python scripts/test_random_sample.py -n 200 --seed 42` |
+| `test_random_sample.py` | Test pipeline on random N samples from benchmarks | `python scripts/test_random_sample.py --sample-size 100` |
+| `evaluate_batch.py` | Evaluate generated questions using InceptBench | `python scripts/evaluate_batch.py -i outputs/results.json` |
 | `generate_batch.py` | Batch generate from benchmark file | `python scripts/generate_batch.py --limit 10` |
 
 ### Script Options
@@ -513,8 +505,13 @@ python scripts/populate_curriculum_direct.py --delay 1.0       # 1s delay betwee
 
 # Testing
 python scripts/test_random_sample.py --dry-run                 # Show sample composition only
-python scripts/test_random_sample.py --sample-size 50 --seed 42  # Reproducible 50 samples
+python scripts/test_random_sample.py --sample-size 100         # Generate 100 random samples
 python scripts/test_random_sample.py --save-sample data/sample.jsonl  # Save sample for reuse
+
+# Evaluation
+python scripts/evaluate_batch.py -i outputs/sample_100_results.json   # Evaluate results
+python scripts/evaluate_batch.py --concurrency 20              # Parallel evaluation (20 workers)
+python scripts/evaluate_batch.py --show-eval                   # Show detailed evaluation JSON
 ```
 
 ## Reference

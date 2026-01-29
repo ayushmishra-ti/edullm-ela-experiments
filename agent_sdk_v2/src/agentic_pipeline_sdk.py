@@ -532,6 +532,19 @@ Return the question as a JSON object with "id" and "content" fields."""
             content = parsed.get("content", {})
             content["image_url"] = []
             
+            # Build request in expected format
+            formatted_request = {
+                "grade": str(grade),
+                "subject": request.get("subject", "ela"),
+                "type": qtype,
+                "difficulty": difficulty,
+                "locale": request.get("locale", "en-US"),
+                "skills": {
+                    "substandard_id": substandard_id,
+                    "substandard_description": substandard_description,
+                },
+            }
+            
             return {
                 "success": True,
                 "error": None,
@@ -540,8 +553,9 @@ Return the question as a JSON object with "id" and "content" fields."""
                 "generatedContent": {
                     "generated_content": [{
                         "id": parsed.get("id", ""),
+                        "curriculum": request.get("curriculum", "common_core"),
+                        "request": formatted_request,
                         "content": content,
-                        "request": request,
                     }]
                 },
             }
@@ -685,14 +699,28 @@ Return the question as a JSON object."""
         content = parsed.get("content", {})
         content["image_url"] = []
         
+        # Build request in expected format
+        formatted_request = {
+            "grade": str(grade),
+            "subject": request.get("subject", "ela"),
+            "type": qtype,
+            "difficulty": difficulty,
+            "locale": request.get("locale", "en-US"),
+            "skills": {
+                "substandard_id": substandard_id,
+                "substandard_description": substandard_description,
+            },
+        }
+        
         return {
             "success": True,
             "timestamp": utc_timestamp(),
             "generatedContent": {
                 "generated_content": [{
                     "id": parsed.get("id", ""),
+                    "curriculum": request.get("curriculum", "common_core"),
+                    "request": formatted_request,
                     "content": content,
-                    "request": request,
                 }]
             },
         }

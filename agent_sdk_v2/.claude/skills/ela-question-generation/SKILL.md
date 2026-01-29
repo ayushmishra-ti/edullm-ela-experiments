@@ -1,6 +1,6 @@
 ---
 name: ela-question-generation
-description: Generate K-12 ELA assessment questions (MCQ, MSQ, Fill-in) as JSON. For RL.*/RI.* standards, read passage guidelines from .claude/skills/generate-passage/SKILL.md first, then output complete JSON with passage field. ALWAYS return valid JSON as final output.
+description: Generate K-12 ELA assessment questions (MCQ, MSQ, Fill-in) as JSON. For RL.*/RI.* standards, read passage guidelines from reference/passage-guidelines.md and generate the passage inline. ALWAYS return valid JSON as final output.
 ---
 
 # ELA Question Generation
@@ -19,26 +19,91 @@ Generate K-12 ELA assessment questions (MCQ, MSQ, Fill-in) aligned to Common Cor
 
 **Route by standard family:**
 
-| Standard | Requires Passage? | Action |
-|----------|-------------------|--------|
-| `RL.*` (Reading Literature) | YES | **INVOKE `generate-passage` skill FIRST** |
-| `RI.*` (Reading Informational) | YES | **INVOKE `generate-passage` skill FIRST** |
-| `L.*` (Language) | NO | Proceed to Step 2 |
-| `W.*` (Writing) | NO | Proceed to Step 2 |
+| Standard | Requires Passage? | Special Handling |
+|----------|-------------------|------------------|
+| `RL.*` (Reading Literature) | YES | Generate narrative passage (see below) |
+| `RI.*` (Reading Informational) | YES | Generate informational passage (see below) |
+| `L.*` (Language) | NO | Fill-in OK for grammar; proceed to Step 2 |
+| `W.*` (Writing) | NO | **SCENARIO-BASED only; convert fill-in → MCQ** (see below) |
 | `RF.*` (Reading Foundational) | NO | Proceed to Step 2 |
 | `SL.*` (Speaking & Listening) | NO | Proceed to Step 2 |
 
 ### CRITICAL: For RL.* and RI.* Standards
 
-**For passage generation, read the instructions at:** `.claude/skills/generate-passage/SKILL.md`
+**Read passage guidelines from:** `reference/passage-guidelines.md`
 
 **Workflow for RL.*/RI.* standards:**
-1. Read the passage generation guidelines from `.claude/skills/generate-passage/SKILL.md`
-2. Generate a passage following those guidelines (narrative for RL.*, informational for RI.*)
-3. **IMPORTANT: Do NOT stop after generating the passage!**
+1. Read the passage generation guidelines from `reference/passage-guidelines.md`
+2. Generate a passage following those guidelines:
+   - `RL.*` → **narrative** style (story, fable, folktale)
+   - `RI.*` → **informational** style (article, explanatory text)
+3. **DO NOT STOP after generating the passage!**
 4. Continue to Step 2 to generate the question JSON
 5. Include the passage in the `passage` field of your final JSON output
 6. **Your final output MUST be a valid JSON object, not passage text**
+
+**DO NOT invoke any separate skill. Generate the passage yourself following the guidelines.**
+
+### CRITICAL: For W.* (Writing) Standards
+
+Writing standards are **performance-based** - they assess writing skills, NOT vocabulary recall.
+
+**IMPORTANT RULES for W.* standards:**
+
+1. **Use SCENARIO-BASED questions**: Present a writing scenario and ask students to identify the best approach, revision, or strategy.
+
+2. **Focus on PROCESS, not terminology**: Don't test vocabulary like "stamina" or "fluency". Test actual writing decisions.
+
+3. **Include writing samples**: Provide a short student draft or writing excerpt, then ask about revisions, organization, or improvements.
+
+4. **For Fill-in W.* questions**: Use scenario-based fill-ins with word banks (see example below).
+
+**W.* Question Types (by standard cluster):**
+
+| Standard | Focus | Question Approach |
+|----------|-------|-------------------|
+| W.*.1 (Opinion/Argument) | Persuasive writing | "Which claim best supports..." / "Which evidence strengthens..." |
+| W.*.2 (Informative) | Explanatory writing | "Which transition best connects..." / "How should the writer organize..." |
+| W.*.3 (Narrative) | Story writing | "Which detail best develops..." / "How should the writer revise..." |
+| W.*.4-6 (Process) | Planning/revising | "What should the writer do next..." / "Which revision improves..." |
+| W.*.7-9 (Research) | Research skills | "Which source is most credible..." / "How should the writer cite..." |
+| W.*.10 (Routine) | Writing practice | "Which strategy helps build..." / "What is the purpose of..." |
+
+**Example W.* MCQ (Scenario-based):**
+
+```json
+{
+  "id": "w_6_2_f_mcq_easy_001",
+  "content": {
+    "question": "A student is writing an informative essay about honeybee communication. Read the draft conclusion:\n\n'Honeybees are interesting insects. They do many things. The end.'\n\nWhich revision would create a stronger conclusion that follows from the information presented?",
+    "answer": "C",
+    "image_url": [],
+    "answer_options": [
+      {"key": "A", "text": "Adding more facts about other insects"},
+      {"key": "B", "text": "Restating the introduction word-for-word"},
+      {"key": "C", "text": "Summarizing the main points about waggle dances and pheromones"},
+      {"key": "D", "text": "Asking the reader a question about their favorite insect"}
+    ],
+    "answer_explanation": "A strong conclusion for an informative essay should synthesize the main ideas presented in the body. Option C does this by summarizing the key communication methods (waggle dances, pheromones) discussed in the essay. Option A introduces new, unrelated content. Option B is repetitive and doesn't synthesize. Option D shifts to persuasive/personal territory inappropriate for informative writing."
+  }
+}
+```
+
+**Example W.* Fill-in (Scenario-based with word bank):**
+
+```json
+{
+  "id": "w_6_2_c_fillin_easy_001",
+  "content": {
+    "question": "A student is writing an informative essay about recycling. Read the two sentences:\n\n'Recycling reduces waste in landfills. ______ it conserves natural resources.'\n\nWhich transition word best connects these related ideas?\n\n(Word choices: However, Additionally, Therefore, Although)",
+    "answer": "Additionally",
+    "image_url": [],
+    "additional_details": "CCSS.ELA-LITERACY.W.6.2.C",
+    "acceptable_alternatives": ["Additionally"],
+    "answer_explanation": "The two sentences present related benefits of recycling (reduces waste AND conserves resources). 'Additionally' is the correct transition because it shows that the second idea adds to the first. 'However' and 'Although' show contrast, which doesn't fit here. 'Therefore' shows cause-effect, but the second sentence isn't a result of the first."
+  }
+}
+```
 
 ### Step 2: Generate the Question
 
@@ -118,24 +183,30 @@ Use the request context:
 
 ### Fill-in (Fill in the Blank) - NO answer_options
 
+**Fill-in works for L.* and W.* standards. For W.*, use scenario-based questions with word banks.**
+
 ```json
 {
   "id": "l_3_1_d_fillin_easy_001",
   "content": {
     "answer": "went",
-    "question": "Complete the sentence with the correct past tense form of 'go':\n\nYesterday, Maria ______ to the library to return her books.",
+    "question": "Complete the sentence with the correct past tense form of 'go':\n\nYesterday, Maria ______ to the library to return her books.\n\n(Word choices: go, went, gone, going)",
     "image_url": [],
     "additional_details": "CCSS.ELA-LITERACY.L.3.1.D",
+    "acceptable_alternatives": ["went"],
     "answer_explanation": "The word 'Yesterday' tells us the action happened in the past. The verb 'go' has an irregular past tense form. Instead of adding -ed, we change 'go' to 'went' to show past tense."
   }
 }
 ```
 
 **IMPORTANT for Fill-in:**
+- **ONLY use for L.* (Language) standards** - NOT for W.*, RL.*, RI.*, RF.*, SL.*
 - NO `answer_options` field
 - `answer` is the expected text (single word or short phrase)
 - Question must have a clear blank (______)
+- **ALWAYS include a word bank** in the question: "(Word choices: option1, option2, option3, option4)"
 - Include `additional_details` with standard ID
+- Include `acceptable_alternatives` array with all valid answers
 - Explanation MUST NOT reference option letters (A/B/C/D)
 - Explanation should teach the underlying rule, not just state the answer
 
@@ -179,6 +250,11 @@ Examples:
 
 Fill-in questions have the lowest pass rates. Follow these guidelines strictly:
 
+### Standard-Specific Fill-in Guidelines
+- **L.* (Language)**: Grammar, verb forms, word choice - standard fill-in with word bank
+- **W.* (Writing)**: MUST be scenario-based (transitions, revisions, etc.) - with word bank
+- **RL.*/RI.* (Reading)**: Use MCQ with passage instead of fill-in
+
 ### Question Design
 1. **Use clear context sentences** - Include signal words that help identify the correct form:
    - Time markers: "Yesterday," "Last week," "By next Friday"
@@ -189,9 +265,10 @@ Fill-in questions have the lowest pass rates. Follow these guidelines strictly:
    - Good: "Maria ______ to the library yesterday."
    - Bad: "______ Maria to the library yesterday went."
 
-3. **Provide word bank or base form when helpful**:
-   - "(go / went / going)" for clarity
-   - "Write the correct form of 'swim'" when testing conjugation
+3. **ALWAYS provide a word bank** (REQUIRED to reduce ambiguity):
+   - Format: "(Word choices: option1, option2, option3, option4)"
+   - Include the correct answer and 3 plausible distractors
+   - Example: "(Word choices: go, went, gone, going)"
 
 ### Answer Specifications
 - Answer must be **exactly one word or short phrase**
@@ -218,7 +295,9 @@ Before returning a question, verify:
 
 - [ ] Only ONE correct answer (MCQ/Fill-in) OR all selected answers correct (MSQ)
 - [ ] All distractors are clearly wrong for specific reasons
-- [ ] Fill-in: NO `answer_options` field
+- [ ] Fill-in: NO `answer_options` field, MUST have word bank
+- [ ] **W.* standards: scenario-based, not vocabulary recall**
+- [ ] **W.* fill-in: scenario-based with word bank**
 - [ ] Question includes context sentence when needed
 - [ ] Vocabulary matches grade level
 - [ ] `image_url` is `[]`
@@ -230,8 +309,8 @@ Before returning a question, verify:
 - `image_url` is ALWAYS `[]`
 - **FINAL OUTPUT MUST BE VALID JSON** - no markdown, no explanations, no passage-only text
 - For RL.*/RI.* standards: 
-  1. Read passage guidelines from `.claude/skills/generate-passage/SKILL.md`
-  2. Generate a passage following those guidelines
+  1. Read passage guidelines from `reference/passage-guidelines.md`
+  2. Generate a passage yourself following those guidelines (DO NOT invoke another skill)
   3. **DO NOT STOP after passage generation - continue to create the question!**
   4. Include the passage in the `passage` field of your JSON
   5. Create a question that references the passage
