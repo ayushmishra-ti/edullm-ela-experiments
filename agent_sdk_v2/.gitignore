@@ -39,6 +39,6 @@ data/passages/*.json
 dist/
 build/
 *.egg-info/
-data
-doc-image
-scripts
+# Data and images (keep local only)
+data/
+docs-image/
