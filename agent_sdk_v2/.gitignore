@@ -39,3 +39,6 @@ data/passages/*.json
 dist/
 build/
 *.egg-info/
+data
+doc-image
+scripts
