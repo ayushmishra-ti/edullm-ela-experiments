@@ -11,10 +11,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy source code
 COPY src/ ./src/
 COPY .claude/ ./.claude/
-COPY data/ ./data/
 
-# Create outputs directory
-RUN mkdir -p outputs
+# Create runtime directories (benchmarks are not required at runtime)
+RUN mkdir -p outputs data
 
 # Set environment variables
 ENV PYTHONUNBUFFERED=1
