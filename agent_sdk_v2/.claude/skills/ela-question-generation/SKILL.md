@@ -23,7 +23,7 @@ Generate K-12 ELA assessment questions (MCQ, MSQ, Fill-in) aligned to Common Cor
 |----------|-------------------|------------------|
 | `RL.*` (Reading Literature) | YES | Generate narrative passage (see below) |
 | `RI.*` (Reading Informational) | YES | Generate informational passage (see below) |
-| `L.*` (Language) | NO | Fill-in OK for grammar; proceed to Step 2 |
+| `L.*` (Language) | NO | **Read grammar rules first** (see below); Fill-in OK |
 | `W.*` (Writing) | NO | **SCENARIO-BASED only; convert fill-in → MCQ** (see below) |
 | `RF.*` (Reading Foundational) | NO | Proceed to Step 2 |
 | `SL.*` (Speaking & Listening) | NO | Proceed to Step 2 |
@@ -43,6 +43,24 @@ Generate K-12 ELA assessment questions (MCQ, MSQ, Fill-in) aligned to Common Cor
 6. **Your final output MUST be a valid JSON object, not passage text**
 
 **DO NOT invoke any separate skill. Generate the passage yourself following the guidelines.**
+
+### For L.* (Language/Grammar) Standards
+
+**Read grammar rules from:** `reference/grammar-rules.md`
+
+**BEFORE writing any grammar question (L.*):**
+
+1. **Read the grammar reference** to ensure factual accuracy in your explanation
+2. Pay special attention to common misconceptions listed in the reference
+3. **Verify your explanation** against the grammar rules before finalizing
+
+**Common Factual Errors to Avoid:**
+
+| ❌ WRONG | ✅ CORRECT |
+|----------|-----------|
+| "Swimming in 'Swimming is fun' is progressive tense" | "Swimming is a gerund functioning as the subject" |
+| "Participles only function as adjectives" | "Participial clauses can function adverbially" |
+| "Use 'was' in 'If I was rich'" | "Use 'were' in hypotheticals: 'If I were rich'" |
 
 ### CRITICAL: For W.* (Writing) Standards
 
@@ -293,6 +311,7 @@ Fill-in questions have the lowest pass rates. Follow these guidelines strictly:
 
 Before returning a question, verify:
 
+### Content Quality
 - [ ] Only ONE correct answer (MCQ/Fill-in) OR all selected answers correct (MSQ)
 - [ ] All distractors are clearly wrong for specific reasons
 - [ ] Fill-in: NO `answer_options` field, MUST have word bank
@@ -300,9 +319,19 @@ Before returning a question, verify:
 - [ ] **W.* fill-in: scenario-based with word bank**
 - [ ] Question includes context sentence when needed
 - [ ] Vocabulary matches grade level
+- [ ] If RL/RI standard: question references the passage
+
+### Grammar Accuracy (L.* Standards)
+- [ ] **Explanation is factually correct** - verify against `reference/grammar-rules.md`
+- [ ] **Stem matches options**: If stem asks about "verbals," options should be about verbals
+- [ ] **No ambiguous blanks**: Fill-in blank should have ONE clear correct answer
+- [ ] **Correct terminology**: Use proper grammar terms (gerund, participle, infinitive, etc.)
+
+### Format
 - [ ] `image_url` is `[]`
 - [ ] Answer format: string for MCQ/Fill-in, array for MSQ
-- [ ] If RL/RI standard: question references the passage
+- [ ] Exactly 4 options (A, B, C, D) for MCQ/MSQ
+- [ ] `answer_options` uses format: `[{"key": "A", "text": "..."}]`
 
 ## Critical
 
