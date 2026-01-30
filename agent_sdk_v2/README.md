@@ -36,14 +36,14 @@ User Request → SDK → Claude (discovers & invokes skill) → JSON Response
 │    ✓ Reads the prompt                                                       │
 │    ✓ Sees available skills and their descriptions                           │
 │    ✓ DECIDES: "ela-question-generation matches this request"                │
-│    ✓ DECIDES: "This is RL.*, I need generate-passage first"                 │
+│    ✓ Reads reference files (passage-guidelines.md, grammar-rules.md)        │
 │    ✓ Calls tools (Skill, Read) as needed                                    │
 │    ✓ Generates the final output                                             │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-**Key Point:** Claude (the AI model) makes all decisions - which skill to use, when to call another skill, and how to generate output. This is called **"Model-invoked"** behavior.
+**Key Point:** Claude (the AI model) makes all decisions - which skill to use, when to read reference files, and how to generate output. This is called **"Model-invoked"** behavior.
 
 ## Claude's Decision Process (Example)
 
@@ -56,18 +56,16 @@ User Request → SDK → Claude (discovers & invokes skill) → JSON Response
 │    - Prompt: "Generate an ELA MCQ for CCSS.ELA-LITERACY.RL.3.1"            │
 │    - Available skills:                                                      │
 │        • ela-question-generation: "Generate K-12 ELA assessment questions." │
-│        • generate-passage: "Generate grade-appropriate reading passages."   │
-│        • populate-curriculum: "Generate curriculum data..."                 │
+│        • prepare-curriculum-batch: "Populate curriculum data..."            │
 │                                                                             │
 │  Claude thinks:                                                             │
 │    1. "This is about ELA questions → ela-question-generation matches"       │
 │    2. Invokes Skill tool → reads ela-question-generation/SKILL.md          │
 │    3. Reads SKILL.md: "RL.* requires passage = YES"                        │
-│    4. "I need a passage first → generate-passage matches"                   │
-│    5. Invokes Skill tool → reads generate-passage/SKILL.md                 │
-│    6. Generates passage following instructions                              │
-│    7. Returns to question generation with the passage                       │
-│    8. Outputs final JSON                                                    │
+│    4. Reads reference/passage-guidelines.md for passage instructions        │
+│    5. Generates passage inline following guidelines                         │
+│    6. Creates question based on passage                                     │
+│    7. Outputs final JSON                                                    │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -171,7 +169,7 @@ python scripts/prepare_curriculum_skill.py --limit 10
 │                              ↓                                              │
 │  CLAUDE reads ela-question-generation/SKILL.md                             │
 │     - Sees: "RL.* requires passage = YES"                                  │
-│     - Reads reference/passage-guidelines.md (NOT a separate skill)         │
+│     - Reads reference/passage-guidelines.md (a reference file, NOT a skill)│
 │                              ↓                                              │
 │  CLAUDE generates passage inline                                            │
 │     - RL.* → narrative style (story, fable)                                │
@@ -227,11 +225,8 @@ python scripts/prepare_curriculum_skill.py --limit 10
 │     │ ela-question-generation:                                     │        │
 │     │   "Generate K-12 ELA assessment questions..."               │        │
 │     │                                                              │        │
-│     │ generate-passage:                                            │        │
-│     │   "Generate grade-appropriate reading passages..."          │        │
-│     │                                                              │        │
-│     │ populate-curriculum:                                         │        │
-│     │   "Generate curriculum data..."                             │        │
+│     │ prepare-curriculum-batch:                                    │        │
+│     │   "Populate curriculum data..."                             │        │
 │     └─────────────────────────────────────────────────────────────┘        │
 │                              ↓                                              │
 │  4. Claude receives prompt + skill list                                     │
@@ -337,6 +332,7 @@ agent_sdk_v2/
 │   │   └── reference/
 │   │       ├── curriculum.md            # Curriculum data (pre-populated)
 │   │       ├── fill-in-examples.md      # Fill-in question examples
+│   │       ├── grammar-rules.md         # Grammar rules for L.* standards
 │   │       └── passage-guidelines.md    # Passage generation guidelines (for RL/RI)
 │   └── prepare-curriculum-batch/        # Orchestrator: detect + populate
 │       └── SKILL.md
@@ -345,16 +341,14 @@ agent_sdk_v2/
 │   ├── populate_curriculum_direct.py    # Step 2: Fill empty fields (Direct API)
 │   ├── prepare_curriculum_skill.py      # Step 2 alt: Fill via SDK skill
 │   ├── test_random_sample.py            # Test pipeline on random samples
+│   ├── test_cloud_endpoint.py           # Test deployed cloud endpoint
 │   ├── evaluate_batch.py                # Evaluate generated questions
-│   └── generate_batch.py                # Batch question generation
+│   ├── generate_batch.py                # Batch question generation
+│   └── debug_format.py                  # Debug output format issues
 ├── src/
 │   ├── agentic_pipeline_sdk.py          # SDK implementation
 │   └── main.py                          # API + CLI
-├── data/                                # Benchmark files
-│   ├── grade-2-ela-benchmark.jsonl
-│   ├── grade-5-ela-benchmark.jsonl
-│   ├── grade-6-ela-benchmark.jsonl
-│   └── grade-8-ela-benchmark.jsonl
+├── outputs/                             # Generated outputs (gitignored)
 └── requirements.txt
 ```
 
@@ -410,9 +404,18 @@ There is **only 1 skill** used during question generation:
 |-------|-------------|----------------|
 | `ela-question-generation` | Generates MCQ, MSQ, Fill-in questions | Every ELA question request |
 
+**Reference files** used by this skill (NOT separate skills):
+
+| Reference File | Purpose |
+|----------------|---------|
+| `reference/curriculum.md` | Pre-populated curriculum data for all standards |
+| `reference/passage-guidelines.md` | Instructions for generating RL/RI passages |
+| `reference/fill-in-examples.md` | Example formats for fill-in questions |
+| `reference/grammar-rules.md` | Grammar rules for L.* (Language) standards |
+
 **Note:** 
 - Curriculum data is **pre-fetched by Python** from `curriculum.md` (not a skill call)
-- Passage guidelines are a **reference file** (`reference/passage-guidelines.md`), not a separate skill
+- Reference files are read by Claude as needed, but they are NOT separate skills
 
 ### Preparation Skills (One-time Setup)
 
@@ -420,7 +423,6 @@ These skills are used **only during curriculum preparation**, not during questio
 
 | Skill | Description | When Used |
 |-------|-------------|-----------|
-| `populate-curriculum` | Instructions for HOW to generate curriculum data | Referenced by prepare-curriculum-batch |
 | `prepare-curriculum-batch` | Orchestrator: scans curriculum.md, detects `*None specified*`, populates | Run via `prepare_curriculum_skill.py` |
 
 ### Skill Usage Diagram
@@ -448,6 +450,7 @@ These skills are used **only during curriculum preparation**, not during questio
 │    Reference files (NOT separate skills):                                   │
 │      • reference/passage-guidelines.md → RL/RI passage generation          │
 │      • reference/fill-in-examples.md   → Fill-in question examples         │
+│      • reference/grammar-rules.md      → Grammar rules for L.* standards   │
 │                                                                             │
 │    Curriculum: PRE-FETCHED by Python (not a skill call!)                   │
 │      → lookup_curriculum() extracts ~30 lines from curriculum.md           │
@@ -492,8 +495,10 @@ These skills are used **only during curriculum preparation**, not during questio
 | Script | Purpose | Usage |
 |--------|---------|-------|
 | `test_random_sample.py` | Test pipeline on random N samples from benchmarks | `python scripts/test_random_sample.py --sample-size 100` |
+| `test_cloud_endpoint.py` | Test the deployed cloud endpoint | `python scripts/test_cloud_endpoint.py` |
 | `evaluate_batch.py` | Evaluate generated questions using InceptBench | `python scripts/evaluate_batch.py -i outputs/results.json` |
 | `generate_batch.py` | Batch generate from benchmark file | `python scripts/generate_batch.py --limit 10` |
+| `debug_format.py` | Debug output format issues | `python scripts/debug_format.py outputs/results.json` |
 
 ### Script Options
 
@@ -512,6 +517,9 @@ python scripts/test_random_sample.py --save-sample data/sample.jsonl  # Save sam
 python scripts/evaluate_batch.py -i outputs/sample_100_results.json   # Evaluate results
 python scripts/evaluate_batch.py --concurrency 20              # Parallel evaluation (20 workers)
 python scripts/evaluate_batch.py --show-eval                   # Show detailed evaluation JSON
+
+# Cloud Testing
+python scripts/test_cloud_endpoint.py                          # Test deployed endpoint
 ```
 
 ## Reference
