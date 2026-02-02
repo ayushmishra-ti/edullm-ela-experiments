@@ -158,6 +158,10 @@ Use the request context:
 }
 ```
 
+**MCQ Tips:**
+- Effective question stems: "Which sentence correctly uses...", "Read the sentence: '...' Which word...", "Choose the correct ___ to complete..."
+- Distractors should be plausible but clearly wrong for specific, explainable reasons
+
 ### MCQ with Passage (for RL.*/RI.* standards)
 
 ```json
@@ -194,28 +198,38 @@ Use the request context:
       {"key": "C", "text": "quickly"},
       {"key": "D", "text": "park"}
     ],
-    "answer_explanation": "Nouns name people, places, things, or animals. 'Dog' names an animal and 'park' names a place."
+    "answer_explanation": "A is correct because 'dog' is a noun naming an animal. D is correct because 'park' is a noun naming a place. B is incorrect because 'ran' is a verb showing action. C is incorrect because 'quickly' is an adverb describing how the dog ran."
   }
 }
 ```
 
+**MSQ Tips:**
+- Always include "Select all that apply" in the question stem
+- Options work well as complete sentences that students evaluate
+- Explanations are clearer when they address each option: "A is correct because... B is incorrect because..."
+
 ### Fill-in (Fill in the Blank) - NO answer_options
 
-**Fill-in works for L.* and W.* standards. For W.*, use scenario-based questions with word banks.**
+**Fill-in works for L.* standards. For W.*, use scenario-based questions.**
 
 ```json
 {
   "id": "l_3_1_d_fillin_easy_001",
   "content": {
     "answer": "went",
-    "question": "Complete the sentence with the correct past tense form of 'go':\n\nYesterday, Maria ______ to the library to return her books.\n\n(Word choices: go, went, gone, going)",
+    "question": "Fill in the blank with the past-tense form of the verb in parentheses:\n\nYesterday, Maria ______ (go) to the library to return her books.",
     "image_url": [],
     "additional_details": "CCSS.ELA-LITERACY.L.3.1.D",
     "acceptable_alternatives": ["went"],
-    "answer_explanation": "The word 'Yesterday' tells us the action happened in the past. The verb 'go' has an irregular past tense form. Instead of adding -ed, we change 'go' to 'went' to show past tense."
+    "answer_explanation": "The word 'Yesterday' indicates the action happened in the past. The verb 'go' has an irregular past tense form 'went.' Since the time marker establishes past tense, 'went' is the only correct form."
   }
 }
 ```
+
+**Fill-in Tips:**
+- Parenthetical verb hints `(verb)` work well for conjugation questions
+- "ONE-WORD" constraints can reduce ambiguity: "Fill in with the ONE-WORD preposition..."
+- Punctuation marks can be valid answers for punctuation standards (e.g., answer: ",")
 
 **IMPORTANT for Fill-in:**
 - **ONLY use for L.* (Language) standards** - NOT for W.*, RL.*, RI.*, RF.*, SL.*
@@ -365,9 +379,8 @@ Before returning a question, verify:
 ### Content Quality
 - [ ] Only ONE correct answer (MCQ/Fill-in) OR all selected answers correct (MSQ)
 - [ ] All distractors are clearly wrong for specific reasons
-- [ ] Fill-in: NO `answer_options` field, MUST have word bank
+- [ ] Fill-in: NO `answer_options` field
 - [ ] **W.* standards: scenario-based, not vocabulary recall**
-- [ ] **W.* fill-in: scenario-based with word bank**
 - [ ] Question includes context sentence when needed
 - [ ] Vocabulary matches grade level
 - [ ] If RL/RI standard: question references the passage

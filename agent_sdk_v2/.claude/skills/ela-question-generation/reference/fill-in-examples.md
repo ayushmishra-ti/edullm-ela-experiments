@@ -398,6 +398,40 @@ Use "since" or "already" to signal present perfect.
 }
 ```
 
+### Pattern H: Punctuation as Answer
+
+For punctuation standards, the answer can be a punctuation mark itself.
+
+```json
+{
+  "id": "l_5_2_a_fillin_easy_005",
+  "content": {
+    "answer": ",",
+    "question": "Fill in the blank with the punctuation mark that correctly separates the items in this series: At the grocery store, we bought apples________ oranges, and bananas.",
+    "image_url": [],
+    "additional_details": "CCSS.ELA-LITERACY.L.5.2.A",
+    "answer_explanation": "A comma (,) is required to separate each item in a series. Placing a comma after 'apples' correctly separates the first item from the second item in the three-part list."
+  }
+}
+```
+
+### Pattern I: ONE-WORD Constraint
+
+Explicitly state "ONE-WORD" to prevent multi-word answers where only one word is expected.
+
+```json
+{
+  "id": "l_5_1_a_fillin_easy_007",
+  "content": {
+    "answer": "with",
+    "question": "Fill in the blank with the ONE-WORD preposition that indicates accompaniment:\n\nI went to the movies ________ my best friend.",
+    "image_url": [],
+    "additional_details": "CCSS.ELA-LITERACY.L.5.1.A",
+    "answer_explanation": "\"With\" is a preposition that indicates accompaniment, showing that two people participated in the action together."
+  }
+}
+```
+
 ---
 
 ## Key Principles for High-Quality Fill-in Questions
