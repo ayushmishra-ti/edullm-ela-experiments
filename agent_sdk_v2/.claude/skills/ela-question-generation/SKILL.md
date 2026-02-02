@@ -222,7 +222,7 @@ Use the request context:
 - NO `answer_options` field
 - `answer` is the expected text (single word or short phrase)
 - Question must have a clear blank (______)
-- **ALWAYS include a word bank** in the question: "(Word choices: option1, option2, option3, option4)"
+- **Word bank strategy**: Include a word bank ONLY when structural constraints alone cannot limit to one answer. If the grammar pattern (e.g., correlative pairs, explicit tense + base verb) permits only one completion, a word bank is unnecessary.
 - Include `additional_details` with standard ID
 - Include `acceptable_alternatives` array with all valid answers
 - Explanation MUST NOT reference option letters (A/B/C/D)
@@ -269,9 +269,56 @@ Examples:
 Fill-in questions have the lowest pass rates. Follow these guidelines strictly:
 
 ### Standard-Specific Fill-in Guidelines
-- **L.* (Language)**: Grammar, verb forms, word choice - standard fill-in with word bank
-- **W.* (Writing)**: MUST be scenario-based (transitions, revisions, etc.) - with word bank
+- **L.* (Language)**: Grammar, verb forms, word choice - standard fill-in
+- **W.* (Writing)**: MUST be scenario-based (transitions, revisions, etc.)
 - **RL.*/RI.* (Reading)**: Use MCQ with passage instead of fill-in
+
+### Fill-in Ambiguity Prevention
+
+**Core Principle**: Design questions where the grammatical structure itself constrains the answer to ONE possibility.
+
+**Strategies to reduce ambiguity:**
+
+1. **Use structural constraints** — Leverage grammar patterns that have only one valid completion:
+   - Correlative conjunction pairs (first half given → second half required)
+   - Verb forms with explicit tense specification in the prompt
+   - Fixed grammatical patterns that permit only one form
+
+2. **Provide clear context signals** — Include time markers or grammatical cues that point to a single answer:
+   - Temporal phrases that establish tense
+   - Parallel structure that dictates form
+   - Antecedents that determine agreement
+
+3. **Word bank as fallback, not default** — Include a word bank ONLY when:
+   - The blank could reasonably accept multiple valid forms
+   - The target skill involves choosing between similar options
+   - Structural constraints alone are insufficient
+
+4. **Parenthetical hints for verb forms** — When testing verb conjugation, provide the base form in parentheses so the student applies the transformation, not guesses the word.
+
+5. **Limit the blank scope** — Use a single blank and ensure it targets ONE skill only (e.g., tense OR agreement, not both).
+
+6. **Control semantic ambiguity** — Avoid contexts where synonyms could work (e.g., "big/large") unless choices are constrained.
+
+7. **Use requirement language** — Explicitly state what to supply: "Use the past perfect form" or "Use the correlative conjunction that completes the pair."
+
+8. **Remove optional modifiers** — Avoid blanks that could accept optional adverbs/adjectives without changing grammar.
+
+9. **Use grammatical forcing functions** — Make the blank part of a structure that enforces form (e.g., auxiliary + participle, parallel verb list).
+
+10. **Ensure single valid agreement** — Check number/person agreement so only one verb/pronoun can fit.
+
+11. **Avoid open-class word blanks** — If the blank could be any noun/verb/adjective, it's too open unless tightly constrained.
+
+12. **Avoid contextual vagueness** — Provide enough context to resolve tense/time/person clearly.
+
+13. **Shorten sentence length when possible** — Long, complex sentences introduce alternate valid parses.
+
+14. **Avoid referencing outside knowledge** — Keep the answer inside grammar/structure, not fact recall.
+
+15. **Self-verification rule** — If a second grammatical completion feels plausible, add more constraints or a word bank.
+
+**Test your question**: Ask "Could a different word fit here grammatically?" If yes, add constraints or a word bank. If no, the structure is sufficient.
 
 ### Question Design
 1. **Use clear context sentences** - Include signal words that help identify the correct form:
@@ -282,11 +329,6 @@ Fill-in questions have the lowest pass rates. Follow these guidelines strictly:
 2. **Place blanks naturally** - The blank should fit where the word naturally appears
    - Good: "Maria ______ to the library yesterday."
    - Bad: "______ Maria to the library yesterday went."
-
-3. **ALWAYS provide a word bank** (REQUIRED to reduce ambiguity):
-   - Format: "(Word choices: option1, option2, option3, option4)"
-   - Include the correct answer and 3 plausible distractors
-   - Example: "(Word choices: go, went, gone, going)"
 
 ### Answer Specifications
 - Answer must be **exactly one word or short phrase**
@@ -299,11 +341,20 @@ Fill-in questions have the lowest pass rates. Follow these guidelines strictly:
 - Connect to the grammar concept being tested
 - NEVER mention option letters (A, B, C, D) - fill-ins have no options
 
+### Fill-in Quality Gate Checklist
+Before finalizing a fill-in question, verify:
+- [ ] One blank, one skill
+- [ ] Only one grammatical completion is valid
+- [ ] No synonym alternatives possible
+- [ ] Agreement forces the answer
+- [ ] Context cues establish tense/mood
+- [ ] Prompt explicitly states required form (if needed)
+
 ### Grade-Specific Focus
 | Grade | Focus Areas |
 |-------|-------------|
 | 3 | Irregular verbs, comparative/superlative adjectives, subject-verb agreement |
-| 5 | Perfect tenses (present/past/future), verb tense consistency |
+| 5 | Perfect tenses (present/past/future), verb tense consistency, correlative conjunctions |
 | 6 | Pronouns (intensive, reflexive, case), pronoun-antecedent agreement |
 | 8 | Verbals (gerunds, infinitives, participles), active/passive voice, subjunctive mood |
 

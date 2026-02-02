@@ -275,6 +275,131 @@ High-quality examples for generating fill-in-the-blank ELA questions by grade le
 
 ---
 
+## High-Performing Fill-in Patterns
+
+These patterns consistently achieve 90%+ scores in evaluation. They demonstrate how structural constraints eliminate ambiguity without always requiring word banks.
+
+### Pattern A: Correlative Conjunction Completion (No Word Bank Needed)
+
+When one half of a correlative pair is given, only one word can complete it.
+
+```json
+{
+  "id": "l_5_1_e_fillin_easy_007",
+  "content": {
+    "answer": "nor",
+    "question": "Fill in the blank with the correct correlative conjunction: Neither the teacher __________ the students were ready for the fire drill.",
+    "image_url": [],
+    "additional_details": "CCSS.ELA-LITERACY.L.5.1.E",
+    "answer_explanation": "The correlative conjunction pair 'neither/nor' is used to connect two negative options or choices. When 'Neither' introduces the first item, 'nor' must be used to introduce the second item to maintain proper grammatical parallelism."
+  }
+}
+```
+
+### Pattern B: Explicit Tense Instruction + Base Verb
+
+Specify the exact tense required and provide the base verb form.
+
+```json
+{
+  "id": "l_5_1_b_fillin_easy_007",
+  "content": {
+    "answer": "will have finished",
+    "question": "Fill in the blank with the future perfect form of the verb \"finish\": By tomorrow morning, the students __________ their art projects.",
+    "image_url": [],
+    "additional_details": "CCSS.ELA-LITERACY.L.5.1.B",
+    "answer_explanation": "The future perfect tense uses \"will have\" followed by the past participle of the verb. The past participle of \"finish\" is \"finished,\" so \"will have finished\" correctly shows an action that will be completed before a specific time in the future (tomorrow morning)."
+  }
+}
+```
+
+### Pattern C: Parenthetical Verb Hint
+
+Provide the base verb in parentheses so students apply the transformation.
+
+```json
+{
+  "id": "l_5_1_d_fillin_easy_009",
+  "content": {
+    "answer": "went",
+    "question": "Fill in the blank with the past-tense form of the verb in parentheses to keep the sentence in the same tense: 'Last weekend, we ________ (go) to the beach and built a sandcastle.'",
+    "image_url": [],
+    "additional_details": "CCSS.ELA-LITERACY.L.5.1.D",
+    "answer_explanation": "The time phrase 'Last weekend' and the past-tense verb 'built' establish that the sentence is in past tense. Therefore, the verb 'go' must be conjugated to its simple past form 'went' to maintain consistent verb tense and avoid an inappropriate shift."
+  }
+}
+```
+
+### Pattern D: Time Marker + Parallel Structure
+
+Use temporal phrases and parallel verbs to constrain the answer.
+
+```json
+{
+  "id": "l_5_1_c_fillin_easy_012",
+  "content": {
+    "answer": "howled",
+    "question": "Fill in the blank with the past tense of the verb in parentheses: Last night, the wind __________ (howl) through the trees.",
+    "image_url": [],
+    "additional_details": "CCSS.ELA-LITERACY.L.5.1.C",
+    "answer_explanation": "The phrase 'Last night' establishes a specific past time, requiring the simple past tense of the verb. For regular verbs like 'howl,' the past tense is formed by adding -ed to the base verb, resulting in 'howled' to correctly show the action occurred in the past."
+  }
+}
+```
+
+### Pattern E: Perfect Tense with Temporal Boundary
+
+Use "By the time" or similar phrases to force perfect tense.
+
+```json
+{
+  "id": "l_5_1_b_fillin_hard_008",
+  "content": {
+    "answer": "will have driven",
+    "question": "By the time the storm makes landfall tonight, the coastal residents __________ to higher ground. (Fill in the blank with the correct perfect-tense form of the verb 'drive' based on the context.)",
+    "image_url": [],
+    "additional_details": "CCSS.ELA-LITERACY.L.5.1.B",
+    "answer_explanation": "The phrase 'By the time the storm makes landfall tonight' establishes a future reference point, requiring the future perfect tense to show an action completed before that moment. Future perfect is formed with 'will have' plus the past participle. The past participle of the irregular verb 'drive' is 'driven,' making 'will have driven' the only correct form to demonstrate mastery of perfect tense sequencing."
+  }
+}
+```
+
+### Pattern F: Tense Correction with Context Clues
+
+Provide surrounding verbs that establish the required tense.
+
+```json
+{
+  "id": "l_5_1_d_fillin_easy_006",
+  "content": {
+    "answer": "helped",
+    "question": "Fill in the blank with the correct past-tense form of the verb in parentheses to fix the inappropriate shift in verb tense.\nYesterday, my sister finished her homework and __________ (help) me with my math problems.",
+    "image_url": [],
+    "additional_details": "CCSS.ELA-LITERACY.L.5.1.D",
+    "answer_explanation": "The time marker 'Yesterday' and the past-tense verb 'finished' establish that the sentence describes past events. Changing 'help' to 'helped' maintains consistent past tense throughout, correcting the inappropriate shift from past to present tense."
+  }
+}
+```
+
+### Pattern G: Present Perfect with Ongoing Action Signal
+
+Use "since" or "already" to signal present perfect.
+
+```json
+{
+  "id": "l_5_1_b_fillin_easy_005",
+  "content": {
+    "answer": "has planted",
+    "question": "Fill in the blank with the present perfect tense form of the verb in parentheses: The gardener __________ (plant) all the flowers already.",
+    "image_url": [],
+    "additional_details": "CCSS.ELA-LITERACY.L.5.1.B",
+    "answer_explanation": "The present perfect tense for a singular third-person subject like 'the gardener' uses 'has' followed by the past participle of the verb. The past participle of the regular verb 'plant' is 'planted,' so the correct form is 'has planted.'"
+  }
+}
+```
+
+---
+
 ## Key Principles for High-Quality Fill-in Questions
 
 ### 1. Clear Blank Placement
@@ -302,3 +427,8 @@ High-quality examples for generating fill-in-the-blank ELA questions by grade le
 - Use vocabulary suitable for the grade level
 - Match sentence complexity to the target grade
 - Topics should be familiar and relatable to students
+
+### 6. Structural Constraint Strategy
+- Use grammatical patterns that permit only one valid completion
+- Correlative pairs, explicit tense instructions, and parenthetical verb hints reduce ambiguity
+- Word banks are a fallback when structure alone cannot constrain the answer
